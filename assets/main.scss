@@ -1,0 +1,95 @@
+---
+--- 
+
+
+@import "{{ site.theme }}";
+
+$base-font-family: cardo,georgia,serif;
+$text-color: #111 !default;
+$background-color: #fdfdfd !default;
+$brand-color: #202020 !default;
+$grey-color: #828282 !default;
+$grey-color-light: lighten($grey-color, 60%) !default;
+$grey-color-dark: darken($grey-color, 25%) !default;
+// Width of the content area
+$content-width: 680 !default;
+$on-palm: 460px !default;
+$on-laptop: 680px !default;
+
+a {
+    color: $text-color;
+    text-decoration: underline;
+}
+a:visited {
+    color: $text-color;
+}
+pre,code {
+    background-color: $grey-color-light;
+}
+code {
+    font-size: 0.7rem;
+}
+.highlighter-rouge {
+    background-color: $grey-color-light;
+    color: #d73c50;
+}
+
+
+// Use media queries like this:
+// @include media-query($on-palm) {
+//   .wrapper {
+//     padding-right: $spacing-unit / 2;
+//     padding-left: $spacing-unit / 2;
+//   }
+// }
+@mixin media-query($device) {
+    @media screen and (max-width: $device) {
+        @content;
+    }
+}
+
+@mixin relative-font-size($ratio) {
+    font-size: $base-font-size * $ratio;
+}
+
+.post-title {
+    font-size: $base-font-size * 4;
+    font-weight: bold;
+}
+// Adding 'Contents' headline to the TOC
+#markdown-toc::before {
+    content: "CONTENTS";
+    font-weight: bold;
+    align-content: left;
+}
+
+// Using numbers instead of bullets for listing
+#markdown-toc ul {
+    list-style: lower-alpha;
+    margin-bottom: 0rem;
+    margin-top: 0rem;
+    margin-left: 1rem;
+    padding-left: .7rem;
+}
+
+#markdown-toc li {
+    text-decoration: underline;
+}
+#markdown-toc ul li ul li a {
+    color: grey;
+}
+
+#markdown-toc {
+    font-family: helvetica, arial, geneva, sans-serif;
+    line-height: 1.7em;
+    list-style: decimal;
+    display: inline-block;
+    float: right;
+    right: 0;
+    font-size: 0.8rem;
+    margin: 1rem 1rem 1rem 3rem;
+    width: 180px;
+    border-left: 1px solid black;
+    padding-block-end: .5rem;
+    padding-left: 3rem;
+}
