@@ -34,7 +34,26 @@ code {
     color: #d73c50;
 }
 
+blockquote {
+    border-left: 4px solid #e8e8e8;
+    border: 1px solid darkred;
+    padding: 15px;
+    font-size: 14px;
+    letter-spacing: 1px;
+    font-style: normal;
+    font-family: monospace;
+    box-shadow: 4px 4px 0px rgba(0, 0, 0, 0.15);
+}
 
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.15);
+    margin-left: auto;
+    margin-right: auto;
+}
 // Use media queries like this:
 // @include media-query($on-palm) {
 //   .wrapper {
@@ -83,12 +102,11 @@ code {
     font-family: helvetica, arial, geneva, sans-serif;
     line-height: 1.7em;
     list-style: decimal;
-    display: inline-block;
     float: right;
     right: 0;
     font-size: 0.8rem;
     margin: 1rem 1rem 1rem 3rem;
-    width: 180px;
+    width: 10em;
     border-left: 1px solid black;
     padding-block-end: .5rem;
     padding-left: 3rem;
