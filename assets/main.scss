@@ -6,6 +6,7 @@
 
 $base-font-family: cardo,georgia,serif;
 $text-color: #111 !default;
+$base-font-size: .7em;
 $background-color: #fdfdfd !default;
 $brand-color: #202020 !default;
 $grey-color: #828282 !default;
@@ -34,6 +35,12 @@ code {
     color: #d73c50;
 }
 
+h2, h3, h4, h5, h6 {
+    font-weight: bold;
+    margin-top: 1.5em;
+}
+
+
 blockquote {
     border-left: 4px solid #e8e8e8;
     border: 1px solid darkred;
@@ -49,7 +56,7 @@ img {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 70%;
+    width: 80%;
     box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.15);
     margin-left: auto;
     margin-right: auto;
@@ -106,7 +113,7 @@ img {
     right: 0;
     font-size: 0.8rem;
     margin: 1rem 1rem 1rem 3rem;
-    width: 10em;
+    width: 12em;
     border-left: 1px solid black;
     padding-block-end: .5rem;
     padding-left: 3rem;
