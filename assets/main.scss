@@ -49,17 +49,18 @@ blockquote {
     letter-spacing: 1px;
     font-style: normal;
     font-family: monospace;
-    box-shadow: 4px 4px 0px rgba(0, 0, 0, 0.15);
+    box-shadow: 3px 3px 0px rgba(0, 0, 0, 0.2);
 }
 
 img {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 80%;
-    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.15);
+    width: 100%;
+    box-shadow: 2px 2px 0px rgba(0, 0, 0, 0.2);
     margin-left: auto;
     margin-right: auto;
+    border: 1px solid rgba(0, 0, 0, 0.2);
 }
 // Use media queries like this:
 // @include media-query($on-palm) {
@@ -73,6 +74,10 @@ img {
         @content;
     }
 }
+
+img[src~="thumbnail"] {
+    width:20%;
+ }
 
 @mixin relative-font-size($ratio) {
     font-size: $base-font-size * $ratio;
@@ -113,8 +118,15 @@ img {
     right: 0;
     font-size: 0.8rem;
     margin: 1rem 1rem 1rem 3rem;
-    width: 12em;
+    width: 30%;
     border-left: 1px solid black;
     padding-block-end: .5rem;
     padding-left: 3rem;
 }
+
+/* Mobile Styles */
+@media only screen and (max-width: 500px) {
+    #markdown-toc {
+        width: 80%;
+    }
+  }

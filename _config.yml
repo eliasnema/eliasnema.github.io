@@ -16,10 +16,9 @@
 title: Some Things Data
 email: eliasnema@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  I'm an engineer at OLX Group. Focusing on data things,
-  recommender systems and promoting analytical mindset.
+  I'm an engineer at OLX Group. Passionate about recommender systems, analytics and putting data to work.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "http://eliasnema.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: eliasnema
 github_username:  eliasnema
 
