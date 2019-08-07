@@ -12,8 +12,8 @@ toc: true
 I've always wanted to try the [makeover monday]{:target="_blank"} since I learned about the project. But _busy being busy_, you know.
 
 Last week, however, two things happened:
-- Statistics for the Arsenal's last season was posted as a weekly project (and I love football).
-- I accidentally saw that.
+- [Statistics](https://data.world/makeovermonday/2019w30){:target="_blank"} for the Arsenal's last season was posted as a weekly project (and I love football).
+- I accidentally noticed that.
 
 So it was decided - I'm creating a visualisation.
 
@@ -33,22 +33,27 @@ To be fair, I can get everything of the above in RStudio (and probably more prec
 ## Getting familiar with the dataset
 Data represents some KPIs of players throughout the season. For example __Saves, Tackles, Passes, Minutes Played__, etc. Position data wasn't in the dataset.
 
-Initially, I wanted to cluster players together to see if there are any patterns and groups. Then realised it doesn't make a good visualisation - hey look, these players have Saves, they are probably goalkeepers. So I decided to enhance the data with the information about positions.
+Initially, I wanted to cluster players together to see if there are any patterns and groups. Then realised it doesn't make a good visualisation: hey look, these players have Saves, they are probably goalkeepers. So I decided to enhance the data with the information about positions.
 
 > Hey look, these players have some __Saves__, they are probably goalkeepers.
 
-Having positions in place, let's compare players to each other by position. Maybe a [radar chart]{:target="_blank"} can work for such kind of comparison?
+With this data, let's look at performance by position. Maybe a [radar chart]{:target="_blank"} can work for such kind of comparison?
 
-But there is a limited amount of axes on a graph for users to still make sense of it. How to choose metrics to display? There are some obvious choices of course: _saves for goalkeepers, tackles for defenders, goals for forwards_. But how about common attributes such as passes? 
+There is a limited amount of axes on a graph for users to still make sense of it. How to choose metrics to display? There are some obvious choices of course:__saves for goalkeepers, tackles for defenders, goals for forwards__. But how about common attributes such as __passes__ or __touches__?
 
-To identify potential interesting data points I started with a correlations plot. I was looking for some interesting distributions, e.g. metrics that are not linearly correlated with the minutes played.
+To identify potentially interesting data points I started with a plot of correlations. I was looking for some interesting patterns, e.g. metrics that are not linearly correlated with the minutes played.
 
 ![correlations]({{ site.url }}/assets/mm/19w30/corr.png)
 
-Nice, looks like there are some potentially distinguishable KPIs. What do we do next?
+There are some:
+- obviously **bad choices** (clearances off the line - only a couple of players have at least 1);
+- not so obvious but **not really interesting** - the more you play the more your KPI is;
+- and looks like there are some potentially **distinguishable** KPIs. 
+
+What would be the best way to put it on the graph?
 
 ## To scale or not to scale?
-If we want to create player profiles, we cannot just say Cech made X saves while Leno made Y. We need to normalise it. Most precise would be to do it by minutes played. So tackles per minute played or passes per minute played.
+If we want to create player profiles, we cannot just say Cech made X saves while Leno made Y. We need to normalise it. Most precise would be to do it by minutes played. So **tackles per minute played** or **passes per minute played**.
 
 Having these numbers we can already iterate to find the best representation.
 
@@ -58,7 +63,7 @@ The problem - it's hard to have all the numbers at the same scale, so some metri
 
 ![metrics_nonscaled]({{ site.url }}/assets/mm/19w30/DF_nonscaled.png)
 
-> Mustafi - 1st in memes but also completing around 0.06 clearances and 0.025 tackles per minute, more than any other defender in a team.
+> Mustafi - first in memes but also completing around 0.06 clearances and 0.025 tackles per minute, more than any other defender in a team.
 
 #### Log-scaling
 We can try to play with axis scales to get more equal distribution of numbers. As you can see now graphs are more equally distributed, but it's a mess in readability.
