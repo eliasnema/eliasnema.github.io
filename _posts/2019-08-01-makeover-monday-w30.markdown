@@ -29,6 +29,8 @@ I need to create it using something of course. What are my options? Data world p
 
 To be fair, I can get everything of the above in RStudio (and probably more precise stats and subjectively more beautiful visuals out of the box), but I'm more comfortable with the python ecosystem.
 
+> Notebook for the process below can be found [here](https://github.com/eliasnema/makeover_monday/blob/master/w30/w30.ipynb){:target="_blank"}.
+
 
 ## Getting familiar with the dataset
 Data represents some KPIs of players throughout the season. For example __Saves, Tackles, Passes, Minutes Played__, etc. Position data wasn't in the dataset.
@@ -75,10 +77,9 @@ We can try to play with axis scales to get more equal distribution of numbers. A
 We can divide values by the maximum for the metric at this position. So all players will get a percentage from the maximum for the position in a team. As for the example above: Mustafi will get 1 for the clearances, Sokratis around 0.8 from that and so on.
 ![metrics_scaled]({{ site.url }}/assets/mm/19w30/DF_scaled.png)
 
-Personally, I like the last approach most, even though with it we are losing the interpretability. Now it's not possible to see the `real values` but the `relative comparison` is so much better. 
+Personally, I like the last approach most, even though with it we are losing the interpretability. Now it's not possible to see the **real values** but the **relative comparison** is so much better. 
 
 ## Positions
-Let's 
 So let's just polish the graph a bit.
 
 #### Goalkeepers
