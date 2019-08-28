@@ -4,9 +4,9 @@
 
 @import "{{ site.theme }}";
 
-$base-font-family: cardo,georgia,serif;
+$base-font-family: cardo, georgia, serif;
 $text-color: #111 !default;
-$base-font-size: .7em;
+$base-font-size: 0.7em;
 $background-color: #fdfdfd !default;
 $brand-color: #202020 !default;
 $grey-color: #828282 !default;
@@ -18,115 +18,114 @@ $on-palm: 460px !default;
 $on-laptop: 680px !default;
 
 a {
-    color: $text-color;
-    text-decoration: underline;
+  color: $text-color;
+  text-decoration: underline;
 }
 a:visited {
-    color: $text-color;
+  color: $text-color;
 }
-pre,code {
-    background-color: $grey-color-light;
+pre,
+code {
+  background-color: #eee;
 }
 code {
-    font-size: 0.7rem;
+  font-size: 0.7rem;
 }
-.highlighter-rouge {
-    background-color: $grey-color-light;
-    color: #d73c50;
-}
-
-h2, h3, h4, h5, h6 {
-    font-weight: bold;
-    margin-top: 1.5em;
+.highlighter-rouge .highlight {
+  background-color: #eee;
+  font-family: monospace;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: bold;
+  margin-top: 1.5em;
+}
 
 blockquote {
-    border-left: 4px solid #e8e8e8;
-    border: 1px solid darkred;
-    padding: 15px;
-    font-size: 14px;
-    letter-spacing: 1px;
-    font-style: normal;
-    font-family: monospace;
-    box-shadow: 3px 3px 0px rgba(0, 0, 0, 0.2);
+  border-left: 4px solid #e8e8e8;
+  border: 1px solid darkred;
+  padding: 15px;
+  font-size: 14px;
+  letter-spacing: 1px;
+  font-style: normal;
+  font-family: monospace;
+  box-shadow: 3px 3px 0px rgba(0, 0, 0, 0.2);
 }
 
 img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
-    box-shadow: 2px 2px 0px rgba(0, 0, 0, 0.2);
-    margin-left: auto;
-    margin-right: auto;
-    border: 1px solid rgba(0, 0, 0, 0.2);
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  box-shadow: 2px 2px 0px rgba(0, 0, 0, 0.2);
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid rgba(0, 0, 0, 0.2);
 }
-// Use media queries like this:
-// @include media-query($on-palm) {
-//   .wrapper {
-//     padding-right: $spacing-unit / 2;
-//     padding-left: $spacing-unit / 2;
-//   }
-// }
+
 @mixin media-query($device) {
-    @media screen and (max-width: $device) {
-        @content;
-    }
+  @media screen and (max-width: $device) {
+    @content;
+  }
 }
 
 img[src~="thumbnail"] {
-    width:20%;
- }
+  width: 20%;
+}
 
 @mixin relative-font-size($ratio) {
-    font-size: $base-font-size * $ratio;
+  font-size: $base-font-size * $ratio;
 }
 
 .post-title {
-    font-size: $base-font-size * 4;
-    font-weight: bold;
+  font-size: $base-font-size * 4;
+  font-weight: bold;
 }
 // Adding 'Contents' headline to the TOC
 #markdown-toc::before {
-    content: "CONTENTS";
-    font-weight: bold;
-    align-content: left;
+  content: "CONTENTS";
+  font-weight: bold;
+  align-content: left;
 }
 
 // Using numbers instead of bullets for listing
 #markdown-toc ul {
-    list-style: lower-alpha;
-    margin-bottom: 0rem;
-    margin-top: 0rem;
-    margin-left: 1rem;
-    padding-left: .7rem;
+  list-style: lower-alpha;
+  margin-bottom: 0rem;
+  margin-top: 0rem;
+  margin-left: 1rem;
+  padding-left: 0.7rem;
 }
 
 #markdown-toc li {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 #markdown-toc ul li ul li a {
-    color: grey;
+  color: grey;
 }
 
 #markdown-toc {
-    font-family: helvetica, arial, geneva, sans-serif;
-    line-height: 1.7em;
-    list-style: decimal;
-    float: right;
-    right: 0;
-    font-size: 0.8rem;
-    margin: 1rem 1rem 1rem 3rem;
-    width: 30%;
-    border-left: 1px solid black;
-    padding-block-end: .5rem;
-    padding-left: 3rem;
+  font-family: helvetica, arial, geneva, sans-serif;
+  line-height: 1.7em;
+  list-style: decimal;
+  float: right;
+  right: 0;
+  font-size: 0.8rem;
+  margin: 1rem 1rem 1rem 3rem;
+  width: 30%;
+  border-left: 1px solid black;
+  padding-block-end: 0.5rem;
+  padding-left: 3rem;
 }
 
 /* Mobile Styles */
 @media only screen and (max-width: 500px) {
-    #markdown-toc {
-        width: 80%;
-    }
+  #markdown-toc {
+    width: 80%;
   }
+}
