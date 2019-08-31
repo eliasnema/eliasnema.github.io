@@ -60,7 +60,7 @@ The next step is to group results by region. In the sales table, there is only a
 Another way to think about this: I need to get the name of a region for each district. Basically, `district_id, region_name` with the join condition on `district_id`. It's always good to double-check the join condition with a simple query like:
 
 ```sql
-SELECT count(*)
+SELECT district_id, count(*)
 FROM (district_region_branch)   <---  branch 2 from the previous query
 GROUP BY district_id 
 HAVING count(*) > 1
