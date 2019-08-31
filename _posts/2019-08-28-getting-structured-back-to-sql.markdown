@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Getting \"Structured\" Back to SQL"
-date:   2019-08-14
+date:   2019-08-28
 categories: analytics, microservices
 toc: true
 ---
@@ -57,7 +57,7 @@ The next step is to group results by region. In the sales table, there is only a
       JOIN regions                         <---- branch 2.3
 ```
 
-Another way to think about this: I need to get the name of a region for each district. Basically district_id, region_name, with the join condition on district_id. So it should be unique in the new branch. It's always good to double-check with simple query like:
+Another way to think about this: I need to get the name of a region for each district. Basically, `district_id, region_name` with the join condition on `district_id`. It's always good to double-check the join condition with a simple query like:
 
 ```sql
 SELECT count(*)
