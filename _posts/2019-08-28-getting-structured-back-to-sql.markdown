@@ -2,6 +2,7 @@
 layout: post
 title: 'Getting "Structured" Back to SQL'
 date: 2019-08-28
+permalink: getting-structured-back-to-sql
 categories: analytics, sql
 toc: true
 ---
