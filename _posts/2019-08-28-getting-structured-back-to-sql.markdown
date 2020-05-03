@@ -6,8 +6,8 @@ categories: analytics, sql
 toc: true
 ---
 
-- TOC
-  {:toc}
+* TOC
+{:toc}
 
 # Half a century old question
 
