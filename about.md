@@ -4,8 +4,21 @@ title: About
 permalink: /about/
 ---
 
-I'm an engineer at OLX Group. Recommender systems, machine learning, analytics and making data work.
 
-You can find me on [twitter](https://twitter.com/EliasNema).
+Join my [telegram channel](https://t.me/hypothesize) where I write about data, product, ML, books and about the intersection of all these.
 
-This site is based on the Minima Jekyll theme: [minima](https://github.com/jekyll/minima)
+Follow me on [twitter](https://twitter.com/EliasNema) and [linkedin](https://www.linkedin.com/in/eliasnema/).
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+_This site is based on the Minima Jekyll theme: [minima](https://github.com/jekyll/minima)_

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 'Getting "Structured" Back to SQL'
+description: 'Not that many questions in computer science have been circulating for more than 50 years and are still around. "How to write SQL" is one of them.'
 date: 2019-08-28
 permalink: getting-structured-back-to-sql
 categories: analytics, sql
