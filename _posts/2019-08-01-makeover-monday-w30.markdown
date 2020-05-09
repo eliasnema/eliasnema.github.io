@@ -3,7 +3,7 @@ layout: post
 title:  "Makeover Monday W30: Arsenal FC stats 2018/19"
 description: "Where does Cech overcome Leno, why Mustafi is so underrated and which forward fouls the most?"
 image:
-  path: /assets/FW.png
+  path: /assets/mm/19w30/FW.png
 date:   2019-08-01 12:28:41 +0100
 categories: makeover-monday
 toc: true
