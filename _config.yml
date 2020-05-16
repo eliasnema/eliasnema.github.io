@@ -16,7 +16,7 @@
 title: DATA MEETS PRODUCT
 email: eliasnema@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Putting data to work: product analytics, recommender systems, machine learning and whatever is needed.
+  Putting data to work: product analytics, personalisation and relevance, recommender systems and whatever is needed.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://eliasnema.com/" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: eliasnema
