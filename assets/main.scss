@@ -86,6 +86,8 @@ img[src~="thumbnail"] {
   width: 20%;
 }
 
+img[src~="70%"] { width: 70%; }
+
 @mixin relative-font-size($ratio) {
   font-size: $base-font-size * $ratio;
 }
