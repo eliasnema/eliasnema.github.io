@@ -6,6 +6,7 @@ image:
   path: /assets/man_city/stacked_graph.png
 date: 2020-05-20
 categories: [football]
+permalink: bust-a-man-city-quote
 toc: true
 ---
 * TOC

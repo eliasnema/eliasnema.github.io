@@ -14,7 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: DATA MEETS PRODUCT
-email: eliasnema@gmail.com
+email: me@eliasnema.com
 description: >- # this means to ignore newlines until "baseurl:"
   Putting data to work: product analytics, personalisation and relevance, recommender systems and whatever is needed.
 baseurl: "" # the subpath of your site, e.g. /blog
