@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Unaggregate your data, bust a quote and learn a thing about modern football"
-description: "And here I felt in a very common mistake people make while working with data. It's always tempting to look at aggregated data to see patterns and trends. However, often you need the exact opposite:"
+description: "And here I fell in a very common mistake people make while working with data. It's always tempting to look at aggregated data to see patterns and trends. However, often you need the exact opposite:"
 image:
   path: /assets/man_city/stacked_graph.png
 date: 2020-05-20
@@ -20,9 +20,9 @@ It all started with this quote in the book about the [data and football](https:/
 **Spoiler alert**: this proved to be wrong. But it triggered interest from my side. Man City is one of the most dinstinguished sides by their style of playing. Do they really play that short?
 
 ## A common pitfall
-So I wanted to quickly double-check the fact. Which turned out to be not easy at all. Available data is either not complete or too aggregated, there is a shortage of reliable publicly available sources. For example, the [official premier league](https://www.premierleague.com/stats/top/clubs/att_obox_goal?se=79){:target="blank"} site says that MC has scored 13 goals from outside the box during the 2017/18 season, but there is no information about distributions (the quote mentions only the first half of the season).
+So I wanted to quickly double-check the fact. Which, turned out, to be not easy at all. Available data is either not complete or too aggregated, there is a shortage of reliable publicly available sources. For example, the [official premier league](https://www.premierleague.com/stats/top/clubs/att_obox_goal?se=79){:target="blank"} site says that MC has scored 13 goals from outside the box during the 2017/18 season, but there is no information about distributions (the quote mentions only the first half of the season).
 
-And here I felt in a very common mistake people make while working with data. It's always tempting to look at aggregated data to see patterns and trends. However, often you need the exact opposite: take one sample, study it, see if it makes sense, see if it contains data that you expect.
+And here I fell in a very common mistake people make while working with data. It's always tempting to look at aggregated data to see patterns and trends. However, often you need the exact opposite: take one sample, study it, see if it makes sense, see if it contains data that you expect.
 
 In fact, to prove the quote wrong I needed just a single example of a goal that City has scored from outside the box during that part of the season. So after searching for the best strikes of the season on YouTube I found that the quote didn't hold up. Just take a look at this last-minute [wonder-strike from Sterling](https://www.youtube.com/watch?v=VVDJEVCUO3c){:target="_blank"}. 
 
@@ -42,7 +42,7 @@ Let's start with trying to understand if there is any significant difference bet
 
 This visualisation is of little use here, but at least we can see some distinctions between seasons.
 
-Lets quickly compute t-test statistics to get a numeric representation of it:
+Let's quickly compute t-test statistics to get a numeric representation of it:
 
 ```
 season 17/18 vs 18/19: Ttest_indResult(statistic=1.1348979627228202, pvalue=0.2568168035045629)
@@ -70,15 +70,15 @@ If we want to look even closer we can go with density graphs.
 
 Wow, this tells a story now. A coincidence? I doubt that.
 
-## Conclusion & a learnings
+## Conclusion & learnings
 I believe football evolves by learning more about itself. It's a known fact that teams have started optimising for shooting from positions with higher chance of scoring, which [translates into less long-ranged shots](https://totalfootballanalysis.com/article/xg-analysis-tactical-analysis-tactics){:target="_blank"}.
 
-Evolution of Man City from the season 2017 to 2019 shows that they indeed follow this trend of shooting from "better" positions. But does it make their game better? That's the question we can't objectively answer with data.
+Evolution of Man City from the season 2017 to 2019 shows that they indeed follow this trend of shooting from “better” positions. But does it make their game better? That's the question we can't objectively answer with data.
 
 
 <br/>
 
-> Some condense takeaways for the data folks:
+> Some concise takeaways for the data folks:
 > 1. Don't start with aggregated data. Make sure you data points make sense first.
 > 2. Compare distributions numerically using t-test, Kolmogorov-Smirnov test, etc.
 > 3. Add a visual story by bucketing:
