@@ -33,7 +33,7 @@ It was clear that we needed a common language among engineering, data and produc
 ## A common dictionary
 ![flow]({{ site.url }}/assets/hypothesize/flow.png)
 
-The flow starts with the **hypothesis**. This is a small but important difference. A hypothesis, by definition, is something that doesn’t have certainty in itself. It can be right; it can be wrong. _More details on how to come up with them in the following posts and in the book that I’m writing now._
+The flow starts with the **hypothesis**. This is a small but important difference. A hypothesis, by definition, is something that doesn’t have certainty in itself. It can be right; it can be wrong.
 
 Implementation becomes three separate steps:
 - **Prototype**. Here you do more analysis, do some research (by this I mean just google whether you can already reuse something) and build a minimal prototype to test the hypothesis. It might require coding, but even that’s not strictly necessary. You cut all the corners to be able to test it faster.
