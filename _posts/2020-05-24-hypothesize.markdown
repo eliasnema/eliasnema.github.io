@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Hypothesize your way into better products"
-description: ""
+description: "How do you quickly test ideas in your product? How do you include analytics in your day-to-day development process? How do you embrace failure and stop investing in something that’s not working?"
 image:
   path: /assets/man_city/stacked_graph.png
 date: 2020-05-24
