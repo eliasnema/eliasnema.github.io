@@ -59,6 +59,6 @@ This framework doesn’t command you HOW to build your product. Instead, it guid
 
 Since it serves only as guidance, it can also work together with scrum, radical focus or any other process you’re using. No need to break what’s already working.
 
-I'm going into more details about where to take hypotheses from and what are the components of each step in the book I'm working now. It's called **Hypothesize!** and you can [pre-order it now at half price](https://gumroad.com/l/SSTiNM/kwfh1gn). 
+I'm going into more details about how to generate hypotheses and about each of the steps in the book I'm working now. It's called **Hypothesize!** and you can [pre-order it now at half price](https://gumroad.com/l/SSTiNM/kwfh1gn). 
 
 _Note that you will only get charged after the release date._
