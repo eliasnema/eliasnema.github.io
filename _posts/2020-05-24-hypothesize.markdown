@@ -3,7 +3,7 @@ layout: post
 title: "Hypothesize your way into better products"
 description: "How do you quickly test ideas in your product? How do you include analytics in your day-to-day development process? How do you embrace failure and stop investing in something that’s not working?"
 image:
-  path: /assets/man_city/stacked_graph.png
+  path: /assets/hypothesize/doodle.png
 date: 2020-05-24
 categories: [product]
 permalink: hypothesize
@@ -15,7 +15,9 @@ toc: true
 ## Introduction
 How do you quickly test ideas in your product? How do you include analytics in your day-to-day development process? How do you embrace failure and stop investing in something that’s not working?
 
-When really zoomed out, a common workflow in engineering teams looks like this: “Idea -> Implementation.” Work is usually done in short cycles to provide fast feedback loops. But generally, you take an idea, and you implement it.
+When really zoomed out, a common workflow in engineering teams looks like this: **“Idea -> Implementation.”** Work is usually done in short cycles to provide fast feedback loops. But generally, you take an idea, and you implement it.
+
+![flow]({{ site.url }}/assets/hypothesize/doodle.png# 50%)
 
 This comes with two dangerous assumptions:
 - that you already know what to build; and
