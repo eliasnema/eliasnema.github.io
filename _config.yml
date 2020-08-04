@@ -21,7 +21,7 @@ author:
 description: >- # this means to ignore newlines until "baseurl:"
   Putting data to work: product analytics, personalisation and relevance, recommender systems and whatever is needed.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://eliasnema.com/"
+url: "https://eliasnema.com"
 twitter_username: eliasnema
 github_username:  eliasnema
 
