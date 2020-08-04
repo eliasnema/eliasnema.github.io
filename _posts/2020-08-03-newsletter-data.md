@@ -55,6 +55,6 @@ Ironically the [latest TensorFlow release](https://blog.tensorflow.org/2020/07/w
 <br/>
 
 To finish on a positive note, here is an awesome 3 minutes [Lex Fridman's video](https://www.youtube.com/watch?v=kpiY_LemaTc) estimating costs for GPT to equal a human brain:
-![gpt costs](/assets/newsletter/2020-08-03.png)
+![gpt costs]({{ site.baseurl }}/assets/newsletter/2020-08-03.png)
 
 Enjoyed what you just read? Subscribe to the newsletter below or follow me on [twitter](https://twitter.com/eliasnema).
