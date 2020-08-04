@@ -58,3 +58,5 @@ To finish on a positive note, here is an awesome 3 minutes [Lex Fridman's video]
 ![gpt costs]({{ site.url }}{{ site.baseurl }}/assets/newsletter/2020-08-03.png)
 
 Enjoyed what you just read? Subscribe to the newsletter below or follow me on [twitter](https://twitter.com/eliasnema).
+
+{% include subscribe-horizontal.html %}
