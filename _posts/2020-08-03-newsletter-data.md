@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "Weekly Musings: Data🛢"
+title: "🛢 Weekly Musings: Data"
 description: "Metadata, Medical Data and TF.Data"
 image:
-  path: /assets/newsletter/2020-08-03.png
+  path: /assets/newsletter/db.png
 date: 2020-08-03
 category: newsletter
 toc: true
@@ -14,6 +14,8 @@ toc: true
 # Metadata, Medical Data and TF.Data 
 
 This week turned out to be about data, can you imagine? There were announcements in the metadata management from Shopify and Stripe. What it takes to build a startup in the field of medical AI and how much time you'll spend gathering data for it. And TensorFlow's latest release was mostly about its data API.
+
+![data]({{ site.url }}{{ site.baseurl }}/assets/newsletter/db.png#thumbnail)
 
 # 🩺 AI in Medicine
 
@@ -56,7 +58,3 @@ Ironically the [latest TensorFlow release](https://blog.tensorflow.org/2020/07/w
 
 To finish on a positive note, here is an awesome 3 minutes [Lex Fridman's video](https://www.youtube.com/watch?v=kpiY_LemaTc) estimating costs for GPT to equal a human brain:
 ![gpt costs]({{ site.url }}{{ site.baseurl }}/assets/newsletter/2020-08-03.png)
-
-Enjoyed what you just read? Subscribe to the newsletter below or follow me on [twitter](https://twitter.com/eliasnema).
-
-{% include subscribe-horizontal.html %}

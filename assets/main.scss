@@ -82,7 +82,11 @@ img {
   }
 }
 
-img[src~="thumbnail"] { width: 20%; }
+img[src*="#thumbnail"] { 
+  width: 20%;
+  box-shadow: none;
+  border: none;
+}
 img[src~="post-thumbnail"] { width: 20%; position: inline; }
 img[src~="70%"] { width: 70%; }
 img[src~="50%"] { width: 50%; }
@@ -96,6 +100,12 @@ img[src~="30%"] { width: 30%; }
   font-size: $base-font-size * 4;
   font-weight: bold;
 }
+
+.subscribe {
+  font-style: italic;
+  text-align: center;
+}
+
 // Adding 'Contents' headline to the TOC
 #markdown-toc::before {
   content: "CONTENTS";

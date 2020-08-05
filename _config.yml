@@ -31,6 +31,7 @@ theme: minima
 plugins:
   - jekyll-feed
   - jekyll-target-blank
+  - jekyll-twitter-plugin
 
 excerpt_separator: ""
 markdown: kramdown
@@ -54,3 +55,7 @@ feed:
 #   - vendor/gems/
 #   - vendor/ruby/
 google_analytics: UA-165368106-1
+
+twitter:
+  username: eliasnema
+  card: summary
