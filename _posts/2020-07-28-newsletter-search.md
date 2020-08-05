@@ -59,7 +59,7 @@ The basic idea is that having fixed paid slots is bad. Both for the:
 
 The solution? Get rid of the fixed paid slots and rank the whole search result according to “relevancy“. Here is a more detailed summary:
 
-{% twitter https://twitter.com/EliasNema/status/1286420652539424773 %}
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr"><a href="https://twitter.com/ebaytech?ref_src=twsrc%5Etfw">@ebaytech</a> has recently released an article on balancing the paid and non-paid content in their search result page (thread)⁰<a href="https://twitter.com/hashtag/ecommerce?src=hash&amp;ref_src=twsrc%5Etfw">#ecommerce</a> <a href="https://twitter.com/hashtag/Search?src=hash&amp;ref_src=twsrc%5Etfw">#Search</a> <a href="https://twitter.com/hashtag/marketplace?src=hash&amp;ref_src=twsrc%5Etfw">#marketplace</a> ⁰<a href="https://t.co/REualIf6Aq">https://t.co/REualIf6Aq</a></p>&mdash; Elias Nema (@EliasNema) <a href="https://twitter.com/EliasNema/status/1286420652539424773?ref_src=twsrc%5Etfw">July 23, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 # 🕵️‍♀️ DS or ML? RE!
 

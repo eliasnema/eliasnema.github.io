@@ -26,7 +26,6 @@ GEM
     jekyll-target-blank (2.0.0)
       jekyll (>= 3.0, < 5.0)
       nokogiri (~> 1.10)
-    jekyll-twitter-plugin (2.1.0)
     jekyll-watch (1.5.1)
       listen (~> 3.0)
     kramdown (1.17.0)
@@ -66,7 +65,6 @@ DEPENDENCIES
   jekyll-feed (~> 0.6)
   jekyll-seo-tag
   jekyll-target-blank
-  jekyll-twitter-plugin
   minima (~> 2.0)
   tzinfo-data
 
