@@ -4,7 +4,7 @@ title: "🔎 Weekly Musings: Search"
 description: "Figuring out paid search and relevance engineering"
 image:
   path: /assets/newsletter/pinterest.png
-date: 2020-07-28
+date: 2020-08-06
 category: newsletter
 toc: true
 ---
