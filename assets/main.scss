@@ -82,7 +82,14 @@ img {
   }
 }
 
-img[src*="#thumbnail"] { 
+.thumbnail-img { 
+  max-height: 120px;
+  width: auto;
+  box-shadow: none;
+  border: none;
+}
+
+img[src~="#thumbnail"] { 
   width: 20%;
   box-shadow: none;
   border: none;

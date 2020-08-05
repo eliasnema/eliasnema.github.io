@@ -119,7 +119,7 @@ So let's just polish the graph a bit.
 
 ## Final thoughts
 I used canva to assemble the graphs above into the final [image]{:target="_blank"}, added some red-white colours. I didn't come up with any breakthroughs of course - things on graphs are already well known. However, I had a couple of interesting observations and discoveries during the process. And had some fun as well.
-[![FW]({{ site.url }}/assets/mm/19w30/arsenal_stats_2018-19.png#thumbnail)]({{ site.url }}/assets/mm/19w30/arsenal_stats_2018-19.png)
+[![FW]({{ site.url }}/assets/mm/19w30/arsenal_stats_2018-19.png){: class="thumbnail-img"}]({{ site.url }}/assets/mm/19w30/arsenal_stats_2018-19.png)
 
 The greatest benefit was to document the process itself. As [Jason Fried]{:target="_blank"} [urges people]{:target="_blank"} to write more to really think the idea through, just sitting down and writing the process of analysis was really rewarding.
 

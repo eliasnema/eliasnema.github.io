@@ -13,9 +13,9 @@ toc: true
 
 This week I ended up reading a couple of recent articles around the topic of search. Not groundbreaking paper’s style. Rather down-to-earth field implementations. Below, I’ll go through the paid search challenges in two major online platforms. And then to the emerging role of a Relevance Engineer.
 
-# ![pinterest]({{ site.url }}{{ site.baseurl }}/assets/newsletter/pinterest.png#thumbnail)
+# ![pinterest]({{ site.url }}{{ site.baseurl }}/assets/newsletter/pinterest.png){: class="thumbnail-img"}
 
-[Shopping upsells on Pinterest](https://medium.com/pinterest-engineering/driving-shopping-upsells-from-pinterest-search-d06329255402). An interesting story. Let me decompose it to the common steps seen across data projects.
+[Shopping upsells on Pinterest](https://medium.com/pinterest-engineering/driving-shopping-upsells-from-pinterest-search-d06329255402){:target="_blank"}. An interesting story. Let me decompose it to the common steps seen across data projects.
 
 A simple problem to solve — introduce ads into the search results. They call it “shopping upsells“. Imagine you need to build a shopping upsell model.
 
@@ -31,7 +31,7 @@ Where to get the data for a feature that doesn’t yet exist on a platform?
 You’ve got data, get a model.
 
 * Use business knowledge to come up with a smart objective. Clicks on products are usually noisy, but a good first start. Much better to assign proper weights to strong signals and smartly combine them. Pinterest uses pins and clicks to partner sites.
-* [Model architecture](https://miro.medium.com/max/300/0*kI9UvZRbnPFM1RJ2):\
+* [Model architecture](https://miro.medium.com/max/300/0*kI9UvZRbnPFM1RJ2){:target="_blank"}:\
 `Query -> Embedding -> Encoder -> Dense -> Log Loss`
 
 New practitioners are often disappointed by seeing simple architectures after all the resnets and RNNs they’ve just studied. But complexity and state-of-the-arts are often wrong fallacies to chase for most of the businesses.
@@ -48,9 +48,9 @@ Having the results you now need to hack the costs to get the “model economics�
 
 My bet is that Pinterest didn’t come up with these optimizations from the beginning. Usually, it’s a loop of 2-3b steps until you get all the components right. This often-overlooked cycle of small adjustments, in this case, allowed to reduce model serving traffic by 70% 🤯
 
-# ![ebay]({{ site.url }}{{ site.baseurl }}/assets/newsletter/ebay.png#thumbnail)
+# ![ebay]({{ site.url }}{{ site.baseurl }}/assets/newsletter/ebay.png){: class="thumbnail-img"}
 
-[Ebay’s article](https://tech.ebayinc.com/product/ebay-makes-promoted-listings-in-search-results-more-relevant-and-dynamic/) on balancing paid and non-paid content in their search results.
+[Ebay’s article](https://tech.ebayinc.com/product/ebay-makes-promoted-listings-in-search-results-more-relevant-and-dynamic/){:target="_blank"} on balancing paid and non-paid content in their search results.
 
 The basic idea is that having fixed paid slots is bad. Both for the:
 
@@ -63,7 +63,7 @@ The solution? Get rid of the fixed paid slots and rank the whole search result a
 
 # 🕵️‍♀️ DS or ML? RE!
 
-[Another interesting take](https://opensourceconnections.com/blog/2020/07/16/what-is-a-relevance-engineer/) on the career in the data field from one of the most famous search practitioners. A couple of highlights:
+[Another interesting take](https://opensourceconnections.com/blog/2020/07/16/what-is-a-relevance-engineer/){:target="_blank"} on the career in the data field from one of the most famous search practitioners. A couple of highlights:
 
 - Who is a relevance engineer: *“implements information retrieval algorithms that solve user information needs in real time, at scale“*
 - Applied approach: *“don’t chase the state of the art unnecessarily, rather they prefer proven techniques for 80% of the problem“, “don’t solve search for Kaggle points or academia, but for real companies and users“*
