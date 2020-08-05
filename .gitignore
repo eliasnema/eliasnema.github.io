@@ -2,6 +2,5 @@ _site/
 .idea
 .sass-cache
 .vscode
-.lock
 .DS_Store
 .tweet-cache/
