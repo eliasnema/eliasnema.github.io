@@ -4,7 +4,7 @@ title: "🔎 Weekly Musings: Search"
 description: "Figuring out paid search and relevance engineering"
 image:
   path: /assets/newsletter/pinterest.png
-date: 2020-08-06
+date: 2020-07-28
 category: newsletter
 toc: true
 ---
@@ -13,7 +13,7 @@ toc: true
 
 This week I ended up reading a couple of recent articles around the topic of search. Not groundbreaking paper’s style. Rather down-to-earth field implementations. Below, I’ll go through the paid search challenges in two major online platforms. And then to the emerging role of a Relevance Engineer.
 
-# ![pinterest]({{ site.url }}{{ site.baseurl }}/assets/newsletter/pinterest.png){: class="thumbnail-img"}
+![pinterest]({{ site.url }}{{ site.baseurl }}/assets/newsletter/pinterest.png){: class="thumbnail-img"}
 
 [Shopping upsells on Pinterest](https://medium.com/pinterest-engineering/driving-shopping-upsells-from-pinterest-search-d06329255402){:target="_blank"}. An interesting story. Let me decompose it to the common steps seen across data projects.
 
@@ -48,7 +48,7 @@ Having the results you now need to hack the costs to get the “model economics�
 
 My bet is that Pinterest didn’t come up with these optimizations from the beginning. Usually, it’s a loop of 2-3b steps until you get all the components right. This often-overlooked cycle of small adjustments, in this case, allowed to reduce model serving traffic by 70% 🤯
 
-# ![ebay]({{ site.url }}{{ site.baseurl }}/assets/newsletter/ebay.png){: class="thumbnail-img"}
+![ebay]({{ site.url }}{{ site.baseurl }}/assets/newsletter/ebay.png){: class="thumbnail-img"}
 
 [Ebay’s article](https://tech.ebayinc.com/product/ebay-makes-promoted-listings-in-search-results-more-relevant-and-dynamic/){:target="_blank"} on balancing paid and non-paid content in their search results.
 
