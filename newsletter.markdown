@@ -1,6 +1,5 @@
 ---
 layout: category
-title: Newsletter
+title: "DATA MEETS PRODUCT: NEWSLETTER"
 permalink: /newsletter/
 ---
-

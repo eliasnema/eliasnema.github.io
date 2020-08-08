@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "🛢 Weekly Musings: Data"
+title: "🛢 Data [weekly explorations]"
 description: "Metadata, Medical Data and TF.Data"
 image:
   path: /assets/newsletter/db.png

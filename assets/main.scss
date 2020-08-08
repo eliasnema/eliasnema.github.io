@@ -73,7 +73,8 @@ img {
   float: left;
   border-radius: 20px;
   width: 20%;
-  margin-right: 10px;
+  margin-right: 2rem;
+  margin-bottom: 6rem;
 }
 
 @mixin media-query($device) {
