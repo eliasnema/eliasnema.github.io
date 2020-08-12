@@ -31,8 +31,8 @@ Probably, the next step would be to optimize costs and **make the economics righ
 
 # 💰Costs in AI
 
-- A very interesting conversation on last [week’s TWIML AI podcast](https://twimlai.com/twiml-talk-391-the-case-for-hardware-ml-model-co-designwith-diana-marculescu/){:target="_blank"} about model design optimization for hardware.
-- [Another article](https://www.wired.com/story/prepare-artificial-intelligence-produce-less-wizardry/){:target="_blank"} suggests that despite shaving off 3/4 of errors in logistic optimization with the help of deep learning, a European retailer chose not to use the model because of costs.
+- A very interesting conversation on last [week's TWIML AI podcast](https://twimlai.com/twiml-talk-391-the-case-for-hardware-ml-model-co-designwith-diana-marculescu/){:target="_blank"} about model design optimization for hardware.
+- [Another article](https://www.wired.com/story/prepare-artificial-intelligence-produce-less-wizardry/){:target="_blank"} suggests that despite shafing off 3/4 of errors in logistic optimization prediction with the help of deep learning, a European retailer chose not to use the model because of costs.
 
 Until very recently DL has been driven by the research in big companies. This means almost unlimited resources. It’s great to validate and/or win the market. But with time, you need to get the unit economics right. For training and serving and smaller devices (a smartphone in 2017 was able to run [AlexNet only for 1 hour](https://arxiv.org/pdf/1611.05128.pdf){:target="_blank"}).
 
@@ -43,6 +43,6 @@ Basically there are multiple directions in ML optimizations:
 - [Energy-aware pruning of NNs](https://openaccess.thecvf.com/content_CVPR_2020/papers/Chin_Towards_Efficient_Model_Compression_via_Learned_Global_Ranking_CVPR_2020_paper.pdf){:target="_blank"}: Often both accuracy and latency are important to the application. This work allows you to quickly iterate over accuracy-vs.-speed trade-off for finding a sweet-spot for a particular application using model compression. 
 - [Discretizing vectors over a d-dimensional sphere](https://arxiv.org/pdf/1806.03198.pdf){:target="_blank"}: A super-smart approach where instead of adapting an index to the data, the data is adopted to the index itself. *“We learn a neural network that aims at preserving the neighborhood structure in the input space while best covering the output space (uniformly)”*.
 
-![pinterest]({{ site.url }}{{ site.baseurl }}/assets/newsletter/to_uniform.png){: class="thumbnail-img"}
+![to uniform]({{ site.url }}{{ site.baseurl }}/assets/newsletter/to_uniform.png){: class="thumbnail-img"}
 
 These are just the directions I’ve seen recently. But the topic is becoming more and more important. If AI aims to turn into a new cloud, the industry needs to figure out the ways to scale the “state-of-the-art“ to the rest of the internet. And it looks like we are finally getting there.
