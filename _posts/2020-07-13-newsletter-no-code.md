@@ -5,7 +5,7 @@ description: "Is no code the new oil or the old ETL? TikTok's recommender and wh
 image:
   path: /assets/newsletter/adobe_sensei.png
 date: 2020-07-13
-category: newsletter
+category: data-meets-product
 toc: true
 ---
 * TOC

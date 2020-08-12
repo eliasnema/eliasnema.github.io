@@ -5,7 +5,7 @@ description: "Everybody is [again] excited about the future of AI and technology
 image:
   path: /assets/newsletter/to_uniform.png
 date: 2020-07-20
-category: newsletter
+category: data-meets-product
 toc: true
 ---
 * TOC

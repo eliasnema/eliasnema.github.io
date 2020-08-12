@@ -5,7 +5,7 @@ description: "Figuring out paid search and relevance engineering"
 image:
   path: /assets/newsletter/pinterest.png
 date: 2020-07-28
-category: newsletter
+category: data-meets-product
 toc: true
 ---
 * TOC

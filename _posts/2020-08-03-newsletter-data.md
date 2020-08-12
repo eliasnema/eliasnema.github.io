@@ -5,7 +5,7 @@ description: "Metadata, Medical Data and TF.Data"
 image:
   path: /assets/newsletter/db.png
 date: 2020-08-03
-category: newsletter
+category: data-meets-product
 toc: true
 ---
 * TOC
