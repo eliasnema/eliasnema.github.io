@@ -4,7 +4,7 @@ title: "💆‍♀️ State of Recommendations"
 description: "Product embeddings. Users via products. Jobs recommenders."
 image:
   path: /assets/newsletter/db.png
-date: 2020-08-19
+date: 2020-08-18
 category: data-meets-product
 toc: true
 ---
@@ -44,15 +44,18 @@ There are two main models powering the offline (recalculated for each user) reco
 > - **Diversity:** in e-commerce, CF often REDUCES the diversity of the content because it converges to clusters of popular items. And here, probably, due to the fact that course catalog is not that big and that every person can take any course, it's actually increases it.
   {: .thought}
 
-**Data**: Course watch history data with a watch-time threshold (if a learner only watches the first three seconds of a course, it's not included).
+**Data:** Course watch history data with a watch-time threshold (if a learner only watches the first three seconds of a course, it's not included).
 
-**Model**: Computing learner and course embeddings separately. This is also knows a [two-tower architecture](https://developers.google.com/machine-learning/recommendation/dnn/softmax#can-you-use-item-features){: target="_blank"}.
+**Model:** Computing learner and course embeddings separately. This is also knows a two-tower architecture. [^5]
 
 > Interesting that input to the learner part is **user/course co-occurrence matrix**, while input to the course part is **course/course similarity** matrix.
 {: .thought}
 
+**Training/Evaluation:** the modeling objective is to predict course watches using the past watches. The important part is to split training data by time to avoid leakage. Holding the last interaction for each user as a test set - **leave-one-out** approach. 
 
-**Training**: a binary label for all (learner, course) pairs in the training data to quantify the learner’s interest in that course. The modeling objective is to predict course watches using the past watches. Important here is to split the date by time.
+It's expensive to rank all items for all users, so a random sample of 100 items that user didn't interact with is taken and the one item that is tried to be predicted is ranked against these 100. Performance is judged by **hit ratio and NDCG** at 10 are calculated after.
+
+**Results:** 
 
 
 ### Response Prediction Model
@@ -128,3 +131,4 @@ Also in [the paper](https://arxiv.org/pdf/2007.03634.pdf) they explain a very th
 [^2]: [LinkedIn's Learning Recommendations Part 2](https://engineering.linkedin.com/blog/2020/course-recommendations-ai-part-two){: target="_blank"}
 [^3]: [LinkedIn's Neural Collaborative Filtering](https://arxiv.org/pdf/1708.05031.pdf)
 [^4]: [LinkedIn's Generalized Linear Mixed Models](https://www.kdd.org/kdd2016/papers/files/adf0562-zhangA.pdf)
+[^5]: From a very good [recommendations introduction by Google](https://developers.google.com/machine-learning/recommendation/dnn/softmax#can-you-use-item-features){: target="_blank"}.
