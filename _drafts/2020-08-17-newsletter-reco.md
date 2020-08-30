@@ -13,13 +13,17 @@ toc: true
 
 ## Belarus
 
-> 🚨 The last 2 weeks were really sad for the Belarus. Independent of your political views I encourage to check out any news on the situation there. 🚨
+> 🚨 The last 3 weeks were really sad for the Belarus. Independent of your political views I encourage to check out any news on the situation there. 🚨
 
 On the data side we've got plenty of recent articles about **recommenders**. This is going to be a lengthy piece covering 5 articles, 3 papers and providing an overview on how recommenders are built at this current moment. Most cases will be structured as follows: _overview->data->model->evaluation_. I prefer not to pay much attention to the reported results because they are relative to the previos baseline performance and cannot be used outside of the context.
 
-Generally, the industry have converged to **embedding representations** of both users (customers) and items (anything that is the main product for the business). The difference is mostly in **how these vectors are generated and how are used afterwards.** The main trends covered:
+Generally, the industry have converged to **embedding representations** of both users (customers) and items (anything that is the main product for the business). The difference is mostly in **how these vectors are generated and how are used afterwards.** Here is a summary of the 
 
-> * It's all started with Matrix Factorization but then shifted towards neural nets and embedding spaces.
+![reco_history]({{ site.url }}{{ site.baseurl }}/assets/newsletter/reco.png)
+
+> * It's all started with a matrix factorization but then shifted towards **neural nets and embedding spaces** (with a slight sidetrack to mixeld inear models).
+> * As well as serving moved to a more **real-time** architectures and dynamic **re-rankers.**
+> * From relying mostly on explit ratings to incorporating different **implicit** signals. Hence, also from seeing recommendation as a regression task to a **classification**.
 > * On the **item side** pretty much every one converged to building embeddings to optimize for the product similarity.
 > * On the **user side,** however, representations vary depending on the use case and business model.
 {: .thought}
@@ -28,13 +32,13 @@ Generally, the industry have converged to **embedding representations** of both 
 
 ### LinkedIn Learning
 
-![data]({{ site.url }}{{ site.baseurl }}/assets/newsletter/linkedin.png){: class="thumbnail-img"}
+![linkedin]({{ site.url }}{{ site.baseurl }}/assets/newsletter/linkedin.png){: class="thumbnail-img"}
 
 We start with the LinkedIn Learning use case and their two-episode article ([one](https://engineering.linkedin.com/blog/2020/course-recommendations-ai-part-one){: target="_blank"}, [two](https://engineering.linkedin.com/blog/2020/course-recommendations-ai-part-two){: target="_blank"}). The main goal for them is to *"surface the most relevant and personalized course recommendations"*.
 
 There are two main models powering the offline (precalculated for each user) recommendations - neural collaborative filtering and generalized linear mixed model.
 
-#### Collaborative Filtering (CF)
+#### Collaborative Filtering (Neural)
 
 **Overview:** pros/cons of CF are well-known and LinkedIn didn't escape them. Here is their recap:
 
@@ -61,7 +65,7 @@ There are two main models powering the offline (precalculated for each user) rec
 
 **Evaluation:** Holding the last interaction for each user for a test set - **leave-one-out** approach. A random sample of 100 items that user didn't interact with is taken and the one hidden item (user's last action) is ranked against these 100. Performance is judged by **hit ratio and NDCG** at 10.
 
-**Production:** 
+**Production:**  Take learner's embedding and course embeddings and score all courses for each user. Generating a top K set for each learner offline.
 
 #### Response Prediction Model
 
@@ -82,8 +86,11 @@ Another offline model to compliment CF is so-called "Response Prediction". It ta
 > We are currently working on a model ensemble that can perform personalized blending of Response Prediction and Neural CF models to improve the overall performance on the final recommendation task. Secondly, we also plan to adopt Attention Models into our Neural CF framework for learner profiling, i.e., assigning attention weights to a learner’s course watch history to capture long term and short term interests in a more effective manner.
 
 **Evaluation:** 
-**Production:** two-stage ranking strategy. In the first stage of the ranking, we convert it to a search-like problem by leveraging the open-source library Apache Lucene. In this stage, an inverted job index is built, where keys are the job features and values are the corresponding job IDs. We run the baseline model LR-Cosine in this stage, which works efficiently with Lucene (since all the features are cosine-similarity based), and select the top K results (e.g.  K=1000) for the secondstage ranking.  In the second stage, we re-score the top Kresults using the full GLMix model and show the top-rankedjobs to the member. 
-Retraining the model daily. 
+
+**Production:** offline two-stage ranking strategy:
+
+* searching in Lucene using user and item features to generate 1000 candidates in the first stage
+* ranking candidates using full GLMix model
 
 ### LinkedIn Jobs
 
