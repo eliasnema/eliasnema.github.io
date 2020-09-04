@@ -180,18 +180,18 @@ Served using a classical [lambda architecture](https://en.wikipedia.org/wiki/Lam
 
 Ok, item ebmeddings are great. But how about tranfer learning for them? Wait, what? The thing is that many companies are actually multi-brand groups having more than one brand.
 
- > Product embeddings have been mostly investigatedas static entities so far, but, exactly as words [10], products are allbut static. Since the creation of embeddings is a stochastic process,training embeddings for similar products in different digital shopswill produce embedding spaces which are not immediately com-parable: how can we build a unified cross-shop representation ofproducts?
+Training embeddings for similar products in different shops will produce spaces which are not immediately comparable. Is there a way to mitigate this?
 
-**🛢Data:** There are 2 possible variants for the data on hand:
+**🛢Data:** the best part is that you don't need tons of data to start experimenting with such approaches. All you need is data on how users interacted with products in sessions to build product spaces. Then product features comes handy (text attributes, prices, images, etc.). Also having cross-shop data valuable later but not strictly necessary.
 
-* cross-brand data NOT available
-* cross-brand data available
+**🚗Model:** product embeddings are trained using CBOW with negative sampling, by swapping the concept of words in a sentence with products in a browsing session. So this is not the fanciest architecture for item embeddings — check the Avito implementation above for more sophisticated approach.
 
-**🚗Model:** So we need to align spaces first. The first way is to use item features for that 
+More interestingly though is a task to align product spaces. It's diffeerent from aligning spaces for languages, mainly, because some products are intristically different. Coveo tested a couple of different models. But generally, starting with some unsupervised approachs, such as pairing by item features, images, etc. This helps finding the initial mapping function. Later on adjusting the space alignment by learning form user interactions with the items in both spaces.
 
-**🔁Validation:**
+**🔁Validation:** for the product embeddings model evaluation is done using the leave-one-out approach and by predicting the Nth interactions from the 0..N-1 items. Embeddings are averaged for those items and the nearest neighbor search is done to predict the last item. NDCG@10 is used on the search result. Worth noting that this approach works for the sort-lived sessions or specialized shopt, while for sessions with multiple intents averaging might produce reqlly weird results (see Pinterest case above).
 
-**🎬Production**:
+**🎬Production**: their goal was to run experiments to prove the value of the aligned embeddings. In one experiment the goal was to predict the user's next action by transferring user intent from one site to another. The other — type ahead suggestion: 
+
 
 ---
 <br/>
@@ -204,4 +204,6 @@ References:
 5. Avito's [article](https://habr.com/ru/company/avito/blog/491942/){: target="_blank"}
 6. Pinterest's [article](https://medium.com/pinterest-engineering/pinnersage-multi-modal-user-embedding-framework-for-recommendations-at-pinterest-bfd116b49475){: target="_blank"}
 7. Pinterest's [paper](https://arxiv.org/pdf/2007.03634.pdf){: target="_blank"}
-8. [Recommendations introduction](https://developers.google.com/machine-learning/recommendation/dnn/softmax#can-you-use-item-features){: target="_blank"} by Google
+8. Coveo's blog post
+9. Coveo's [paper](https://blog.coveo.com/multi-brand-personalization-in-ecommerce/).
+10. [Intro to eecommendations](https://developers.google.com/machine-learning/recommendation/dnn/softmax#can-you-use-item-features){: target="_blank"} by Google.
