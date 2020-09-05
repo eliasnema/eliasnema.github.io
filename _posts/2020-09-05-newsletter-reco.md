@@ -56,7 +56,7 @@ Pros/cons of CF are well-known and LinkedIn didn't escape them. Here is their re
 
 **🛢Data:** course watch history data with a watch-time threshold (if a learner only watches the first three seconds of a course, it's not included).
 
-**🚗Model** 
+**🚗Model:**
 
 * Computing learner and course embeddings in parallel. This is also known as a _two-tower architecture._
 * Log loss is used as an optimization function.
