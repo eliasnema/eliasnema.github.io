@@ -34,7 +34,7 @@ But the truth is in details, so let's jump right into it.
 
 ### LinkedIn Learning
 
-![linkedin]({{ site.url }}{{ site.baseurl }}/assets/newsletter/linkedin.png){: class="thumbnail-img"}
+![linkedin]({{ site.url }}{{ site.baseurl }}/assets/newsletter/linkedin.png){: class="thumbnail-img" width="120" height="auto"}
 
 We start with the LinkedIn Learning use case and their two-part article ([one](https://engineering.linkedin.com/blog/2020/course-recommendations-ai-part-one){: target="_blank"}, [two](https://engineering.linkedin.com/blog/2020/course-recommendations-ai-part-two){: target="_blank"}). The main goal for them is to *"surface the most relevant and personalized course recommendations"*.
 
@@ -128,7 +128,7 @@ Now you know when to stop waiting for the recruiter's response ⏳.
 
 ## Avito
 
-![avito]({{ site.url }}{{ site.baseurl }}/assets/newsletter/avito.png){: class="thumbnail-img"} A very [important and thoughtful article](https://habr.com/ru/company/avito/blog/491942/){: target="_blank"} (sorry, in Russian) from our friends at Avito. And their approach takes a bit different direction. What if instead of learning personalized recommendations we'd try to optimize for the item similarity?
+![avito]({{ site.url }}{{ site.baseurl }}/assets/newsletter/avito.png){: class="thumbnail-img" width="120" height="auto"} A very [important and thoughtful article](https://habr.com/ru/company/avito/blog/491942/){: target="_blank"} (sorry, in Russian) from our friends at Avito. And their approach takes a bit different direction. What if instead of learning personalized recommendations we'd try to optimize for the item similarity?
 
 **🛢Data:** pairs of "similar" items. How to define similars? Items that were contacted (the best proxy for the transaction in classifieds) by a user with a time threshold between actions (8h for Avito). This gives 1s as a label. How to get 0s? Negative sampling from the items that were active at the platform during the time of contact but were not contacted by the user. Random sampling with a probability of an item being selected equals to a square root of a number of contacts that respected item got.
 
@@ -149,7 +149,7 @@ Worth noting that recommendations are used on both the item page (item-to-item) 
 
 ## Pinterest
 
-![pinterest]({{ site.url }}{{ site.baseurl }}/assets/newsletter/pinterest.png){: class="thumbnail-img"}
+![pinterest]({{ site.url }}{{ site.baseurl }}/assets/newsletter/pinterest.png){: class="thumbnail-img" width="120" height="auto"}
 And now — Pinterest. Another very thoughtful and pragmatic [piece from them](https://medium.com/pinterest-engineering/pinnersage-multi-modal-user-embedding-framework-for-recommendations-at-pinterest-bfd116b49475){: target="_blank"}.
 
 Here as well, the general idea is to embed users/items into some space. However, having a single vector for user works bad — no matter how good the network is it won't be able to represent all the user's clusters of interests. Another approach (the same as Avito takes above) is to represent a user via embeddings of the items that he is interested in. But averaging works bad for the longer-term user interests (e.g. paintings and shoes average to a salad). The solution?
@@ -183,7 +183,7 @@ Served using a classical [lambda architecture](https://en.wikipedia.org/wiki/Lam
 
 ## Coveo
 
-![coveo]({{ site.url }}{{ site.baseurl }}/assets/newsletter/coveo.png){: class="thumbnail-img"}
+![coveo]({{ site.url }}{{ site.baseurl }}/assets/newsletter/coveo.png){: class="thumbnail-img" width="120" height="auto"}
 
 Ok, item embeddings are great. But how about transfer learning for them? Wait, what? The thing is that many companies are actually multi-brand groups having more than one brand.
 
