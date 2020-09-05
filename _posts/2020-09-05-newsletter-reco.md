@@ -17,7 +17,7 @@ toc: true
 
 On the data side, we've got an explosion of relatively fresh articles about **recommenders**. This is going to be a lengthy piece covering 6 articles, 4 papers and demonstrating trends happening in the field of applied recsys. Cases below will be structured as follows: `🌅Overview -> 🛢Data -> 🚗Model -> 🔁Validation -> 🎬Production.` I prefer not to focus too much on the reported results because they are always relative to the previous baselines and cannot be used outside of the context.
 
-And here is my summary of the trends, so that you don’t need to scroll to the end:
+Here is my summary of the trends, so that you don’t need to scroll to the end:
 
 ![reco_history]({{ site.url }}{{ site.baseurl }}/assets/newsletter/reco.png)
 
@@ -28,7 +28,7 @@ And here is my summary of the trends, so that you don’t need to scroll to the 
 > * On the **user side,** however, representations vary depending on the use case and business model.
 {: .thought}
 
-But the truth is in details, so let's jump right into it.
+But the truth is in details, so let's dive in.
 
 ## LinkedIn
 
@@ -94,10 +94,10 @@ Another offline model to compliment CF is so-called "Response Prediction". It ta
 
 **🔁Validation:** Using AUC for offline validation as well as click/apply rates for the online experiments.
 
-**🎬Production:** offline two-stage ranking strategy:
+**🎬Production:** offline two-stage ranking strategy.
 
-* searching in Lucene using user and item features to generate 1000 candidates
-* ranking candidates using full GLMix model
+1. storing courses features in Lucene, using user features to generate 1000 candidates
+2. ranking candidates using full GLMix model
 
 ### LinkedIn Jobs
 
@@ -126,11 +126,17 @@ Now you know when to stop waiting for the recruiter's response ⏳.
 * global model his updated once every few weeks
 * initializing weights with existing values to reduce the training time
 
+You can see that features of your profile play a very important role when you are searching for a job, so if you are looking for something specific, **make sure to include the relevant signals into your profile at least a couple of days before.**
+
 ## Avito
 
-![avito]({{ site.url }}{{ site.baseurl }}/assets/newsletter/avito.png){: class="thumbnail-img" width="120" height="auto"} A very [important and thoughtful article](https://habr.com/ru/company/avito/blog/491942/){: target="_blank"} (sorry, in Russian) from our friends at Avito. And their approach takes a bit different direction. What if instead of learning personalized recommendations we'd try to optimize for the item similarity?
+![avito]({{ site.url }}{{ site.baseurl }}/assets/newsletter/avito.png){: class="thumbnail-img" width="120" height="auto"} A very [important and thoughtful article](https://habr.com/ru/company/avito/blog/491942/){: target="_blank"} (sorry, in Russian) from our friends at Avito. And their approach takes a bit different direction. What if instead of learning personalized recommendations we'd try to optimize for the **item similarity**?
 
-**🛢Data:** pairs of "similar" items. How to define similars? Items that were contacted (the best proxy for the transaction in classifieds) by a user with a time threshold between actions (8h for Avito). This gives 1s as a label. How to get 0s? Negative sampling from the items that were active at the platform during the time of contact but were not contacted by the user. Random sampling with a probability of an item being selected equals to a square root of a number of contacts that respected item got.
+**🛢Data:** pairs of "similar" items.
+
+How to define similars? Items that were "contacted" (the best proxy for the transaction in classifieds) by a user with a time threshold between actions (8h for Avito). This gives 1s as a label. How to get 0s? Negative sampling from the items that were active at the platform during the time of contact but were not selected by the user. 
+
+> Random sampling with a probability of an item being selected equals to a **square root of a number of contacts that this item got** (how popular the item was).
 
 **🚗Model:** item features are fed into the embedding layers with a dropout and 2 linear layers on top. **Item IDs are not included** into item features to allow model generalization.
 
@@ -145,16 +151,16 @@ Calculating scores for the positive sample and 4000 (the more — the better, co
 **🎬Production:**
 The model is re-trained once per 6 months. This works fine because item IDs are not included into training so new items can be embedded into the space just by their features. So new items get's represented in a space as soon as they are posted. Embeddings are stored in Sphinx search engine, which allows quite a fast vector search (p99 is under 200ms with 200k rpm, sharded by category).
 
-Worth noting that recommendations are used on both the item page (item-to-item) and the homefeed (user-to-item), with u2i recommendations coming from the similar items to the ones that user has seen recently.
+Recommendations are used on both the item page (item-to-item) and the homefeed (user-to-item), with user-to-item generated from the similar items to the ones that user has seen recently.
 
 ## Pinterest
 
 ![pinterest]({{ site.url }}{{ site.baseurl }}/assets/newsletter/pinterest.png){: class="thumbnail-img" width="120" height="auto"}
 And now — Pinterest. Another very thoughtful and pragmatic [piece from them](https://medium.com/pinterest-engineering/pinnersage-multi-modal-user-embedding-framework-for-recommendations-at-pinterest-bfd116b49475){: target="_blank"}.
 
-Here as well, the general idea is to embed users/items into some space. However, having a single vector for user works bad — no matter how good the network is it won't be able to represent all the user's clusters of interests. Another approach (the same as Avito takes above) is to represent a user via embeddings of the items that he is interested in. But averaging works bad for the longer-term user interests (e.g. paintings and shoes average to a salad). The solution?
+Here as well, the general idea is to embed users/items into some space. However, having a single vector for user works bad — no matter how good the network is it won't be able to represent all the clusters of user's interests. Another approach (the same as Avito takes above) is to represent **a user via embeddings of items** that he is interested in. But averaging of embeddings works bad for the longer-term user interests (e.g. paintings and shoes average to a salad). The solution?
 
-Run **item clustering** on the user's actions and take **medoids** (like centroids, but should be an existing item) from the 3 most important clusters (3 is a sweet spot for the performance/diversity trade off). Find similar items to those 3. Using medoids instead of cluster averages also **improves the caching** of the solution.
+Run **clustering** on the user's actions and take **medoids** (like centroids, but should be an existing item) from the most important clusters. Find similar items to those medoids.
 
 **🛢Data:** users’ action pins from the last 90 days.
 
@@ -162,8 +168,8 @@ Run **item clustering** on the user's actions and take **medoids** (like centroi
 
 **🔁Validation:** a very thorough approach to the evaluation process, highly recommend to check out more in the [paper](https://arxiv.org/pdf/2007.03634.pdf){: target="_blank"}.
 
-* Get the user's 3-month important clusters of items and their medoids.
-* Get 400 closest items to these embeddings.
+* Cluster user's actions rank clusters by importance.
+* Get 400 closest items to the medoids of these clusters.
 * Calculate **relevance:** the proportion of observed action pins that have high cosine similarity (≥0.8) with any recommended pin.
 * And **recall:** the proportion of action pins that are found in the recommendation set.
 * Test batches are calculated in the chronological order, day by day, simulating the production setup.
@@ -179,27 +185,31 @@ Served using a classical [lambda architecture](https://en.wikipedia.org/wiki/Lam
 > 1. Daily Batch Inference: PinnerSage is run daily over the **last 90 day actions** of a user on a MapReduce cluster. The output of the daily inference job (list of medoids and their importance) are served online in key-value store.
 > 2. Lightweight Online Inference: We collect the **most recent 20 actions** of each user on the latest day (after the last update to the entry in the key-value store) for online inference. PinnerSage uses a real-time event-based streaming service to consume action events and update the clusters initiated from the key-value store.
 >
-> In practice, the system optimization plays a critical role in enabling the productionization of PinnerSage.
+> **In practice, the system optimization plays a critical role in enabling the productionization of PinnerSage.**
 
 ## Coveo
 
 ![coveo]({{ site.url }}{{ site.baseurl }}/assets/newsletter/coveo.png){: class="thumbnail-img" width="120" height="auto"}
 
-Ok, item embeddings are great. But how about transfer learning for them? Wait, what? The thing is that many companies are actually multi-brand groups having more than one brand.
+Ok, item embeddings are great. But how about transfer learning for them? Wait, what? The thing is that many companies are actually multi-brand groups having more than one website.
 
-Training embeddings for similar products in different shops will produce spaces which are not immediately comparable. Is there a way to mitigate this?
+Training embeddings for similar products in different shops will produce spaces which are not comparable. Is there a way to mitigate this? You bet there is.
 
-**🛢Data:** the best part is that you don't need tons of data to start experimenting with such approaches. All you need is data on how users interacted with products in sessions to build product spaces. Then product features come handy (text attributes, prices, images, etc.). Having cross-shop data valuable later but not strictly necessary.
+**🛢Data:** the best part is that you don't need tons of data. All you need is data on how users interacted with products within sessions to build product spaces. After that, product features will come handy (text attributes, prices, images, etc.) to align spaces. Having **cross-shop data** is valuable later but not strictly necessary.
 
-**🚗Model:** product embeddings are trained using CBOW with negative sampling, by swapping the concept of words in a sentence with products in a browsing session. So this is not the fanciest architecture for item embeddings — check the Avito implementation above for a more sophisticated approach.
+**🚗Model:** product embeddings are trained using CBOW with negative sampling, by swapping the concept of words in a sentence with products in a browsing session. This is not the fanciest architecture for item embeddings — check the Avito implementation above for a more sophisticated approach.
 
-More interestingly though is a task to align product spaces. It's different from aligning spaces for languages, mainly, because some products are intristically different. Coveo tested a couple of different models. But generally, starting with some unsupervised approach, such as pairing by item features, images, etc. This helps in finding the initial mapping function. Later on, adjusting the space alignment by learning from user interactions with the items in both spaces.
+More interestingly though is a task to **align product spaces**. It's different from aligning spaces for languages, mainly, because languanes are guaranteed to have similiar concepts, while for some products it's not necesseraly true. Coveo has tried different models, but the general approach is:
 
-**🔁Validation:** for the product embeddings model evaluation is done using the leave-one-out approach and by predicting the Nth interactions from the 0..N-1 items. Embeddings are averaged for those items and the nearest neighbor search is done to predict the last item. NDCG@10 is used on the search result. Worth noting that this approach works for the short-lived sessions or specialized shops, while for sessions with multiple intents averaging might produce really weird results (see Pinterest case above).
+1. Start with some unsupervised approach, such as pairing by item features, images, etc. This helps finding the initial mapping function.
+2. Later, adjust the space alignment by learning from user interactions with the items in different spaces.
 
-**🎬Production**: their goal was to run experiments to prove the value of the aligned embeddings. Though in the paper there is also a diagram of a data ingestion pipeline, for those willing to check.
+**🔁Validation:** for the product embeddings model evaluation is done using the leave-one-out approach and by predicting the Nth interactions from the 0..N-1 items: rmbeddings are averaged for 0..N-1 items and the nearest neighbor search is done to predict the Nth item. NDCG@10 is used on the search result.
 
-They run 2 experiments. In both, the idea was to use intent from one shop and aligned embeddings to
+> Worth noting that this approach works for the short-lived sessions or specialized shops, while for sessions with multiple intents averaging might produce really weird results (see the Pinterest case above).
+{: .thought}
+
+**🎬Production**: they run 2 experiments. In both, the idea was to use intent from one shop and aligned embeddings to
 
 * predict the user's next action
 * predict the best query in the search autocomplete
