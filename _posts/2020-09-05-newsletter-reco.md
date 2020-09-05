@@ -4,7 +4,7 @@ title: "💆‍♀️ State of Recommendations"
 description: "Embeddings. Users through products. How LinkedIn recommends jobs and how Pinterest clusters your interests."
 image:
   path: /assets/newsletter/reco.png
-date: 2020-09-05
+date: 2020-09-06
 category: data-meets-product
 toc: true
 ---
