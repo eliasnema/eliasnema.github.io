@@ -224,9 +224,10 @@ References:
 2. [LinkedIn's Learning Recommendations Part 2](https://engineering.linkedin.com/blog/2020/course-recommendations-ai-part-two){: target="_blank"}
 3. [LinkedIn's Neural Collaborative Filtering](https://arxiv.org/pdf/1708.05031.pdf){: target="_blank"}
 4. [LinkedIn's Generalized Linear Mixed Models](https://www.kdd.org/kdd2016/papers/files/adf0562-zhangA.pdf){: target="_blank"}
-5. Avito's [article](https://habr.com/ru/company/avito/blog/491942/){: target="_blank"}
-6. Pinterest's [article](https://medium.com/pinterest-engineering/pinnersage-multi-modal-user-embedding-framework-for-recommendations-at-pinterest-bfd116b49475){: target="_blank"}
-7. Pinterest's [paper](https://arxiv.org/pdf/2007.03634.pdf){: target="_blank"}
-8. Coveo's blog posts: [one](https://blog.coveo.com/multi-brand-personalization-in-ecommerce/){: target="_blank"}, [two](https://blog.coveo.com/clothes-in-space-real-time-personalization-in-less-than-100-lines-of-code/){: target="_blank"}
-9. Coveo's [paper](https://blog.coveo.com/multi-brand-personalization-in-ecommerce/){: target="_blank"}
-10. [Intro to recommendations](https://developers.google.com/machine-learning/recommendation/dnn/softmax#can-you-use-item-features){: target="_blank"} by Google
+5. [LinkedIn Jobs' article](https://engineering.linkedin.com/blog/2020/quality-matches-via-personalized-ai){: target="_blank"}
+6. Avito's [article](https://habr.com/ru/company/avito/blog/491942/){: target="_blank"}
+7. Pinterest's [article](https://medium.com/pinterest-engineering/pinnersage-multi-modal-user-embedding-framework-for-recommendations-at-pinterest-bfd116b49475){: target="_blank"}
+8. Pinterest's [paper](https://arxiv.org/pdf/2007.03634.pdf){: target="_blank"}
+9. Coveo's blog posts: [one](https://blog.coveo.com/multi-brand-personalization-in-ecommerce/){: target="_blank"}, [two](https://blog.coveo.com/clothes-in-space-real-time-personalization-in-less-than-100-lines-of-code/){: target="_blank"}
+10. Coveo's [paper](https://blog.coveo.com/multi-brand-personalization-in-ecommerce/){: target="_blank"}
+11. [Intro to recommendations](https://developers.google.com/machine-learning/recommendation/dnn/softmax#can-you-use-item-features){: target="_blank"} by Google
