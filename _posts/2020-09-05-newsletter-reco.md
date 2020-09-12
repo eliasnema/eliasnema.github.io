@@ -15,7 +15,7 @@ toc: true
 
 > 🚨 The last 3 weeks were really sad for the Belarus. Independent of your political views I encourage checking out news on the situation there. 🚨
 
-On the data side, we've got an explosion of relatively fresh articles about **recommenders**. This is going to be a lengthy piece covering 6 articles, 4 papers and demonstrating trends happening in the field of applied recsys. Cases below will be structured as follows: `🌅Overview -> 🛢Data -> 🚗Model -> 🔁Validation -> 🎬Production.` I prefer not to focus too much on the reported results because they are always relative to the previous baselines and cannot be used outside of the context.
+On the data side, we've got an explosion of relatively fresh articles about **recommenders**. This is going to be a lengthy piece covering 6 articles, 4 papers and demonstrating trends happening in the field of applied RecSys. Cases below will be structured as follows: `🌅Overview -> 🛢Data -> 🚗Model -> 🔁Validation -> 🎬Production.` I prefer not to focus too much on the reported results because they are always relative to the previous baselines and cannot be used outside of the context.
 
 Here is my summary of the trends, so that you don’t need to scroll to the end:
 
@@ -92,11 +92,11 @@ Another offline model to compliment CF is so-called "Response Prediction". It ta
 
 > We are currently working on a model ensemble that can perform personalized blending of Response Prediction and Neural CF models to improve the overall performance on the final recommendation task. Secondly, we also plan to adopt Attention Models into our Neural CF framework for learner profiling, i.e., assigning attention weights to a learner’s course watch history to capture long term and short term interests in a more effective manner.
 
-**🔁Validation:** Using AUC for offline validation as well as click/apply rates for the online experiments.
+**🔁Validation:** AUC for offline validation as well as click/apply rates for the online experiments.
 
 **🎬Production:** offline two-stage ranking strategy.
 
-1. storing courses features in Lucene, using user features to generate 1000 candidates
+1. storing courses and their features in Lucene, after, using features of users to generate 1000 candidates for each
 2. ranking candidates using full GLMix model
 
 ### LinkedIn Jobs
@@ -107,7 +107,7 @@ In their [next article,](https://engineering.linkedin.com/blog/2020/quality-matc
 
 **Goal**: to predict the probability of a positive recruiter action, conditional on a given member applying to a given job.
 
-**🛢Data**: How to identify if a signal is negative (have someone not replied because of lack of interest or because he is processing other candidates)?
+**🛢Data**: how to identify if a signal is negative (have someone not replied because of lack of interest or because he is processing other candidates)?
 > We make the negatives conclusive if no engagement is seen after 14 days. However, if a recruiter responds to other applications submitted later, we may infer the negative label earlier.
 
 Now you know when to stop waiting for the recruiter's response ⏳.
@@ -118,7 +118,7 @@ Now you know when to stop waiting for the recruiter's response ⏳.
 
 > We used linear models for fm and fj, but one **can use any model in the above formulation as long as the produced scores are calibrated to output log-odds** (for example, a neural net). Usually, linear models are sufficient as per-member and per-job components, as individual members and individual jobs **do not have enough interactions** to train more complex non-linear models.
 
-**🔁Evaluation**: AUC and NDCG are used.
+**🔁Validation**: AUC and NDCG are used.
 
 **🎬Production**:
 
@@ -138,15 +138,15 @@ How to define similars? Items that were "contacted" (the best proxy for the tran
 
 > Random sampling with a probability of an item being selected equals to a **square root of a number of contacts that this item got** (how popular the item was).
 
-**🚗Model:** item features are fed into the embedding layers with a dropout and 2 linear layers on top. **Item IDs are not included** into item features to allow model generalization.
+**🚗Model:** item features are fed into the embedding layers with a dropout and 2 linear layers on top. **Item IDs are not included** into item features to allow for model generalization.
 
 > The last layer is tanh to transform the output into the [-1, 1] range and **multiply by 128** later to fit into the INT8 to save memory in serving.
 
-Calculating scores for the positive sample and 4000 (the more — the better, constraint the GPU memory) negative samples for each pair. Taking highest scores from the negatives (top 100 wrongly predicted items) and computing the log-loss.
+Calculating scores for the positive sample and 4000 (the more — the better, constraint of the GPU memory) negative samples for each pair. Taking highest scores from the negatives (top 100 wrongly predicted items) and computing the log-loss.
 
 > Learning only from the top 100 wrong predictions allows to **save on training time without loosing the accuracy**.
 
-**🔁Validation:** Time-based split, with **omitting 6 months** of data between training and validation. This is done to see how model will behave after 6 months of not training.
+**🔁Validation:** precision at 8 is calculated on a test set. Time-based split, with **omitting 6 months** of data between training and validation. This is done to see how model will behave after 6 months of not training.
 
 **🎬Production:**
 The model is re-trained once per 6 months. This works fine because item IDs are not included into training so new items can be embedded into the space just by their features. So new items get's represented in a space as soon as they are posted. Embeddings are stored in Sphinx search engine, which allows quite a fast vector search (p99 is under 200ms with 200k rpm, sharded by category).
@@ -158,7 +158,7 @@ Recommendations are used on both the item page (item-to-item) and the homefeed (
 ![pinterest]({{ site.url }}{{ site.baseurl }}/assets/newsletter/pinterest.png){: class="thumbnail-img" width="120" height="auto"}
 And now — Pinterest. Another very thoughtful and pragmatic [piece from them](https://medium.com/pinterest-engineering/pinnersage-multi-modal-user-embedding-framework-for-recommendations-at-pinterest-bfd116b49475){: target="_blank"}.
 
-Here as well, the general idea is to embed users/items into some space. However, having a single vector for user works bad — no matter how good the network is it won't be able to represent all the clusters of user's interests. Another approach (the same as Avito takes above) is to represent **a user via embeddings of items** that he is interested in. But averaging of embeddings works bad for the longer-term user interests (e.g. paintings and shoes average to a salad). The solution?
+Here as well, the general idea is to embed users/items into some space. However, having a single vector for user works bad — no matter how good the network is it won't be able to represent all the clusters of user's interests. Another approach (the same as Avito takes above) is to represent **a user via embeddings of items** that he is interested in. But averaging of embeddings works bad for the longer-term user interests (e.g. [paintings and shoes average to a salad](https://miro.medium.com/max/1400/0*KB50oLyVlnzoGuen){: target="_blank"}). The solution?
 
 Run **clustering** on the user's actions and take **medoids** (like centroids, but should be an existing item) from the most important clusters. Find similar items to those medoids.
 
@@ -168,8 +168,8 @@ Run **clustering** on the user's actions and take **medoids** (like centroids, b
 
 **🔁Validation:** a very thorough approach to the evaluation process, highly recommend to check out more in the [paper](https://arxiv.org/pdf/2007.03634.pdf){: target="_blank"}.
 
-* Cluster user's actions rank clusters by importance.
-* Get 400 closest items to the medoids of these clusters.
+* Cluster user's actions and rank clusters by importance.
+* Get 400 closest items to the medoids of the most important clusters.
 * Calculate **relevance:** the proportion of observed action pins that have high cosine similarity (≥0.8) with any recommended pin.
 * And **recall:** the proportion of action pins that are found in the recommendation set.
 * Test batches are calculated in the chronological order, day by day, simulating the production setup.
@@ -204,17 +204,17 @@ More interestingly though is a task to **align product spaces**. It's different 
 1. Start with some unsupervised approach, such as pairing by item features, images, etc. This helps finding the initial mapping function.
 2. Later, adjust the space alignment by learning from user interactions with the items in different spaces.
 
-**🔁Validation:** for the product embeddings model evaluation is done using the leave-one-out approach and by predicting the Nth interactions from the 0..N-1 items: rmbeddings are averaged for 0..N-1 items and the nearest neighbor search is done to predict the Nth item. NDCG@10 is used on the search result.
+**🔁Validation:** for the product embeddings model evaluation is done using the leave-one-out approach and by predicting the Nth interactions from the 0..N-1 items: embeddings are averaged for 0..N-1 items and the nearest neighbor search is done to predict the Nth item. NDCG@10 is used on the search result.
 
 > Worth noting that this approach works for the short-lived sessions or specialized shops, while for sessions with multiple intents averaging might produce really weird results (see the Pinterest case above).
 {: .thought}
 
-**🎬Production**: they run 2 experiments. In both, the idea was to use intent from one shop and aligned embeddings to
+**🎬Production**: they run 2 experiments. In both, the idea was to use an intent from one shop and aligned embeddings to
 
 * predict the user's next action
 * predict the best query in the search autocomplete
 
-Both eperiments have proven the potential behind the approach and I'll be paying a close attention to the area of transfer learning for product embeddings in the future.
+Both experiments have proven the potential behind the approach and I'll be paying a close attention to the area of transfer learning for product spaces in the future.
 
 ---
 <br/>
