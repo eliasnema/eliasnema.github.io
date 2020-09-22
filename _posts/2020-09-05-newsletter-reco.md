@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "💆‍♀️ State of Recommendations"
+title: "🔮 State of Recommendations"
 description: "Embeddings. Users through products. How LinkedIn recommends jobs and how Pinterest clusters your interests."
 image:
   path: /assets/newsletter/reco.png
