@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "⚖️ Democracy and ⚡ Efficiency [weekly explorations]"
-description: "The AI has already proven to work well for many tasks related that were not possible to tackle with computers before. Now it's entered the scaling phase."
+description: "The AI has already proven to work well for many tasks that were not possible to tackle with computers before. Now we've entered the scaling phase."
 image:
   path: /assets/newsletter/2020-09-29-bert-browser.png
 date: 2020-09-29
