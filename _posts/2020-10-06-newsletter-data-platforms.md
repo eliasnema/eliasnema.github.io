@@ -15,7 +15,7 @@ toc: true
 
 What's the history of data-intensive applications and how did we end in a state where machines can classify cats better than us?
 
-### [Soft/Hard]ware History through the Lense of AI
+### [Soft/Hard]ware History through the Lens of AI
 
 An [interesting take at the history](https://hardwarelottery.github.io/){:target="_blank"} of hardware-software intersection through the lens of AI applications. Here are some things I found particularly fascinating:
 
