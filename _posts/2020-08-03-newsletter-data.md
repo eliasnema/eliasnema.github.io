@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "🛢 Data [weekly explorations]"
+title: "🛢 Data [data meets product]"
 description: "Metadata, Medical Data and TF.Data"
 image:
   path: /assets/newsletter/db.png
@@ -11,7 +11,7 @@ toc: true
 * TOC
 {:toc}
 
-## Metadata, Medical Data and TF.Data 
+## Metadata, Medical Data and TF.Data
 
 ![data]({{ site.url }}{{ site.baseurl }}/assets/newsletter/db.png){: class="thumbnail-img"}
 
@@ -20,15 +20,16 @@ This week turned out to be about data, can you imagine? There were announcements
 ## 🩺 AI in Medicine
 
 Highly recommend the [Data Futurology podcast](https://www.datafuturology.com/podcast/2020/7/14/127-reinventing-prostate-cancer-testing-with-ai-from-development-to-regulation-to-production-with-elliot-smith-ceo-amp-founder){:target="_blank"} about what it takes to build an AI company in the medical sphere. Many interesting things, but what it takes to build real-world datasets in the wild is always worth hearing:
-* “There is a lot of differences in medical data — if you did MRIs in two different centres, you cannot just take data from both of them and use it.”
+
+* “There is a lot of differences in medical data — if you did MRIs in two different centers, you cannot just take data from both of them and use it.”
 * “Another under-appreciated aspect of building a lot of real-world AI applications, where, unlike kaggle, nobody’s got a 100 thousand in a nicely organized folder... Sometimes only having data for 10 patients at a time, scans coming on CDs, 1 at a time.”
 
 > “As much as our system involves AI and image processing there is probably just as much if not more work in around data standardization, data cleanliness and manual intervention into data.”
 
-* 2.5 years (from 5!) were spent on building a political relationship (with doctors), gathering data piece by piece, later building integrations with existing systems. 
+* 2.5 years (from 5!) were spent on building a political relationship (with doctors), gathering data piece by piece, later building integrations with existing systems.
 * “The best results were coming from building a relationship with individual doctors.”
 
-To sum it up, I think that data gathering relationship building is **the new sales**. Building a company that relies on data you are as good as your the number of data providers you've built a relationship with.
+To sum it up, I think that data gathering relationship building is **the new sales**. Building a company that relies on data, you are as good as the number of data providers you've built a relationship with.
 
 ## 📼 Metadata
 
@@ -39,7 +40,7 @@ Two of the big players have released something about their metadata solutions. M
 * Their implementation uses Elasticseach and a graph database to provide search and data lineage respectively. GraphQL's Apollo as an API layer. Quite a standard stack. Similar to e.g. [this one](https://lyft.github.io/amundsen/architecture/){:target="_blank"}.
 * Other than that, from the screenshots it looks like it does what it should and looks very much like similar systems. However, a quote from the article explaining why it's generally hard to reuse existing solutions:
 
->Every organization’s data stack is different. While some upstream processes can be standardized and catalogued appropriately, the business context of downstream processes creates a wide distribution of requirements that are near impossible to satisfy with a one-size-fits-all solution.
+>Every organization’s data stack is different. While some upstream processes can be standardized and cataloged appropriately, the business context of downstream processes creates a wide distribution of requirements that are near impossible to satisfy with a one-size-fits-all solution.
 
 ### Stripe and Privacy
 
@@ -52,8 +53,9 @@ A collection of [data discovery articles](https://github.com/eugeneyan/applied-m
 ## 🖇 Tensorflow 2.3
 
 Ironically the [latest TensorFlow release](https://blog.tensorflow.org/2020/07/whats-new-in-tensorflow-2-3.html){:target="_blank"} is also about data. Two of the main additions to the help make preprocessing smoother. I think preprocessing may very well be the most overlooked step and improving it is hugely beneficial.
-- **td.data.snapshot**: allows you to run the preprocessing pipeline once, save the output and play with parameter optimization on top of that. Read more details in the [RFC](https://github.com/tensorflow/community/blob/master/rfcs/20200107-tf-data-snapshot.md){:target="_blank"}.
-- **[Preprocessing layer API](https://www.tensorflow.org/api_docs/python/tf/keras/layers/experimental/preprocessing?version=nightly){:target="_blank"}**: package preprocessing logic inside a model for easier deployment.
+
+* **td.data.snapshot**: allows you to run the preprocessing pipeline once, save the output and play with parameter optimization on top of that. Read more details in the [RFC](https://github.com/tensorflow/community/blob/master/rfcs/20200107-tf-data-snapshot.md){:target="_blank"}.
+* **[Preprocessing layer API](https://www.tensorflow.org/api_docs/python/tf/keras/layers/experimental/preprocessing?version=nightly){:target="_blank"}**: package preprocessing logic inside a model for easier deployment.
 
 ---
 <br/>

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "⚖️ Democracy and ⚡ Efficiency [weekly explorations]"
+title: "⚖️ Democracy and ⚡ Efficiency [data meets product]"
 description: "The AI has already proven to work well for many tasks that were not possible to tackle with computers before. Now we've entered the scaling phase."
 image:
   path: /assets/newsletter/2020-09-29-bert-browser.png
@@ -28,7 +28,7 @@ This one is huge for the RecSys community. Google adds recommendations package i
 
 This also involves [Maciej Kula](https://twitter.com/maciej_kula?lang=en){:target="_blank"}, author of a couple of hugely popular reco libraries: [LightFM](https://github.com/lyst/lightfm){:target="_blank"} and [Spotlight](https://github.com/maciejkula/spotlight){:target="_blank"}. So it promises to be a very elegant API.
 
-And you can see how easy it is to create even a [multitask system](https://www.tensorflow.org/recommenders/examples/multitask). Here is a code snippet to define two learning tasks, one to predict ratings, another to predict the amount of relevant movies:
+And you can see how easy it is to create even a [multitask-system](https://www.tensorflow.org/recommenders/examples/multitask). Here is a code snippet to define two learning tasks, one to predict ratings, another to predict the amount of relevant movies:
 
 ```python
 tfrs.tasks.Ranking(

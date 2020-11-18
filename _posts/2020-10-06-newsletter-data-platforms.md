@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "📜 Data History [weekly explorations]"
+title: "📜 Data History [data meets product]"
 description: "What's the history of data-intensive applications and how did we end in a state where machines can classify cats better than us?"
 image:
   path: /assets/newsletter/2020-10-06-ml-history-start.png
@@ -24,9 +24,9 @@ An [interesting take at](https://hardwarelottery.github.io/){:target="_blank"} a
 * Computing started with **single-purpose** machines.
 * Then, in 1969, the general-purpose era began. This meant any move for the application-specific hardware was economically unfeasible because the **performance benefit would fade away** within 1-2 years with an ever-increasing number of transistors.
 
-> The few attempts to deviate and produce specialized supercomputers for research were financially unsustainable and short lived.
+> The few attempts to deviate and produce specialized supercomputers for research were financially unsustainable and short-lived.
 
-* However, there was a silver lining for specialized hardware. **Von Neumann Bottleneck** — the available compute is restricted by “the lone channel between the CPU and memory along which data has to travel sequentially". Hence, in 2000s GPUs were repurposed to be used with ML applications.
+* However, there was a silver lining for specialized hardware. **Von Neumann Bottleneck** — the available compute is restricted by “the lone channel between the CPU and memory along which data has to travel sequentially”. Hence, in the 2000s GPUs were repurposed to be used with ML applications.
 * In 2012 Google [used **16,000 CPU cores to classify cats**](https://arxiv.org/abs/1112.6209). In a year, the same task [was completed with only **2 CPU cores and 4 GPUs**](http://proceedings.mlr.press/v28/coates13.html).
 * Hardware is only economically viable if the lifetime of the use case **lasts more than three years**. Hence, it already makes sense to build specific hardware for matrix multiplication for quite some time. Next come the unstructured sparsity and weight-specific quantization (what GPU manufacturers [are recently doing](https://developer.nvidia.com/blog/nvidia-ampere-architecture-in-depth/){:target="_blank"}).
 * The rate of return for additional parameters is decreasing (e.g. Inception V3/ V4: **21.8 vs 41.1 million parameters, 78.8 vs 80 % accuracy**).
@@ -38,7 +38,7 @@ No Hadoop, no AWS — barbarian days. Check out the [full timeline here](https:/
 
 ![ml-history-start]({{ site.url }}{{ site.baseurl }}/assets/newsletter/2020-10-06-ml-history-start.png)
 
-### Is Data Hype Real?
+### Is Data Hype Real
 
 [Another article](https://medium.com/northzone/unpacking-the-data-hype-8c3a0ae63564) looking at different branches developed in a field of modern data processing. Describes prominent players in areas of data pipelines, catalogs, collaboration and quality.
 
@@ -54,7 +54,7 @@ Yearly [state of the AI report](https://www.stateof.ai/){:target="_blank"}. Here
 * Corporate-driven academic **brain drain**
 * **US and China** lead the AI research
 * Specialized hardware investments (see the hardware lottery article above). **Semiconductor companies** become more and more important.
-* Two **wrong arrests** using facial recognition
+* Two **wrong arrests** using facial recognition.
 
 ## ML Ops
 
@@ -69,6 +69,6 @@ Microsoft continues to do an amazing job for the ML community. Now with the GitH
 
 Much of the difficulty in maintaining an ML system comes from data drift. [WhyLogs](https://medium.com/whylabs/whylogs-embrace-data-logging-a9449cd121d){:target="_blank"} calculates approximate statistics for datasets of any size up to TB-scale. Available in both Python and Java.
 
-Here is an data distribution over time from the [example](https://www.notion.so/771525fbe58c4151a79e8711a99f0fab){:target="_blank"} walkthrough:
+Here is a data distribution over time from the [example](https://www.notion.so/771525fbe58c4151a79e8711a99f0fab){:target="_blank"} walkthrough:
 
 ![why-logs]({{ site.url }}{{ site.baseurl }}/assets/newsletter/2020-10-06-why-logs.png)

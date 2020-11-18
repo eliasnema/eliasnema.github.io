@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "📹 Tensorflow.js, AI in Video and Analytics [weekly explorations]"
+title: "📹 Tensorflow.js, AI in Video and Analytics [data meets product]"
 description: "What can you do with ML in a modern browser? Generating realistic footage of tennis matches. Analytical cultures for the grown-ups."
 image:
   path: /assets/newsletter/2020-09-22-analytics-netflix.png
