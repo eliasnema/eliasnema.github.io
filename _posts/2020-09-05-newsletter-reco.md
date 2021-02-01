@@ -15,7 +15,7 @@ toc: true
 
 > 🚨 The last 3 weeks were really sad for the Belarus. Independent of your political views I encourage checking out news on the situation there. 🚨
 
-On the data side, we've got an explosion of relatively fresh articles about **recommenders**. This is going to be a lengthy piece covering 6 articles, 4 papers and demonstrating trends happening in the field of applied RecSys. Cases below will be structured as follows: `🌅Overview -> 🛢Data -> 🚗Model -> 🔁Validation -> 🎬Production.` I prefer not to focus too much on the reported results because they are always relative to the previous baselines and cannot be used outside of the context.
+On the data side, we've got an explosion of relatively fresh articles about **recommenders**. This is going to be a lengthy piece covering 6 articles, 4 papers and demonstrating trends happening in the field of applied RecSys. Cases below will be structured as follows: `🌅Overview -> 🛢Data -> 🚗Model -> 🔁Validation -> 🎬Production.` I prefer not to focus too much on the reported results because they are always relative to the previous baselines and cannot be used outside the context.
 
 Here is my summary of the trends, so that you don’t need to scroll to the end:
 
@@ -23,7 +23,7 @@ Here is my summary of the trends, so that you don’t need to scroll to the end:
 
 > * Starting back in the days with a timeless classic of recsys — matrix factorization, it's now hard to find a system without some kind of **neural nets, embedding spaces or sequential models.**
 > * Serving has also moved to more **real-time** architectures and dynamic **re-rankers.** Not to mention that generally, the focus now is **much more on the system as a whole**, rather than just a modeling part.
-> * Moving from relying mostly on explicit ratings to incorporating different **implicit** signals and giving them weights. Hence, also the **regression->classification** shift.
+> * Moving from relying mostly on explicit ratings to incorporating different **implicit** signals and giving them weights. Hence, also the **regression→classification** shift.
 > * On the **item side** pretty much every one converged to building embeddings to optimize for the product similarity.
 > * On the **user side,** however, representations vary depending on the use case and business model.
 {: .thought}
@@ -51,7 +51,7 @@ Pros/cons of CF are well-known and LinkedIn didn't escape them. Here is their re
 > I think recency and diversity are the most interesting points here.
 >
 >* **Recency:** generally, CF doesn't give preference for the recent items unless implemented with some kind of time decay or position-aware component in the model.
->* **Diversity:** in e-commerce, CF often **reduces** diversity because of the rich-get-richer effect. And here, probably, due to the fact that the course catalogue is not that big and that every person can take any course, it actually increases it.
+>* **Diversity:** in e-commerce, CF often **reduces** diversity because of the rich-get-richer effect. And here, probably, due to the fact that the course catalog is not that big and that every person can take any course, it actually increases it.
 {: .thought}
 
 **🛢Data:** course watch history data with a watch-time threshold (if a learner only watches the first three seconds of a course, it's not included).

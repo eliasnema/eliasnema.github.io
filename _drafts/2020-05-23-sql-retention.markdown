@@ -29,9 +29,9 @@ coh_size AS (
     SELECT cohort_date, count(*) AS coh_size FROM cohorts GROUP BY 1
 ),
 retention AS (
-    SELECT c.cohort_date,
-           (h.server_date - c.server_date) / 60 / 60 / 24 AS ret,
-           APPROXIMATE COUNT(DISTINCT c.session_long)     AS day_n_cnt
+    SELECT coh.cohort_date,
+           date_diff('day', coh.cohort_date, event_date)  AS return_day,
+           APPROXIMATE COUNT(DISTINCT coh.user_id)        AS day_n_cnt
     FROM cohorts coh
         LEFT JOIN clickstream_data cd ON (
             coh.cohort_date >=cd.event_date

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "📜 Data History [data meets product]"
+title: "📜 History (of Data Platforms and Apps) [data meets product]"
 description: "What's the history of data-intensive applications and how did we end in a state where machines can classify cats better than us?"
 image:
   path: /assets/newsletter/2020-10-06-ml-history-start.png
