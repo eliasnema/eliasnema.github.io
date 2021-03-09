@@ -11,11 +11,9 @@ toc: true
 * TOC
 {:toc}
 
-## Belarus
+# Recos
 
-> 🚨 The last 3 weeks were really sad for the Belarus. Independent of your political views I encourage checking out news on the situation there. 🚨
-
-On the data side, we've got an explosion of relatively fresh articles about **recommenders**. This is going to be a lengthy piece covering 6 articles, 4 papers and demonstrating trends happening in the field of applied RecSys. Cases below will be structured as follows: `🌅Overview -> 🛢Data -> 🚗Model -> 🔁Validation -> 🎬Production.` I prefer not to focus too much on the reported results because they are always relative to the previous baselines and cannot be used outside the context.
+There's been an explosion of relatively fresh articles about **recommenders**. This is going to be a lengthy piece covering 6 articles, 4 papers and demonstrating trends happening in the field of applied RecSys. Cases below will be structured as follows: `🌅Overview -> 🛢Data -> 🚗Model -> 🔁Validation -> 🎬Production.` I prefer not to focus too much on the reported results because they are always relative to the previous baselines and cannot be used outside the context.
 
 Here is my summary of the trends, so that you don’t need to scroll to the end:
 
