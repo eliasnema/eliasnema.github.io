@@ -137,6 +137,50 @@ img[src~="30%"] { width: 30%; }
   text-align: center;
 }
 
+#revue-embed {
+
+  border: black;
+}
+
+.revue-form-group {
+  font-style: italic;
+  text-align: center;
+}
+
+.revue-form-field {
+  font-size: medium;
+  padding: 12px 10px;
+  // color:#828282;
+
+}
+
+.revue-form-actions {
+  text-align: center;
+}
+
+.revue-submit-button {
+  background-color: #202020;
+  color: #eee;
+  border: none;
+  text-align: center;
+  font-weight: 500;
+  font-size: medium;
+  padding: 0.75rem 1.5rem;
+  border-radius: 0.5rem;
+  box-shadow: 2px 2px 0px darkcyan;
+}
+
+.revue-submit-button:hover {
+  cursor: pointer;
+  opacity: 0.9;
+}
+
+.revue-form-footer {
+  font-size: small;
+  text-align: center;
+  font-style: italic;
+}
+
 // Adding 'Contents' headline to the TOC
 #markdown-toc::before {
   content: "CONTENTS";
