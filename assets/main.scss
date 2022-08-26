@@ -34,6 +34,10 @@ a:visited {
   color: $a-visited-color;
 }
 
+.site-header {
+  border-top: 5px solid darkcyan;
+}
+
 .post-date {
   color: $a-color;
 }
@@ -168,6 +172,7 @@ img[src~="30%"] { width: 30%; }
   padding: 0.75rem 1.5rem;
   border-radius: 0.5rem;
   box-shadow: 2px 2px 0px darkcyan;
+  margin: 1rem;
 }
 
 .revue-submit-button:hover {
