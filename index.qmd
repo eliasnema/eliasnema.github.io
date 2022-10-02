@@ -9,8 +9,7 @@ listing:
   sort-ui: false
   filter-ui: false
   feed:
-    categories: 
-      - newsletter
+    categories: [newsletter]
 page-layout: article
 title-block-banner: true
 margin-header: subscribe.html

@@ -17,10 +17,10 @@ about:
 
 ---
 
-Hi, I'm Elias. Here I'm writing about analytics, e-commerce, machine learning, books, football, and random things. By day I'm working at Stripe. Before that, I led recommendations and personalisation at the OLX Group, worked on databases and analytical systems at EPAM, and worked in a startup manufactoring dispense and spray machines.
+Hi, I'm Elias. Here I'm writing about analytics, e-commerce, machine learning, books, football, and random things. By day I'm working at Stripe. Before that, I led recommendations and personalisation at the OLX Group, worked on databases and analytical systems at EPAM, and worked in a startup manufacturing dispense and spray machines.
 
 Things I'm also working on:
 
-- A book called "Hypothesize!"" about better ways of managing data products. You can pre-order it [here](https://gumroad.com/l/SSTiNM/kwfh1gn) at half price.
-- An occasional newsletter ["Data Meets Product"](https://www.getrevue.co/profile/eliasnema) focused on news about data applications.
+- A book, called "Hypothesize!", about better ways of managing data products. You can pre-order it [here](https://gumroad.com/l/SSTiNM/kwfh1gn) at half price.
+- An occasional newsletter - ["Data Meets Product"](https://eliasnema.com/#category=newsletter) - focused on news about data applications.
 - [Here](talks.qmd) are some of my talks.

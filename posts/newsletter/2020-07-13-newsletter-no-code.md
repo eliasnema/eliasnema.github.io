@@ -1,5 +1,5 @@
 ---
-title: "📵 No Code & ML Interns"
+title: "📵 No Code and ML Interns"
 author: "Elias Nema"
 date: "2020-07-13"
 categories: [newsletter]
