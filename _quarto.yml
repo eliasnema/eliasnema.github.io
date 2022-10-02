@@ -1,0 +1,30 @@
+project:
+  type: website
+
+website:
+  title: "ELIAS NEMA"
+  site-url: https://www.eliasnema.com
+  description: "Making data work: analytics, personalisation, relevance and recommender systems - whatever is takes."
+  favicon: favicon.ico
+  navbar:
+    right:
+      - talks.qmd
+      - about.qmd
+      - icon: github
+        href: https://github.com/
+      - icon: twitter
+        href: https://twitter.com
+      - icon: rss
+        href: index.xml
+format:
+  html:
+    theme:
+      - lumen
+      - custom.scss
+    css: styles.css
+    toc: true
+    toc-location: left
+    link-external-newwindow: true
+    fontsize: 1em
+    code-fold: true
+

@@ -1,0 +1,19 @@
+---
+title: "data meets product"
+subtitle: "Decoding trends in data and machine learning applications"
+listing:
+  contents: posts
+  sort: "date desc"
+  type: default
+  categories: true
+  sort-ui: false
+  filter-ui: false
+  feed:
+    categories: 
+      - newsletter
+page-layout: article
+title-block-banner: true
+margin-header: subscribe.html
+---
+
+
