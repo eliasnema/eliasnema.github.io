@@ -247,28 +247,28 @@
   {
     "objectID": "posts/newsletter/2020-07-13-newsletter-no-code.html",
     "href": "posts/newsletter/2020-07-13-newsletter-no-code.html",
-    "title": "📵 No Code & ML Interns",
+    "title": "📵 No Code and ML Interns",
     "section": "",
     "text": "Is no code the new oil or the old ETL? TikTok’s recommender and when to use machine learning."
   },
   {
     "objectID": "posts/newsletter/2020-07-13-newsletter-no-code.html#no-code",
     "href": "posts/newsletter/2020-07-13-newsletter-no-code.html#no-code",
-    "title": "📵 No Code & ML Interns",
+    "title": "📵 No Code and ML Interns",
     "section": "📵 No Code",
     "text": "📵 No Code\n\nWhen AWS launches a service, there is usually good economics behind it. Recently they’ve launched the no-code way to build simple mobile apps. It continues the trend started by Notion, Airtable and the likes of building your own productivity tools (of course, AWS is not competing against the Notion but rather against Microsoft Power Apps here). Spreadsheets for the new era.\nThe Russian design studio was using AI as one of their designers for more than a year. > ”This event marks the moment that the mass automation of creative processes becomes a reality for businesses.”\nMonkeyLearn raises 2.2M$ - not really no-code AI, rather NLP as a service. > “Our vision is to make AI approachable by providing a toolkit for teams to actually use AI in their daily operations,” Garreta said in a release.\nAdobe keeps investing in its Sensei AI platform adding seamless no code personalization and recommenders based on AL and ML, of course. Allows you to automatically A/B test different content variants and more.\n\n\n\n\nAutomatically Testing Multiple Onboarding Flows with Adobe Sensei"
   },
   {
     "objectID": "posts/newsletter/2020-07-13-newsletter-no-code.html#ml-applications",
     "href": "posts/newsletter/2020-07-13-newsletter-no-code.html#ml-applications",
-    "title": "📵 No Code & ML Interns",
+    "title": "📵 No Code and ML Interns",
     "section": "🎛 ML Applications",
     "text": "🎛 ML Applications\n\nFacebook will prioritize original reporting in the home feed. To identify originals it will look at how often the article is cited as … original.\nA nice launch on ProductHunt using GANs to generate models (real ones) for “photoshoots“. Even though the demo is far from perfect. But with the recent e-commerce rise, covid restrictions and all the shopify storefronts, this might be a promising direction. If the model (ML model, in this case) economy can be figured out.\nTikTok’s recommenders are apparently really good:\n\n\n\nAccording to my teenagers, Tiktok has by far the best personalized #RecSys they have used. Do we know anything about what they are doing?\n\n— Xavier Amatriain - 🌈💪🏿 (@xamat) July 13, 2020\n\n\nAnd my thread about their recent article about how their recommender works:\n\n\n#Tiktok has posted an article about their #recommendations system. There aren't too many details, but some interesting quotes on how they think about the problem space.(1/)https://t.co/Ou8LfBGjUe\n\n— Elias Nema (@EliasNema) July 2, 2020"
   },
   {
     "objectID": "posts/newsletter/2020-07-13-newsletter-no-code.html#why-ml-is-similar-to-interns",
     "href": "posts/newsletter/2020-07-13-newsletter-no-code.html#why-ml-is-similar-to-interns",
-    "title": "📵 No Code & ML Interns",
+    "title": "📵 No Code and ML Interns",
     "section": "👔 Why ML is Similar to Interns",
     "text": "👔 Why ML is Similar to Interns\nFinishing with an interesting tweet from Benedict Evans:\n\n\nI quite often describe machine learning as giving you infinite interns. This can be a useful way to look at how ML would affect a product: sometimes having infinite free interns to look at data for you wouldn’t actually solve your problems, and the struggle is something else.\n\n— Benedict Evans (@benedictevans) July 6, 2020\n\n\nI think this is a very good summary for execs who don’t have exposure to the topic. Or for product managers when thinking about prioritization. Very often people tend to forget that ML is about automation. Imagine, you have an amazing photo-artist, who can look at the photos you take, pick the best ones, adjust brightness here and there, suggest collages, design a photo book and send to you. This is an awesome service, but also a very expensive one. How about providing it to a billion people? Hence, Google Photos cannot compete with the quality of the artist but can provide the service to a billion customers. Same goes for recommendations: a good stylist can probably get you a fashionable outfit, but economics cannot beat the recsys approach (or it can if you are a boutique).\nOn the other hand, problems where many agents won’t help, such as: shall we launch in the new market, how will customers react to a new feature? These are non-scalable problems. And even if you can and should use data to make a conscious decision there, investing in the ML solution won’t bring benefits.\nToo often people confuse the need of scaling the decision (good for ML interns) with the need of taking a good decision from time to time (ML is of no use here)."
   },
