@@ -3,6 +3,7 @@ title: "data meets product"
 subtitle: "Decoding trends in data and machine learning applications"
 listing:
   contents: posts
+  fields: [image, title, description, author, reading-time]
   sort: "date desc"
   type: default
   categories: true
