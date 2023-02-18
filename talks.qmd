@@ -1,10 +1,12 @@
 ---
 title: "Talks"
-image: mandob.jpg
-
 ---
 
-You can find some of my talks below
+*You can find some of my talks below:*
+
+### Building Data-Intensive Teams @ [Berlin Buzzwords '21](https://2021.berlinbuzzwords.de/session/building-data-intensive-teams)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/yol9za6kqkk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ### Building Data-Intensive Teams @ [DataTalks.Club Conference: Product and Process](https://datatalks.club/events.html)
 
