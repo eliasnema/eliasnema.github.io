@@ -715,9 +715,9 @@ Blending humans and cartoons using <a href="https://twitter.com/Buntworthy?ref_s
 <p>Every organization’s data stack is different. While some upstream processes can be standardized and cataloged appropriately, the business context of downstream processes creates a wide distribution of requirements that are near impossible to satisfy with a one-size-fits-all solution.</p>
 </blockquote>
 </section>
-<section id="stripe-and-privacy" class="level3">
-<h3 class="anchored" data-anchor-id="stripe-and-privacy">Stripe and Privacy</h3>
-<p><a href="https://developer.squareup.com/blog/using-amundsen-to-support-user-privacy-via-metadata-collection-at-square/">Stripe is using</a> their <a href="https://lyft.github.io/amundsen/">Amundsen</a> metadata tool to increase focus on consumer privacy and better comply with GDPR and CCPA.</p>
+<section id="square-and-privacy" class="level3">
+<h3 class="anchored" data-anchor-id="square-and-privacy">Square and Privacy</h3>
+<p><a href="https://developer.squareup.com/blog/using-amundsen-to-support-user-privacy-via-metadata-collection-at-square/">Square is using</a> their <a href="https://lyft.github.io/amundsen/">Amundsen</a> metadata tool to increase focus on consumer privacy and better comply with GDPR and CCPA.</p>
 </section>
 <section id="other-companies" class="level3">
 <h3 class="anchored" data-anchor-id="other-companies">Other companies</h3>

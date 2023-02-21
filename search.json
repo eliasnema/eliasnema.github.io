@@ -214,7 +214,7 @@
     "href": "posts/newsletter/2020-08-03-newsletter-data.html#metadata",
     "title": "🛢 Data",
     "section": "📼 Metadata",
-    "text": "📼 Metadata\nTwo of the big players have released something about their metadata solutions. Many of the big players already have established solutions for a couple of years, with Shopify being the latest company to build their own.\n\nShopify’s Artifact\n\nTheir implementation uses Elasticseach and a graph database to provide search and data lineage respectively. GraphQL’s Apollo as an API layer. Quite a standard stack. Similar to e.g. this one.\nOther than that, from the screenshots it looks like it does what it should and looks very much like similar systems. However, a quote from the article explaining why it’s generally hard to reuse existing solutions:\n\n\nEvery organization’s data stack is different. While some upstream processes can be standardized and cataloged appropriately, the business context of downstream processes creates a wide distribution of requirements that are near impossible to satisfy with a one-size-fits-all solution.\n\n\n\nStripe and Privacy\nStripe is using their Amundsen metadata tool to increase focus on consumer privacy and better comply with GDPR and CCPA.\n\n\nOther companies\nA collection of data discovery articles."
+    "text": "📼 Metadata\nTwo of the big players have released something about their metadata solutions. Many of the big players already have established solutions for a couple of years, with Shopify being the latest company to build their own.\n\nShopify’s Artifact\n\nTheir implementation uses Elasticseach and a graph database to provide search and data lineage respectively. GraphQL’s Apollo as an API layer. Quite a standard stack. Similar to e.g. this one.\nOther than that, from the screenshots it looks like it does what it should and looks very much like similar systems. However, a quote from the article explaining why it’s generally hard to reuse existing solutions:\n\n\nEvery organization’s data stack is different. While some upstream processes can be standardized and cataloged appropriately, the business context of downstream processes creates a wide distribution of requirements that are near impossible to satisfy with a one-size-fits-all solution.\n\n\n\nSquare and Privacy\nSquare is using their Amundsen metadata tool to increase focus on consumer privacy and better comply with GDPR and CCPA.\n\n\nOther companies\nA collection of data discovery articles."
   },
   {
     "objectID": "posts/newsletter/2020-08-03-newsletter-data.html#tensorflow-2.3",
@@ -343,13 +343,6 @@
     "text": "Building Data-Intensive Teams @ Berlin Buzzwords ’21\n\n\n\n\nBuilding Data-Intensive Teams @ DataTalks.Club Conference: Product and Process\n\n\n\n\n\n Building Data-Intensive Teams  from Elias Nema\n\n\n\nWalking Around Your Nearest Neighbors @ Berlin Buzzwords | MICES | Haystack 2020\n\n\n\n\n\n Walking Around Your Nearest Neighbors with Lambda Architecture  from Elias Nema\n\n\n\nHypothesize your Way into Better Product Development @ Berlin Buzzwords | MICES | Haystack 2020\n\n\n\n\n\n Hypothesize your Way into Better Product Development  from Elias Nema"
   },
   {
-    "objectID": "privacy.html",
-    "href": "privacy.html",
-    "title": "PRIVACY",
-    "section": "",
-    "text": "The Flaguiz app stores data about your learning progress locally on the device. The data is not submitted to the internet and not shared with any 3rd parties. The app doesn’t collect or send any personal information.\nIf you have any questions or suggestions, do not hesitate to contact me at Elias Nema, 19 Dunluce, D04 E6V4 Dublin, Ireland, me@eliasnema.com"
-  },
-  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "ELIAS NEMA",
@@ -432,6 +425,13 @@
     "title": "Data Feed",
     "section": "",
     "text": "Title\n\n\nDate\n\n\n\n\n\n\nData Feed #2\n\n\nFeb 17, 2023\n\n\n\n\nData Feed #1\n\n\nFeb 10, 2023\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "privacy.html",
+    "href": "privacy.html",
+    "title": "ELIAS NEMA",
+    "section": "",
+    "text": "The Flaguiz app stores data about your learning progress locally on the device. The data is not submitted to the internet and not shared with any 3rd parties. The app doesn’t collect or send any personal information.\nIf you have any questions or suggestions, do not hesitate to contact me at Elias Nema, 19 Dunluce, D04 E6V4 Dublin, Ireland, me@eliasnema.com"
   },
   {
     "objectID": "blog.html",
