@@ -2,7 +2,7 @@
 title: "📹 Tensorflow.js, AI in Video and Analytics"
 author: "Elias Nema"
 date: "2020-09-22"
-categories: [newsletter]
+categories: [data-meets-product]
 ---
 
 ## ML in the Browser

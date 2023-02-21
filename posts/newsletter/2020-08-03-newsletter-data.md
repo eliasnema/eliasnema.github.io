@@ -2,7 +2,7 @@
 title: "🛢 Data"
 author: "Elias Nema"
 date: "2020-08-03"
-categories: [newsletter]
+categories: [data-meets-product]
 ---
 
 ## Metadata, Medical Data and TF.Data

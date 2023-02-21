@@ -2,7 +2,7 @@
 title: "💥 GPT Excitement and AI Costs"
 author: "Elias Nema"
 date: "2020-07-20"
-categories: [newsletter]
+categories: [data-meets-product]
 ---
 
 ## A Week of GPT-3, Obviously

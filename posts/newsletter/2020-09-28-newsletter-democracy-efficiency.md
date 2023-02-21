@@ -2,7 +2,7 @@
 title: "⚖️ Democracy and ⚡ Efficiency"
 author: "Elias Nema"
 date: "2020-09-29"
-categories: [newsletter]
+categories: [data-meets-product]
 ---
 
 ## Democracy and Efficiency

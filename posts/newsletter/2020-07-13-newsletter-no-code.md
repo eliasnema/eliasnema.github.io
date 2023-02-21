@@ -2,7 +2,7 @@
 title: "📵 No Code and ML Interns"
 author: "Elias Nema"
 date: "2020-07-13"
-categories: [newsletter]
+categories: [data-meets-product]
 ---
 
 Is no code the new oil or the old ETL? TikTok's recommender and when to use machine learning.

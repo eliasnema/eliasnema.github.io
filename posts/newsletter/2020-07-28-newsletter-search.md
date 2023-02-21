@@ -2,7 +2,7 @@
 title: "🔎 Paid Search"
 author: "Elias Nema"
 date: "2020-07-28"
-categories: [newsletter]
+categories: [data-meets-product]
 ---
 
 This week I ended up reading a couple of recent articles around the topic of search. Not groundbreaking paper’s style. Rather down-to-earth field implementations. Below, I’ll go through the paid search challenges in two major online platforms. And then to the emerging role of a Relevance Engineer.

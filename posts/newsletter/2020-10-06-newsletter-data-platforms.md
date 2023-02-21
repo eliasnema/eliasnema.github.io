@@ -2,7 +2,7 @@
 title: "📜 History (of Data Platforms and Apps)"
 author: "Elias Nema"
 date: "2020-10-06"
-categories: [newsletter]
+categories: [data-meets-product]
 fig-cap-location: margin
 ---
 
