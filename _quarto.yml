@@ -4,13 +4,21 @@ project:
 website:
   title: "ELIAS NEMA"
   site-url: https://www.eliasnema.com
+  open-graph: true
   description: "Making data work: analytics, personalisation, relevance and recommender systems - whatever is takes."
   favicon: favicon.ico
-  google-analytics: "UA-165368106-1"
+  cookie-consent: true
+  google-analytics:
+    tracking-id: "UA-165368106-1"
+    anonymize-ip: true
+  twitter-card: true
   navbar:
+    left:
+      - text: "Data Feed"
+        file: data-feed.qmd
+      - blog.qmd
     right:
       - talks.qmd
-      - about.qmd
       - icon: github
         href: https://github.com/
       - icon: twitter
@@ -22,10 +30,15 @@ format:
     theme:
       - lumen
       - custom.scss
+    fontsize: 1.05em
+    linestretch: 1.5
+    fontcolor: "#567"
+    mainfont: Roboto Mono, Courier, sans-serif
+    max-width: 1000px
     css: styles.css
     toc: true
     toc-location: left
     link-external-newwindow: true
-    fontsize: 1em
     code-fold: true
-
+    linkcolor: black
+    include-in-header: <script type="text/javascript" src="node_modules/***/**.js"></script>
