@@ -65,7 +65,7 @@
  ]]></description>
   <guid>https://www.eliasnema.com/data-feed/2023-02-17.html</guid>
   <pubDate>Fri, 17 Feb 2023 00:00:00 GMT</pubDate>
-  <media:content url="https://www.eliasnema.com/df-small.png" medium="image" type="image/png" height="292" width="144"/>
+  <media:content url="https://www.eliasnema.com/df2-small.png" medium="image" type="image/png" height="121" width="144"/>
 </item>
 <item>
   <title>Data Feed #1</title>
@@ -118,7 +118,7 @@
  ]]></description>
   <guid>https://www.eliasnema.com/data-feed/2023-02-10.html</guid>
   <pubDate>Fri, 10 Feb 2023 00:00:00 GMT</pubDate>
-  <media:content url="https://www.eliasnema.com/df-small.png" medium="image" type="image/png" height="292" width="144"/>
+  <media:content url="https://www.eliasnema.com/df2-small.png" medium="image" type="image/png" height="121" width="144"/>
 </item>
 </channel>
 </rss>
