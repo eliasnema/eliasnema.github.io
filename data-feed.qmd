@@ -2,14 +2,14 @@
 title: "Data Feed"
 listing:
   contents: data-feed
-  fields: [title, date, reading-time]
+  fields: [title, date]
   sort: "date desc"
   type: table
-  categories: true
+  categories: false
   sort-ui: false
   filter-ui: false
   feed: true
-margin-header: subscribe.html
+margin-header: data-feed/subscribe.html
 ---
 
 ![](data-feed-2.png)
