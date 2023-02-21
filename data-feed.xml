@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>ELIAS NEMA</title>
+<link>https://www.eliasnema.com/data-feed.html</link>
+<atom:link href="https://www.eliasnema.com/data-feed.xml" rel="self" type="application/rss+xml"/>
+<description>Making data work: analytics, personalisation, relevance and recommender systems - whatever is takes.</description>
+<generator>quarto-1.1.251</generator>
+<lastBuildDate>Fri, 17 Feb 2023 00:00:00 GMT</lastBuildDate>
+<item>
+  <title>Data Feed #2</title>
+  <dc:creator>Elias Nema</dc:creator>
+  <link>https://www.eliasnema.com/data-feed/2023-02-17.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<section id="learning" class="level2 page-columns page-full">
+<h2 class="anchored" data-anchor-id="learning">Learning</h2>
+<p>Fantastic content all around from both days of the ScyllaDB Summit: <a href="https://www.scylladb.com/2023/02/15/scylladb-summit-day-1-nosql-at-scalewith-less/">Day 1</a>, <a href="https://www.scylladb.com/2023/02/16/scylladb-summit-day-2-continuing-the-high-performance-nosql-conversation/">Day 2</a></p>
+<p><a href="https://www.cockroachlabs.com/blog/distributed-transactions-what-why-and-how-to-build-a-distributed-transactional-application/">Distributed transactions: What, why, and how to build a distributed transactional application.</a></p>
+<section id="replication" class="level4">
+<h4 class="anchored" data-anchor-id="replication">Replication</h4>
+<ul>
+<li><p><a href="https://aws.amazon.com/blogs/database/improve-logical-replication-performance-in-amazon-aurora-postgresql-with-the-new-write-through-cache/">Improve logical replication performance in Amazon Aurora PostgreSQL with the new write-through cache.</a></p></li>
+<li><p><a href="https://docs.dolthub.com/guides/binlog-replication">Dolt binlog replication from a MySQL or MariaDB.</a></p></li>
+</ul>
+</section>
+<section id="tips" class="level4 page-columns page-full">
+<h4 class="anchored" data-anchor-id="tips">Tips</h4>
+<ul>
+<li><p>Working with JSON data, using monitoring, and connecting to Dremio in SingleStoreDB.<sup>1</sup></p></li>
+<li><p>Data modelling and queries considerations at RavenDB.<sup>2</sup></p></li>
+<li><p><a href="https://crate.io/blog/guide-to-sharding-and-partitioning-best-practices-in-cratedb">Guide to sharding and partitioning best practices in CrateDB.</a></p></li>
+</ul>
+<div class="no-row-height column-margin column-container"><li id="fn1"><p><sup>1</sup>&nbsp;<a href="https://www.singlestore.com/blog/developer-quick-tips/">Developer Quick Tips</a></p></li><li id="fn2"><p><sup>2</sup>&nbsp;<a href="https://ravendb.net/articles/recording-ravendb-usage-patterns">Recording: RavenDB Usage Patterns</a></p></li></div></section>
+</section>
+<section id="hacking" class="level2">
+<h2 class="anchored" data-anchor-id="hacking">Hacking</h2>
+<p>As always fantastic and informative video from <a href="https://twitter.com/x4mmmmmm">Andrey Borodin</a> about detailed buffers statistics in EXPLAIN BUFFERS:</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/36n49jjfPo8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="">
+</iframe>
+</section>
+<section id="deep-dive" class="level2 page-columns page-full">
+<h2 class="anchored" data-anchor-id="deep-dive">Deep Dive</h2>
+<div class="page-columns page-full"><p>Insightful analysis of implementing comparing data sampling implementation in DB versus on the client.<sup>3</sup></p><div class="no-row-height column-margin column-container"><li id="fn3"><p><sup>3</sup>&nbsp;<a href="https://www.timescale.com/blog/downsampling-in-the-database-how-data-locality-can-improve-data-analysis/">Downsampling in the Database: How Data Locality Can Improve Data Analysis</a></p></li></div></div>
+<div class="page-columns page-full"><p>Article from Alexey Milovidov himself, that stretches over quite a long period of time and describes ClickHouse journey to the data obfuscation.<sup>4</sup></p><div class="no-row-height column-margin column-container"><li id="fn4"><p><sup>4</sup>&nbsp;<a href="https://clickhouse.com/blog/five-methods-of-database-obfuscation">Five Methods For Database Obfuscation</a></p></li></div></div>
+<div class="page-columns page-full"><p>Short a sweet deep dive into Postgres Write Ahead Log (WAL) files and Log Sequence numbers (LSN).<sup>5</sup></p><div class="no-row-height column-margin column-container"><li id="fn5"><p><sup>5</sup>&nbsp;<a href="https://www.crunchydata.com/blog/postgres-wal-files-and-sequuence-numbers">Postgres WAL Files and Sequence Numbers</a></p></li></div></div>
+</section>
+<section id="business" class="level2 page-columns page-full">
+<h2 class="anchored" data-anchor-id="business">Business</h2>
+<p><a href="https://www.cockroachlabs.com/blog/real-money-gaming-cost-savings/">Real-money gaming company saves $1.5 million per regional expansion with CockroachDB.</a></p>
+<div class="page-columns page-full"><p>A very interesting case from a <a href="https://everactive.com">company</a> producing batteryless sensors, that continuously stream data used in all kind of manufactoring industries (chemical processing, district energy, rotating equipment – motors, pumps, fans, compressors, etc.)<sup>6</sup></p><div class="no-row-height column-margin column-container"><li id="fn6"><p><sup>6</sup>&nbsp;<a href="https://www.timescale.com/blog/how-everactive-powers-a-dense-sensor-network-with-virtually-no-power-at-all/">How Everactive Powers a Dense Sensor Network With Virtually No Power at All</a></p></li></div></div>
+<p><a href="https://influx.com/blog/year-summary-2022">Influx year in review 2022.</a></p>
+
+
+</section>
+
+
+ ]]></description>
+  <guid>https://www.eliasnema.com/data-feed/2023-02-17.html</guid>
+  <pubDate>Fri, 17 Feb 2023 00:00:00 GMT</pubDate>
+  <media:content url="https://www.eliasnema.com/df-small.png" medium="image" type="image/png" height="292" width="144"/>
+</item>
+<item>
+  <title>Data Feed #1</title>
+  <dc:creator>Elias Nema</dc:creator>
+  <link>https://www.eliasnema.com/data-feed/2023-02-10.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<section id="learning" class="level2 page-columns page-full">
+<h2 class="anchored" data-anchor-id="learning">Learning</h2>
+<div class="page-columns page-full"><p><a href="https://twitter.com/andy_pavlo">The Professor</a> explains how the replication works in AWS RDS and Aurora at the high level.<sup>1</sup></p><div class="no-row-height column-margin column-container"><li id="fn1"><p><sup>1</sup>&nbsp;<a href="https://ottertune.com/blog/how-amazon-rds-replication-works-and-why-the-faas-database-problem-wont-happen-in-aws/">How Amazon RDS Replication Works and Why the FAA’s Database Problem Won’t Happen in AWS</a></p></li></div></div>
+<div class="page-columns page-full"><p>Great guide about what to look at when migrating from Postgres to MySQL.<sup>2</sup></p><div class="no-row-height column-margin column-container"><li id="fn2"><p><sup>2</sup>&nbsp;<a href="https://planetscale.com/blog/migrating-from-postgres-to-mysql">Migrating from Postgres to MySQL</a></p></li></div></div>
+<p><a href="https://redis.com/blog/database-developers-conferences-2023/">The Top Conferences for Database Developers to Attend in 2023.</a></p>
+</section>
+<section id="hacking" class="level2">
+<h2 class="anchored" data-anchor-id="hacking">Hacking</h2>
+<p>Wonderful 101 PostgreSQL hacking with implementing two simple patches live.</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/samLkrC5xQA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="">
+</iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/YPq_hiOE-N8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="">
+</iframe>
+</section>
+<section id="deep-dive" class="level2 page-columns page-full">
+<h2 class="anchored" data-anchor-id="deep-dive">Deep Dive</h2>
+<div class="page-columns page-full"><p><a href="https://twitter.com/muratdemirbas">Murat</a> looks at a <a href="https://stratos.seas.harvard.edu/files/stratos/files/rum.pdf">The RUM Conjecture paper</a>, describing read times/update cost/memory overhead trade-offs.<sup>3</sup></p><div class="no-row-height column-margin column-container"><li id="fn3"><p><sup>3</sup>&nbsp;<a href="http://muratbuffalo.blogspot.com/2023/02/designing-access-methods-rum-conjecture.html">Designing Access Methods: The RUM Conjecture</a></p></li></div></div>
+</section>
+<section id="history" class="level2 page-columns page-full">
+<h2 class="anchored" data-anchor-id="history">History</h2>
+<div class="page-columns page-full"><p>Graphs are at their peak popularity and (machine) learning overtook (data) mining in the analysis of words in database papers.<sup>4</sup></p><div class="no-row-height column-margin column-container"><li id="fn4"><p><sup>4</sup>&nbsp;<a href="https://databasearchitects.blogspot.com/2023/02/five-decades-of-database-research.html?m=1">Five Decades of Database Research</a></p></li></div></div>
+<p><a href="https://www.timescale.com/blog/timescale-timeout-the-history-and-basics-of-postgresql-part-i/">The History and Basics of PostgreSQL.</a></p>
+</section>
+<section id="tutorials" class="level2">
+<h2 class="anchored" data-anchor-id="tutorials">Tutorials</h2>
+<p><a href="https://redpanda.com/blog/introduction-apache-camel-redpanda">Getting started with Apache Camel and Redpanda.</a></p>
+<p><a href="https://www.scylladb.com/2023/02/08/scylladb-summit-preview-through-the-speakers-eyes/">ScyllaDB Summit Preview: Through the Speakers’ Eyes.</a></p>
+<p><a href="https://www.dolthub.com/blog/2023-02-08-dolt-for-gamedev/">Version control for Video Game Development using Dolt.</a></p>
+<p><a href="https://www.cockroachlabs.com/blog/what-is-data-partitioning-and-how-to-do-it-right/">What is data partitioning, and how to do it right.</a></p>
+</section>
+<section id="business" class="level2 page-columns page-full">
+<h2 class="anchored" data-anchor-id="business">Business</h2>
+<div class="page-columns page-full"><p>A good sneak peek into designing a payment processor from the database perspective.<sup>5</sup></p><div class="no-row-height column-margin column-container"><li id="fn5"><p><sup>5</sup>&nbsp;<a href="https://www.cockroachlabs.com/blog/cockroachdb-payments-system-architecture/">How to build a payments system that scales to infinity (with examples)</a></p></li></div></div>
+<div class="page-columns page-full"><p>Learn how Meesho uses Redis (and not only) to achieve 30ms p99 latency with &gt; 1M peak requests per second.<sup>6</sup></p><div class="no-row-height column-margin column-container"><li id="fn6"><p><sup>6</sup>&nbsp;<a href="https://www.youtube.com/watch?v=LTpVTr0yLZo">RedisDays India: Redis Beyond Cache for E-Commerce</a></p></li></div></div>
+
+
+</section>
+
+
+ ]]></description>
+  <guid>https://www.eliasnema.com/data-feed/2023-02-10.html</guid>
+  <pubDate>Fri, 10 Feb 2023 00:00:00 GMT</pubDate>
+  <media:content url="https://www.eliasnema.com/df-small.png" medium="image" type="image/png" height="292" width="144"/>
+</item>
+</channel>
+</rss>

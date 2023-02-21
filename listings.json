@@ -1,7 +1,16 @@
 [
   {
-    "listing": "/index.html",
+    "listing": "/data-feed.html",
     "items": [
+      "/data-feed/2023-02-17.html",
+      "/data-feed/2023-02-10.html"
+    ]
+  },
+  {
+    "listing": "/blog.html",
+    "items": [
+      "/posts/product-engineering/product-engineering.html",
+      "/posts/management-history/management-history.html",
       "/posts/newsletter/2020-10-06-newsletter-data-platforms.html",
       "/posts/newsletter/2020-09-28-newsletter-democracy-efficiency.html",
       "/posts/newsletter/2020-09-22-newsletter-video.html",

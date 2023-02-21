@@ -10,7 +10,183 @@
 <atom:link href="https://www.eliasnema.com/index.xml" rel="self" type="application/rss+xml"/>
 <description>Making data work: analytics, personalisation, relevance and recommender systems - whatever is takes.</description>
 <generator>quarto-1.1.251</generator>
-<lastBuildDate>Mon, 05 Oct 2020 23:00:00 GMT</lastBuildDate>
+<lastBuildDate>Sun, 19 Feb 2023 00:00:00 GMT</lastBuildDate>
+<item>
+  <title>Engineering Managers should Product et al.</title>
+  <dc:creator>Elias Nema</dc:creator>
+  <link>https://www.eliasnema.com/posts/product-engineering/product-engineering.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p><strong>Summary: software engineers (especially leaders/managers up the tech hierarchy) should spend more time closer to the business, product, and marketing. They should treat it as part of their main responsibilities, not a nice-to-haves or if-have-times (which, of course, no one ever does).</strong></p>
+<p>Some time ago, a tweet from Shreyas confirmed something I’ve also seen a lot – software engineering leadership focuses on technical problems, leaving business discussions to <em>“the business”,</em> or, more recently to <em>“the product”.</em> If not totally abandoning, then at least not thinking about this as a part of their main job – waiting for these magical stakeholders to have all the answers ready, while engineering will be focusing on tech things, prioritising tech debt, building internal tools, or what have you. I’m curious <strong>1/</strong> if that’s a software industry phenomenon, <strong>2/</strong> why is that happening, and <strong>3/</strong> what should engineers do depending on the environment they are in.</p>
+<center>
+<blockquote class="twitter-tweet blockquote">
+<p lang="en" dir="ltr">
+I am increasingly of the opinion that engineering leaders &amp; design leaders should be putting more pressure on their PM counterparts to <em>help devise</em> a sound product strategy. And this is absolutely vital if the business has been struggling. More process won’t solve this problem.
+</p>
+— Shreyas Doshi (<span class="citation" data-cites="shreyas">@shreyas</span>) <a href="https://twitter.com/shreyas/status/1616874874349445121?ref_src=twsrc%5Etfw">January 21, 2023</a>
+</blockquote>
+<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</center>
+<section id="software" class="level2 page-columns page-full">
+<h2 class="anchored" data-anchor-id="software">Software</h2>
+<section id="stage-1-support-function" class="level3">
+<h3 class="anchored" data-anchor-id="stage-1-support-function">Stage 1: Support Function</h3>
+<p>In the early days of computers, IT was separate from business and played the role of a supporting function to automate some business processes and provide better business insights. Business innovations were happening outside the “computers”, and business is not growing by optimising and investing in software.</p>
+<p>IT, as a support function, operates in a “ticketing machine” environment where things are regulated or already defined. An operational model of “just do what business tells” prevails and is also appropriate for such a setup.</p>
+</section>
+<section id="stage-2-transition-period-support-core" class="level3 page-columns page-full">
+<h3 class="anchored" data-anchor-id="stage-2-transition-period-support-core">Stage 2: Transition Period (Support → Core)</h3>
+<p>Later on, software started percolating all the various areas of business and life and started to – famously – <strong>eat the world.</strong></p>
+<div class="callout-note callout callout-style-default callout-captioned">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-caption-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>I don’t like this phrasing. It assumes that the endgame is only software, while I believe that the hardware will always be equally important, as proved recently by Apple and others – without the underlying layers, there will be nothing to build on top of.</p>
+</div>
+</div>
+<div class="quarto-figure quarto-figure-center page-columns page-full">
+<figure class="figure page-columns page-full">
+<p><img src="https://www.eliasnema.com/posts/product-engineering/going-soft.png" class="img-fluid figure-img" style="width:35.0%"></p>
+<p></p><figcaption class="figure-caption margin-caption">But regardless of the name, it’s still happening and going to continue in the <a href="https://www.economist.com/business/2022/06/12/how-supply-chain-turmoil-is-remaking-the-car-industry">foreseeable future.</a></figcaption><p></p>
+</figure>
+</div>
+<p>This triggered a transition for software from a cost to a profit centre. It also exposed the ineffectiveness of the methods using rigid requirements and specifications, which, among other things, triggered the development of agile methodologies in software. These methods, however, attempted to fix the problem by establishing better interfaces between stakeholders. <strong>There was still a separation between the people who own the requirements, and the ones who implement them.</strong> However, this sets a trend of reducing dependencies and communication bottlenecks across different parts of building products.</p>
+<p>But there is also an opposite force at work at the same time – software becomes more complex. This drives <strong>specialisation and more vertical knowledge.</strong> Technical experts need to go deeper and deeper to understand their topics at the same level. This, in turn, drives separation and creates a talent gap, where there are not enough people experienced in both technology and business. For example, Amazon was one of the first companies that separated the roles of product and engineering leadership, because it was hard to find people that were good at both.</p>
+</section>
+<section id="stage-3-software-is-product" class="level3">
+<h3 class="anchored" data-anchor-id="stage-3-software-is-product">Stage 3: Software is Product</h3>
+<p>This brings us to the period of more mature software products and development environments. It removes more interfaces and awards the role of the final judge to the end customer. Software oficcially becomes a product. There are even products <a href="https://blog.symops.com/2023/01/05/platform-engineering-as-a-startup/">within products.</a></p>
+<p>Elimination of more silos is happening. DevOps, SREs, and continuous delivery movements, with cloud-enabling this transition on the underlying layer, removed final barriers between development, testing, and infrastructure. Engineering teams started working together to deliver a product and not a set of functional competencies.</p>
+<p>We’ve learned to build software relatively fast and of good quality. However, we still rarely build what is really needed for the user. The last gap standing is between engineering and business. This gap is responsible for creating engineering silos, software platforms that cannot support unit economics of business, and engineering for the sake of engineering, where you end up with systems inappropriately built for the size and scale of the business (no matter up or down), and cargo-culting with the best practices not adding value in a particular situation.</p>
+<p>The reality is not evenly distributed, of course. Still, it’s happening way <a href="https://twitter.com/SergioRocks/status/1622959677431775235">too often</a> (so much that the opinion is still unpopular) in companies of all shapes and sizes. A lot of time business finds themselves hostage to tech decisions, not realising before that those decisions are actually business decisions now.</p>
+<center>
+<blockquote class="twitter-tweet blockquote">
+<p lang="en" dir="ltr">
+to connect services to business through data.<br><br>"Business processes and domains were subordinate to applications."<br><br>This resonates, and I've multiple times seen the business end up hostage to the tech stack at some point in a company's evolution.
+</p>
+— Elias (<span class="citation" data-cites="eliasnema">@eliasnema</span>) <a href="https://twitter.com/eliasnema/status/1620543538772705280?ref_src=twsrc%5Etfw">January 31, 2023</a>
+</blockquote>
+<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</center>
+</section>
+</section>
+<section id="other-industries" class="level2 page-columns page-full">
+<h2 class="anchored" data-anchor-id="other-industries">Other industries</h2>
+<p>At the beginning of my career, I worked in a couple of mechanical engineering companies, producing “real” objects. The environments I experienced there were a bit different from software, of course, but generally, engineers were not much closer to the product and business decisions. There were also no product managers to support them and close the gap.</p>
+<p>This, however, still resulted in less over-engineered solutions or products that were completely off than I’ve seen working in software. But one explanation of this might be that when building physical products we have more constraints from the real world, while the possibility space is much wider with software. This increases variability in opinions and potential solution space, which makes communication through specifications even harder.</p>
+<p>But going back in history, it turns out, that as with many problems, this one is also not new at all. Businesses started experiencing similar problems at least 70 years back, when tech had yet nothing to do with software. Recently, I found this paper from 1949 discribing the chaning role of the management.</p>
+<p>What’s fascinating is that already back then the author notices that the management changes, with factors such as human apital, research, and marketing playing critical role as science and engineering. <a href="../../posts/management-history/management-history.html">Here are more</a> quotes and thoughts from it.</p>
+<div class="quarto-figure quarto-figure-center page-columns page-full">
+<figure class="figure page-columns page-full">
+<p><a href="../management-history/mgmt-history.png"><img src="https://www.eliasnema.com/posts/management-history/mgmt-history.png" class="img-fluid figure-img"></a></p>
+<p></p><figcaption class="figure-caption margin-caption">Visual representation of 1951’s ‘New equations for management’</figcaption><p></p>
+</figure>
+</div>
+</section>
+<section id="conclusion" class="level2">
+<h2 class="anchored" data-anchor-id="conclusion">Conclusion</h2>
+<p>As I mentioned above, I don’t think that all the companeis will turn into software product companies. Nor they should. But you need to understand the environment you are in and converge sooner from Stage 2 to either 1 (cost) or 3 (profit). The more you find yourself working in the environmetn where software is a product, the more you need to embed yourself into product and marketing.</p>
+<p>The two competing factors are not going away any time soon: tech still develops rapidly, so we can expect complexity only to continue growing, requiring more and more specialisation. But also giving even less room for the defined requirements and specs, hence, creating a pull for the cross-functional specialsists.</p>
+<p>The main task of an engineering team is to deliver a product of course. And your goal as a leader is to ensure this delivery. For this you need to understand technology and engineering. But if the business you are working on has engineering at its core, your responsibilities stretch much further than just that:</p>
+<ul>
+<li>Understand <strong>people,</strong> their motivations and build connections (this aspect is more universally accepted now).</li>
+<li>Understand where your team’s value creationg is happening in the <strong>business and marketing cycle.</strong></li>
+<li>Tie the <strong>tech stack to the business decisions</strong> and make sure your team’s progress metrics are connected to the success of the overall company, not just the software development progress.</li>
+<li><strong>Proactively build connections</strong> with product, marketing, legal, etc., or partially cover those roles yourself. Depending on the company you might have dedicated managers leading those direction, but that’s part of your role to proactively work with them on the engineering and business strategies.</li>
+</ul>
+
+
+</section>
+
+ ]]></description>
+  <category>engineering</category>
+  <category>leadership</category>
+  <guid>https://www.eliasnema.com/posts/product-engineering/product-engineering.html</guid>
+  <pubDate>Sun, 19 Feb 2023 00:00:00 GMT</pubDate>
+  <media:content url="https://www.economist.com/business/2022/06/12/how-supply-chain-turmoil-is-remaking-the-car-industry" medium="image"/>
+</item>
+<item>
+  <title>Paper: ‘New equations for management’, J. E. Hobson, 1951</title>
+  <dc:creator>Elias Nema</dc:creator>
+  <link>https://www.eliasnema.com/posts/management-history/management-history.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p><em>My graphical representation of the <a href="https://dl.acm.org/doi/10.1145/1434821.1434825">paper</a>:</em></p>
+<div class="quarto-figure quarto-figure-right">
+<figure class="figure">
+<p><a href="mgmt-history.png"><img src="https://www.eliasnema.com/posts/management-history/mgmt-history.png" class="img-fluid figure-img"></a></p>
+</figure>
+</div>
+<p>Really interesting to see how research came into a “normal” state of business. I thought such things mich come naturally to the business as a market pull. However, you can see the role individual and government incentives have played to create the environment that would set up American companies for success for the next century.</p>
+<blockquote class="blockquote">
+<ul>
+<li>Before most industrialists had given much thought to systematic efforts toward invention, Edison was keeping 75 men busy conducting experiments and designing and building new electrical apparatus so that he could make the use of electricity practical.</li>
+<li>The rise of industrial research during the past thirty years as a factor in the management equation was brought about, or at least was accelerated, by a number of well planned actions outside of industry itself.
+<ul>
+<li>During the decade of the twenties, the National Research Council, through its Division of Engineering, conducted an organized promotional program designed to show industry why it should support applied research in its own interest.</li>
+<li>Furthermore, the Department of Commerce, under Mr.&nbsp;Hoover’s Secretaryship, began a long-term effort to encourage American industry to engage in and support applied research.</li>
+<li>One other major development should be mentioned. The first independent non-profit organization set up to provide research services to industry, the Mellon Research Foundation, came into being in 1915.</li>
+</ul></li>
+</ul>
+</blockquote>
+<p>Very interesting to see the logical sequence leading to the creation of “tech”: scarcity → abundance → need marketing to sell → more complex and fact-driven products → requires cross-functional collaboration → “techno-economics”.</p>
+<blockquote class="blockquote">
+<ul>
+<li>The use of automatic machinery resulted in tremendous increases in productivity per man … [which gave birth to] the idea of mass production, lower unit profits, lower prices, mass consumption, higher wages, and generally speaking, higher net profits.</li>
+<li>marketing had to be changed from one of “order taking” to one of aggressive selling to the mass market. Some of the great names in business over the last few decades are to</li>
+<li>This marketing revolution brought with it a new need for an organized approach to fact-finding—economic and market research. The idea developed slowly—first in the eastern part of our country, then in the West. As industry has become more and more complex from a technological standpoint, the research functions in economics and in the physical sciences and engineering have inevitably been brought closer together. The resulting approach is now known in some quarters as “techno-economics.”</li>
+</ul>
+</blockquote>
+<p>This also drives the change in the organisational structures, creating the demand for the development of the data industry:</p>
+<blockquote class="blockquote">
+<ul>
+<li>As the size, complexity, and scope of industrial operations increased, there developed gradually a wholesale separation between management and ownership in much the same sense that labor and management divided at the beginning of the Industrial Revolution.</li>
+<li>New types of instrumentation and devices of all sorts are being created to produce more complex products in greater quantities at lower cost.</li>
+<li>The economist, the marketing research specialist, and the statistician are teamed with engineers, scientists, and mathematicians to refine the marketing factor in the management equation to a more exact point.</li>
+<li>In human relations, management is seeking new ways to appreciate, understand, and evaluate motivations, reactions, group dynamics, and human engineering problems, whether they involve workers, executives, customers, or the general public.</li>
+<li>effectiveness of communication, the quality of leadership, the temper of employee morale, the adjustment of men to machines and of machines to men, and the significance of the working environment can be analyzed, interpreted, and predicted.</li>
+<li>This trend brings an ever-widening and more urgent demand on the part of management - for facts—economic facts about production costs and schedules, market potentials and requirements, inventories and prices; - technical facts about new products and processes; - and social science facts about people and their patterns of behavior.</li>
+</ul>
+</blockquote>
+<p>Considering recent tech layoffs and general rethinking of the effectiveness of latge orgs, this quote is quite timely:</p>
+<blockquote class="blockquote">
+<p>In attempting to achieve a more efficient operation to go along with the increasing complexity of industrial affairs, management has also given serious thought during recent years to the size and location of its organizational units. We hear more about the problem of size versus morale and efficiency. Some companies have taken the position that definite limits should be placed upon the size of a single operating group. Others are striving to place parts of their organization in suburban settings.</p>
+</blockquote>
+<p>Administrative revolution …</p>
+<blockquote class="blockquote">
+<p>it is conceivable that future business historians will know this period as the beginning of the “administrative revolution.”</p>
+</blockquote>
+<p>Here is also a thread with a few more excerpts:</p>
+<blockquote class="twitter-tweet blockquote">
+<p lang="en" dir="ltr">
+With seemingly lots of mismanagement happening recently, I got curious about the history of management, and found the industry view from 1951 - a paper called "New equations for management".<br>Here is a visual summary I made, and a few excerpts from the paper I found interesting / <a href="https://t.co/kMYTWI4PSl">pic.twitter.com/kMYTWI4PSl</a>
+</p>
+— Elias Nema (<span class="citation" data-cites="eliasnema">@eliasnema</span>) <a href="https://twitter.com/eliasnema/status/1621149904424013824?ref_src=twsrc%5Etfw">February 2, 2023</a>
+</blockquote>
+<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+
+ ]]></description>
+  <category>engineering</category>
+  <category>leadership</category>
+  <guid>https://www.eliasnema.com/posts/management-history/management-history.html</guid>
+  <pubDate>Fri, 03 Feb 2023 00:00:00 GMT</pubDate>
+  <media:content url="https://www.eliasnema.com/posts/management-history/mgmt-history.png" medium="image" type="image/png" height="57" width="144"/>
+</item>
 <item>
   <title>📜 History (of Data Platforms and Apps)</title>
   <dc:creator>Elias Nema</dc:creator>

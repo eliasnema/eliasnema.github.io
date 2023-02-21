@@ -133,6 +133,41 @@
     "text": "Final thoughts\nI used canva to assemble the graphs above into the final image, added some red-white colours. I didn’t come up with any breakthroughs, of course. But I had a couple of interesting observations and discoveries during the process. And had some fun too!\nThe greatest benefit was to document the process itself. As Jason Fried urges people to write more to really think the idea through, just sitting down and writing the process of analysis was rewarding."
   },
   {
+    "objectID": "posts/management-history/management-history.html",
+    "href": "posts/management-history/management-history.html",
+    "title": "Paper: ‘New equations for management’, J. E. Hobson, 1951",
+    "section": "",
+    "text": "Really interesting to see how research came into a “normal” state of business. I thought such things mich come naturally to the business as a market pull. However, you can see the role individual and government incentives have played to create the environment that would set up American companies for success for the next century.\n\n\nBefore most industrialists had given much thought to systematic efforts toward invention, Edison was keeping 75 men busy conducting experiments and designing and building new electrical apparatus so that he could make the use of electricity practical.\nThe rise of industrial research during the past thirty years as a factor in the management equation was brought about, or at least was accelerated, by a number of well planned actions outside of industry itself.\n\nDuring the decade of the twenties, the National Research Council, through its Division of Engineering, conducted an organized promotional program designed to show industry why it should support applied research in its own interest.\nFurthermore, the Department of Commerce, under Mr. Hoover’s Secretaryship, began a long-term effort to encourage American industry to engage in and support applied research.\nOne other major development should be mentioned. The first independent non-profit organization set up to provide research services to industry, the Mellon Research Foundation, came into being in 1915.\n\n\n\nVery interesting to see the logical sequence leading to the creation of “tech”: scarcity → abundance → need marketing to sell → more complex and fact-driven products → requires cross-functional collaboration → “techno-economics”.\n\n\nThe use of automatic machinery resulted in tremendous increases in productivity per man … [which gave birth to] the idea of mass production, lower unit profits, lower prices, mass consumption, higher wages, and generally speaking, higher net profits.\nmarketing had to be changed from one of “order taking” to one of aggressive selling to the mass market. Some of the great names in business over the last few decades are to\nThis marketing revolution brought with it a new need for an organized approach to fact-finding—economic and market research. The idea developed slowly—first in the eastern part of our country, then in the West. As industry has become more and more complex from a technological standpoint, the research functions in economics and in the physical sciences and engineering have inevitably been brought closer together. The resulting approach is now known in some quarters as “techno-economics.”\n\n\nThis also drives the change in the organisational structures, creating the demand for the development of the data industry:\n\n\nAs the size, complexity, and scope of industrial operations increased, there developed gradually a wholesale separation between management and ownership in much the same sense that labor and management divided at the beginning of the Industrial Revolution.\nNew types of instrumentation and devices of all sorts are being created to produce more complex products in greater quantities at lower cost.\nThe economist, the marketing research specialist, and the statistician are teamed with engineers, scientists, and mathematicians to refine the marketing factor in the management equation to a more exact point.\nIn human relations, management is seeking new ways to appreciate, understand, and evaluate motivations, reactions, group dynamics, and human engineering problems, whether they involve workers, executives, customers, or the general public.\neffectiveness of communication, the quality of leadership, the temper of employee morale, the adjustment of men to machines and of machines to men, and the significance of the working environment can be analyzed, interpreted, and predicted.\nThis trend brings an ever-widening and more urgent demand on the part of management - for facts—economic facts about production costs and schedules, market potentials and requirements, inventories and prices; - technical facts about new products and processes; - and social science facts about people and their patterns of behavior.\n\n\nConsidering recent tech layoffs and general rethinking of the effectiveness of latge orgs, this quote is quite timely:\n\nIn attempting to achieve a more efficient operation to go along with the increasing complexity of industrial affairs, management has also given serious thought during recent years to the size and location of its organizational units. We hear more about the problem of size versus morale and efficiency. Some companies have taken the position that definite limits should be placed upon the size of a single operating group. Others are striving to place parts of their organization in suburban settings.\n\nAdministrative revolution …\n\nit is conceivable that future business historians will know this period as the beginning of the “administrative revolution.”\n\nHere is also a thread with a few more excerpts:\n\n\nWith seemingly lots of mismanagement happening recently, I got curious about the history of management, and found the industry view from 1951 - a paper called \"New equations for management\".Here is a visual summary I made, and a few excerpts from the paper I found interesting / pic.twitter.com/kMYTWI4PSl\n\n— Elias Nema (@eliasnema) February 2, 2023"
+  },
+  {
+    "objectID": "posts/product-engineering/product-engineering.html",
+    "href": "posts/product-engineering/product-engineering.html",
+    "title": "Engineering Managers should Product et al.",
+    "section": "",
+    "text": "Summary: software engineers (especially leaders/managers up the tech hierarchy) should spend more time closer to the business, product, and marketing. They should treat it as part of their main responsibilities, not a nice-to-haves or if-have-times (which, of course, no one ever does).\nSome time ago, a tweet from Shreyas confirmed something I’ve also seen a lot – software engineering leadership focuses on technical problems, leaving business discussions to “the business”, or, more recently to “the product”. If not totally abandoning, then at least not thinking about this as a part of their main job – waiting for these magical stakeholders to have all the answers ready, while engineering will be focusing on tech things, prioritising tech debt, building internal tools, or what have you. I’m curious 1/ if that’s a software industry phenomenon, 2/ why is that happening, and 3/ what should engineers do, depending on the environment they are in."
+  },
+  {
+    "objectID": "posts/product-engineering/product-engineering.html#software",
+    "href": "posts/product-engineering/product-engineering.html#software",
+    "title": "Engineering Managers should Product et al.",
+    "section": "Software",
+    "text": "Software\n\nStage 1: Support Function\nIn the early days of computers, IT was separate from business and played the role of a supporting function to automate some business processes and provide better business insights. Business innovations were happening outside the “computers”, and business is not growing by optimising and investing in software.\nIT, as a support function, operates in a “ticketing machine” environment where things are regulated or already defined. An operational model of “just do what business tells” prevails and is also appropriate for such a setup.\n\n\nStage 2: Transition Period (Support → Core)\nLater on, software started percolating all the various areas of business and life and started to – famously – eat the world.\n\n\n\n\n\n\nNote\n\n\n\nI don’t like this phrasing. It assumes that the endgame is only software, while I believe that the hardware will always be equally important, as proved recently by Apple and others – without the underlying layers, there will be nothing to build on top of.\n\n\n\n\n\nBut regardless of the name, it’s still happening and going to continue in the foreseeable future.\n\n\nThis triggered a transition for software from a cost to a profit centre. It also exposed the ineffectiveness of the methods using rigid requirements and specifications, which, among other things, triggered the development of agile methodologies in software. These methods, however, attempted to fix the problem by establishing better interfaces between stakeholders. There was still a separation between the people who own the requirements, and the ones who implement them. However, this sets a trend of reducing dependencies and communication bottlenecks across different parts of building products.\nBut there is also an opposite force at work at the same time – software becomes more complex. This drives specialisation and more vertical knowledge. Technical experts need to go deeper and deeper to understand their topics at the same level. This, in turn, drives separation and creates a talent gap, where there are not enough people experienced in both technology and business. For example, Amazon was one of the first companies that separated the roles of product and engineering leadership, because it was hard to find people that were good at both.\n\n\nStage 3: Software is Product\nThis brings us to the period of more mature software products and development environments. It removes more interfaces and awards the role of the final judge to the customer. Software becomes a product in itself. There are even products within products.\nElimination of more silos is happening. DevOps, SREs, and continuous delivery movements, with cloud-enabling this transition on the underlying layer, removed final barriers between development, testing, and infrastructure. Engineering teams started working together to deliver a product and not a set of functional competencies.\nWe’ve learned to build software relatively fast and of good quality. However, we still do not always build what is needed for the user. The last gap standing is between engineering and business. This gap is responsible for creating engineering silos, software platforms that cannot support unit economics of business, and engineering for the sake of engineering, where you end up with systems inappropriately built for the size and scale of the business (no matter up or down), and cargo-culting with the best practices not adding value in a particular situation.\nThe reality is not evenly distributed, of course. Still, it’s happening way too often (so much that the opinion is still unpopular) in companies of all shapes and sizes. A lot of time business finds themselves hostage to tech decisions, not realising before that those decisions are actually business decisions now.\n\n\n\nto connect services to business through data.\"Business processes and domains were subordinate to applications.\"This resonates, and I've multiple times seen the business end up hostage to the tech stack at some point in a company's evolution.\n\n— Elias (@eliasnema) January 31, 2023"
+  },
+  {
+    "objectID": "posts/product-engineering/product-engineering.html#other-industries",
+    "href": "posts/product-engineering/product-engineering.html#other-industries",
+    "title": "Engineering Managers should Product et al.",
+    "section": "Other industries",
+    "text": "Other industries\nAt the beginning of my career, I worked in a couple of mechanical engineering companies, producing “real” objects. The environments I experienced there were a bit different from software, of course, but generally, engineers were not much closer to the product and business decisions. There were also no product managers to support them and close the gap.\nThis, however, still resulted in less over-engineered solutions or products that were completely off than I’ve seen working in software. But one explanation of this might be that when building physical products we have more constraints from the real world, while the possibility space is much wider with software. This increases variability in opinions and potential solution space, which makes communication through specifications even harder.\nBut going back in history, it turns out, that as with many problems, this one is also not new at all. Businesses started experiencing similar problems at least 70 years back when tech had yet nothing to do with software. Recently, I stumbled upon this paper from 1951 describing the changing role of management.\nWhat’s fascinating is that already back then, the author notices that management nature changes, with factors such as human capital, research, and marketing starting to play as crucial of a role as science and engineering. Here are more quotes and thoughts from it.\n\n\n\nVisual representation of 1951’s ‘New equations for management’"
+  },
+  {
+    "objectID": "posts/product-engineering/product-engineering.html#conclusion",
+    "href": "posts/product-engineering/product-engineering.html#conclusion",
+    "title": "Engineering Managers should Product et al.",
+    "section": "Conclusion",
+    "text": "Conclusion\nI don’t think that all companies will or should turn into software product companies. But you need to understand the environment you are in. And to converge sooner from Stage 2 to either 1 (cost) or 3 (profit).\nThe two competing factors in tech and management overall are not going away any time soon: tech still develops rapidly, complexity continues to grow, which drives specialisation. On the other hand, this leaves even less room for the defined requirements and specs, hence, creating a pull for cross-functional specialists.\nThe main task of an engineering team is to deliver a product, of course. And your goal as a leader is to ensure this delivery. For this, you need to understand technology and engineering. But if the business you are working on has engineering at its core, your responsibilities stretch much further than just that:\n\nUnderstand people, and their motivations and build connections (this aspect is more universally accepted now).\nUnderstand where your team’s value creation is happening in the business and marketing cycle.\nTie the tech stack to the business decisions and make sure your team’s progress metrics are connected to the success of the overall company, not just the software development progress.\nProactively build connections with product, marketing, legal, etc., or partially cover those roles yourself. Depending on the company you might have dedicated managers leading those directions, but that’s part of your role to proactively work with them on the engineering and business strategies."
+  },
+  {
     "objectID": "posts/newsletter/2020-09-28-newsletter-democracy-efficiency.html",
     "href": "posts/newsletter/2020-09-28-newsletter-democracy-efficiency.html",
     "title": "⚖️ Democracy and ⚡ Efficiency",
@@ -305,7 +340,7 @@
     "href": "talks.html",
     "title": "Talks",
     "section": "",
-    "text": "Building Data-Intensive Teams @ DataTalks.Club Conference: Product and Process\n\n\n\n\n\n Building Data-Intensive Teams  from Elias Nema\n\n\n\nWalking Around Your Nearest Neighbors @ Berlin Buzzwords | MICES | Haystack 2020\n\n\n\n\n\n Walking Around Your Nearest Neighbors with Lambda Architecture  from Elias Nema\n\n\n\nHypothesize your Way into Better Product Development @ Berlin Buzzwords | MICES | Haystack 2020\n\n\n\n\n\n Hypothesize your Way into Better Product Development  from Elias Nema"
+    "text": "Building Data-Intensive Teams @ Berlin Buzzwords ’21\n\n\n\n\nBuilding Data-Intensive Teams @ DataTalks.Club Conference: Product and Process\n\n\n\n\n\n Building Data-Intensive Teams  from Elias Nema\n\n\n\nWalking Around Your Nearest Neighbors @ Berlin Buzzwords | MICES | Haystack 2020\n\n\n\n\n\n Walking Around Your Nearest Neighbors with Lambda Architecture  from Elias Nema\n\n\n\nHypothesize your Way into Better Product Development @ Berlin Buzzwords | MICES | Haystack 2020\n\n\n\n\n\n Hypothesize your Way into Better Product Development  from Elias Nema"
   },
   {
     "objectID": "privacy.html",
@@ -317,15 +352,92 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "data meets product",
+    "title": "ELIAS NEMA",
     "section": "",
-    "text": "Elias Nema\n\n\n3 min\n\n\n\n\n\n\n  \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nElias Nema\n\n\n4 min\n\n\n\n\n\n\n  \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nElias Nema\n\n\n1 min\n\n\n\n\n\n\n  \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nElias Nema\n\n\n11 min\n\n\n\n\n\n\n  \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nElias Nema\n\n\n2 min\n\n\n\n\n\n\n  \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nElias Nema\n\n\n3 min\n\n\n\n\n\n\n  \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nElias Nema\n\n\n3 min\n\n\n\n\n\n\n  \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nElias Nema\n\n\n3 min\n\n\n\n\n\n\n  \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nElias Nema\n\n\n3 min\n\n\n\n\n\n\n  \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nElias Nema\n\n\n3 min\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nElias Nema\n\n\n5 min\n\n\n\n\n\n\n  \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nElias Nema\n\n\n3 min\n\n\n\n\n\n\nNo matching items"
+    "text": "I’m writing a newsletter for engineers, focused on data applications, diving deep into systems, architectures, and foundational papers. In the blog part, you can find more random observations about other things I like - charts, books, photography, movies, football, and tennis."
   },
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
+    "objectID": "data-feed/2023-02-10.html",
+    "href": "data-feed/2023-02-10.html",
+    "title": "Data Feed #1",
     "section": "",
-    "text": "Things I’m also working on:\n\nA book, called “Hypothesize!”, about better ways of managing data products. You can pre-order it here at half price.\nAn occasional newsletter - “Data Meets Product” - focused on news about data applications.\nHere are some of my talks."
+    "text": "The Professor explains how the replication works in AWS RDS and Aurora at the high level.11 How Amazon RDS Replication Works and Why the FAA’s Database Problem Won’t Happen in AWS\nGreat guide about what to look at when migrating from Postgres to MySQL.22 Migrating from Postgres to MySQL\nThe Top Conferences for Database Developers to Attend in 2023."
+  },
+  {
+    "objectID": "data-feed/2023-02-10.html#hacking",
+    "href": "data-feed/2023-02-10.html#hacking",
+    "title": "Data Feed #1",
+    "section": "Hacking",
+    "text": "Hacking\nWonderful 101 PostgreSQL hacking with implementing two simple patches live."
+  },
+  {
+    "objectID": "data-feed/2023-02-10.html#deep-dive",
+    "href": "data-feed/2023-02-10.html#deep-dive",
+    "title": "Data Feed #1",
+    "section": "Deep Dive",
+    "text": "Deep Dive\nMurat looks at a The RUM Conjecture paper, describing read times/update cost/memory overhead trade-offs.33 Designing Access Methods: The RUM Conjecture"
+  },
+  {
+    "objectID": "data-feed/2023-02-10.html#history",
+    "href": "data-feed/2023-02-10.html#history",
+    "title": "Data Feed #1",
+    "section": "History",
+    "text": "History\nGraphs are at their peak popularity and (machine) learning overtook (data) mining in the analysis of words in database papers.44 Five Decades of Database Research\nThe History and Basics of PostgreSQL."
+  },
+  {
+    "objectID": "data-feed/2023-02-10.html#tutorials",
+    "href": "data-feed/2023-02-10.html#tutorials",
+    "title": "Data Feed #1",
+    "section": "Tutorials",
+    "text": "Tutorials\nGetting started with Apache Camel and Redpanda.\nScyllaDB Summit Preview: Through the Speakers’ Eyes.\nVersion control for Video Game Development using Dolt.\nWhat is data partitioning, and how to do it right."
+  },
+  {
+    "objectID": "data-feed/2023-02-10.html#business",
+    "href": "data-feed/2023-02-10.html#business",
+    "title": "Data Feed #1",
+    "section": "Business",
+    "text": "Business\nA good sneak peek into designing a payment processor from the database perspective.55 How to build a payments system that scales to infinity (with examples)\nLearn how Meesho uses Redis (and not only) to achieve 30ms p99 latency with > 1M peak requests per second.66 RedisDays India: Redis Beyond Cache for E-Commerce"
+  },
+  {
+    "objectID": "data-feed/2023-02-17.html",
+    "href": "data-feed/2023-02-17.html",
+    "title": "Data Feed #2",
+    "section": "",
+    "text": "Fantastic content all around from both days of the ScyllaDB Summit: Day 1, Day 2\nDistributed transactions: What, why, and how to build a distributed transactional application.\n\n\n\nImprove logical replication performance in Amazon Aurora PostgreSQL with the new write-through cache.\nDolt binlog replication from a MySQL or MariaDB.\n\n\n\n\n\nWorking with JSON data, using monitoring, and connecting to Dremio in SingleStoreDB.1\nData modelling and queries considerations at RavenDB.2\nGuide to sharding and partitioning best practices in CrateDB.\n\n1 Developer Quick Tips2 Recording: RavenDB Usage Patterns"
+  },
+  {
+    "objectID": "data-feed/2023-02-17.html#hacking",
+    "href": "data-feed/2023-02-17.html#hacking",
+    "title": "Data Feed #2",
+    "section": "Hacking",
+    "text": "Hacking\nAs always fantastic and informative video from Andrey Borodin about detailed buffers statistics in EXPLAIN BUFFERS:"
+  },
+  {
+    "objectID": "data-feed/2023-02-17.html#deep-dive",
+    "href": "data-feed/2023-02-17.html#deep-dive",
+    "title": "Data Feed #2",
+    "section": "Deep Dive",
+    "text": "Deep Dive\nInsightful analysis of implementing comparing data sampling implementation in DB versus on the client.33 Downsampling in the Database: How Data Locality Can Improve Data Analysis\nArticle from Alexey Milovidov himself, that stretches over quite a long period of time and describes ClickHouse journey to the data obfuscation.44 Five Methods For Database Obfuscation\nShort a sweet deep dive into Postgres Write Ahead Log (WAL) files and Log Sequence numbers (LSN).55 Postgres WAL Files and Sequence Numbers"
+  },
+  {
+    "objectID": "data-feed/2023-02-17.html#business",
+    "href": "data-feed/2023-02-17.html#business",
+    "title": "Data Feed #2",
+    "section": "Business",
+    "text": "Business\nReal-money gaming company saves $1.5 million per regional expansion with CockroachDB.\nA very interesting case from a company producing batteryless sensors, that continuously stream data used in all kind of manufactoring industries (chemical processing, district energy, rotating equipment – motors, pumps, fans, compressors, etc.)66 How Everactive Powers a Dense Sensor Network With Virtually No Power at All\nInflux year in review 2022."
+  },
+  {
+    "objectID": "data-feed.html",
+    "href": "data-feed.html",
+    "title": "Data Feed",
+    "section": "",
+    "text": "Title\n\n\nDate\n\n\n\n\n\n\nData Feed #2\n\n\nFeb 17, 2023\n\n\n\n\nData Feed #1\n\n\nFeb 10, 2023\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "blog.html",
+    "href": "blog.html",
+    "title": "Blog",
+    "section": "",
+    "text": "Title\n\n\nReading Time\n\n\n\n\n\n\nEngineering Managers should Product et al.\n\n\n6 min\n\n\n\n\nPaper: ‘New equations for management’, J. E. Hobson, 1951\n\n\n4 min\n\n\n\n\n📜 History (of Data Platforms and Apps)\n\n\n3 min\n\n\n\n\n⚖️ Democracy and ⚡ Efficiency\n\n\n4 min\n\n\n\n\n📹 Tensorflow.js, AI in Video and Analytics\n\n\n1 min\n\n\n\n\n🔮 State of Recommendations\n\n\n11 min\n\n\n\n\n🛢 Data\n\n\n2 min\n\n\n\n\n🔎 Paid Search\n\n\n3 min\n\n\n\n\n💥 GPT Excitement and AI Costs\n\n\n3 min\n\n\n\n\n📵 No Code and ML Interns\n\n\n3 min\n\n\n\n\nHypothesize your way into better products\n\n\n3 min\n\n\n\n\nUnaggregate your data, bust a quote and learn a thing about modern football\n\n\n3 min\n\n\n\n\nGetting “Structured” Back to SQL\n\n\n5 min\n\n\n\n\nMakeover Monday W30: Arsenal FC stats 2018/19\n\n\n3 min\n\n\n\n\n\n\nNo matching items"
   }
 ]

@@ -2,66 +2,86 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://www.eliasnema.com/posts/man_city_stats/city_stats.html</loc>
-    <lastmod>2023-01-19T22:32:53.935Z</lastmod>
+    <lastmod>2023-02-21T17:36:47.790Z</lastmod>
   </url>
   <url>
     <loc>https://www.eliasnema.com/posts/state-of-reco/state-of-reco.html</loc>
-    <lastmod>2023-01-19T22:32:54.519Z</lastmod>
+    <lastmod>2023-02-21T17:36:48.416Z</lastmod>
   </url>
   <url>
     <loc>https://www.eliasnema.com/posts/hypothesize/hypothesize.html</loc>
-    <lastmod>2023-01-19T22:32:54.877Z</lastmod>
+    <lastmod>2023-02-21T17:36:48.776Z</lastmod>
   </url>
   <url>
     <loc>https://www.eliasnema.com/posts/arsenal/arsenal.html</loc>
-    <lastmod>2023-01-19T22:32:55.826Z</lastmod>
+    <lastmod>2023-02-21T17:36:49.752Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.eliasnema.com/posts/management-history/management-history.html</loc>
+    <lastmod>2023-02-21T17:36:50.191Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.eliasnema.com/posts/product-engineering/product-engineering.html</loc>
+    <lastmod>2023-02-21T17:36:50.953Z</lastmod>
   </url>
   <url>
     <loc>https://www.eliasnema.com/posts/newsletter/2020-09-28-newsletter-democracy-efficiency.html</loc>
-    <lastmod>2023-01-19T22:32:56.711Z</lastmod>
+    <lastmod>2023-02-21T17:36:51.572Z</lastmod>
   </url>
   <url>
     <loc>https://www.eliasnema.com/posts/newsletter/2020-08-03-newsletter-data.html</loc>
-    <lastmod>2023-01-19T22:32:57.035Z</lastmod>
+    <lastmod>2023-02-21T17:36:51.933Z</lastmod>
   </url>
   <url>
     <loc>https://www.eliasnema.com/posts/newsletter/2020-10-06-newsletter-data-platforms.html</loc>
-    <lastmod>2023-01-19T22:32:57.346Z</lastmod>
+    <lastmod>2023-02-21T17:36:52.309Z</lastmod>
   </url>
   <url>
     <loc>https://www.eliasnema.com/posts/newsletter/2020-07-28-newsletter-search.html</loc>
-    <lastmod>2023-01-19T22:32:57.683Z</lastmod>
+    <lastmod>2023-02-21T17:36:52.673Z</lastmod>
   </url>
   <url>
     <loc>https://www.eliasnema.com/posts/newsletter/2020-07-20-newsletter-gpt.html</loc>
-    <lastmod>2023-01-19T22:32:57.992Z</lastmod>
+    <lastmod>2023-02-21T17:36:53.016Z</lastmod>
   </url>
   <url>
     <loc>https://www.eliasnema.com/posts/newsletter/2020-07-13-newsletter-no-code.html</loc>
-    <lastmod>2023-01-19T22:32:58.320Z</lastmod>
+    <lastmod>2023-02-21T17:36:53.331Z</lastmod>
   </url>
   <url>
     <loc>https://www.eliasnema.com/posts/newsletter/2020-09-22-newsletter-video.html</loc>
-    <lastmod>2023-01-19T22:32:58.597Z</lastmod>
+    <lastmod>2023-02-21T17:36:53.781Z</lastmod>
   </url>
   <url>
     <loc>https://www.eliasnema.com/posts/structured-sql/structured-sql.html</loc>
-    <lastmod>2023-01-19T22:32:58.906Z</lastmod>
+    <lastmod>2023-02-21T17:36:54.148Z</lastmod>
   </url>
   <url>
     <loc>https://www.eliasnema.com/talks.html</loc>
-    <lastmod>2023-01-19T22:32:59.176Z</lastmod>
+    <lastmod>2023-02-21T17:36:54.504Z</lastmod>
   </url>
   <url>
     <loc>https://www.eliasnema.com/privacy.html</loc>
-    <lastmod>2023-01-19T22:32:59.442Z</lastmod>
+    <lastmod>2023-02-21T17:36:54.845Z</lastmod>
   </url>
   <url>
     <loc>https://www.eliasnema.com/index.html</loc>
-    <lastmod>2023-01-19T22:32:59.859Z</lastmod>
+    <lastmod>2023-02-21T17:36:55.171Z</lastmod>
   </url>
   <url>
-    <loc>https://www.eliasnema.com/about.html</loc>
-    <lastmod>2023-01-19T22:33:00.110Z</lastmod>
+    <loc>https://www.eliasnema.com/data-feed/2023-02-10.html</loc>
+    <lastmod>2023-02-21T17:36:55.536Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.eliasnema.com/data-feed/2023-02-17.html</loc>
+    <lastmod>2023-02-21T17:36:56.038Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.eliasnema.com/data-feed.html</loc>
+    <lastmod>2023-02-21T17:36:56.933Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.eliasnema.com/blog.html</loc>
+    <lastmod>2023-02-21T17:36:57.473Z</lastmod>
   </url>
 </urlset>
