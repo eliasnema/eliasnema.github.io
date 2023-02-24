@@ -10,7 +10,62 @@
 <atom:link href="https://www.eliasnema.com/data-feed.xml" rel="self" type="application/rss+xml"/>
 <description>Making data work: analytics, personalisation, relevance and recommender systems - whatever is takes.</description>
 <generator>quarto-1.1.251</generator>
-<lastBuildDate>Fri, 17 Feb 2023 00:00:00 GMT</lastBuildDate>
+<lastBuildDate>Thu, 23 Feb 2023 00:00:00 GMT</lastBuildDate>
+<item>
+  <title>Data Feed #3</title>
+  <dc:creator>Elias Nema</dc:creator>
+  <link>https://www.eliasnema.com/data-feed/2023-02-23.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<section id="learning" class="level2 page-columns page-full">
+<h2 class="anchored" data-anchor-id="learning">Learning</h2>
+<div class="page-columns page-full"><p>Compilation of the best Scylla articles and use-cases.<sup>1</sup></p><div class="no-row-height column-margin column-container"><li id="fn1"><p><sup>1</sup>&nbsp;<a href="https://www.scylladb.com/2023/02/21/scylladb-innovation-awards-honor-impressive-nosql-rust-low-latency-achievements/">ScyllaDB Innovation Awards Honor Impressive NoSQL + Rust Low-Latency Achievements</a></p></li></div></div>
+<div class="page-columns page-full"><p>Addition to the CrateDB: <code>max/min_by(expr1, expr2)</code> - returns the value of an <code>expr1</code> associated with the max/min value of <code>expr2</code> in a group.<sup>2</sup></p><div class="no-row-height column-margin column-container"><li id="fn2"><p><sup>2</sup>&nbsp;<a href="https://crate.io/blog/find-the-latest-reported-values-with-ease.-introducing-max_by-and-min_by-aggregations-in-cratedb-5.2">Find the latest reported values with ease. Introducing max_by and min_by aggregations in CrateDB 5.2</a></p></li></div></div>
+<p><a href="https://redpanda.com/blog/build-streaming-data-pipeline-upsolver">How to build streaming data pipelines with Redpanda and Upsolver SQLake.</a></p>
+<p><a href="https://aws.amazon.com/blogs/database/query-data-with-dynamodb-shell-a-command-line-interface-for-amazon-dynamodb/">Query data with DynamoDB Shell – a command line interface for Amazon DynamoDB</a></p>
+<div class="page-columns page-full"><p>I first learned about Frits Hoogland from the world of Oracle. Now he is with YugabyteDB, and here is his profile in the person of the week<sup>3</sup> and an article from him about the high availability in Yugabyte.<sup>4</sup></p><div class="no-row-height column-margin column-container"><li id="fn3"><p><sup>3</sup>&nbsp;<a href="https://postgresql.life/post/frits_hoogland/">PostgreSQL Person of the Week - Frits Hoogland</a></p></li><li id="fn4"><p><sup>4</sup>&nbsp;<a href="https://dev.to/yugabyte/yugabytedb-how-does-a-master-deal-with-ha-o0p">YugabyteDB: how does a master deal with HA</a></p></li></div></div>
+<p><a href="https://www.yugabyte.com/blog/distributed-database-transactional-consistency-async-standby/">Can Distributed Databases Achieve Transactional Consistency on Async Standbys? Yes, They Can.</a></p>
+</section>
+<section id="hacking" class="level2">
+<h2 class="anchored" data-anchor-id="hacking">Hacking</h2>
+<p>Postgres System Columns Explained (ctid, xmin,xmax)</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/AveRgUrC7FM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="">
+</iframe>
+<p>Index “do it yourself” - a 2020 PGCon talk from <a href="https://twitter.com/x4mmmmmm">Andrey Borodin</a>, plus you’ll get to know the scale of Postgres at Yandex.</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/NUJMcIwu9VY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="">
+</iframe>
+</section>
+<section id="visualization" class="level2">
+<h2 class="anchored" data-anchor-id="visualization">Visualization</h2>
+<p><a href="https://grafana.com/blog/2023/02/24/introducing-the-xyz-chart-a-three-dimensional-way-to-visualize-your-data-in-grafana/">Introducing the XYZ chart: A three-dimensional way to visualize your data in Grafana.</a></p>
+<p><a href="https://duckdb.org/2023/02/24/jupysql.html">JupySQL Plotting with DuckDB.</a></p>
+<p><a href="https://datasette.io/tutorials/codespaces">Using Datasette in GitHub Codespaces.</a></p>
+<p><a href="https://simonwillison.net/2023/Feb/17/analytics/">Analytics: Hacker News v.s. a tweet from Elon Musk.</a></p>
+</section>
+<section id="deep-dive" class="level2 page-columns page-full">
+<h2 class="anchored" data-anchor-id="deep-dive">Deep Dive</h2>
+<div class="page-columns page-full"><p>Practical walk-through on data modelling of IMDb dataset for the DynamoDB.<sup>5</sup></p><div class="no-row-height column-margin column-container"><li id="fn5"><p><sup>5</sup>&nbsp;<a href="https://aws.amazon.com/blogs/database/data-modelling-for-an-internet-scale-online-transactional-system-using-amazon-dynamodb/">Data modelling for an internet-scale online transactional system using Amazon DynamoDB</a></p></li></div></div>
+<div class="page-columns page-full"><p>Materialize is a SQL database built on top of streming solutions, here is a peek into the architecture.<sup>6</sup></p><div class="no-row-height column-margin column-container"><li id="fn6"><p><sup>6</sup>&nbsp;<a href="https://materialize.com/blog/materialize-architecture/">The Software Architecture of Materialize</a></p></li></div></div>
+<div class="page-columns page-full"><p>Great Spark benchmarks for shuffle-intensive workloads.<sup>7</sup></p><div class="no-row-height column-margin column-container"><li id="fn7"><p><sup>7</sup>&nbsp;<a href="https://aws.amazon.com/blogs/big-data/amazon-emr-serverless-supports-larger-worker-sizes-to-run-more-compute-and-memory-intensive-workloads/">Amazon EMR Serverless supports larger worker sizes to run more compute and memory-intensive workloads</a></p></li></div></div>
+<p><a href="http://smalldatum.blogspot.com/2023/02/sysbench-arm-x86-public-cloud.html">Sysbench, Arm &amp; x86, public cloud.</a></p>
+</section>
+<section id="business" class="level2 page-columns page-full">
+<h2 class="anchored" data-anchor-id="business">Business</h2>
+<div class="page-columns page-full"><p>Will artificial intelligence eat software and why invest in the database market?.<sup>8</sup></p><div class="no-row-height column-margin column-container"><li id="fn8"><p><sup>8</sup>&nbsp;<a href="https://www.datastax.com/blog/premji-invest-ai-future">Premji Invest: Artificial Intelligence Will Eat Software</a></p></li></div></div>
+<div class="page-columns page-full"><p>Interesting company building an API platform for developers to build apps on top of their data easier.<sup>9</sup></p><div class="no-row-height column-margin column-container"><li id="fn9"><p><sup>9</sup>&nbsp;<a href="https://www.snowflake.com/blog/startup-spotlight-api-on-top-of-snowflake-propel/">Startup Spotlight: APIs on Top of Snowflake with Propel</a></p></li></div></div>
+
+
+</section>
+
+
+ ]]></description>
+  <guid>https://www.eliasnema.com/data-feed/2023-02-23.html</guid>
+  <pubDate>Thu, 23 Feb 2023 00:00:00 GMT</pubDate>
+  <media:content url="https://www.eliasnema.com/df2-small.png" medium="image" type="image/png" height="121" width="144"/>
+</item>
 <item>
   <title>Data Feed #2</title>
   <dc:creator>Elias Nema</dc:creator>
