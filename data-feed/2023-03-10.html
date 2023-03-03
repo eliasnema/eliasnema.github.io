@@ -6,8 +6,11 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Elias Nema">
+<meta name="dcterms.date" content="2023-03-10">
+<meta name="description" content="Articles, diagrams, and news about data systems for the engineers">
 
-<title>ELIAS NEMA - Data Feed</title>
+<title>ELIAS NEMA - Data Feed #5</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,27 +26,25 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<link href="./favicon.ico" rel="icon">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="site_libs/cookie-consent/cookie-consent.js"></script>
-<link href="site_libs/cookie-consent/cookie-consent.css" rel="stylesheet">
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<link href="../favicon.ico" rel="icon">
+<script src="../site_libs/cookie-consent/cookie-consent.js"></script>
+<link href="../site_libs/cookie-consent/cookie-consent.css" rel="stylesheet">
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -63,35 +64,6 @@ ul.task-list li input[type="checkbox"] {
     "search-submit-button-title": "Submit"
   }
 }</script>
-<script>
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-title','listing-date',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
-      
-      searchColumns: ["listing-date","listing-title","listing-author"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
 
 <script type="text/plain" cookie-consent="tracking">
 
@@ -123,13 +95,20 @@ cookieconsent.run({
 </script> 
   
 
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
-<link rel="stylesheet" href="styles.css">
-<link rel="alternate" type="application/rss+xml" title="ELIAS NEMA" href="data-feed.xml"><meta property="og:title" content="ELIAS NEMA - Data Feed">
+<link rel="stylesheet" href="../styles.css">
+<meta property="og:title" content="ELIAS NEMA - Data Feed #5">
+<meta property="og:description" content="Articles, diagrams, and news about data systems for the engineers">
+<meta property="og:image" content="https://www.eliasnema.com/df2-small.png">
 <meta property="og:site-name" content="ELIAS NEMA">
-<meta name="twitter:title" content="ELIAS NEMA - Data Feed">
-<meta name="twitter:card" content="summary">
+<meta property="og:image:height" content="308">
+<meta property="og:image:width" content="368">
+<meta name="twitter:title" content="ELIAS NEMA - Data Feed #5">
+<meta name="twitter:description" content="Articles, diagrams, and news about data systems for the engineers">
+<meta name="twitter:image" content="https://www.eliasnema.com/df2-small.png">
+<meta name="twitter:image-height" content="308">
+<meta name="twitter:image-width" content="368">
+<meta name="twitter:card" content="summary_large_image">
 </head>
 
 <body class="floating nav-fixed">
@@ -139,7 +118,7 @@ cookieconsent.run({
     <nav class="navbar navbar-expand-lg navbar-dark ">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../index.html">
     <span class="navbar-title">ELIAS NEMA</span>
     </a>
   </div>
@@ -149,15 +128,15 @@ cookieconsent.run({
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./data-feed.html" aria-current="page">Data Feed</a>
+    <a class="nav-link" href="../data-feed.html">Data Feed</a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./blog.html">Blog</a>
+    <a class="nav-link" href="../blog.html">Blog</a>
   </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./talks.html">Talks</a>
+    <a class="nav-link" href="../talks.html">Talks</a>
   </li>  
   <li class="nav-item compact">
     <a class="nav-link" href="https://github.com/"><i class="bi bi-github" role="img">
@@ -170,7 +149,7 @@ cookieconsent.run({
  </a>
   </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="./blog.xml"><i class="bi bi-rss" role="img">
+    <a class="nav-link" href="../blog.xml"><i class="bi bi-rss" role="img">
 </i> 
  </a>
   </li>  
@@ -181,13 +160,92 @@ cookieconsent.run({
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<header id="title-block-header" class="quarto-title-block default toc-left page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-body">
+      <h1 class="title">Data Feed #5</h1>
+                  <div>
+        <div class="description">
+          Articles, diagrams, and news about data systems for the engineers
+        </div>
+      </div>
+                </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta">
+
+      <div>
+      <div class="quarto-title-meta-heading">Author</div>
+      <div class="quarto-title-meta-contents">
+               <p>Elias Nema </p>
+            </div>
+    </div>
+      
+      <div>
+      <div class="quarto-title-meta-heading">Published</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">March 10, 2023</p>
+      </div>
+    </div>
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
   <nav id="quarto-sidebar" class="sidebar collapse sidebar-navigation floating overflow-auto">
-    
+    <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#learning" id="toc-learning" class="nav-link active" data-scroll-target="#learning">Learning</a></li>
+  <li><a href="#hacking" id="toc-hacking" class="nav-link" data-scroll-target="#hacking">Hacking</a></li>
+  <li><a href="#deep-dive" id="toc-deep-dive" class="nav-link" data-scroll-target="#deep-dive">Deep Dive</a></li>
+  <li><a href="#business" id="toc-business" class="nav-link" data-scroll-target="#business">Business</a></li>
+  <li><a href="#storing-vectors" id="toc-storing-vectors" class="nav-link" data-scroll-target="#storing-vectors">Storing Vectors</a></li>
+  <li><a href="#geo" id="toc-geo" class="nav-link" data-scroll-target="#geo">GEO</a></li>
+  </ul>
+</nav>
 </nav>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar"><div class="quarto-margin-header"><div class="margin-header-item">
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+    </div>
+<!-- main -->
+<main class="content quarto-banner-title-block" id="quarto-document-content">
+
+
+
+
+<section id="learning" class="level2">
+<h2 class="anchored" data-anchor-id="learning">Learning</h2>
+</section>
+<section id="hacking" class="level2">
+<h2 class="anchored" data-anchor-id="hacking">Hacking</h2>
+</section>
+<section id="deep-dive" class="level2">
+<h2 class="anchored" data-anchor-id="deep-dive">Deep Dive</h2>
+<p>https://momjian.us/main/writings/pgsql/mvcc.pdf</p>
+</section>
+<section id="business" class="level2">
+<h2 class="anchored" data-anchor-id="business">Business</h2>
+</section>
+<section id="storing-vectors" class="level2">
+<h2 class="anchored" data-anchor-id="storing-vectors">Storing Vectors</h2>
+</section>
+<section id="geo" class="level2">
+<h2 class="anchored" data-anchor-id="geo">GEO</h2>
+<p><a href="https://www.kschaul.com/post/2023/02/16/how-the-post-is-replacing-mapbox-with-open-source-solutions/">How The Post is replacing Mapbox with open source solutions</a></p>
+<p><a href="https://tech.marksblogg.com/route-planning-europe-postgresql-pgrouting.html">European Route Planning</a></p>
+<p><a href="https://blog.rustprooflabs.com/2022/06/h3-indexes-on-postgis-data">H3 indexes for performance with PostGIS data</a></p>
+<p><a href="https://tech.marksblogg.com/duckdb-geospatial-gis.html">Geospatial DuckDB</a></p>
+<p><a href="https://www.crunchydata.com/blog/geocoding-with-web-apis-in-postgres">Geocoding with Web APIs in Postgres</a></p>
+<p><a href="https://supabase.com/blog/geo-queries-with-postgis-in-ionic-angular">Geo Queries with PostGIS in Ionic Angular</a></p>
+
+
+</section>
+
+</main> <!-- /main -->
 <!-- Begin Mailchimp Signup Form -->
   <div id="mc_embed_signup" style="padding-bottom: 1em; max-width: 400px;" class="ms-auto me-auto">
     <!-- <p style="font-weight: 600; margin-bottom: 0;">Subscribe</p> -->
@@ -199,10 +257,10 @@ cookieconsent.run({
                 <input type="email" class="form-control" placeholder="Email Address" aria-label="Email Address" name="EMAIL" style="font-size: 0.8em; padding: .2em;">
                 </div>            
 
-    <div id="mce-responses" class="clear foot">
-        <div class="response" id="mce-error-response" style="display:none"></div>
-        <div class="response" id="mce-success-response" style="display:none"></div>
-    </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+	<div id="mce-responses" class="clear foot">
+		<div class="response" id="mce-error-response" style="display:none"></div>
+		<div class="response" id="mce-success-response" style="display:none"></div>
+	</div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
     <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_968d81ab7c900cd9b4bbe76c6_f416e619fd" tabindex="-1" value=""></div>
         <div class="optionalParent">
             <div class="clear foot" style="display: flex; align-items: center; justify-content: center;">
@@ -214,85 +272,6 @@ cookieconsent.run({
 </div>
 
 <!--End mc_embed_signup-->
-</div></div>
-    </div>
-<!-- main -->
-<main class="content" id="quarto-document-content">
-
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">Data Feed</h1>
-</div>
-
-
-
-<div class="quarto-title-meta">
-
-    
-    
-  </div>
-  
-
-</header>
-
-<p><img src="df7.png" class="img-fluid"></p>
-
-
-
-
-<div class="quarto-listing quarto-listing-container-table" id="listing-listing">
-
-<table class="quarto-listing-table table">
-<thead>
-<tr>
-<th>
-Title
-</th>
-<th>
-Date
-</th>
-</tr>
-</thead>
-<tbody class="list">
-<tr data-index="0" data-listing-date-sort="1677801600000" data-listing-file-modified-sort="1677859492193" data-listing-reading-time-sort="1.68" data-listing-title-sort="Data Feed #4: Vectors ↗" data-listing-filename-sort="2023-03-03.md">
-<td class="listing-title">
-<a href="./data-feed/2023-03-03.html" class="title">Data Feed #4: Vectors ↗</a>
-</td>
-<td class="listing-date">
-Mar 3, 2023
-</td>
-</tr>
-<tr data-index="1" data-listing-date-sort="1677110400000" data-listing-file-modified-sort="1677272791103" data-listing-reading-time-sort="1.695" data-listing-title-sort="Data Feed #3" data-listing-filename-sort="2023-02-23.md">
-<td class="listing-title">
-<a href="./data-feed/2023-02-23.html" class="title">Data Feed #3</a>
-</td>
-<td class="listing-date">
-Feb 23, 2023
-</td>
-</tr>
-<tr data-index="2" data-listing-date-sort="1676592000000" data-listing-file-modified-sort="1677053120859" data-listing-reading-time-sort="1.245" data-listing-title-sort="Data Feed #2" data-listing-filename-sort="2023-02-17.md">
-<td class="listing-title">
-<a href="./data-feed/2023-02-17.html" class="title">Data Feed #2</a>
-</td>
-<td class="listing-date">
-Feb 17, 2023
-</td>
-</tr>
-<tr data-index="3" data-listing-date-sort="1675987200000" data-listing-file-modified-sort="1677020802253" data-listing-reading-time-sort="1.15" data-listing-title-sort="Data Feed #1" data-listing-filename-sort="2023-02-10.md">
-<td class="listing-title">
-<a href="./data-feed/2023-02-10.html" class="title">Data Feed #1</a>
-</td>
-<td class="listing-date">
-Feb 10, 2023
-</td>
-</tr>
-</tbody>
-
-</table>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

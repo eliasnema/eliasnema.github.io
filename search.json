@@ -455,11 +455,39 @@
     "text": "Business\nWill artificial intelligence eat software and why invest in the database market?.88 Premji Invest: Artificial Intelligence Will Eat Software\nInteresting company building an API platform for developers to build apps on top of their data easier.99 Startup Spotlight: APIs on Top of Snowflake with Propel"
   },
   {
+    "objectID": "data-feed/2023-03-03.html",
+    "href": "data-feed/2023-03-03.html",
+    "title": "Data Feed #4: Vectors ↗",
+    "section": "",
+    "text": "Using open-source vector similarity extension for Postgres1:1 pgvector\n\nWhat’s Postgres Got To Do With AI?\nUsing postgres_scanner2 to read vectors from PG in DuckDB.\n\n2 postgres_scannerA detailed paper from SIGMOD’203 describes how Alibaba designed and built an approximate nearest neighbor search extension for vector similarity. Great deep dive into page structures for ANN indexes, and the code is even available (though, not maintained).3 PASE: PostgreSQL Ultra-High-Dimensional Approximate Nearest Neighbor Search Extension\nUsing vector functions in SingleStore’s SQL, but not clear how well the system scales since the example uses only 7000 vectors.44 Image Matching in SQL with SingleStoreDB\nAn amazing use-case (as far as I’m concerned, data swamps are real) of representing individual columns in the embedding space by utilising pre-trained transformer models. Then, using those vectors to find semantically similar data within your data.55 Build a semantic search engine for tabular columns with Transformers and Amazon OpenSearch Service"
+  },
+  {
+    "objectID": "data-feed/2023-03-03.html#learning",
+    "href": "data-feed/2023-03-03.html#learning",
+    "title": "Data Feed #4: Vectors ↗",
+    "section": "Learning",
+    "text": "Learning\nUse Apache Iceberg in a data lake to support incremental data processing.\nAccess Amazon Athena in your applications using the WebSocket API.\nGuide to bitwise operators in CrateDB.\nGrafana Labs webinars: Reduce MTTR, build beautiful Grafana dashboards, and more.\nAnomaly detection on Prometheus metrics.\nSo you want Change Data Capture?\nPatterns for enterprise data sharing at scale."
+  },
+  {
+    "objectID": "data-feed/2023-03-03.html#deep-dive",
+    "href": "data-feed/2023-03-03.html#deep-dive",
+    "title": "Data Feed #4: Vectors ↗",
+    "section": "Deep Dive",
+    "text": "Deep Dive\nA new lecture is out from the CMU Advanced Databases course on Parallel Hash Join Algorithms. If you are into data, you should have a very good reason for not watching this playlist."
+  },
+  {
+    "objectID": "data-feed/2023-03-03.html#business",
+    "href": "data-feed/2023-03-03.html#business",
+    "title": "Data Feed #4: Vectors ↗",
+    "section": "Business",
+    "text": "Business\nAmazing (as always) write-up about using TimescaleDB in the wild, and why compression is crucial for the time-series databases.66 How Ndustrial Is Providing Fast Real-Time Queries and Safely Storing Client Data With 97 % Compression\nHow Wiz used Amazon ElastiCache to improve performance and reduce costs.\nHow Delivery Hero uses Kubecost and Datadog to manage Kubernetes costs in the cloud.\nAn emerging buzzword for data platforms capable of both transactions and analytics workloads – “translytical.” A webinar from SingleStore describes precisely such platforms.77 Webinar Recap: Real-Time Data and the State of Translytical Platforms"
+  },
+  {
     "objectID": "data-feed.html",
     "href": "data-feed.html",
     "title": "Data Feed",
     "section": "",
-    "text": "Title\n\n\nDate\n\n\n\n\n\n\nData Feed #3\n\n\nFeb 23, 2023\n\n\n\n\nData Feed #2\n\n\nFeb 17, 2023\n\n\n\n\nData Feed #1\n\n\nFeb 10, 2023\n\n\n\n\n\n\nNo matching items"
+    "text": "Title\n\n\nDate\n\n\n\n\n\n\nData Feed #4: Vectors ↗\n\n\nMar 3, 2023\n\n\n\n\nData Feed #3\n\n\nFeb 23, 2023\n\n\n\n\nData Feed #2\n\n\nFeb 17, 2023\n\n\n\n\nData Feed #1\n\n\nFeb 10, 2023\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "privacy.html",

@@ -10,7 +10,59 @@
 <atom:link href="https://www.eliasnema.com/data-feed.xml" rel="self" type="application/rss+xml"/>
 <description>Making data work: analytics, personalisation, relevance and recommender systems - whatever is takes.</description>
 <generator>quarto-1.1.251</generator>
-<lastBuildDate>Thu, 23 Feb 2023 00:00:00 GMT</lastBuildDate>
+<lastBuildDate>Fri, 03 Mar 2023 00:00:00 GMT</lastBuildDate>
+<item>
+  <title>Data Feed #4: Vectors ↗</title>
+  <dc:creator>Elias Nema</dc:creator>
+  <link>https://www.eliasnema.com/data-feed/2023-03-03.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<section id="weekly-focus-vectors" class="level2 page-columns page-full">
+<h2 class="anchored" data-anchor-id="weekly-focus-vectors">Weekly Focus: Vectors ↗</h2>
+<div class="page-columns page-full"><p>Using open-source vector similarity extension for Postgres<sup>1</sup>:</p><div class="no-row-height column-margin column-container"><li id="fn1"><p><sup>1</sup>&nbsp;<a href="https://github.com/pgvector/pgvector">pgvector</a></p></li></div></div>
+<ul>
+<li><a href="https://www.crunchydata.com/blog/whats-postgres-got-to-do-with-ai">What’s Postgres Got To Do With AI?</a></li>
+<li>Using postgres_scanner<sup>2</sup> to <a href="https://blog.eto.ai/vector-similarity-search-with-duckdb-44dec043532a">read vectors from PG in DuckDB</a>.</li>
+</ul>
+<div class="no-row-height column-margin column-container"><li id="fn2"><p><sup>2</sup>&nbsp;<a href="https://duckdb.org/docs/extensions/postgres_scanner.html">postgres_scanner</a></p></li></div><div class="page-columns page-full"><p>A detailed paper from SIGMOD’20<sup>3</sup> describes how Alibaba designed and built an approximate nearest neighbor search extension for vector similarity. Great deep dive into page structures for ANN indexes, and the <a href="https://github.com/alipay/PASE">code is even available</a> (though, not maintained).</p><div class="no-row-height column-margin column-container"><li id="fn3"><p><sup>3</sup>&nbsp;<a href="https://dl.acm.org/doi/pdf/10.1145/3318464.3386131">PASE: PostgreSQL Ultra-High-Dimensional Approximate Nearest Neighbor Search Extension</a></p></li></div></div>
+<div class="page-columns page-full"><p>Using vector functions in SingleStore’s SQL, but not clear how well the system scales since the example uses only 7000 vectors.<sup>4</sup></p><div class="no-row-height column-margin column-container"><li id="fn4"><p><sup>4</sup>&nbsp;<a href="https://www.singlestore.com/blog/using-vector-functions-image-matching-sql/">Image Matching in SQL with SingleStoreDB</a></p></li></div></div>
+<div class="page-columns page-full"><p>An amazing use-case (as far as I’m concerned, <a href="https://www.datagalaxy.com/en/blog/data-swamp-vs-data-lake/">data swamps</a> are real) of representing individual columns in the embedding space by utilising pre-trained transformer models. Then, using those vectors to find semantically similar data <em>within your data.</em><sup>5</sup></p><div class="no-row-height column-margin column-container"><li id="fn5"><p><sup>5</sup>&nbsp;<a href="https://aws.amazon.com/blogs/big-data/build-a-semantic-search-engine-for-tabular-columns-with-transformers-and-amazon-opensearch-service/">Build a semantic search engine for tabular columns with Transformers and Amazon OpenSearch Service</a></p></li></div></div>
+</section>
+<section id="learning" class="level2">
+<h2 class="anchored" data-anchor-id="learning">Learning</h2>
+<p><a href="https://aws.amazon.com/blogs/big-data/use-apache-iceberg-in-a-data-lake-to-support-incremental-data-processing/">Use Apache Iceberg in a data lake to support incremental data processing.</a></p>
+<p><a href="https://aws.amazon.com/blogs/big-data/access-amazon-athena-in-your-applications-using-the-websocket-api/">Access Amazon Athena in your applications using the WebSocket API.</a></p>
+<p><a href="https://crate.io/blog/guide-to-bitwise-operators-in-cratedb">Guide to bitwise operators in CrateDB.</a></p>
+<p><a href="https://grafana.com/blog/2023/03/02/grafana-labs-webinars-reduce-mttr-build-beautiful-grafana-dashboards-and-more/">Grafana Labs webinars: Reduce MTTR, build beautiful Grafana dashboards, and more.</a></p>
+<p><a href="https://blog.netdata.cloud/anomaly-detection-on-prometheus-metrics/#gsc.tab=0">Anomaly detection on Prometheus metrics.</a></p>
+<p><a href="https://www.dolthub.com/blog/2023-03-01-change-data-capture/">So you want Change Data Capture?</a></p>
+<p><a href="https://aws.amazon.com/blogs/big-data/patterns-for-enterprise-data-sharing-at-scale/">Patterns for enterprise data sharing at scale.</a></p>
+</section>
+<section id="deep-dive" class="level2">
+<h2 class="anchored" data-anchor-id="deep-dive">Deep Dive</h2>
+<p>A new lecture is out from the <a href="https://15721.courses.cs.cmu.edu/spring2023/">CMU Advanced Databases</a> course on <a href="https://www.youtube.com/watch?v=pqRV7Mss1Fg">Parallel Hash Join Algorithms</a>. If you are into data, you should have a very good reason for not watching this playlist.</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/pqRV7Mss1Fg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="">
+</iframe>
+</section>
+<section id="business" class="level2 page-columns page-full">
+<h2 class="anchored" data-anchor-id="business">Business</h2>
+<div class="page-columns page-full"><p>Amazing (as always) write-up about using TimescaleDB in the wild, and why compression is crucial for the time-series databases.<sup>6</sup></p><div class="no-row-height column-margin column-container"><li id="fn6"><p><sup>6</sup>&nbsp;<a href="https://www.timescale.com/blog/how-ndustrial-is-providing-fast-real-time-queries-and-safely-storing-client-data-with-97-compression/">How Ndustrial Is Providing Fast Real-Time Queries and Safely Storing Client Data With 97 % Compression</a></p></li></div></div>
+<p><a href="https://aws.amazon.com/blogs/database/how-wiz-used-amazon-elasticache-to-improve-performance-and-reduce-costs/">How Wiz used Amazon ElastiCache to improve performance and reduce costs.</a></p>
+<p><a href="https://www.datadoghq.com/blog/delivery-hero-kubernetes-cost-optimization/">How Delivery Hero uses Kubecost and Datadog to manage Kubernetes costs in the cloud.</a></p>
+<div class="page-columns page-full"><p>An emerging buzzword for data platforms capable of both transactions and analytics workloads – “translytical.” A webinar from SingleStore describes precisely such platforms.<sup>7</sup></p><div class="no-row-height column-margin column-container"><li id="fn7"><p><sup>7</sup>&nbsp;<a href="https://www.singlestore.com/blog/webinar-recap-real-time-data-and-the-state-of-translytical-platforms/">Webinar Recap: Real-Time Data and the State of Translytical Platforms</a></p></li></div></div>
+
+
+</section>
+
+
+ ]]></description>
+  <guid>https://www.eliasnema.com/data-feed/2023-03-03.html</guid>
+  <pubDate>Fri, 03 Mar 2023 00:00:00 GMT</pubDate>
+  <media:content url="https://www.eliasnema.com/df2-small.png" medium="image" type="image/png" height="121" width="144"/>
+</item>
 <item>
   <title>Data Feed #3</title>
   <dc:creator>Elias Nema</dc:creator>
