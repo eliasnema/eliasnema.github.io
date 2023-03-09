@@ -7,10 +7,10 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Elias Nema">
-<meta name="dcterms.date" content="2023-03-10">
-<meta name="description" content="Articles, diagrams, and news about data systems for the engineers">
+<meta name="dcterms.date" content="2023-03-08">
+<meta name="description" content="Jim Gray, June 1981">
 
-<title>ELIAS NEMA - Data Feed #5</title>
+<title>ELIAS NEMA - 📜Foundational Paper: The Transaction Concept</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -26,25 +26,25 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../site_libs/quarto-nav/headroom.min.js"></script>
-<script src="../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../">
-<link href="../favicon.ico" rel="icon">
-<script src="../site_libs/cookie-consent/cookie-consent.js"></script>
-<link href="../site_libs/cookie-consent/cookie-consent.css" rel="stylesheet">
-<script src="../site_libs/quarto-html/quarto.js"></script>
-<script src="../site_libs/quarto-html/popper.min.js"></script>
-<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<link href="../../favicon.ico" rel="icon">
+<script src="../../site_libs/cookie-consent/cookie-consent.js"></script>
+<link href="../../site_libs/cookie-consent/cookie-consent.css" rel="stylesheet">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -96,18 +96,18 @@ cookieconsent.run({
   
 
 
-<link rel="stylesheet" href="../styles.css">
-<meta property="og:title" content="ELIAS NEMA - Data Feed #5">
-<meta property="og:description" content="Articles, diagrams, and news about data systems for the engineers">
-<meta property="og:image" content="https://www.eliasnema.com/df2-small.png">
+<link rel="stylesheet" href="../../styles.css">
+<meta property="og:title" content="ELIAS NEMA - 📜Foundational Paper: The Transaction Concept">
+<meta property="og:description" content="Jim Gray, June 1981">
+<meta property="og:image" content="https://www.eliasnema.com/data-feed/paper-transactional-model/transactional-model-sm.png">
 <meta property="og:site-name" content="ELIAS NEMA">
-<meta property="og:image:height" content="308">
-<meta property="og:image:width" content="368">
-<meta name="twitter:title" content="ELIAS NEMA - Data Feed #5">
-<meta name="twitter:description" content="Articles, diagrams, and news about data systems for the engineers">
-<meta name="twitter:image" content="https://www.eliasnema.com/df2-small.png">
-<meta name="twitter:image-height" content="308">
-<meta name="twitter:image-width" content="368">
+<meta property="og:image:height" content="1186">
+<meta property="og:image:width" content="2015">
+<meta name="twitter:title" content="ELIAS NEMA - 📜Foundational Paper: The Transaction Concept">
+<meta name="twitter:description" content="Jim Gray, June 1981">
+<meta name="twitter:image" content="https://www.eliasnema.com/data-feed/paper-transactional-model/transactional-model-sm.png">
+<meta name="twitter:image-height" content="1186">
+<meta name="twitter:image-width" content="2015">
 <meta name="twitter:card" content="summary_large_image">
 </head>
 
@@ -118,7 +118,7 @@ cookieconsent.run({
     <nav class="navbar navbar-expand-lg navbar-dark ">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container">
-    <a class="navbar-brand" href="../index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">ELIAS NEMA</span>
     </a>
   </div>
@@ -128,15 +128,15 @@ cookieconsent.run({
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../data-feed.html">Data Feed</a>
+    <a class="nav-link" href="../../data-feed.html">Data Feed</a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../blog.html">Blog</a>
+    <a class="nav-link" href="../../blog.html">Blog</a>
   </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../talks.html">Talks</a>
+    <a class="nav-link" href="../../talks.html">Talks</a>
   </li>  
   <li class="nav-item compact">
     <a class="nav-link" href="https://github.com/"><i class="bi bi-github" role="img">
@@ -149,7 +149,7 @@ cookieconsent.run({
  </a>
   </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="../blog.xml"><i class="bi bi-rss" role="img">
+    <a class="nav-link" href="../../blog.xml"><i class="bi bi-rss" role="img">
 </i> 
  </a>
   </li>  
@@ -163,14 +163,14 @@ cookieconsent.run({
 <header id="title-block-header" class="quarto-title-block default toc-left page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title">Data Feed #5</h1>
+      <h1 class="title">📜Foundational Paper: The Transaction Concept</h1>
                   <div>
         <div class="description">
-          Articles, diagrams, and news about data systems for the engineers
+          Jim Gray, June 1981
         </div>
       </div>
                           <div class="quarto-categories">
-                <div class="quarto-category">data-feed</div>
+                <div class="quarto-category">papers</div>
               </div>
                   </div>
   </div>
@@ -188,7 +188,7 @@ cookieconsent.run({
       <div>
       <div class="quarto-title-meta-heading">Published</div>
       <div class="quarto-title-meta-contents">
-        <p class="date">March 10, 2023</p>
+        <p class="date">March 8, 2023</p>
       </div>
     </div>
       
@@ -198,59 +198,50 @@ cookieconsent.run({
   </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
   <nav id="quarto-sidebar" class="sidebar collapse sidebar-navigation floating overflow-auto">
-    <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#learning" id="toc-learning" class="nav-link active" data-scroll-target="#learning">Learning</a></li>
-  <li><a href="#hacking" id="toc-hacking" class="nav-link" data-scroll-target="#hacking">Hacking</a></li>
-  <li><a href="#deep-dive" id="toc-deep-dive" class="nav-link" data-scroll-target="#deep-dive">Deep Dive</a></li>
-  <li><a href="#business" id="toc-business" class="nav-link" data-scroll-target="#business">Business</a></li>
-  <li><a href="#storing-vectors" id="toc-storing-vectors" class="nav-link" data-scroll-target="#storing-vectors">Storing Vectors</a></li>
-  <li><a href="#geo" id="toc-geo" class="nav-link" data-scroll-target="#geo">GEO</a></li>
-  </ul>
-</nav>
+    
 </nav>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
     </div>
 <!-- main -->
-<main class="content quarto-banner-title-block" id="quarto-document-content">
+<main class="content quarto-banner-title-block page-columns page-full" id="quarto-document-content">
 
 
 
 
-<section id="learning" class="level2">
-<h2 class="anchored" data-anchor-id="learning">Learning</h2>
-</section>
-<section id="hacking" class="level2">
-<h2 class="anchored" data-anchor-id="hacking">Hacking</h2>
-</section>
-<section id="deep-dive" class="level2">
-<h2 class="anchored" data-anchor-id="deep-dive">Deep Dive</h2>
-<p>https://momjian.us/main/writings/pgsql/mvcc.pdf</p>
-</section>
-<section id="business" class="level2">
-<h2 class="anchored" data-anchor-id="business">Business</h2>
-</section>
-<section id="storing-vectors" class="level2">
-<h2 class="anchored" data-anchor-id="storing-vectors">Storing Vectors</h2>
-</section>
-<section id="geo" class="level2">
-<h2 class="anchored" data-anchor-id="geo">GEO</h2>
-<p><a href="https://www.kschaul.com/post/2023/02/16/how-the-post-is-replacing-mapbox-with-open-source-solutions/">How The Post is replacing Mapbox with open source solutions</a></p>
-<p><a href="https://tech.marksblogg.com/route-planning-europe-postgresql-pgrouting.html">European Route Planning</a></p>
-<p><a href="https://blog.rustprooflabs.com/2022/06/h3-indexes-on-postgis-data">H3 indexes for performance with PostGIS data</a></p>
-<p><a href="https://tech.marksblogg.com/duckdb-geospatial-gis.html">Geospatial DuckDB</a></p>
-<p><a href="https://www.crunchydata.com/blog/geocoding-with-web-apis-in-postgres">Geocoding with Web APIs in Postgres</a></p>
-<p><a href="https://supabase.com/blog/geo-queries-with-postgis-in-ionic-angular">Geo Queries with PostGIS in Ionic Angular</a></p>
-<p>JSON</p>
-<p>https://www.cockroachlabs.com/blog/high-performance-json-parsing/ https://duckdb.org/2023/03/03/json.html</p>
-<p>https://observablehq.com/<span class="citation" data-cites="asg017/introducing-sqlite-vss">@asg017/introducing-sqlite-vss</span></p>
-<p>https://quoraengineering.quora.com/Optimizing-the-databases-at-Quora</p>
+<p>A paper lays down the foundation for the transactions in computer systems. It describes the concepts of ACID (not yet acronymized in the paper), undo and redo logs, and design for highly available systems. I enjoyed the paper a lot. Simple language, analogies, and a look at history make it a stark contrast to many of the modern papers, where looking sophisticated is often more important than the substance.</p>
+<p>As always, I start with the visual representation of the paper in which I distilled and connected the most important points:</p>
+<div class="quarto-figure quarto-figure-center page-columns page-full">
+<figure class="figure page-columns page-full">
+<p><a href="transactional-model.png"><img src="./transactional-model-sm.png" class="img-fluid figure-img"></a></p>
+<p></p><figcaption class="figure-caption margin-caption">Diagram: the concept of a transaction as described by Jim Gray in 1981.</figcaption><p></p>
+</figure>
+</div>
+<p>But the paper itself is far more poetic. For example, from now on that’s the only acceptable history horizon to look back at a problem:</p>
+<ul>
+<li><em>“The legendary Greeks, Ariadne and Theseus, <strong>invented logging.</strong> Ariadne gave Theseus a magic ball of string which he unraveled as he searched the Labyrinth for the Minotaur. Having slain the Minotaur, Theseus followed the string back to the entrance rather then remaining lost in the Labyrinth. This string was his log allowing him to undo the process of entering the Labyrinth. But the Minotaur was not a protected object so its death was not undone by Theseus’ exit.”</em></li>
+<li><em>“Hansel and Gretel copied Theseus’ trick as they wandered into the woods in search of berries. They left behind a trail of crumbs that would allow them to retrace their steps by following the trail backwards, and would allow their parents to find them by following the trail forwards. This was the first undo and redo log. Unfortunately, a bird ate the crumbs and caused <strong>the first log failure.</strong>”</em></li>
+</ul>
+<p>Gray talks about transactions in human terms, as derived from the contract law:</p>
+<ul>
+<li><em>“The Christian wedding ceremony gives a good example of such a contract. The bride and groom “negotiate” for days or years and then appoint a minister to conduct the marriage ceremony. The minister first asks if anyone has any objections to the marriage; he then asks the bride and groom if they agree to the marriage. If they both say, “I do”, he pronounces them man and wife.”</em></li>
+</ul>
+<p>He also comes up with <strong>Consistency, Atomicity, and Durability</strong> as properties of a transaction (<em>Isolation</em> is not yet explicitly mentioned, but the concept is described in the logging implementation):</p>
+<ul>
+<li><em>“If transactions run concurrently, one transaction might read the outputs (updates or messages) of another transaction. If the first transaction aborts, then undoing it requires undoing the updates or messages read by the second transaction. This in turn requires undoing the second transaction. But the second transaction may have already committed and so cannot be undone. To prevent this dilemma, real and protected updates (undoable updates) of a transaction <strong>must be hidden from other transactions until the transaction commits.</strong> To assure that reading two related records, or rereading the same record, will give consistent results, one must also stabilize records which a transaction reads and keep them constant until the transaction commits. Otherwise a transaction could reread a record and get two different answers.”</em></li>
+</ul>
+<p>Going back to Von Neumann for the concept of building reliable systems by adding redundancy to the systems:</p>
+<ul>
+<li><em>“John Von Neumann is credited with the observation that a very reliable (and available) system can be built from unreliable components. Von Neumann’ s idea was to use redundancy and majority logic on a grand scale (20,000 wires for one wire) in order to get mean- times-to-failure measured in decades. Von Neumann was thinking in terms of neurons and vacuum tubes which have mean-times-to-failures measured in days and which are used in huge quantities (millions or billions) in a system. In addition, Von Neumann’s model was flat so that any failure in a chain broke the whole chain.”</em></li>
+</ul>
+<p>I also haven’t realised how many of the transaction problems in computer come from the possibility of in-place updates:</p>
+<ul>
+<li><em>The advent of direct access storage (discs and drums) changed this. It was now possible to update only a part of a file. Rather than copying the whole disc whenever one part was updated, it became attractive to update just the parts that changed in order to construct the new master. Some of these techniques, notably side files and differential files did not update the old master and hence followed good accounting techniques. But <strong>for performance reasons, most disc-based systems have been seduced into updating the data in place.</strong></em></li>
+</ul>
+<p>And the importance of what now is popular to call <strong>idempotency:</strong></p>
+<p><em>- “Another detail is that the <strong>undo and redo operations must be restartable,</strong> that is if the operation is already undone or redone, the operation should not damage or change the object state. The need for restartability comes from the need to deal with failures during undo and redo processing. Restartability is usually accomplished with version numbers (for disc pages) and with sequence numbers (for virtual circuits or sessions). Essentially, the undo or redo operation reads the version or sequence number and does nothing if it is the desired number. Otherwise it transforms the object and the sequence number.”</em></p>
 
 
-</section>
 
 </main> <!-- /main -->
 <!-- Begin Mailchimp Signup Form -->

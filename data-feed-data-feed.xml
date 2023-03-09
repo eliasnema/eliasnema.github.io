@@ -6,60 +6,11 @@
       version="2.0">
 <channel>
 <title>ELIAS NEMA</title>
-<link>https://www.eliasnema.com/data-feed.html</link>
-<atom:link href="https://www.eliasnema.com/data-feed.xml" rel="self" type="application/rss+xml"/>
+<link>https://www.eliasnema.com/data-feed.html#category=data-feed</link>
+<atom:link href="https://www.eliasnema.com/data-feed-data-feed.xml" rel="self" type="application/rss+xml"/>
 <description>Making data work: analytics, personalisation, relevance and recommender systems - whatever is takes.</description>
 <generator>quarto-1.1.251</generator>
-<lastBuildDate>Wed, 08 Mar 2023 00:00:00 GMT</lastBuildDate>
-<item>
-  <title>📜Foundational Paper: The Transaction Concept</title>
-  <dc:creator>Elias Nema</dc:creator>
-  <link>https://www.eliasnema.com/data-feed/paper-transactional-model/paper-transactional.html</link>
-  <description><![CDATA[ 
-
-
-
-
-<p>A paper lays down the foundation for the transactions in computer systems. It describes the concepts of ACID (not yet acronymized in the paper), undo and redo logs, and design for highly available systems. I enjoyed the paper a lot. Simple language, analogies, and a look at history make it a stark contrast to many of the modern papers, where looking sophisticated is often more important than the substance.</p>
-<p>As always, I start with the visual representation of the paper in which I distilled and connected the most important points:</p>
-<div class="quarto-figure quarto-figure-center page-columns page-full">
-<figure class="figure page-columns page-full">
-<p><a href="transactional-model.png"><img src="https://www.eliasnema.com/data-feed/paper-transactional-model/transactional-model-sm.png" class="img-fluid figure-img"></a></p>
-<p></p><figcaption class="figure-caption margin-caption">Diagram: the concept of a transaction as described by Jim Gray in 1981.</figcaption><p></p>
-</figure>
-</div>
-<p>But the paper itself is far more poetic. For example, from now on that’s the only acceptable history horizon to look back at a problem:</p>
-<ul>
-<li><em>“The legendary Greeks, Ariadne and Theseus, <strong>invented logging.</strong> Ariadne gave Theseus a magic ball of string which he unraveled as he searched the Labyrinth for the Minotaur. Having slain the Minotaur, Theseus followed the string back to the entrance rather then remaining lost in the Labyrinth. This string was his log allowing him to undo the process of entering the Labyrinth. But the Minotaur was not a protected object so its death was not undone by Theseus’ exit.”</em></li>
-<li><em>“Hansel and Gretel copied Theseus’ trick as they wandered into the woods in search of berries. They left behind a trail of crumbs that would allow them to retrace their steps by following the trail backwards, and would allow their parents to find them by following the trail forwards. This was the first undo and redo log. Unfortunately, a bird ate the crumbs and caused <strong>the first log failure.</strong>”</em></li>
-</ul>
-<p>Gray talks about transactions in human terms, as derived from the contract law:</p>
-<ul>
-<li><em>“The Christian wedding ceremony gives a good example of such a contract. The bride and groom “negotiate” for days or years and then appoint a minister to conduct the marriage ceremony. The minister first asks if anyone has any objections to the marriage; he then asks the bride and groom if they agree to the marriage. If they both say, “I do”, he pronounces them man and wife.”</em></li>
-</ul>
-<p>He also comes up with <strong>Consistency, Atomicity, and Durability</strong> as properties of a transaction (<em>Isolation</em> is not yet explicitly mentioned, but the concept is described in the logging implementation):</p>
-<ul>
-<li><em>“If transactions run concurrently, one transaction might read the outputs (updates or messages) of another transaction. If the first transaction aborts, then undoing it requires undoing the updates or messages read by the second transaction. This in turn requires undoing the second transaction. But the second transaction may have already committed and so cannot be undone. To prevent this dilemma, real and protected updates (undoable updates) of a transaction <strong>must be hidden from other transactions until the transaction commits.</strong> To assure that reading two related records, or rereading the same record, will give consistent results, one must also stabilize records which a transaction reads and keep them constant until the transaction commits. Otherwise a transaction could reread a record and get two different answers.”</em></li>
-</ul>
-<p>Going back to Von Neumann for the concept of building reliable systems by adding redundancy to the systems:</p>
-<ul>
-<li><em>“John Von Neumann is credited with the observation that a very reliable (and available) system can be built from unreliable components. Von Neumann’ s idea was to use redundancy and majority logic on a grand scale (20,000 wires for one wire) in order to get mean- times-to-failure measured in decades. Von Neumann was thinking in terms of neurons and vacuum tubes which have mean-times-to-failures measured in days and which are used in huge quantities (millions or billions) in a system. In addition, Von Neumann’s model was flat so that any failure in a chain broke the whole chain.”</em></li>
-</ul>
-<p>I also haven’t realised how many of the transaction problems in computer come from the possibility of in-place updates:</p>
-<ul>
-<li><em>The advent of direct access storage (discs and drums) changed this. It was now possible to update only a part of a file. Rather than copying the whole disc whenever one part was updated, it became attractive to update just the parts that changed in order to construct the new master. Some of these techniques, notably side files and differential files did not update the old master and hence followed good accounting techniques. But <strong>for performance reasons, most disc-based systems have been seduced into updating the data in place.</strong></em></li>
-</ul>
-<p>And the importance of what now is popular to call <strong>idempotency:</strong></p>
-<p><em>- “Another detail is that the <strong>undo and redo operations must be restartable,</strong> that is if the operation is already undone or redone, the operation should not damage or change the object state. The need for restartability comes from the need to deal with failures during undo and redo processing. Restartability is usually accomplished with version numbers (for disc pages) and with sequence numbers (for virtual circuits or sessions). Essentially, the undo or redo operation reads the version or sequence number and does nothing if it is the desired number. Otherwise it transforms the object and the sequence number.”</em></p>
-
-
-
- ]]></description>
-  <category>papers</category>
-  <guid>https://www.eliasnema.com/data-feed/paper-transactional-model/paper-transactional.html</guid>
-  <pubDate>Wed, 08 Mar 2023 00:00:00 GMT</pubDate>
-  <media:content url="https://www.eliasnema.com/data-feed/paper-transactional-model/transactional-model-sm.png" medium="image" type="image/png" height="85" width="144"/>
-</item>
+<lastBuildDate>Fri, 03 Mar 2023 00:00:00 GMT</lastBuildDate>
 <item>
   <title>Data Feed #4: Vectors ↗</title>
   <dc:creator>Elias Nema</dc:creator>
