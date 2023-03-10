@@ -10,7 +10,76 @@
 <atom:link href="https://www.eliasnema.com/data-feed-data-feed.xml" rel="self" type="application/rss+xml"/>
 <description>Making data work: analytics, personalisation, relevance and recommender systems - whatever is takes.</description>
 <generator>quarto-1.1.251</generator>
-<lastBuildDate>Fri, 03 Mar 2023 00:00:00 GMT</lastBuildDate>
+<lastBuildDate>Fri, 10 Mar 2023 00:00:00 GMT</lastBuildDate>
+<item>
+  <title>Data Feed #5: GEO 🗺️</title>
+  <link>https://www.eliasnema.com/data-feed/2023-03-10.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>You should also check out a recent <a href="https://www.eliasnema.com/data-feed/paper-transactional-model/paper-transactional.html">deep dive into a foundational paper</a> - “The Transaction Concept: Virtues and Limitations” by Jim Gray, 1981.</p>
+<section id="weekly-focus-geo" class="level2 page-columns page-full">
+<h2 class="anchored" data-anchor-id="weekly-focus-geo">Weekly Focus: GEO</h2>
+<p>A couple of great posts from <a href="https://tech.marksblogg.com">Mark Litwintschik</a>:</p>
+<ul>
+<li>Exploration of a FlixBus dataset and using SQL for some route planning.<sup>1</sup></li>
+<li>DuckDB for geospatial data (spoiler: it outperformed previous winner ClickHouse).<sup>2</sup></li>
+</ul>
+<div class="no-row-height column-margin column-container"><li id="fn1"><p><sup>1</sup>&nbsp;<a href="https://tech.marksblogg.com/route-planning-europe-postgresql-pgrouting.html">European Route Planning</a></p></li><li id="fn2"><p><sup>2</sup>&nbsp;<a href="https://tech.marksblogg.com/duckdb-geospatial-gis.html">Geospatial DuckDB</a></p></li></div><p>H3 extensions:</p>
+<ul>
+<li><a href="https://github.com/isaacbrodsky/h3-duckdb">h3-duckdb</a></li>
+<li><a href="https://blog.rustprooflabs.com/2022/06/h3-indexes-on-postgis-data">H3 indexes for performance with PostGIS data.</a></li>
+</ul>
+<div class="page-columns page-full"><p>Another approach is to use a web API-based geocoder. Here is an example from a Crunchy Bridge.<sup>3</sup></p><div class="no-row-height column-margin column-container"><li id="fn3"><p><sup>3</sup>&nbsp;<a href="https://www.kschaul.com/post/2023/02/16/how-the-post-is-replacing-mapbox-with-open-source-solutions/">How The Post is replacing Mapbox with open source solutions</a></p></li></div></div>
+<div class="page-columns page-full"><p>Using PostGIS in Supabase to build an app in Ionic Angular.<sup>4</sup></p><div class="no-row-height column-margin column-container"><li id="fn4"><p><sup>4</sup>&nbsp;<a href="https://supabase.com/blog/geo-queries-with-postgis-in-ionic-angular">Geo Queries with PostGIS in Ionic Angular</a></p></li></div></div>
+</section>
+<section id="vectors" class="level2 page-columns page-full">
+<h2 class="anchored" data-anchor-id="vectors">Vectors</h2>
+<div class="page-columns page-full"><p>Following up on <a href="https://www.eliasnema.com/data-feed/2023-03-03.html">last week’s issue about vectors</a>, here is an amazing SQLite extension for vector search, that is based on faiss.<sup>5</sup></p><div class="no-row-height column-margin column-container"><li id="fn5"><p><sup>5</sup>&nbsp;<a href="https://observablehq.com/@asg017/introducing-sqlite-vss">Introducing sqlite-vss</a></p></li></div></div>
+</section>
+<section id="learning" class="level2 page-columns page-full">
+<h2 class="anchored" data-anchor-id="learning">Learning</h2>
+<p><a href="https://aws.amazon.com/blogs/big-data/simplify-data-loading-into-type-2-slowly-changing-dimensions-in-amazon-redshift/">Simplify data loading into Type 2 slowly changing dimensions in Amazon Redshift.</a></p>
+<p><a href="https://www.philipotoole.com/9-years-of-open-source-database-development-the-design-docs/">9 years of open-source database development: reviewing rqlite design choices.</a></p>
+<p><a href="https://www.timescale.com/blog/best-practices-for-time-series-data-modeling-single-or-multiple-partitioned-table-s-a-k-a-hypertables/">Best practices for time-series data modeling: single or multiple partitioned table(s) a.k.a. hypertables.</a></p>
+<p><a href="https://aws.amazon.com/blogs/database/choose-the-right-postgresql-data-access-pattern-for-your-saas-application/">Choose the right PostgreSQL data access pattern for your SaaS application.</a></p>
+<p><a href="https://redpanda.com/blog/placement-groups-high-availability-cluster">How to use Placement Groups to achieve high availability.</a></p>
+<p><a href="https://www.scylladb.com/2023/03/08/rust-in-the-real-world-super-fast-data-ingestion-using-scylladb/">Rust in the real world: super fast data ingestion using ScyllaDB.</a></p>
+<p><a href="https://aws.amazon.com/blogs/big-data/build-an-end-to-end-change-data-capture-with-amazon-msk-connect-and-aws-glue-schema-registry/">Build an end-to-end change data capture with Amazon MSK Connect and AWS Glue Schema Registry.</a></p>
+<p><a href="https://www.yugabyte.com/blog/design-indexes-query-performance-distributed-database/">How to design distributed indexes for optimal query performance.</a></p>
+<div class="page-columns page-full"><p>Amazon Athena editor is finally getting quite a few keyboard shortcuts🙌<sup>6</sup></p><div class="no-row-height column-margin column-container"><li id="fn6"><p><sup>6</sup>&nbsp;<a href="https://aws.amazon.com/blogs/big-data/improve-productivity-by-using-keyboard-shortcuts-in-amazon-athena-query-editor/">Improve productivity by using keyboard shortcuts in Amazon Athena query editor</a></p></li></div></div>
+</section>
+<section id="upcoming-conferences" class="level2">
+<h2 class="anchored" data-anchor-id="upcoming-conferences">Upcoming Conferences</h2>
+<p>Distributed <a href="https://www.yugabyte.com/blog/distributed-sql-summit-asia-registration-is-now-open/">SQL Summit</a> by YugabyteDB.</p>
+<p>Cassandra Forward and <a href="https://www.datastax.com/blog/cassandraforward">why you don’t want to miss it</a>.</p>
+</section>
+<section id="deep-dive" class="level2 page-columns page-full">
+<h2 class="anchored" data-anchor-id="deep-dive">Deep Dive</h2>
+<div class="page-columns page-full"><p>Great stories with examples from Quora on challenges faced in modelling, querying and writing to a DB of an internet-scale service.<sup>7</sup></p><div class="no-row-height column-margin column-container"><li id="fn7"><p><sup>7</sup>&nbsp;<a href="https://quoraengineering.quora.com/Optimizing-the-databases-at-Quora">Optimizing the databases at Quora</a></p></li></div></div>
+<p><a href="https://www.timescale.com/blog/the-power-of-linked-data-event-streams-and-timescaledb-for-real-time-management-of-time-series-data/">The power of linked data event streams and timescale for real-time management of time-series data.</a></p>
+<div class="page-columns page-full"><p>How to configure PGSnapper for better insights into the PostgreSQL performance on AWS.<sup>8</sup></p><div class="no-row-height column-margin column-container"><li id="fn8"><p><sup>8</sup>&nbsp;<a href="https://aws.amazon.com/blogs/database/monitor-amazon-rds-for-postgresql-and-amazon-aurora-postgresql-performance-using-pgsnapper/">Monitor Amazon RDS for PostgreSQL and Amazon Aurora PostgreSQL performance using PGSnapper</a></p></li></div></div>
+<p><a href="https://engineering.adjust.com/post/11_tb_wal_in_postgresql/">11TB WAL in PostgreSQL</a></p>
+<div class="page-columns page-full"><p>Designing a new ChunkStore for Dolt - a database that uses a storage engine inspired by Git.<sup>9</sup></p><div class="no-row-height column-margin column-container"><li id="fn9"><p><sup>9</sup>&nbsp;<a href="https://www.dolthub.com/blog/2023-03-08-dolt-chunk-journal/">Journaling Chunk Store</a></p></li></div></div>
+</section>
+<section id="business" class="level2">
+<h2 class="anchored" data-anchor-id="business">Business</h2>
+<p><a href="https://www.cockroachlabs.com/blog/5-fintech-companies-refused-to-sacrifice-scale-availability-or-consistency/">How 5 fintech companies build for scale, availability, and consistency.</a></p>
+<p><a href="https://www.snowflake.com/blog/how-financial-services-mitigate-financial-crime-incidents/">Mitigating financial crime incidents in the financial services sector.</a></p>
+<p><a href="https://ravendb.net/articles/how-to-boost-queries-by-800-without-abandoning-your-relational-system">How to boost queries by 800% without abandoning your relational system.</a></p>
+
+
+</section>
+
+
+ ]]></description>
+  <category>data-feed</category>
+  <guid>https://www.eliasnema.com/data-feed/2023-03-10.html</guid>
+  <pubDate>Fri, 10 Mar 2023 00:00:00 GMT</pubDate>
+  <media:content url="https://www.eliasnema.com/df2-small.png" medium="image" type="image/png" height="121" width="144"/>
+</item>
 <item>
   <title>Data Feed #4: Vectors ↗</title>
   <dc:creator>Elias Nema</dc:creator>

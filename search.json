@@ -350,6 +350,55 @@
     "text": "I’m writing a newsletter for engineers, focused on data applications, diving deep into systems, architectures, and foundational papers. In the blog part, you can find more random observations about other things I like - charts, books, photography, movies, football, and tennis."
   },
   {
+    "objectID": "data-feed/2023-03-10.html",
+    "href": "data-feed/2023-03-10.html",
+    "title": "Data Feed #5: GEO 🗺️",
+    "section": "",
+    "text": "You should also check out a recent deep dive into a foundational paper - “The Transaction Concept: Virtues and Limitations” by Jim Gray, 1981."
+  },
+  {
+    "objectID": "data-feed/2023-03-10.html#weekly-focus-geo",
+    "href": "data-feed/2023-03-10.html#weekly-focus-geo",
+    "title": "Data Feed #5: GEO 🗺️",
+    "section": "Weekly Focus: GEO",
+    "text": "Weekly Focus: GEO\nA couple of great posts from Mark Litwintschik:\n\nExploration of a FlixBus dataset and using SQL for some route planning.1\nDuckDB for geospatial data (spoiler: it outperformed previous winner ClickHouse).2\n\n1 European Route Planning2 Geospatial DuckDBH3 extensions:\n\nh3-duckdb\nH3 indexes for performance with PostGIS data.\n\nAnother approach is to use a web API-based geocoder. Here is an example from a Crunchy Bridge.33 How The Post is replacing Mapbox with open source solutions\nUsing PostGIS in Supabase to build an app in Ionic Angular.44 Geo Queries with PostGIS in Ionic Angular"
+  },
+  {
+    "objectID": "data-feed/2023-03-10.html#vectors",
+    "href": "data-feed/2023-03-10.html#vectors",
+    "title": "Data Feed #5: GEO 🗺️",
+    "section": "Vectors",
+    "text": "Vectors\nFollowing up on last week’s issue about vectors, here is an amazing SQLite extension for vector search, that is based on faiss.55 Introducing sqlite-vss"
+  },
+  {
+    "objectID": "data-feed/2023-03-10.html#learning",
+    "href": "data-feed/2023-03-10.html#learning",
+    "title": "Data Feed #5: GEO 🗺️",
+    "section": "Learning",
+    "text": "Learning\nSimplify data loading into Type 2 slowly changing dimensions in Amazon Redshift.\n9 years of open-source database development: reviewing rqlite design choices.\nBest practices for time-series data modeling: single or multiple partitioned table(s) a.k.a. hypertables.\nChoose the right PostgreSQL data access pattern for your SaaS application.\nHow to use Placement Groups to achieve high availability.\nRust in the real world: super fast data ingestion using ScyllaDB.\nBuild an end-to-end change data capture with Amazon MSK Connect and AWS Glue Schema Registry.\nHow to design distributed indexes for optimal query performance.\nAmazon Athena editor is finally getting quite a few keyboard shortcuts🙌66 Improve productivity by using keyboard shortcuts in Amazon Athena query editor"
+  },
+  {
+    "objectID": "data-feed/2023-03-10.html#upcoming-conferences",
+    "href": "data-feed/2023-03-10.html#upcoming-conferences",
+    "title": "Data Feed #5: GEO 🗺️",
+    "section": "Upcoming Conferences",
+    "text": "Upcoming Conferences\nDistributed SQL Summit by YugabyteDB.\nCassandra Forward and why you don’t want to miss it."
+  },
+  {
+    "objectID": "data-feed/2023-03-10.html#deep-dive",
+    "href": "data-feed/2023-03-10.html#deep-dive",
+    "title": "Data Feed #5: GEO 🗺️",
+    "section": "Deep Dive",
+    "text": "Deep Dive\nGreat stories with examples from Quora on challenges faced in modelling, querying and writing to a DB of an internet-scale service.77 Optimizing the databases at Quora\nThe power of linked data event streams and timescale for real-time management of time-series data.\nHow to configure PGSnapper for better insights into the PostgreSQL performance on AWS.88 Monitor Amazon RDS for PostgreSQL and Amazon Aurora PostgreSQL performance using PGSnapper\n11TB WAL in PostgreSQL\nDesigning a new ChunkStore for Dolt - a database that uses a storage engine inspired by Git.99 Journaling Chunk Store"
+  },
+  {
+    "objectID": "data-feed/2023-03-10.html#business",
+    "href": "data-feed/2023-03-10.html#business",
+    "title": "Data Feed #5: GEO 🗺️",
+    "section": "Business",
+    "text": "Business\nHow 5 fintech companies build for scale, availability, and consistency.\nMitigating financial crime incidents in the financial services sector.\nHow to boost queries by 800% without abandoning your relational system."
+  },
+  {
     "objectID": "data-feed/2023-02-10.html",
     "href": "data-feed/2023-02-10.html",
     "title": "Data Feed #1",
@@ -494,7 +543,7 @@
     "href": "data-feed.html",
     "title": "Data Feed 🐦 🐘",
     "section": "",
-    "text": "Title\n\n\nDate\n\n\n\n\n\n\n📜Foundational Paper: The Transaction Concept\n\n\nMar 8, 2023\n\n\n\n\nData Feed #4: Vectors ↗\n\n\nMar 3, 2023\n\n\n\n\nData Feed #3\n\n\nFeb 23, 2023\n\n\n\n\nData Feed #2\n\n\nFeb 17, 2023\n\n\n\n\nData Feed #1\n\n\nFeb 10, 2023\n\n\n\n\n\n\nNo matching items"
+    "text": "Title\n\n\nDate\n\n\n\n\n\n\nData Feed #5: GEO 🗺️\n\n\nMar 10, 2023\n\n\n\n\n📜Foundational Paper: The Transaction Concept\n\n\nMar 8, 2023\n\n\n\n\nData Feed #4: Vectors ↗\n\n\nMar 3, 2023\n\n\n\n\nData Feed #3\n\n\nFeb 23, 2023\n\n\n\n\nData Feed #2\n\n\nFeb 17, 2023\n\n\n\n\nData Feed #1\n\n\nFeb 10, 2023\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "privacy.html",
