@@ -10,7 +10,67 @@
 <atom:link href="https://www.eliasnema.com/data-feed.xml" rel="self" type="application/rss+xml"/>
 <description>Making data work: analytics, personalisation, relevance and recommender systems - whatever is takes.</description>
 <generator>quarto-1.1.251</generator>
-<lastBuildDate>Fri, 10 Mar 2023 00:00:00 GMT</lastBuildDate>
+<lastBuildDate>Fri, 17 Mar 2023 00:00:00 GMT</lastBuildDate>
+<item>
+  <title>Data Feed #6: JSON {}</title>
+  <dc:creator>Elias Nema</dc:creator>
+  <link>https://www.eliasnema.com/data-feed/2023-03-17.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<section id="weekly-focus-json" class="level2 page-columns page-full">
+<h2 class="anchored" data-anchor-id="weekly-focus-json">Weekly Focus: JSON <code>{}</code></h2>
+<div class="page-columns page-full"><p>PostgreSQL can deal with JSON for a very long time (and here is a great history<sup>1</sup> of it), but now is also able to write the server log in JSON format.<sup>2</sup></p><div class="no-row-height column-margin column-container"><li id="fn1"><p><sup>1</sup>&nbsp;<a href="https://www.infoworld.com/article/3651356/jsonb-in-postgresql-today-and-tomorrow.html">JSONB in PostgreSQL today and tomorrow</a></p></li><li id="fn2"><p><sup>2</sup>&nbsp;<a href="https://www.cybertec-postgresql.com/en/json-logs-in-postgresql-15/">JSON logs in PostgreSQL 15</a></p></li></div></div>
+<div class="page-columns page-full"><p>A deep dive into the potential performance issues when parsing JSON.<sup>3</sup></p><div class="no-row-height column-margin column-container"><li id="fn3"><p><sup>3</sup>&nbsp;<a href="https://www.cockroachlabs.com/blog/high-performance-json-parsing/">High-performance JSON parsing in Go</a></p></li></div></div>
+<p><a href="https://planetscale.com/blog/the-mysql-json-data-type">The MySQL JSON data type.</a></p>
+<div class="page-columns page-full"><p>In SQLite, JSON functions are built-in and on by default since 3.38, along with <code>-&gt;</code> and <code>-&gt;&gt;</code> operators, compatible with MySQL and PostgreSQL.<sup>4</sup></p><div class="no-row-height column-margin column-container"><li id="fn4"><p><sup>4</sup>&nbsp;<a href="https://www.sqlite.org/releaselog/3_38_0.html">SQLite Release 3.38.0</a></p></li></div></div>
+<p>DuckDB:</p>
+<ul>
+<li>DuckDB can read JSON files as tables, and here is an example of querying GH Archive data.<sup>5</sup></li>
+<li>JSON support was a big part of a DuckDB 0.7.0 release.<sup>6</sup></li>
+</ul>
+<div class="no-row-height column-margin column-container"><li id="fn5"><p><sup>5</sup>&nbsp;<a href="https://duckdb.org/2023/03/03/json.html">Shredding Deeply Nested JSON, One Vector at a Time</a></p></li><li id="fn6"><p><sup>6</sup>&nbsp;<a href="https://duckdb.org/2023/02/13/announcing-duckdb-070.html">Announcing DuckDB 0.7.0</a></p></li></div></section>
+<section id="learning" class="level2">
+<h2 class="anchored" data-anchor-id="learning">Learning</h2>
+<p><a href="https://www.cockroachlabs.com/blog/what-is-a-uuid/">What is a UUID, and what is it used for?</a></p>
+<p>Data migrations are still of the hardest problems in engineering, and AWS has written a couple of recent articles about that:</p>
+<ul>
+<li><a href="https://aws.amazon.com/blogs/database/migrate-an-internet-scale-online-transactional-system-to-amazon-dynamodb-using-aws-dms/">Migrate an internet-scale online transactional system to Amazon DynamoDB using AWS DMS.</a></li>
+<li><a href="https://aws.amazon.com/blogs/database/how-skai-performed-database-and-migration-with-aws-dms/">How Skai performed database modernization and migration with AWS DMS.</a></li>
+</ul>
+<p><a href="https://www.crunchydata.com/blog/easy-postgresql-time-bins">Easy PostgreSQL time bins.</a></p>
+<p><a href="https://techcommunity.microsoft.com/t5/azure-database-for-postgresql/announcing-data-api-builder-preview-for-postgresql/ba-p/3766768">Announcing Data API Builder (preview) for PostgreSQL.</a></p>
+<p><a href="https://redpanda.com/blog/advertised-kafka-address-explanation">What is advertised Kafka address?</a></p>
+<p><a href="https://passdatacommunitysummit.com">PASS Data Community Summit</a> is in Seattle on November 14-17 with a call for speakers still open.</p>
+<p><a href="https://redpanda.com/blog/stream-processing-apache-flink-etl">Getting started: Stream processing using Apache Flink and Redpanda.</a></p>
+</section>
+<section id="deep-dive" class="level2 page-columns page-full">
+<h2 class="anchored" data-anchor-id="deep-dive">Deep Dive</h2>
+<div class="page-columns page-full"><p>An AMAZING, more than 600 pages book focusing on PostgreSQL internals.<sup>7</sup> A must-read!</p><div class="no-row-height column-margin column-container"><li id="fn7"><p><sup>7</sup>&nbsp;<a href="https://postgrespro.com/blog/pgsql/5969985">PostgreSQL 14 Internals</a></p></li></div></div>
+<div class="page-columns page-full"><p>Enabling <a href="https://docs.oracle.com/database/121/UNXAR/appi_vlm.htm#UNXAR391">Linux Huge Pages</a> for Postgres and MySQL.<sup>8</sup></p><div class="no-row-height column-margin column-container"><li id="fn8"><p><sup>8</sup>&nbsp;<a href="http://smalldatum.blogspot.com/2023/03/huge-pages-with-postgres-innodb-better.html">Huge pages with Postgres &amp; InnoDB: better perf, but a bit more work.</a></p></li></div></div>
+<p><a href="https://www.enterprisedb.com/blog/performance-comparison-major-PostgreSQL-versions">Performance comparison of the major PostgreSQL versions.</a></p>
+<div class="page-columns page-full"><p>Overview of machine learning-based automatic database tuning techniques at OtterTune.<sup>9</sup></p><div class="no-row-height column-margin column-container"><li id="fn9"><p><sup>9</sup>&nbsp;<a href="https://ottertune.com/blog/ottertune-1-5-to-2-0-where-we-are-and-where-were-going/">OtterTune 1.5 to 2.0: Where We Are and Where We’re Going</a></p></li></div></div>
+<p><a href="https://www.cybertec-postgresql.com/en/bad-check-constraints-postgresql/">Breaking your PostgreSQL database with bad <code>CHECK</code> constraints.</a></p>
+</section>
+<section id="business" class="level2 page-columns page-full">
+<h2 class="anchored" data-anchor-id="business">Business</h2>
+<p><a href="https://cloud.google.com/blog/products/ai-machine-learning/top-5-data-and-ai-trends-this-year">The top five global data and AI trends in 2023 from Google Cloud.</a></p>
+<div class="page-columns page-full"><p>A new whitepaper from AWS on Data Lakes cost modeling best practices.<sup>10</sup></p><div class="no-row-height column-margin column-container"><li id="fn10"><p><sup>10</sup>&nbsp;<a href="https://docs.aws.amazon.com/whitepapers/latest/cost-modeling-data-lakes/defining-the-approach-to-cost-modeling-data-lakes.html">Cost modeling Data Lakes for beginners</a></p></li></div></div>
+<p><a href="https://www.enterprisedb.com/blog/Postgres-Powered-Community-Open-Source">Community and open source: the secret to PostgreSQL’s success.</a></p>
+<p><a href="https://www.yugabyte.com/blog/database-security-stability-client-satisfaction-fiserv/">Prioritizing security, stability, and client satisfaction: insight from Fiserv’s VP and fellow architect.</a></p>
+
+
+</section>
+
+
+ ]]></description>
+  <category>data-feed</category>
+  <guid>https://www.eliasnema.com/data-feed/2023-03-17.html</guid>
+  <pubDate>Fri, 17 Mar 2023 00:00:00 GMT</pubDate>
+  <media:content url="https://www.eliasnema.com/df2-small.png" medium="image" type="image/png" height="121" width="144"/>
+</item>
 <item>
   <title>Data Feed #5: GEO 🗺️</title>
   <link>https://www.eliasnema.com/data-feed/2023-03-10.html</link>
