@@ -1,0 +1,821 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.7.32">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Elias Nema">
+<meta name="dcterms.date" content="2023-02-19">
+
+<title>Engineering Managers should Product et al.&nbsp;– ELIAS NEMA</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<link href="../favicon.ico" rel="icon">
+<script src="../site_libs/cookie-consent/cookie-consent.js"></script>
+<link href="../site_libs/cookie-consent/cookie-consent.css" rel="stylesheet">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-b9e9b2ad11166d5bb88698be1e683faf.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
+<link href="../site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
+<link href="../site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+<script type="text/plain" cookie-consent="tracking">
+
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+ga('create', 'UA-165368106-1', 'auto');
+
+ga('send', {
+  hitType: 'pageview',
+  'anonymizeIp': true,
+});
+</script>
+
+<script type="text/javascript" charset="UTF-8">
+document.addEventListener('DOMContentLoaded', function () {
+cookieconsent.run({
+  "notice_banner_type":"simple",
+  "consent_type":"implied",
+  "palette":"light",
+  "language":"en",
+  "page_load_consent_levels":["strictly-necessary","functionality","tracking","targeting"],
+  "notice_banner_reject_button_hide":false,
+  "preferences_center_close_button_hide":false,
+  "website_name":""
+  ,
+"language":"en"
+  });
+});
+</script> 
+  
+
+
+<link rel="stylesheet" href="../styles.css">
+<meta property="og:title" content="Engineering Managers should Product et al.&nbsp;– ELIAS NEMA">
+<meta property="og:description" content="Making data work: analytics, personalisation, relevance and recommender systems - whatever is takes.">
+<meta property="og:image" content="https://www.eliasnema.com/state/going-soft.png">
+<meta property="og:site_name" content="ELIAS NEMA">
+<meta property="og:image:alt" content="But regardless of the name, it’s still happening and going to continue in the foreseeable future.">
+<meta property="og:image:height" content="742">
+<meta property="og:image:width" content="690">
+<meta name="twitter:title" content="Engineering Managers should Product et al.&nbsp;– ELIAS NEMA">
+<meta name="twitter:description" content="Making data work: analytics, personalisation, relevance and recommender systems - whatever is takes.">
+<meta name="twitter:image" content="https://www.eliasnema.com/state/going-soft.png">
+<meta name="twitter:image:alt" content="But regardless of the name, it’s still happening and going to continue in the foreseeable future.">
+<meta name="twitter:image-height" content="742">
+<meta name="twitter:image-width" content="690">
+<meta name="twitter:card" content="summary_large_image">
+</head>
+
+<body class="floating nav-fixed slimcontent quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top quarto-banner">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">ELIAS NEMA</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../state.html"> 
+<span class="menu-text">State</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../log.html"> 
+<span class="menu-text">Log</span></a>
+  </li>  
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../talks.html"> 
+<span class="menu-text">Talks</span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/"> <i class="bi bi-github" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://twitter.com"> <i class="bi bi-twitter" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="../index.xml"> <i class="bi bi-rss" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<header id="title-block-header" class="quarto-title-block default toc-left page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-body">
+      <h1 class="title">Engineering Managers should Product et al.</h1>
+                                <div class="quarto-categories">
+                <div class="quarto-category">engineering</div>
+                <div class="quarto-category">leadership</div>
+              </div>
+                  </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta">
+
+      <div>
+      <div class="quarto-title-meta-heading">Author</div>
+      <div class="quarto-title-meta-contents">
+               <p>Elias Nema </p>
+            </div>
+    </div>
+      
+      <div>
+      <div class="quarto-title-meta-heading">Published</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">February 19, 2023</p>
+      </div>
+    </div>
+    
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+    <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#software" id="toc-software" class="nav-link active" data-scroll-target="#software">Software</a>
+  <ul class="collapse">
+  <li><a href="#stage-1-support-function" id="toc-stage-1-support-function" class="nav-link" data-scroll-target="#stage-1-support-function">Stage 1: Support Function</a></li>
+  <li><a href="#stage-2-transition-period-support-core" id="toc-stage-2-transition-period-support-core" class="nav-link" data-scroll-target="#stage-2-transition-period-support-core">Stage 2: Transition Period (Support → Core)</a></li>
+  <li><a href="#stage-3-software-is-product" id="toc-stage-3-software-is-product" class="nav-link" data-scroll-target="#stage-3-software-is-product">Stage 3: Software is Product</a></li>
+  </ul></li>
+  <li><a href="#other-industries" id="toc-other-industries" class="nav-link" data-scroll-target="#other-industries">Other industries</a></li>
+  <li><a href="#conclusion" id="toc-conclusion" class="nav-link" data-scroll-target="#conclusion">Conclusion</a></li>
+  </ul>
+</nav>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+    </div>
+<!-- main -->
+<main class="content quarto-banner-title-block page-columns page-full" id="quarto-document-content">
+
+
+
+
+
+<p><strong>Summary: software engineers (especially leaders/managers up the tech hierarchy) should spend more time closer to the business, product, and marketing. They should treat it as part of their main responsibilities, not a nice-to-haves or if-have-times (which, of course, no one ever does).</strong></p>
+<p>Some time ago, a tweet from Shreyas confirmed something I’ve also seen a lot – software engineering leadership focuses on technical problems, leaving business discussions to <em>“the business”,</em> or, more recently to <em>“the product”.</em> If not totally abandoning, then at least not thinking about this as a part of their main job – waiting for these magical stakeholders to have all the answers ready, while engineering will be focusing on tech things, prioritising tech debt, building internal tools, or what have you. I’m curious <strong>1/</strong> if that’s a software industry phenomenon, <strong>2/</strong> why is that happening, and <strong>3/</strong> what should engineers do, depending on the environment they are in.</p>
+<center>
+<blockquote class="twitter-tweet blockquote">
+<p lang="en" dir="ltr">
+I am increasingly of the opinion that engineering leaders &amp; design leaders should be putting more pressure on their PM counterparts to <em>help devise</em> a sound product strategy. And this is absolutely vital if the business has been struggling. More process won’t solve this problem.
+</p>
+— Shreyas Doshi (<span class="citation" data-cites="shreyas">@shreyas</span>) <a href="https://twitter.com/shreyas/status/1616874874349445121?ref_src=twsrc%5Etfw">January 21, 2023</a>
+</blockquote>
+<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</center>
+<section id="software" class="level2 page-columns page-full">
+<h2 class="anchored" data-anchor-id="software">Software</h2>
+<section id="stage-1-support-function" class="level3">
+<h3 class="anchored" data-anchor-id="stage-1-support-function">Stage 1: Support Function</h3>
+<p>In the early days of computers, IT was separate from business and played the role of a supporting function to automate some business processes and provide better business insights. Business innovations were happening outside the “computers”, and business is not growing by optimising and investing in software.</p>
+<p>IT, as a support function, operates in a “ticketing machine” environment where things are regulated or already defined. An operational model of “just do what business tells” prevails and is also appropriate for such a setup.</p>
+</section>
+<section id="stage-2-transition-period-support-core" class="level3 page-columns page-full">
+<h3 class="anchored" data-anchor-id="stage-2-transition-period-support-core">Stage 2: Transition Period (Support → Core)</h3>
+<p>Later on, software started percolating all the various areas of business and life and started to – famously – <strong>eat the world.</strong></p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>I don’t like this phrasing. It assumes that the endgame is only software, while I believe that the hardware will always be equally important, as proved recently by Apple and others – without the underlying layers, there will be nothing to build on top of.</p>
+</div>
+</div>
+<div class="quarto-figure quarto-figure-center page-columns page-full">
+<figure class="figure page-columns page-full">
+<p><a href="going-soft.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="But regardless of the name, it’s still happening and going to continue in the foreseeable future."><img src="going-soft.png" class="img-fluid figure-img" style="width:35.0%" alt="But regardless of the name, it’s still happening and going to continue in the foreseeable future."></a></p>
+<figcaption class="margin-caption">But regardless of the name, it’s still happening and going to continue in the <a href="https://www.economist.com/business/2022/06/12/how-supply-chain-turmoil-is-remaking-the-car-industry">foreseeable future.</a></figcaption>
+</figure>
+</div>
+<p>This triggered a transition for software from a cost to a profit centre. It also exposed the ineffectiveness of the methods using rigid requirements and specifications, which, among other things, triggered the development of agile methodologies in software. These methods, however, attempted to fix the problem by establishing better interfaces between stakeholders. <strong>There was still a separation between the people who own the requirements, and the ones who implement them.</strong> However, this sets a trend of reducing dependencies and communication bottlenecks across different parts of building products.</p>
+<p>But there is also an opposite force at work at the same time – software becomes more complex. This drives <strong>specialisation and more vertical knowledge.</strong> Technical experts need to go deeper and deeper to understand their topics at the same level. This, in turn, drives separation and creates a talent gap, where there are not enough people experienced in both technology and business. For example, Amazon was one of the first companies that separated the roles of product and engineering leadership, because it was hard to find people that were good at both.</p>
+</section>
+<section id="stage-3-software-is-product" class="level3">
+<h3 class="anchored" data-anchor-id="stage-3-software-is-product">Stage 3: Software is Product</h3>
+<p>This brings us to the period of more mature software products and development environments. It removes more interfaces and awards the role of the final judge to the <strong>customer.</strong> Software becomes a product in itself. There are even products <a href="https://blog.symops.com/2023/01/05/platform-engineering-as-a-startup/">within products.</a></p>
+<p>Elimination of more silos is happening. DevOps, SREs, and continuous delivery movements, with cloud-enabling this transition on the underlying layer, removed final barriers between development, testing, and infrastructure. Engineering teams started working together to deliver a product and not a set of functional competencies.</p>
+<p>We’ve learned to build software relatively fast and of good quality. However, we still do not always build what is needed for the user. The last gap standing is between engineering and business. This gap is responsible for creating engineering silos, <strong>software platforms that cannot support unit economics of business,</strong> and engineering for the sake of engineering, where you end up with systems inappropriately built for the size and scale of the business (no matter up or down), and cargo-culting with the best practices not adding value in a particular situation.</p>
+<p>The reality is not evenly distributed, of course. Still, it’s happening way <a href="https://twitter.com/SergioRocks/status/1622959677431775235">too often</a> (so much that the opinion is still unpopular) in companies of all shapes and sizes. A lot of time business finds themselves <strong>hostage</strong> to tech decisions, not realising before that those decisions are actually business decisions now.</p>
+<center>
+<blockquote class="twitter-tweet blockquote">
+<p lang="en" dir="ltr">
+to connect services to business through data.<br><br>"Business processes and domains were subordinate to applications."<br><br>This resonates, and I've multiple times seen the business end up hostage to the tech stack at some point in a company's evolution.
+</p>
+— Elias (<span class="citation" data-cites="eliasnema">@eliasnema</span>) <a href="https://twitter.com/eliasnema/status/1620543538772705280?ref_src=twsrc%5Etfw">January 31, 2023</a>
+</blockquote>
+<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</center>
+</section>
+</section>
+<section id="other-industries" class="level2 page-columns page-full">
+<h2 class="anchored" data-anchor-id="other-industries">Other industries</h2>
+<p>At the beginning of my career, I worked in a couple of mechanical engineering companies, producing “real” objects. The environments I experienced there were a bit different from software, of course, but generally, engineers were <strong>not much closer</strong> to the product and business decisions. There were also no product managers to support them and close the gap.</p>
+<p>This, however, still resulted in less over-engineered solutions or products that were completely off than I’ve seen working in software. But one explanation of this might be that when building physical products we have more constraints from the real world, while the <strong>possibility space is much wider</strong> with software. This increases variability in opinions and potential solution space, which makes communication through specifications even harder.</p>
+<p>But going back in history, it turns out, that as with many problems, this one is also not new at all. Businesses started experiencing similar problems at least 70 years back when tech had yet nothing to do with software. Recently, I stumbled upon <a href="https://dl.acm.org/doi/10.1145/1434821.1434825">this paper from 1951</a> describing the changing role of management.</p>
+<p>What’s fascinating is that already back then, the author notices that management nature changes, with factors such as human capital, research, and marketing starting to play as crucial of a role as science and engineering. <a href="../state/management-history.html">Here are more</a> quotes and thoughts from it.</p>
+<div class="quarto-figure quarto-figure-center page-columns page-full">
+<figure class="figure page-columns page-full">
+<p><a href="mgmt-history.png" class="lightbox" data-gallery="quarto-lightbox-gallery-2" title="Visual representation of 1951’s ‘New equations for management’"><img src="mgmt-history.png" class="img-fluid figure-img" alt="Visual representation of 1951’s ‘New equations for management’"></a></p>
+<figcaption class="margin-caption">Visual representation of 1951’s ‘New equations for management’</figcaption>
+</figure>
+</div>
+<p>Another example about is from Tony Fadell’s <a href="https://www.buildc.com/the-book">“Build”.</a> He writes how he learned the power of building relationships from his father becoming a top Levi’s salesman by playing long and establishing trust and relationships with his customers. And how successful companies are transitioning their sales setups from transaction-driven to relationship-driven cultures.</p>
+<div class="quarto-figure quarto-figure-center page-columns page-full">
+<figure class="figure page-columns page-full">
+<p><a href="build-sales.png" class="lightbox" data-gallery="quarto-lightbox-gallery-3" title="Tony Fadel on relationship-driven cultures"><img src="build-sales.png" class="img-fluid figure-img" alt="Tony Fadel on relationship-driven cultures"></a></p>
+<figcaption class="margin-caption">Tony Fadel on relationship-driven cultures</figcaption>
+</figure>
+</div>
+<p>This quote is about sales organisations but goes the same way for the engineering-driven ones <em>(“we create a product, you just have to sell it”).</em></p>
+</section>
+<section id="conclusion" class="level2">
+<h2 class="anchored" data-anchor-id="conclusion">Conclusion</h2>
+<p>I don’t think that all companies will or should turn into software product companies. But you need to understand the environment you are in. And to converge sooner from Stage 2 to either 1 (cost) or 3 (profit).</p>
+<p>The two competing factors in tech and management overall are not going away any time soon: tech still develops rapidly, complexity continues to grow, which drives <strong>specialisation.</strong> On the other hand, this leaves even less room for the defined requirements and specs, hence, creating a pull for <strong>cross-functional specialists.</strong></p>
+<p>The main task of an engineering team is to deliver a product, of course. And your goal as a leader is <strong>to ensure this delivery.</strong> For this, you need to understand technology and engineering. But if the business you are working on has engineering at its core, your responsibilities stretch much further than just that:</p>
+<ul>
+<li>Understand <strong>people,</strong> and their motivations and build connections (this aspect is more universally accepted now).</li>
+<li>Understand where your team’s value creation is happening in the <strong>business and marketing cycle.</strong></li>
+<li>Tie the <strong>tech stack to the business decisions</strong> and make sure your team’s progress metrics are connected to the success of the overall company, not just the software development progress.</li>
+<li><strong>Proactively build connections</strong> with product, marketing, legal, etc., or partially cover those roles yourself. Depending on the company you might have dedicated managers leading those directions, but that’s part of your role to proactively work with them on the engineering and business strategies.</li>
+</ul>
+
+
+</section>
+
+</main> <!-- /main -->
+<!-- Begin Mailchimp Signup Form -->
+  <div id="mc_embed_signup" style="padding-bottom: 1em; max-width: 400px;" class="ms-auto me-auto">
+    <!-- <p style="font-weight: 600; margin-bottom: 0;">Subscribe</p> -->
+    <span style="font-size: 0.9em;">Subscribe to get Data Feed posts by email:</span>
+
+    <form action="https://eliasnema.us17.list-manage.com/subscribe/post?u=968d81ab7c900cd9b4bbe76c6&amp;id=f416e619fd&amp;f_id=003f45e0f0" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_self">
+        <div id="mc_embed_signup_scroll">
+            <div class="input-group mt-1 mb-2">
+                <input type="email" class="form-control" placeholder="Email Address" aria-label="Email Address" name="EMAIL" style="font-size: 0.8em; padding: .2em;">
+                </div>            
+
+	<div id="mce-responses" class="clear foot">
+		<div class="response" id="mce-error-response" style="display:none"></div>
+		<div class="response" id="mce-success-response" style="display:none"></div>
+	</div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_968d81ab7c900cd9b4bbe76c6_f416e619fd" tabindex="-1" value=""></div>
+        <div class="optionalParent">
+            <div class="clear foot" style="display: flex; align-items: center; justify-content: center;">
+                <input type="submit" value="Subscribe" name="subscribe" style="min-width: 150px; font-size: 0.8em;" id="mc-embedded-subscribe" class="button btn btn-light btn-sm ms-auto me-auto">
+            </div>
+        </div>
+    </div>
+</form>
+</div>
+
+<!--End mc_embed_signup-->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+        const codeEl = trigger.previousElementSibling.cloneNode(true);
+        for (const childEl of codeEl.children) {
+          if (isCodeAnnotation(childEl)) {
+            childEl.remove();
+          }
+        }
+        return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/www\.eliasnema\.com");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+      &nbsp;
+    </div>   
+    <div class="nav-footer-center">
+
+<div class="cookie-consent-footer"><a href="#" id="open_preferences_center">Cookie Preferences</a></div></div>
+    <div class="nav-footer-right">
+      &nbsp;
+    </div>
+  </div>
+</footer>
+<script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","descPosition":"bottom","loop":false,"openEffect":"zoom","selector":".lightbox"});
+(function() {
+  let previousOnload = window.onload;
+  window.onload = () => {
+    if (previousOnload) {
+      previousOnload();
+    }
+    lightboxQuarto.on('slide_before_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      const href = trigger.getAttribute('href');
+      if (href !== null) {
+        const imgEl = window.document.querySelector(`a[href="${href}"] img`);
+        if (imgEl !== null) {
+          const srcAttr = imgEl.getAttribute("src");
+          if (srcAttr && srcAttr.startsWith("data:")) {
+            slideConfig.href = srcAttr;
+          }
+        }
+      } 
+    });
+  
+    lightboxQuarto.on('slide_after_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(slideNode);
+      }
+    });
+  
+  };
+  
+})();
+          </script>
+
+
+
+
+</body></html>
