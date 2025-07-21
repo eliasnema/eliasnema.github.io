@@ -1,5 +1,5 @@
 ---
-title: "💥 GPT Excitement and AI Costs"
+title: "GPT Excitement and AI Costs"
 author: "Elias Nema"
 date: "2020-07-20"
 categories: [data-meets-product]

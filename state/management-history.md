@@ -3,12 +3,12 @@ title: "Paper: 'New equations for management', J. E. Hobson, 1951"
 author: "Elias Nema"
 date: "2023-02-03"
 categories: [engineering, leadership]
-draft: false
+lightbox: true
 ---
 
 *My graphical representation of the [paper](https://dl.acm.org/doi/10.1145/1434821.1434825):*
 
-[![](mgmt-history.png){fig-align="right"}](mgmt-history.png)
+![](mgmt-history.png)
 
 Really interesting to see how research came into a “normal” state of business. I thought such things mich come naturally to the business as a market pull. However, you can see the role individual and government incentives have played to create the environment that would set up American companies for success for the next century.
 

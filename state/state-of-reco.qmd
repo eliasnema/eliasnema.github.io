@@ -1,8 +1,9 @@
 ---
-title: "🔮 State of Recommendations"
+title: "State of Recommendations"
 author: "Elias Nema"
 date: "2020-09-05"
 categories: [recommendations]
+lightbox: true
 ---
 
 ## Overview

@@ -1,5 +1,5 @@
 ---
-title: "🔎 Paid Search"
+title: "Paid Search"
 author: "Elias Nema"
 date: "2020-07-28"
 categories: [data-meets-product]

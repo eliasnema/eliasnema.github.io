@@ -14,9 +14,9 @@ website:
   twitter-card: true
   navbar:
     left:
-      - text: "Data Feed"
-        file: data-feed.qmd
-      - blog.qmd
+      - text: "State"
+        file: state.qmd
+      - log.qmd
     right:
       - talks.qmd
       - icon: github

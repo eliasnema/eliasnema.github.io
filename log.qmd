@@ -1,0 +1,15 @@
+---
+title: "Log"
+listing:
+  contents: posts
+  fields: [title, date, reading-time]
+  sort: "date desc"
+  type: table
+  categories: true
+  sort-ui: false
+  filter-ui: false
+  feed: true
+page-layout: article
+margin-header: subscribe.html
+---
+

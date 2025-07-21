@@ -7,14 +7,14 @@ about:
   # image-shape: round
   links:
     - icon: file-bar-graph
-      text: Data Feed (newsletter)
-      href: data-feed.qmd
+      text: Longer articles (State)
+      href: state.qmd
+    - icon: pen
+      text: Random bits (Log)
+      href: log.qmd
     - icon: book
       text: Hypothesize (book)
       href: https://gumroad.com/l/SSTiNM/kwfh1gn
-    - icon: pen
-      text: Blog (random thoughts)
-      href: blog.qmd
     - icon: twitter
       text: Twitter
       href: https://twitter.com/eliasnema
@@ -24,9 +24,9 @@ about:
     - icon: github
       text: Github
       href: https://github.com/eliasnema
-margin-header: data-feed/subscribe.html
+margin-header: state/subscribe.html
 ---
 
-Hi, I’m Elias. By day I’m working at Stripe. Before that, I led search and recommendations at OLX, optimized VLDBs at EPAM, and built “real” things in a few mechanical eng startups.
+Hi, I’m Elias. By day I’m working at Meta. Before that, I was scaling up local payment methods at Stripe, led search and recommendations at OLX, optimized performance for large databases at EPAM, and built “real-world” things in a few mechanical eng startups.
 
-I’m writing [a newsletter](data-feed.qmd) for engineers, focused on data applications, diving deep into systems, architectures, and foundational papers. In the [blog](blog.qmd) part, you can find more random observations about other things I like - charts, books, photography, movies, [football](posts/man_city_stats/city_stats.ipynb), and tennis.
+In the [Log](log.qmd) you can find some random bits and thoughts and in the [State](state.qmd) there more longer-form content.

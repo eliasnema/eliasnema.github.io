@@ -1,7 +1,7 @@
 ---
-title: "Data Feed"
+title: "State"
 listing:
-  contents: data-feed
+  contents: state
   fields: [title, date]
   sort: "date desc"
   type: table
@@ -9,7 +9,6 @@ listing:
   sort-ui: false
   filter-ui: false
   feed: true
-margin-header: data-feed/subscribe.html
+margin-header: state/subscribe.html
 ---
 
-![](data-feed-2.png)

@@ -1,5 +1,5 @@
 ---
-title: "📹 Tensorflow.js, AI in Video and Analytics"
+title: "Tensorflow.js, AI in Video and Analytics"
 author: "Elias Nema"
 date: "2020-09-22"
 categories: [data-meets-product]

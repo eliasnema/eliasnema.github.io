@@ -4,7 +4,7 @@ author: "Elias Nema"
 date: "2023-02-19"
 categories: [engineering, leadership]
 fig-cap-location: margin
-draft: false
+lightbox: true
 ---
 
 **Summary: software engineers (especially leaders/managers up the tech hierarchy) should spend more time closer to the business, product, and marketing. They should treat it as part of their main responsibilities, not a nice-to-haves or if-have-times (which, of course, no one ever does).**
@@ -55,9 +55,15 @@ This, however, still resulted in less over-engineered solutions or products that
 
 But going back in history, it turns out, that as with many problems, this one is also not new at all. Businesses started experiencing similar problems at least 70 years back when tech had yet nothing to do with software. Recently, I stumbled upon [this paper from 1951](https://dl.acm.org/doi/10.1145/1434821.1434825) describing the changing role of management.
 
-What’s fascinating is that already back then, the author notices that management nature changes, with factors such as human capital, research, and marketing starting to play as crucial of a role as science and engineering. [Here are more](../management-history/management-history.md) quotes and thoughts from it.
+What’s fascinating is that already back then, the author notices that management nature changes, with factors such as human capital, research, and marketing starting to play as crucial of a role as science and engineering. [Here are more](management-history.md) quotes and thoughts from it.
 
-[![Visual representation of 1951's 'New equations for management'](../management-history/mgmt-history.png)](../management-history/mgmt-history.png)
+![Visual representation of 1951's 'New equations for management'](mgmt-history.png)
+
+Another example about is from Tony Fadell’s [“Build”.](https://www.buildc.com/the-book) He writes how he learned the power of building relationships from his father becoming a top Levi’s salesman by playing long and establishing trust and relationships with his customers. And how successful companies are transitioning their sales setups from transaction-driven to relationship-driven cultures.
+
+![Tony Fadel on relationship-driven cultures](build-sales.png)
+
+This quote is about sales organisations but goes the same way for the engineering-driven ones *(“we create a product, you just have to sell it”).*
 
 ## Conclusion
 

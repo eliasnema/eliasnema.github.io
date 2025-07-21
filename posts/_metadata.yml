@@ -7,6 +7,6 @@ freeze: true
 # Enable banner style title blocks
 title-block-banner: true
 include-after-body:
-  - ../data-feed/subscribe.html
+  - ../state/subscribe.html
 reference-location: margin
 citation-location: margin
