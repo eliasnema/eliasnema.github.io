@@ -5,3 +5,5 @@
 .vscode
 .DS_Store
 .tweet-cache/
+
+**/*.quarto_ipynb
