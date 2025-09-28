@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.7.32">
+<meta name="generator" content="quarto-1.8.24">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -72,14 +72,15 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <link href="../../site_libs/cookie-consent/cookie-consent.css" rel="stylesheet">
 <script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="../../site_libs/quarto-html/popper.min.js"></script>
 <script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dc55a5b9e770e841cd82e46aadbfb9b0.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap-b9e9b2ad11166d5bb88698be1e683faf.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-b55f2405039954d6e76a2e3b986ec4b7.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -165,6 +166,8 @@ cookieconsent.run({
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
+    <a href="../../index.html" class="navbar-brand navbar-brand-logo">
+    </a>
     <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">ELIAS NEMA</span>
     </a>
@@ -292,7 +295,7 @@ cookieconsent.run({
 <p>This one is huge for the RecSys community. Google adds recommendations package into the tensorflow, <em>that makes building, evaluating, and serving sophisticated recommender models easy</em> (this is to the point of democracy).</p>
 <p>This also involves <a href="https://twitter.com/maciej_kula?lang=en">Maciej Kula</a>, author of a couple of hugely popular reco libraries: <a href="https://github.com/lyst/lightfm">LightFM</a> and <a href="https://github.com/maciejkula/spotlight">Spotlight</a>. So it promises to be a very elegant API.</p>
 <p>And you can see how easy it is to create even a <a href="https://www.tensorflow.org/recommenders/examples/multitask">multitask-system</a>. Here is a code snippet to define two learning tasks, one to predict ratings, another to predict the amount of relevant movies:</p>
-<div class="sourceCode" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>tfrs.tasks.Ranking(</span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>tfrs.tasks.Ranking(</span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>    loss<span class="op">=</span>tf.keras.losses.MeanSquaredError(),</span>
 <span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>    metrics<span class="op">=</span>[tf.keras.metrics.RootMeanSquaredError()],</span>
 <span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>)</span>
@@ -301,7 +304,7 @@ cookieconsent.run({
 <span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>    metrics<span class="op">=</span>tfrs.metrics.FactorizedTopK(</span>
 <span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>        candidates<span class="op">=</span>movies.batch(<span class="dv">128</span>)</span>
 <span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>    )</span>
-<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <p>Then you can combine these tasks while computing the loss and adjust the weight accordingly. It’s like Lego for recommendations.</p>
 </section>
 <section id="linkedins-intents" class="level3">
@@ -361,7 +364,7 @@ Blending humans and cartoons using <a href="https://twitter.com/Buntworthy?ref_s
 <!-- Begin Mailchimp Signup Form -->
   <div id="mc_embed_signup" style="padding-bottom: 1em; max-width: 400px;" class="ms-auto me-auto">
     <!-- <p style="font-weight: 600; margin-bottom: 0;">Subscribe</p> -->
-    <span style="font-size: 0.9em;">Subscribe to get Data Feed posts by email:</span>
+    <span style="font-size: 0.9em;">Subscribe to get occasional posts by email:</span>
 
     <form action="https://eliasnema.us17.list-manage.com/subscribe/post?u=968d81ab7c900cd9b4bbe76c6&amp;id=f416e619fd&amp;f_id=003f45e0f0" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_self">
         <div id="mc_embed_signup_scroll">
@@ -435,13 +438,14 @@ Blending humans and cartoons using <a href="https://twitter.com/Buntworthy?ref_s
       e.clearSelection();
     }
     const getTextToCopy = function(trigger) {
-        const codeEl = trigger.previousElementSibling.cloneNode(true);
-        for (const childEl of codeEl.children) {
-          if (isCodeAnnotation(childEl)) {
-            childEl.remove();
-          }
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
         }
-        return codeEl.innerText;
+      }
+      return codeEl.innerText;
     }
     const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
       text: getTextToCopy

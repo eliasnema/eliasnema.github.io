@@ -9,8 +9,77 @@
 <link>https://www.eliasnema.com/log.html</link>
 <atom:link href="https://www.eliasnema.com/log.xml" rel="self" type="application/rss+xml"/>
 <description>Making data work: analytics, personalisation, relevance and recommender systems - whatever is takes.</description>
-<generator>quarto-1.7.32</generator>
-<lastBuildDate>Fri, 17 Mar 2023 00:00:00 GMT</lastBuildDate>
+<generator>quarto-1.8.24</generator>
+<lastBuildDate>Sat, 27 Sep 2025 23:00:00 GMT</lastBuildDate>
+<item>
+  <title>Slop: Algo? AI?</title>
+  <dc:creator>Elias Nema</dc:creator>
+  <link>https://www.eliasnema.com/posts/slop/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<section id="agency" class="level2 page-columns page-full">
+<h2 class="anchored" data-anchor-id="agency">Agency</h2>
+<p><strong>study or avoid studying - apathy through millenia - James Bond - instructions - calculator - algos - deus ex machina</strong></p>
+<hr>
+<p>Kids lack agency to either study or avoid studying, i.e.&nbsp;choosing to do something instead. But it’s a story as old as civilization. Socrates and Alcibiades. Only that the teacher’s prompting and steering facing a wall of <em>apathy rather than life (like Alcibiades).</em> While the pupil is not willing to try anymore overwhelmed by the world and its pointlesness, lacking the willpower to change anything. As in Greek tragedy, both see the inevitable failure but cannot alter the structures that seal their fate.</p>
+<blockquote class="twitter-tweet blockquote">
+<p lang="en" dir="ltr">
+I maintain it's not a matter of horsepower (low iq etc) it's habituation to not engage with the littlest mental lift, plus social contagion into complacency. E.g. a couple of kids scoff at the ask to figure out a limit numerically the rest just freeze like..just give us the rule,… <a href="https://t.co/PFdQlludQN">https://t.co/PFdQlludQN</a>
+</p>
+— Violeta𓅓 (<span class="citation" data-cites="MamanLunettes">@MamanLunettes</span>) <a href="https://twitter.com/MamanLunettes/status/1971982191904059580?ref_src=twsrc%5Etfw">September 27, 2025</a>
+</blockquote>
+<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<p>Another term that has survived through two millennia is <em>“acedia,”</em><sup>1</sup> which is one of the main themes of <a href="https://literary007.com/2015/04/23/the-spectre-of-accidia-bond-and-flemings-greatest-foe/">Ian Fleming’s</a> Bond books or described as the main sin by <a href="https://en.wikipedia.org/wiki/Evagrius_Ponticus">Evagrius Ponticus</a> in the 4th century.</p>
+<div class="no-row-height column-margin column-container"><div id="fn1"><p><sup>1</sup>&nbsp;<a href="https://en.wikipedia.org/wiki/Acedia">acedia</a>: spiritual or mental sloth; apathy</p></div></div></section>
+<section id="discovery" class="level2 page-columns page-full">
+<h2 class="anchored" data-anchor-id="discovery">Discovery</h2>
+<p>At school open days we watched kids slot CPUs and RAM into motherboards. It wasn’t a big deal, especially for the kids. But it reminded me of the time I was building my first computer. I had to learn and try things, no manuals, no youtube tutorials. It <em>was</em> a big deal. A journey of figuring things out. Trying things adds meaning regardless of the result.</p>
+<blockquote class="blockquote">
+<p>Trying things adds meaning regardless of the result</p>
+</blockquote>
+<p>Now it’s instructions all the way. Someone has already mapped the errors, optimized the plan, wrapped discovery in bubble wrap.</p>
+<p>Even the coolest companies I absolutely love have fallen into this. Ultimately, the company that removes the most customer pain earns more money and market share.</p>
+<p>Lego is not about free play and discovery anymore it’s about following instructions as closely as possible.</p>
+<div class="quarto-figure quarto-figure-center page-columns page-full">
+<figure class="figure page-columns page-full">
+<p><img src="https://www.eliasnema.com/posts/slop/Lego_in_1957.jpg" class="figure-img" width="300"></p>
+<figcaption class="margin-caption">Inventing your own designs in 1957</figcaption>
+</figure>
+</div>
+<p>Prusa and Framework also celebrate openness and tinkering, but often what they deliver is the illusion of discovery. A carefully designed kit that makes you feel like a builder, when really you’re just assembling someone else’s solved problem.</p>
+<p>Food companies do this too: they “add” an extra step (crack your own egg, stir in the sauce) not because it’s needed, but because it preserves the illusion that you cooked something, rather than just microwaving a pre-made meal.</p>
+<p>Instructions steal the joy of learning. Where else does apathy and discouragement come from?</p>
+</section>
+<section id="algos" class="level2">
+<h2 class="anchored" data-anchor-id="algos">Algos</h2>
+<p>Whatever you do, someone else does it better, why even try? And this reminder is constantly at your fingertips, daily, hourly reminding. Sometimes, it motivates to improve and show what’s possible. Most of the time it’s just discoraging: people are already ahead of you, smarter, stronger, more beautiful.</p>
+</section>
+<section id="deus-ex-machina" class="level2">
+<h2 class="anchored" data-anchor-id="deus-ex-machina">Deus ex machina</h2>
+<p>In the ’70s, calculators availability raised questions about humans becoming button pushers. We know that it didn’t happen. But we also didn’t stop teaching kids multiplication. The consensus was to teach kids to solve problems first then use calculators.</p>
+<p>Until recently, modern-day calculators - phones - could fetch facts, but a slight twist in wording broke the search. Now models handle nuance: give them a problem and they can reason through it. Sometimes better than student or teacher. They’re still limited to common problems, but the range has exploded.</p>
+<p>Augmenting yourself with a calculator was about learning calculus and then automating the hard parts. How do you toolify the AI? Do you learn all the world’s context? <em>The mountain to climb just feels too high.</em></p>
+<blockquote class="blockquote">
+<p>The mountain to climb just feels too high</p>
+</blockquote>
+</section>
+<section id="a-niche" class="level2">
+<h2 class="anchored" data-anchor-id="a-niche">A niche</h2>
+<p>Find a niche. Make it yours. Outpace the machine at it. Wander where there are no manuals. Climb a step, but keep an eye on the peak. Let hope, struggle, and discovery, not cynical algos, consume you.</p>
+
+
+</section>
+
+
+ ]]></description>
+  <category>life</category>
+  <guid>https://www.eliasnema.com/posts/slop/</guid>
+  <pubDate>Sat, 27 Sep 2025 23:00:00 GMT</pubDate>
+</item>
 <item>
   <title>Data Feed #6: JSON {}</title>
   <dc:creator>Elias Nema</dc:creator>
@@ -524,7 +593,7 @@
 <p>This one is huge for the RecSys community. Google adds recommendations package into the tensorflow, <em>that makes building, evaluating, and serving sophisticated recommender models easy</em> (this is to the point of democracy).</p>
 <p>This also involves <a href="https://twitter.com/maciej_kula?lang=en">Maciej Kula</a>, author of a couple of hugely popular reco libraries: <a href="https://github.com/lyst/lightfm">LightFM</a> and <a href="https://github.com/maciejkula/spotlight">Spotlight</a>. So it promises to be a very elegant API.</p>
 <p>And you can see how easy it is to create even a <a href="https://www.tensorflow.org/recommenders/examples/multitask">multitask-system</a>. Here is a code snippet to define two learning tasks, one to predict ratings, another to predict the amount of relevant movies:</p>
-<div class="sourceCode" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1">tfrs.tasks.Ranking(</span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1">tfrs.tasks.Ranking(</span>
 <span id="cb1-2">    loss<span class="op" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">=</span>tf.keras.losses.MeanSquaredError(),</span>
@@ -543,7 +612,7 @@ font-style: inherit;">=</span>movies.batch(<span class="dv" style="color: #AD000
 background-color: null;
 font-style: inherit;">128</span>)</span>
 <span id="cb1-9">    )</span>
-<span id="cb1-10">)</span></code></pre></div>
+<span id="cb1-10">)</span></code></pre></div></div>
 <p>Then you can combine these tasks while computing the loss and adjust the weight accordingly. It’s like Lego for recommendations.</p>
 </section>
 <section id="linkedins-intents" class="level3">
@@ -1104,7 +1173,7 @@ season 17/18 vs 19/20: Ttest_indResult(statistic=3.1215926762079387, pvalue=0.00
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Some concise takeaways for the data folks
+<span class="screen-reader-only">Tip</span>Some concise takeaways for the data folks
 </div>
 </div>
 <div class="callout-body-container callout-body">
@@ -1128,7 +1197,7 @@ Some concise takeaways for the data folks
 <div id="cell-11" class="cell" data-execution_count="27">
 <details class="code-fold">
 <summary>Code</summary>
-<div class="sourceCode cell-code" id="cb2" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb2-1"><span class="im" style="color: #00769E;
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb2" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb2-1"><span class="im" style="color: #00769E;
 background-color: null;
 font-style: inherit;">import</span> numpy <span class="im" style="color: #00769E;
 background-color: null;
@@ -1147,19 +1216,19 @@ font-style: inherit;">import</span> stats</span>
 background-color: null;
 font-style: inherit;">=</span> pd.read_csv(<span class="st" style="color: #20794D;
 background-color: null;
-font-style: inherit;">'man_city_17_18_19.csv'</span>)</span></code></pre></div>
+font-style: inherit;">'man_city_17_18_19.csv'</span>)</span></code></pre></div></div>
 </details>
 </div>
 <div id="cell-12" class="cell" data-execution_count="28">
 <details class="code-fold">
 <summary>Code</summary>
-<div class="sourceCode cell-code" id="cb3" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb3-1">city.head()</span></code></pre></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb3" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb3-1">city.head()</span></code></pre></div></div>
 </details>
 <div class="cell-output cell-output-display" data-execution_count="28">
 <div>
 
 
-<table class="dataframe caption-top table table-sm table-striped small" data-quarto-postprocess="true" data-border="1">
+<table class="dataframe caption-top table table-sm table-striped small" data-border="1">
 <thead>
 <tr class="header">
 <th data-quarto-table-cell-role="th"></th>
@@ -1180,7 +1249,7 @@ font-style: inherit;">'man_city_17_18_19.csv'</span>)</span></code></pre></div>
 </thead>
 <tbody>
 <tr class="odd">
-<td data-quarto-table-cell-role="th">0</td>
+<th data-quarto-table-cell-role="th">0</th>
 <td>2017/18</td>
 <td>1</td>
 <td>Brighton &amp; Hove Albion</td>
@@ -1196,7 +1265,7 @@ font-style: inherit;">'man_city_17_18_19.csv'</span>)</span></code></pre></div>
 <td>Pass (Live)</td>
 </tr>
 <tr class="even">
-<td data-quarto-table-cell-role="th">1</td>
+<th data-quarto-table-cell-role="th">1</th>
 <td>2017/18</td>
 <td>1</td>
 <td>Brighton &amp; Hove Albion</td>
@@ -1212,7 +1281,7 @@ font-style: inherit;">'man_city_17_18_19.csv'</span>)</span></code></pre></div>
 <td>Pass (Live)</td>
 </tr>
 <tr class="odd">
-<td data-quarto-table-cell-role="th">2</td>
+<th data-quarto-table-cell-role="th">2</th>
 <td>2017/18</td>
 <td>1</td>
 <td>Brighton &amp; Hove Albion</td>
@@ -1228,7 +1297,7 @@ font-style: inherit;">'man_city_17_18_19.csv'</span>)</span></code></pre></div>
 <td>NaN</td>
 </tr>
 <tr class="even">
-<td data-quarto-table-cell-role="th">3</td>
+<th data-quarto-table-cell-role="th">3</th>
 <td>2017/18</td>
 <td>1</td>
 <td>Brighton &amp; Hove Albion</td>
@@ -1244,7 +1313,7 @@ font-style: inherit;">'man_city_17_18_19.csv'</span>)</span></code></pre></div>
 <td>Pass (Live)</td>
 </tr>
 <tr class="odd">
-<td data-quarto-table-cell-role="th">4</td>
+<th data-quarto-table-cell-role="th">4</th>
 <td>2017/18</td>
 <td>1</td>
 <td>Brighton &amp; Hove Albion</td>
@@ -1268,12 +1337,12 @@ font-style: inherit;">'man_city_17_18_19.csv'</span>)</span></code></pre></div>
 <div id="cell-13" class="cell" data-execution_count="29">
 <details class="code-fold">
 <summary>Code</summary>
-<div class="sourceCode cell-code" id="cb4" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb4-1"><span class="bu" style="color: null;
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb4" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb4-1"><span class="bu" style="color: null;
 background-color: null;
 font-style: inherit;">print</span>(city.Season.value_counts())</span>
 <span id="cb4-2"><span class="bu" style="color: null;
 background-color: null;
-font-style: inherit;">print</span>(city.Matchday.nunique())</span></code></pre></div>
+font-style: inherit;">print</span>(city.Matchday.nunique())</span></code></pre></div></div>
 </details>
 <div class="cell-output cell-output-stdout">
 <pre><code>2019/20    376
@@ -1287,7 +1356,7 @@ Name: Season, dtype: int64
 <div id="cell-15" class="cell" data-execution_count="30">
 <details class="code-fold">
 <summary>Code</summary>
-<div class="sourceCode cell-code" id="cb6" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb6-1">y17 <span class="op" style="color: #5E5E5E;
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb6" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb6-1">y17 <span class="op" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">=</span> city.query(<span class="st" style="color: #20794D;
 background-color: null;
@@ -1307,7 +1376,7 @@ font-style: inherit;">=</span> city.query(<span class="st" style="color: #20794D
 background-color: null;
 font-style: inherit;">"Season == '2019/20'"</span>)[<span class="st" style="color: #20794D;
 background-color: null;
-font-style: inherit;">'Distance'</span>]</span></code></pre></div>
+font-style: inherit;">'Distance'</span>]</span></code></pre></div></div>
 </details>
 </div>
 </section>
@@ -1316,7 +1385,7 @@ font-style: inherit;">'Distance'</span>]</span></code></pre></div>
 <div id="cell-17" class="cell" data-execution_count="31">
 <details class="code-fold">
 <summary>Code</summary>
-<div class="sourceCode cell-code" id="cb7" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb7-1"><span class="im" style="color: #00769E;
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb7" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb7-1"><span class="im" style="color: #00769E;
 background-color: null;
 font-style: inherit;">from</span> matplotlib <span class="im" style="color: #00769E;
 background-color: null;
@@ -1345,13 +1414,13 @@ font-style: inherit;">import</span> warnings</span>
 background-color: null;
 font-style: inherit;">=</span><span class="st" style="color: #20794D;
 background-color: null;
-font-style: inherit;">'ignore'</span>)</span></code></pre></div>
+font-style: inherit;">'ignore'</span>)</span></code></pre></div></div>
 </details>
 </div>
 <div id="cell-18" class="cell" data-execution_count="32">
 <details class="code-fold">
 <summary>Code</summary>
-<div class="sourceCode cell-code" id="cb8" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb8-1">sns.distplot(y17, <span class="dv" style="color: #AD0000;
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb8" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb8-1">sns.distplot(y17, <span class="dv" style="color: #AD0000;
 background-color: null;
 font-style: inherit;">20</span>, label<span class="op" style="color: #5E5E5E;
 background-color: null;
@@ -1372,7 +1441,7 @@ background-color: null;
 font-style: inherit;">=</span><span class="st" style="color: #20794D;
 background-color: null;
 font-style: inherit;">'19/20'</span>)</span>
-<span id="cb8-4">plt.legend()</span></code></pre></div>
+<span id="cb8-4">plt.legend()</span></code></pre></div></div>
 </details>
 <div class="cell-output cell-output-display">
 <div>
@@ -1385,7 +1454,7 @@ font-style: inherit;">'19/20'</span>)</span>
 <div id="cell-19" class="cell" data-execution_count="33">
 <details class="code-fold">
 <summary>Code</summary>
-<div class="sourceCode cell-code" id="cb9" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb9-1">y17.mean(), y17.std()</span></code></pre></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb9" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb9-1">y17.mean(), y17.std()</span></code></pre></div></div>
 </details>
 <div class="cell-output cell-output-display" data-execution_count="33">
 <pre><code>(16.701183431952664, 8.51091453670634)</code></pre>
@@ -1394,7 +1463,7 @@ font-style: inherit;">'19/20'</span>)</span>
 <div id="cell-20" class="cell" data-execution_count="34">
 <details class="code-fold">
 <summary>Code</summary>
-<div class="sourceCode cell-code" id="cb11" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb11-1">y18.mean(), y18.std()</span></code></pre></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb11" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb11-1">y18.mean(), y18.std()</span></code></pre></div></div>
 </details>
 <div class="cell-output cell-output-display" data-execution_count="34">
 <pre><code>(15.95086705202312, 8.779779921952818)</code></pre>
@@ -1403,7 +1472,7 @@ font-style: inherit;">'19/20'</span>)</span>
 <div id="cell-21" class="cell" data-execution_count="35">
 <details class="code-fold">
 <summary>Code</summary>
-<div class="sourceCode cell-code" id="cb13" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb13-1">y19.mean(), y19.std()</span></code></pre></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb13" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb13-1">y19.mean(), y19.std()</span></code></pre></div></div>
 </details>
 <div class="cell-output cell-output-display" data-execution_count="35">
 <pre><code>(14.872340425531915, 6.9627336279989995)</code></pre>
@@ -1412,7 +1481,7 @@ font-style: inherit;">'19/20'</span>)</span>
 <div id="cell-22" class="cell" data-execution_count="36">
 <details class="code-fold">
 <summary>Code</summary>
-<div class="sourceCode cell-code" id="cb15" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb15-1"><span class="co" style="color: #5E5E5E;
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb15" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb15-1"><span class="co" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;"># equal_var=False to perform welch's test instead, because of different variance and amount of sample</span></span>
 <span id="cb15-2"><span class="bu" style="color: null;
@@ -1465,7 +1534,7 @@ font-style: inherit;">False</span>)<span class="sc" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">}</span><span class="ss" style="color: #20794D;
 background-color: null;
-font-style: inherit;">'</span>)</span></code></pre></div>
+font-style: inherit;">'</span>)</span></code></pre></div></div>
 </details>
 <div class="cell-output cell-output-stdout">
 <pre><code>season 17/18 vs 18/19: Ttest_indResult(statistic=1.1348979627228202, pvalue=0.2568168035045629)
@@ -1480,7 +1549,7 @@ season 17/18 vs 19/20: Ttest_indResult(statistic=3.1215926762079387, pvalue=0.00
 <div id="cell-25" class="cell" data-execution_count="37">
 <details class="code-fold">
 <summary>Code</summary>
-<div class="sourceCode cell-code" id="cb17" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb17-1">kde17 <span class="op" style="color: #5E5E5E;
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb17" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb17-1">kde17 <span class="op" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">=</span> stats.gaussian_kde(y17)</span>
 <span id="cb17-2">kde18 <span class="op" style="color: #5E5E5E;
@@ -1497,13 +1566,13 @@ font-style: inherit;">0</span>,<span class="dv" style="color: #AD0000;
 background-color: null;
 font-style: inherit;">50</span>, <span class="dv" style="color: #AD0000;
 background-color: null;
-font-style: inherit;">51</span>)</span></code></pre></div>
+font-style: inherit;">51</span>)</span></code></pre></div></div>
 </details>
 </div>
 <div id="cell-26" class="cell" data-execution_count="38">
 <details class="code-fold">
 <summary>Code</summary>
-<div class="sourceCode cell-code" id="cb18" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb18-1">f, axs <span class="op" style="color: #5E5E5E;
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb18" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb18-1">f, axs <span class="op" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">=</span> plt.subplots(<span class="dv" style="color: #AD0000;
 background-color: null;
@@ -1606,7 +1675,7 @@ background-color: null;
 font-style: inherit;">=</span><span class="st" style="color: #20794D;
 background-color: null;
 font-style: inherit;">'Shooting distance'</span>)</span>
-<span id="cb18-20">plt.show()</span></code></pre></div>
+<span id="cb18-20">plt.show()</span></code></pre></div></div>
 </details>
 <div class="cell-output cell-output-display">
 <div>
@@ -1619,7 +1688,7 @@ font-style: inherit;">'Shooting distance'</span>)</span>
 <div id="cell-27" class="cell" data-execution_count="39">
 <details class="code-fold">
 <summary>Code</summary>
-<div class="sourceCode cell-code" id="cb19" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb19-1">plot <span class="op" style="color: #5E5E5E;
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb19" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb19-1">plot <span class="op" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">=</span> plt.figure(figsize<span class="op" style="color: #5E5E5E;
 background-color: null;
@@ -1656,7 +1725,7 @@ font-style: inherit;">'Shooting distance'</span>)</span>
 background-color: null;
 font-style: inherit;">'Density'</span>)</span>
 <span id="cb19-7">plt.legend()</span>
-<span id="cb19-8">plt.show()</span></code></pre></div>
+<span id="cb19-8">plt.show()</span></code></pre></div></div>
 </details>
 <div class="cell-output cell-output-display">
 <div>
@@ -1669,7 +1738,7 @@ font-style: inherit;">'Density'</span>)</span>
 <div id="cell-28" class="cell" data-execution_count="40">
 <details class="code-fold">
 <summary>Code</summary>
-<div class="sourceCode cell-code" id="cb20" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb20-1">plot <span class="op" style="color: #5E5E5E;
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb20" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb20-1">plot <span class="op" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">=</span> plt.figure(figsize<span class="op" style="color: #5E5E5E;
 background-color: null;
@@ -1706,7 +1775,7 @@ font-style: inherit;">'Shooting distance'</span>)</span>
 background-color: null;
 font-style: inherit;">'Density'</span>)</span>
 <span id="cb20-7">plt.legend()</span>
-<span id="cb20-8">plt.show()</span></code></pre></div>
+<span id="cb20-8">plt.show()</span></code></pre></div></div>
 </details>
 <div class="cell-output cell-output-display">
 <div>
@@ -1719,7 +1788,7 @@ font-style: inherit;">'Density'</span>)</span>
 <div id="cell-29" class="cell" data-execution_count="41">
 <details class="code-fold">
 <summary>Code</summary>
-<div class="sourceCode cell-code" id="cb21" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb21-1">plot <span class="op" style="color: #5E5E5E;
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb21" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb21-1">plot <span class="op" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">=</span> plt.figure(figsize<span class="op" style="color: #5E5E5E;
 background-color: null;
@@ -1754,7 +1823,7 @@ font-style: inherit;">'Shooting distance'</span>)</span>
 background-color: null;
 font-style: inherit;">'Density'</span>)</span>
 <span id="cb21-7">plt.legend()</span>
-<span id="cb21-8">plt.show()</span></code></pre></div>
+<span id="cb21-8">plt.show()</span></code></pre></div></div>
 </details>
 <div class="cell-output cell-output-display">
 <div>
@@ -1769,7 +1838,7 @@ font-style: inherit;">'Density'</span>)</span>
 <div id="cell-31" class="cell" data-execution_count="42">
 <details class="code-fold">
 <summary>Code</summary>
-<div class="sourceCode cell-code" id="cb22" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb22-1">diff<span class="op" style="color: #5E5E5E;
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb22" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb22-1">diff<span class="op" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">=</span>plt.bar(<span class="bu" style="color: null;
 background-color: null;
@@ -1816,7 +1885,7 @@ font-style: inherit;">0</span>])</span>
 <span id="cb22-3">             ) </span>
 <span id="cb22-4">plt.title(<span class="st" style="color: #20794D;
 background-color: null;
-font-style: inherit;">"a-b"</span>)</span></code></pre></div>
+font-style: inherit;">"a-b"</span>)</span></code></pre></div></div>
 </details>
 <div class="cell-output cell-output-display" data-execution_count="42">
 <pre><code>Text(0.5, 1.0, 'a-b')</code></pre>
@@ -1833,7 +1902,7 @@ font-style: inherit;">"a-b"</span>)</span></code></pre></div>
 <div id="cell-33" class="cell" data-execution_count="43">
 <details class="code-fold">
 <summary>Code</summary>
-<div class="sourceCode cell-code" id="cb24" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb24-1">df<span class="op" style="color: #5E5E5E;
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb24" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb24-1">df<span class="op" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">=</span>pd.DataFrame([</span>
 <span id="cb24-2">        np.histogram(y17,<span class="dv" style="color: #AD0000;
@@ -1901,13 +1970,13 @@ font-style: inherit;">'20-30'</span>,<span class="st" style="color: #20794D;
 background-color: null;
 font-style: inherit;">'30-40'</span>,<span class="st" style="color: #20794D;
 background-color: null;
-font-style: inherit;">'40-50'</span>])</span></code></pre></div>
+font-style: inherit;">'40-50'</span>])</span></code></pre></div></div>
 </details>
 </div>
 <div id="cell-34" class="cell" data-execution_count="44">
 <details class="code-fold">
 <summary>Code</summary>
-<div class="sourceCode cell-code" id="cb25" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb25-1">city[<span class="st" style="color: #20794D;
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb25" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb25-1">city[<span class="st" style="color: #20794D;
 background-color: null;
 font-style: inherit;">'Distance bins'</span>] <span class="op" style="color: #5E5E5E;
 background-color: null;
@@ -1927,13 +1996,13 @@ font-style: inherit;">30</span>,<span class="dv" style="color: #AD0000;
 background-color: null;
 font-style: inherit;">40</span>,<span class="dv" style="color: #AD0000;
 background-color: null;
-font-style: inherit;">50</span>])</span></code></pre></div>
+font-style: inherit;">50</span>])</span></code></pre></div></div>
 </details>
 </div>
 <div id="cell-35" class="cell" data-execution_count="45">
 <details class="code-fold">
 <summary>Code</summary>
-<div class="sourceCode cell-code" id="cb26" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb26-1">df1 <span class="op" style="color: #5E5E5E;
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb26" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb26-1">df1 <span class="op" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">=</span> city[[<span class="st" style="color: #20794D;
 background-color: null;
@@ -1949,13 +2018,13 @@ font-style: inherit;">'Season'</span>,<span class="st" style="color: #20794D;
 background-color: null;
 font-style: inherit;">'Distance bins'</span>],).agg(<span class="st" style="color: #20794D;
 background-color: null;
-font-style: inherit;">'count'</span>).unstack()</span></code></pre></div>
+font-style: inherit;">'count'</span>).unstack()</span></code></pre></div></div>
 </details>
 </div>
 <div id="cell-36" class="cell" data-execution_count="46">
 <details class="code-fold">
 <summary>Code</summary>
-<div class="sourceCode cell-code" id="cb27" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb27-1">df1.columns <span class="op" style="color: #5E5E5E;
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb27" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb27-1">df1.columns <span class="op" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">=</span> [<span class="st" style="color: #20794D;
 background-color: null;
@@ -1967,13 +2036,13 @@ font-style: inherit;">'(20, 30]'</span>,<span class="st" style="color: #20794D;
 background-color: null;
 font-style: inherit;">'(30, 40]'</span>,<span class="st" style="color: #20794D;
 background-color: null;
-font-style: inherit;">'(40, 50]'</span>]</span></code></pre></div>
+font-style: inherit;">'(40, 50]'</span>]</span></code></pre></div></div>
 </details>
 </div>
 <div id="cell-37" class="cell" data-execution_count="47">
 <details class="code-fold">
 <summary>Code</summary>
-<div class="sourceCode cell-code" id="cb28" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb28-1">ax <span class="op" style="color: #5E5E5E;
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb28" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb28-1">ax <span class="op" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">=</span> df1.plot(kind<span class="op" style="color: #5E5E5E;
 background-color: null;
@@ -2073,7 +2142,7 @@ font-style: inherit;">'white'</span>, fontsize<span class="op" style="color: #5E
 background-color: null;
 font-style: inherit;">=</span><span class="dv" style="color: #AD0000;
 background-color: null;
-font-style: inherit;">10</span>,)</span></code></pre></div>
+font-style: inherit;">10</span>,)</span></code></pre></div></div>
 </details>
 <div class="cell-output cell-output-display">
 <div>
@@ -2086,7 +2155,7 @@ font-style: inherit;">10</span>,)</span></code></pre></div>
 <div id="cell-38" class="cell" data-execution_count="48">
 <details class="code-fold">
 <summary>Code</summary>
-<div class="sourceCode cell-code" id="cb29" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb29-1">pd.DataFrame([(df1.loc[<span class="st" style="color: #20794D;
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb29" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb29-1">pd.DataFrame([(df1.loc[<span class="st" style="color: #20794D;
 background-color: null;
 font-style: inherit;">'2017/18'</span>]<span class="op" style="color: #5E5E5E;
 background-color: null;
@@ -2112,13 +2181,13 @@ font-style: inherit;">/</span>df1.loc[<span class="st" style="color: #20794D;
 background-color: null;
 font-style: inherit;">'2019/20'</span>].<span class="bu" style="color: null;
 background-color: null;
-font-style: inherit;">sum</span>()).T])</span></code></pre></div>
+font-style: inherit;">sum</span>()).T])</span></code></pre></div></div>
 </details>
 <div class="cell-output cell-output-display" data-execution_count="48">
 <div>
 
 
-<table class="dataframe caption-top table table-sm table-striped small" data-quarto-postprocess="true" data-border="1">
+<table class="dataframe caption-top table table-sm table-striped small" data-border="1">
 <thead>
 <tr class="header">
 <th data-quarto-table-cell-role="th"></th>
@@ -2131,7 +2200,7 @@ font-style: inherit;">sum</span>()).T])</span></code></pre></div>
 </thead>
 <tbody>
 <tr class="odd">
-<td data-quarto-table-cell-role="th">2017/18</td>
+<th data-quarto-table-cell-role="th">2017/18</th>
 <td>0.281065</td>
 <td>0.375740</td>
 <td>0.269231</td>
@@ -2139,7 +2208,7 @@ font-style: inherit;">sum</span>()).T])</span></code></pre></div>
 <td>0.002959</td>
 </tr>
 <tr class="even">
-<td data-quarto-table-cell-role="th">2018/19</td>
+<th data-quarto-table-cell-role="th">2018/19</th>
 <td>0.321739</td>
 <td>0.385507</td>
 <td>0.240580</td>
@@ -2147,7 +2216,7 @@ font-style: inherit;">sum</span>()).T])</span></code></pre></div>
 <td>0.002899</td>
 </tr>
 <tr class="odd">
-<td data-quarto-table-cell-role="th">2019/20</td>
+<th data-quarto-table-cell-role="th">2019/20</th>
 <td>0.313830</td>
 <td>0.430851</td>
 <td>0.252660</td>
@@ -2163,13 +2232,13 @@ font-style: inherit;">sum</span>()).T])</span></code></pre></div>
 <div id="cell-39" class="cell" data-execution_count="49">
 <details class="code-fold">
 <summary>Code</summary>
-<div class="sourceCode cell-code" id="cb30" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb30-1">df1</span></code></pre></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb30" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb30-1">df1</span></code></pre></div></div>
 </details>
 <div class="cell-output cell-output-display" data-execution_count="49">
 <div>
 
 
-<table class="dataframe caption-top table table-sm table-striped small" data-quarto-postprocess="true" data-border="1">
+<table class="dataframe caption-top table table-sm table-striped small" data-border="1">
 <thead>
 <tr class="header">
 <th data-quarto-table-cell-role="th"></th>
@@ -2190,7 +2259,7 @@ font-style: inherit;">sum</span>()).T])</span></code></pre></div>
 </thead>
 <tbody>
 <tr class="odd">
-<td data-quarto-table-cell-role="th">2017/18</td>
+<th data-quarto-table-cell-role="th">2017/18</th>
 <td>95</td>
 <td>127</td>
 <td>91</td>
@@ -2198,7 +2267,7 @@ font-style: inherit;">sum</span>()).T])</span></code></pre></div>
 <td>1</td>
 </tr>
 <tr class="even">
-<td data-quarto-table-cell-role="th">2018/19</td>
+<th data-quarto-table-cell-role="th">2018/19</th>
 <td>111</td>
 <td>133</td>
 <td>83</td>
@@ -2206,7 +2275,7 @@ font-style: inherit;">sum</span>()).T])</span></code></pre></div>
 <td>1</td>
 </tr>
 <tr class="odd">
-<td data-quarto-table-cell-role="th">2019/20</td>
+<th data-quarto-table-cell-role="th">2019/20</th>
 <td>118</td>
 <td>162</td>
 <td>95</td>
@@ -2254,23 +2323,23 @@ font-style: inherit;">sum</span>()).T])</span></code></pre></div>
 <h1>Structure <em>[d Query Language]</em></h1>
 <p>But how to create a structure? First, begin with the end in mind. What should the answer look like? For example, <strong>you want to analyze revenue for a specific sales channel by different region</strong>. See, it’s already a prepared <code>SELECT</code> statement.</p>
 <p><em>Here and below, I’ll be using pseudo-SQL to avoid unrelated details.</em></p>
-<div class="sourceCode" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode sql code-with-copy"><code class="sourceCode sql"><span id="cb1-1"><span class="kw" style="color: #003B4F;
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode sql code-with-copy"><code class="sourceCode sql"><span id="cb1-1"><span class="kw" style="color: #003B4F;
 background-color: null;
 font-weight: bold;
 font-style: inherit;">SELECT</span> channel, region, <span class="fu" style="color: #4758AB;
 background-color: null;
-font-style: inherit;">SUM</span>(sales)</span></code></pre></div>
+font-style: inherit;">SUM</span>(sales)</span></code></pre></div></div>
 <p>Usually, there would be the main subject in your question. Above, you want to analyze revenue. So <code>sales</code> is going to be your main entity, <strong>a driving table</strong>. In FROM, you should always put it first.</p>
-<div class="sourceCode" id="cb2" style="background: #f1f3f5;"><pre class="sourceCode sql code-with-copy"><code class="sourceCode sql"><span id="cb2-1"><span class="kw" style="color: #003B4F;
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb2" style="background: #f1f3f5;"><pre class="sourceCode sql code-with-copy"><code class="sourceCode sql"><span id="cb2-1"><span class="kw" style="color: #003B4F;
 background-color: null;
 font-weight: bold;
 font-style: inherit;">FROM</span> sales                                 <span class="op" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">&lt;</span><span class="co" style="color: #5E5E5E;
 background-color: null;
-font-style: inherit;">---- driving table</span></span></code></pre></div>
+font-style: inherit;">---- driving table</span></span></code></pre></div></div>
 <p>Now you want to filter for a specific channel. For this, go to the new table - channels. When adding it, think of your query as a tree - the main table as a body and the new table as a branch.</p>
-<div class="sourceCode" id="cb3" style="background: #f1f3f5;"><pre class="sourceCode sql code-with-copy"><code class="sourceCode sql"><span id="cb3-1"><span class="kw" style="color: #003B4F;
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb3" style="background: #f1f3f5;"><pre class="sourceCode sql code-with-copy"><code class="sourceCode sql"><span id="cb3-1"><span class="kw" style="color: #003B4F;
 background-color: null;
 font-weight: bold;
 font-style: inherit;">FROM</span> sales                                 <span class="op" style="color: #5E5E5E;
@@ -2293,12 +2362,12 @@ font-style: inherit;">'web'</span>         <span class="op" style="color: #5E5E5
 background-color: null;
 font-style: inherit;">&lt;</span><span class="co" style="color: #5E5E5E;
 background-color: null;
-font-style: inherit;">---- branch 1</span></span></code></pre></div>
+font-style: inherit;">---- branch 1</span></span></code></pre></div></div>
 <blockquote class="blockquote">
 <p>One thing to keep in mind when adding tables is the granularity you are operating on. The last thing you want is to introduce a row explosion when joining. <strong>Write your join conditions carefully.</strong></p>
 </blockquote>
 <p>The next step is to group results by region. In the sales table, there is only a <code>district_id</code>. For a region you need to go to <code>districts -&gt; cities -&gt; regions</code> tables. Hear your branch would consist of multiple tables.</p>
-<div class="sourceCode" id="cb4" style="background: #f1f3f5;"><pre class="sourceCode sql code-with-copy"><code class="sourceCode sql"><span id="cb4-1">  <span class="kw" style="color: #003B4F;
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb4" style="background: #f1f3f5;"><pre class="sourceCode sql code-with-copy"><code class="sourceCode sql"><span id="cb4-1">  <span class="kw" style="color: #003B4F;
 background-color: null;
 font-weight: bold;
 font-style: inherit;">JOIN</span> districts                           <span class="op" style="color: #5E5E5E;
@@ -2321,9 +2390,9 @@ font-style: inherit;">JOIN</span> regions                         <span class="o
 background-color: null;
 font-style: inherit;">&lt;</span><span class="co" style="color: #5E5E5E;
 background-color: null;
-font-style: inherit;">---- branch 2.3</span></span></code></pre></div>
+font-style: inherit;">---- branch 2.3</span></span></code></pre></div></div>
 <p>Another way to think about this: I need to get the name of a region for each district. Basically, <code>district_id, region_name</code> with the join condition on <code>district_id</code>. It’s always good to double-check the join condition with a simple query like:</p>
-<div class="sourceCode" id="cb5" style="background: #f1f3f5;"><pre class="sourceCode sql code-with-copy"><code class="sourceCode sql"><span id="cb5-1"><span class="kw" style="color: #003B4F;
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb5" style="background: #f1f3f5;"><pre class="sourceCode sql code-with-copy"><code class="sourceCode sql"><span id="cb5-1"><span class="kw" style="color: #003B4F;
 background-color: null;
 font-weight: bold;
 font-style: inherit;">SELECT</span> district_id, <span class="fu" style="color: #4758AB;
@@ -2357,10 +2426,10 @@ font-style: inherit;">*</span>) <span class="op" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">&gt;</span> <span class="dv" style="color: #AD0000;
 background-color: null;
-font-style: inherit;">1</span></span></code></pre></div>
+font-style: inherit;">1</span></span></code></pre></div></div>
 <p>This will check if you have duplicates on the join key. Ideally, you will do this check for every branch introduced.</p>
 <p>Branching metaphor also helps with rules for <code>OUTER</code> joins - whenever introduced, carry it over for all the join conditions till the end of the current branch. If there are data inconsistencies and some cities are not available in the <code>city</code> table. Hence you introduce a <code>LEFT JOIN</code> and carry it:</p>
-<div class="sourceCode" id="cb6" style="background: #f1f3f5;"><pre class="sourceCode sql code-with-copy"><code class="sourceCode sql"><span id="cb6-1">  <span class="kw" style="color: #003B4F;
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb6" style="background: #f1f3f5;"><pre class="sourceCode sql code-with-copy"><code class="sourceCode sql"><span id="cb6-1">  <span class="kw" style="color: #003B4F;
 background-color: null;
 font-weight: bold;
 font-style: inherit;">JOIN</span> districts                           <span class="op" style="color: #5E5E5E;
@@ -2389,9 +2458,9 @@ font-style: inherit;">JOIN</span> regions                    <span class="op" st
 background-color: null;
 font-style: inherit;">&lt;</span><span class="co" style="color: #5E5E5E;
 background-color: null;
-font-style: inherit;">---- then also here</span></span></code></pre></div>
+font-style: inherit;">---- then also here</span></span></code></pre></div></div>
 <p>Ok, so what do we have at the end?</p>
-<div class="sourceCode" id="cb7" style="background: #f1f3f5;"><pre class="sourceCode sql code-with-copy"><code class="sourceCode sql"><span id="cb7-1"><span class="kw" style="color: #003B4F;
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb7" style="background: #f1f3f5;"><pre class="sourceCode sql code-with-copy"><code class="sourceCode sql"><span id="cb7-1"><span class="kw" style="color: #003B4F;
 background-color: null;
 font-weight: bold;
 font-style: inherit;">SELECT</span> region, <span class="fu" style="color: #4758AB;
@@ -2459,7 +2528,7 @@ font-weight: bold;
 font-style: inherit;">GROUP</span> <span class="kw" style="color: #003B4F;
 background-color: null;
 font-weight: bold;
-font-style: inherit;">BY</span> region</span></code></pre></div>
+font-style: inherit;">BY</span> region</span></code></pre></div></div>
 <p>Note how indentation makes the query structure more readable and puts all tables in purposeful groups.</p>
 </section>
 <section id="conclusion-and-a-recipe" class="level1">
@@ -2507,7 +2576,7 @@ font-style: inherit;">BY</span> region</span></code></pre></div>
 <div id="cell-2" class="cell" data-execution_count="24">
 <details class="code-fold">
 <summary>Code</summary>
-<div class="sourceCode cell-code" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><span class="co" style="color: #5E5E5E;
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><span class="co" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;"># Imports</span></span>
 <span id="cb1-2"><span class="im" style="color: #00769E;
@@ -2562,7 +2631,7 @@ font-style: inherit;">None</span>)</span>
 background-color: null;
 font-style: inherit;">=</span> pd.read_excel(<span class="st" style="color: #20794D;
 background-color: null;
-font-style: inherit;">'Arsenal Player Stats 2018-19.xlsx'</span>)</span></code></pre></div>
+font-style: inherit;">'Arsenal Player Stats 2018-19.xlsx'</span>)</span></code></pre></div></div>
 </details>
 </div>
 </section>
@@ -2571,7 +2640,7 @@ font-style: inherit;">'Arsenal Player Stats 2018-19.xlsx'</span>)</span></code><
 <div id="cell-4" class="cell" data-execution_count="25">
 <details class="code-fold">
 <summary>Code</summary>
-<div class="sourceCode cell-code" id="cb2" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb2-1"><span class="bu" style="color: null;
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb2" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb2-1"><span class="bu" style="color: null;
 background-color: null;
 font-style: inherit;">print</span>(<span class="ss" style="color: #20794D;
 background-color: null;
@@ -2583,7 +2652,7 @@ font-style: inherit;">.</span>columns<span class="sc" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">}</span><span class="ss" style="color: #20794D;
 background-color: null;
-font-style: inherit;">'</span>)</span></code></pre></div>
+font-style: inherit;">'</span>)</span></code></pre></div></div>
 </details>
 <div class="cell-output cell-output-stdout">
 <pre><code>columns: Index(['Rank', 'Player', 'Nationality', 'Metric', 'Stat'], dtype='object')</code></pre>
@@ -2592,13 +2661,13 @@ font-style: inherit;">'</span>)</span></code></pre></div>
 <div id="cell-5" class="cell" data-execution_count="26">
 <details class="code-fold">
 <summary>Code</summary>
-<div class="sourceCode cell-code" id="cb4" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb4-1">df.head()</span></code></pre></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb4" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb4-1">df.head()</span></code></pre></div></div>
 </details>
 <div class="cell-output cell-output-display" data-execution_count="26">
 <div>
 
 
-<table class="dataframe caption-top table table-sm table-striped small" data-quarto-postprocess="true" data-border="1">
+<table class="dataframe caption-top table table-sm table-striped small" data-border="1">
 <thead>
 <tr class="header">
 <th data-quarto-table-cell-role="th"></th>
@@ -2611,7 +2680,7 @@ font-style: inherit;">'</span>)</span></code></pre></div>
 </thead>
 <tbody>
 <tr class="odd">
-<td data-quarto-table-cell-role="th">0</td>
+<th data-quarto-table-cell-role="th">0</th>
 <td>1</td>
 <td>Pierre-Emerick Aubameyang</td>
 <td>Gabon</td>
@@ -2619,7 +2688,7 @@ font-style: inherit;">'</span>)</span></code></pre></div>
 <td>36</td>
 </tr>
 <tr class="even">
-<td data-quarto-table-cell-role="th">1</td>
+<th data-quarto-table-cell-role="th">1</th>
 <td>2</td>
 <td>Alex Iwobi</td>
 <td>Nigeria</td>
@@ -2627,7 +2696,7 @@ font-style: inherit;">'</span>)</span></code></pre></div>
 <td>35</td>
 </tr>
 <tr class="odd">
-<td data-quarto-table-cell-role="th">2</td>
+<th data-quarto-table-cell-role="th">2</th>
 <td>2</td>
 <td>Alexandre Lacazette</td>
 <td>France</td>
@@ -2635,7 +2704,7 @@ font-style: inherit;">'</span>)</span></code></pre></div>
 <td>35</td>
 </tr>
 <tr class="even">
-<td data-quarto-table-cell-role="th">3</td>
+<th data-quarto-table-cell-role="th">3</th>
 <td>4</td>
 <td>Lucas Torreira</td>
 <td>Uruguay</td>
@@ -2643,7 +2712,7 @@ font-style: inherit;">'</span>)</span></code></pre></div>
 <td>34</td>
 </tr>
 <tr class="odd">
-<td data-quarto-table-cell-role="th">4</td>
+<th data-quarto-table-cell-role="th">4</th>
 <td>5</td>
 <td>Matteo Guendouzi</td>
 <td>France</td>
@@ -2660,7 +2729,7 @@ font-style: inherit;">'</span>)</span></code></pre></div>
 <div id="cell-7" class="cell" data-execution_count="27">
 <details class="code-fold">
 <summary>Code</summary>
-<div class="sourceCode cell-code" id="cb5" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb5-1">training <span class="op" style="color: #5E5E5E;
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb5" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb5-1">training <span class="op" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">=</span> df.pivot(index<span class="op" style="color: #5E5E5E;
 background-color: null;
@@ -2675,13 +2744,13 @@ background-color: null;
 font-style: inherit;">=</span><span class="st" style="color: #20794D;
 background-color: null;
 font-style: inherit;">'Stat'</span>)</span>
-<span id="cb5-2">training.head()</span></code></pre></div>
+<span id="cb5-2">training.head()</span></code></pre></div></div>
 </details>
 <div class="cell-output cell-output-display" data-execution_count="27">
 <div>
 
 
-<table class="dataframe caption-top table table-sm table-striped small" data-quarto-postprocess="true" data-border="1">
+<table class="dataframe caption-top table table-sm table-striped small" data-border="1">
 <thead>
 <tr class="header">
 <th data-quarto-table-cell-role="th">Metric</th>
@@ -2734,7 +2803,7 @@ font-style: inherit;">'Stat'</span>)</span>
 </thead>
 <tbody>
 <tr class="odd">
-<td data-quarto-table-cell-role="th">Aaron Ramsey</td>
+<th data-quarto-table-cell-role="th">Aaron Ramsey</th>
 <td>28</td>
 <td>6</td>
 <td>2</td>
@@ -2758,7 +2827,7 @@ font-style: inherit;">'Stat'</span>)</span>
 <td>0</td>
 </tr>
 <tr class="even">
-<td data-quarto-table-cell-role="th">Ainsley Maitland-Niles</td>
+<th data-quarto-table-cell-role="th">Ainsley Maitland-Niles</th>
 <td>16</td>
 <td>1</td>
 <td>0</td>
@@ -2782,7 +2851,7 @@ font-style: inherit;">'Stat'</span>)</span>
 <td>1</td>
 </tr>
 <tr class="odd">
-<td data-quarto-table-cell-role="th">Alex Iwobi</td>
+<th data-quarto-table-cell-role="th">Alex Iwobi</th>
 <td>35</td>
 <td>6</td>
 <td>3</td>
@@ -2806,7 +2875,7 @@ font-style: inherit;">'Stat'</span>)</span>
 <td>0</td>
 </tr>
 <tr class="even">
-<td data-quarto-table-cell-role="th">Alexandre Lacazette</td>
+<th data-quarto-table-cell-role="th">Alexandre Lacazette</th>
 <td>35</td>
 <td>8</td>
 <td>13</td>
@@ -2830,7 +2899,7 @@ font-style: inherit;">'Stat'</span>)</span>
 <td>2</td>
 </tr>
 <tr class="odd">
-<td data-quarto-table-cell-role="th">Bernd Leno</td>
+<th data-quarto-table-cell-role="th">Bernd Leno</th>
 <td>32</td>
 <td>0</td>
 <td>0</td>
@@ -2868,7 +2937,7 @@ font-style: inherit;">'Stat'</span>)</span>
 <div id="cell-10" class="cell" data-execution_count="28">
 <details class="code-fold">
 <summary>Code</summary>
-<div class="sourceCode cell-code" id="cb6" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb6-1">position_lookup <span class="op" style="color: #5E5E5E;
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb6" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb6-1">position_lookup <span class="op" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">=</span> {k:<span class="st" style="color: #20794D;
 background-color: null;
@@ -3004,26 +3073,26 @@ font-style: inherit;">'position'</span>] <span class="op" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">=</span> training.index.<span class="bu" style="color: null;
 background-color: null;
-font-style: inherit;">map</span>(position_lookup)</span></code></pre></div>
+font-style: inherit;">map</span>(position_lookup)</span></code></pre></div></div>
 </details>
 </div>
 <div id="cell-11" class="cell" data-execution_count="29">
 <details class="code-fold">
 <summary>Code</summary>
-<div class="sourceCode cell-code" id="cb7" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb7-1">data_per_position <span class="op" style="color: #5E5E5E;
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb7" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb7-1">data_per_position <span class="op" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">=</span> training.groupby(<span class="st" style="color: #20794D;
 background-color: null;
 font-style: inherit;">'position'</span>).<span class="bu" style="color: null;
 background-color: null;
 font-style: inherit;">sum</span>()</span>
-<span id="cb7-2">data_per_position</span></code></pre></div>
+<span id="cb7-2">data_per_position</span></code></pre></div></div>
 </details>
 <div class="cell-output cell-output-display" data-execution_count="29">
 <div>
 
 
-<table class="dataframe caption-top table table-sm table-striped small" data-quarto-postprocess="true" data-border="1">
+<table class="dataframe caption-top table table-sm table-striped small" data-border="1">
 <thead>
 <tr class="header">
 <th data-quarto-table-cell-role="th">Metric</th>
@@ -3076,7 +3145,7 @@ font-style: inherit;">sum</span>()</span>
 </thead>
 <tbody>
 <tr class="odd">
-<td data-quarto-table-cell-role="th">DF</td>
+<th data-quarto-table-cell-role="th">DF</th>
 <td>143</td>
 <td>12</td>
 <td>2</td>
@@ -3100,7 +3169,7 @@ font-style: inherit;">sum</span>()</span>
 <td>34</td>
 </tr>
 <tr class="even">
-<td data-quarto-table-cell-role="th">FW</td>
+<th data-quarto-table-cell-role="th">FW</th>
 <td>120</td>
 <td>20</td>
 <td>39</td>
@@ -3124,7 +3193,7 @@ font-style: inherit;">sum</span>()</span>
 <td>2</td>
 </tr>
 <tr class="odd">
-<td data-quarto-table-cell-role="th">GK</td>
+<th data-quarto-table-cell-role="th">GK</th>
 <td>39</td>
 <td>0</td>
 <td>0</td>
@@ -3148,7 +3217,7 @@ font-style: inherit;">sum</span>()</span>
 <td>0</td>
 </tr>
 <tr class="even">
-<td data-quarto-table-cell-role="th">MF</td>
+<th data-quarto-table-cell-role="th">MF</th>
 <td>229</td>
 <td>20</td>
 <td>9</td>
@@ -3180,7 +3249,7 @@ font-style: inherit;">sum</span>()</span>
 <div id="cell-12" class="cell" data-execution_count="30">
 <details class="code-fold">
 <summary>Code</summary>
-<div class="sourceCode cell-code" id="cb8" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb8-1"><span class="co" style="color: #5E5E5E;
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb8" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb8-1"><span class="co" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;"># Common metrics</span></span>
 <span id="cb8-2"></span>
@@ -3872,13 +3941,13 @@ font-style: inherit;">'Shots'</span>]<span class="op" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">/</span> training[<span class="st" style="color: #20794D;
 background-color: null;
-font-style: inherit;">'Appearances'</span>]</span></code></pre></div>
+font-style: inherit;">'Appearances'</span>]</span></code></pre></div></div>
 </details>
 </div>
 <div id="cell-13" class="cell" data-scrolled="true" data-execution_count="31">
 <details class="code-fold">
 <summary>Code</summary>
-<div class="sourceCode cell-code" id="cb9" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb9-1">ax <span class="op" style="color: #5E5E5E;
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb9" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb9-1">ax <span class="op" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">=</span> scatter_matrix(</span>
 <span id="cb9-2">    training.query(<span class="st" style="color: #20794D;
@@ -3916,7 +3985,7 @@ font-style: inherit;">=</span>(<span class="dv" style="color: #AD0000;
 background-color: null;
 font-style: inherit;">20</span>,<span class="dv" style="color: #AD0000;
 background-color: null;
-font-style: inherit;">12</span>))</span></code></pre></div>
+font-style: inherit;">12</span>))</span></code></pre></div></div>
 </details>
 <div class="cell-output cell-output-display">
 <div>
@@ -3998,7 +4067,7 @@ Figure&nbsp;1: Different attempts at a radar chart
 <div id="cell-20" class="cell" data-execution_count="32">
 <details class="code-fold">
 <summary>Code</summary>
-<div class="sourceCode cell-code" id="cb10" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb10-1">gk <span class="op" style="color: #5E5E5E;
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb10" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb10-1">gk <span class="op" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">=</span> training.query(<span class="st" style="color: #20794D;
 background-color: null;
@@ -4074,13 +4143,13 @@ background-color: null;
 font-style: inherit;">=</span> gk.value <span class="op" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">/</span> gk.denom</span>
-<span id="cb10-13">gk.T</span></code></pre></div>
+<span id="cb10-13">gk.T</span></code></pre></div></div>
 </details>
 <div class="cell-output cell-output-display" data-execution_count="32">
 <div>
 
 
-<table class="dataframe caption-top table table-sm table-striped small" data-quarto-postprocess="true" data-border="1">
+<table class="dataframe caption-top table table-sm table-striped small" data-border="1">
 <thead>
 <tr class="header">
 <th data-quarto-table-cell-role="th"></th>
@@ -4100,7 +4169,7 @@ font-style: inherit;">/</span> gk.denom</span>
 </thead>
 <tbody>
 <tr class="odd">
-<td data-quarto-table-cell-role="th">kpi</td>
+<th data-quarto-table-cell-role="th">kpi</th>
 <td>High Claims</td>
 <td>High Claims</td>
 <td>Punches</td>
@@ -4115,7 +4184,7 @@ font-style: inherit;">/</span> gk.denom</span>
 <td>Minutes Played</td>
 </tr>
 <tr class="even">
-<td data-quarto-table-cell-role="th">name</td>
+<th data-quarto-table-cell-role="th">name</th>
 <td>Bernd Leno</td>
 <td>Petr Cech</td>
 <td>Bernd Leno</td>
@@ -4130,7 +4199,7 @@ font-style: inherit;">/</span> gk.denom</span>
 <td>Petr Cech</td>
 </tr>
 <tr class="odd">
-<td data-quarto-table-cell-role="th">value</td>
+<th data-quarto-table-cell-role="th">value</th>
 <td>0.364583</td>
 <td>1.0</td>
 <td>1.0</td>
@@ -4145,7 +4214,7 @@ font-style: inherit;">/</span> gk.denom</span>
 <td>0.206349</td>
 </tr>
 <tr class="even">
-<td data-quarto-table-cell-role="th">denom</td>
+<th data-quarto-table-cell-role="th">denom</th>
 <td>0.857143</td>
 <td>0.857143</td>
 <td>0.5</td>
@@ -4168,7 +4237,7 @@ font-style: inherit;">/</span> gk.denom</span>
 <div id="cell-21" class="cell" data-execution_count="33">
 <details class="code-fold">
 <summary>Code</summary>
-<div class="sourceCode cell-code" id="cb11" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb11-1">fig <span class="op" style="color: #5E5E5E;
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb11" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb11-1">fig <span class="op" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">=</span> px.line_polar(gk, r<span class="op" style="color: #5E5E5E;
 background-color: null;
@@ -4223,7 +4292,7 @@ background-color: null;
 font-style: inherit;">=</span><span class="fl" style="color: #AD0000;
 background-color: null;
 font-style: inherit;">1.1</span>))</span>
-<span id="cb11-6">fig.show()</span></code></pre></div>
+<span id="cb11-6">fig.show()</span></code></pre></div></div>
 </details>
 <div class="cell-output cell-output-display">
 <div>                            <div id="a8ee28a8-fdbc-47ce-8426-efa791748b2e" class="plotly-graph-div" style="height:525px; width:800px;"></div>            <script type="text/javascript">                require(["plotly"], function(Plotly) {                    window.PLOTLYENV=window.PLOTLYENV || {};                                    if (document.getElementById("a8ee28a8-fdbc-47ce-8426-efa791748b2e")) {                    Plotly.newPlot(                        "a8ee28a8-fdbc-47ce-8426-efa791748b2e",                        [{"hovertemplate":"name=Bernd Leno<br>value=%{r}<br>kpi=%{theta}<extra></extra>","legendgroup":"Bernd Leno","line":{"color":"#636efa","dash":"solid","width":5},"marker":{"symbol":"circle"},"mode":"lines","name":"Bernd Leno","r":[0.36458333333333337,1.0,0.8203125,0.900390625,1.0,1.0,0.36458333333333337],"showlegend":true,"subplot":"polar","theta":["High Claims","Punches","Saves","Passes","Clearances","Minutes Played","High Claims"],"type":"scatterpolar"},{"hovertemplate":"name=Petr Cech<br>value=%{r}<br>kpi=%{theta}<extra></extra>","legendgroup":"Petr Cech","line":{"color":"#EF553B","dash":"dot","width":5},"marker":{"symbol":"circle"},"mode":"lines","name":"Petr Cech","r":[1.0,0.5714285714285714,1.0,1.0,1.0,0.20634920634920634,1.0],"showlegend":true,"subplot":"polar","theta":["High Claims","Punches","Saves","Passes","Clearances","Minutes Played","High Claims"],"type":"scatterpolar"}],                        {"template":{"data":{"barpolar":[{"marker":{"line":{"color":"white","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"barpolar"}],"bar":[{"error_x":{"color":"#2a3f5f"},"error_y":{"color":"#2a3f5f"},"marker":{"line":{"color":"white","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"bar"}],"carpet":[{"aaxis":{"endlinecolor":"#2a3f5f","gridcolor":"#C8D4E3","linecolor":"#C8D4E3","minorgridcolor":"#C8D4E3","startlinecolor":"#2a3f5f"},"baxis":{"endlinecolor":"#2a3f5f","gridcolor":"#C8D4E3","linecolor":"#C8D4E3","minorgridcolor":"#C8D4E3","startlinecolor":"#2a3f5f"},"type":"carpet"}],"choropleth":[{"colorbar":{"outlinewidth":0,"ticks":""},"type":"choropleth"}],"contourcarpet":[{"colorbar":{"outlinewidth":0,"ticks":""},"type":"contourcarpet"}],"contour":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"contour"}],"heatmapgl":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"heatmapgl"}],"heatmap":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"heatmap"}],"histogram2dcontour":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"histogram2dcontour"}],"histogram2d":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"histogram2d"}],"histogram":[{"marker":{"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"histogram"}],"mesh3d":[{"colorbar":{"outlinewidth":0,"ticks":""},"type":"mesh3d"}],"parcoords":[{"line":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"parcoords"}],"pie":[{"automargin":true,"type":"pie"}],"scatter3d":[{"line":{"colorbar":{"outlinewidth":0,"ticks":""}},"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scatter3d"}],"scattercarpet":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scattercarpet"}],"scattergeo":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scattergeo"}],"scattergl":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scattergl"}],"scattermapbox":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scattermapbox"}],"scatterpolargl":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scatterpolargl"}],"scatterpolar":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scatterpolar"}],"scatter":[{"fillpattern":{"fillmode":"overlay","size":10,"solidity":0.2},"type":"scatter"}],"scatterternary":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scatterternary"}],"surface":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"surface"}],"table":[{"cells":{"fill":{"color":"#EBF0F8"},"line":{"color":"white"}},"header":{"fill":{"color":"#C8D4E3"},"line":{"color":"white"}},"type":"table"}]},"layout":{"annotationdefaults":{"arrowcolor":"#2a3f5f","arrowhead":0,"arrowwidth":1},"autotypenumbers":"strict","coloraxis":{"colorbar":{"outlinewidth":0,"ticks":""}},"colorscale":{"diverging":[[0,"#8e0152"],[0.1,"#c51b7d"],[0.2,"#de77ae"],[0.3,"#f1b6da"],[0.4,"#fde0ef"],[0.5,"#f7f7f7"],[0.6,"#e6f5d0"],[0.7,"#b8e186"],[0.8,"#7fbc41"],[0.9,"#4d9221"],[1,"#276419"]],"sequential":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"sequentialminus":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]},"colorway":["#636efa","#EF553B","#00cc96","#ab63fa","#FFA15A","#19d3f3","#FF6692","#B6E880","#FF97FF","#FECB52"],"font":{"color":"#2a3f5f"},"geo":{"bgcolor":"white","lakecolor":"white","landcolor":"white","showlakes":true,"showland":true,"subunitcolor":"#C8D4E3"},"hoverlabel":{"align":"left"},"hovermode":"closest","mapbox":{"style":"light"},"paper_bgcolor":"white","plot_bgcolor":"white","polar":{"angularaxis":{"gridcolor":"#EBF0F8","linecolor":"#EBF0F8","ticks":""},"bgcolor":"white","radialaxis":{"gridcolor":"#EBF0F8","linecolor":"#EBF0F8","ticks":""}},"scene":{"xaxis":{"backgroundcolor":"white","gridcolor":"#DFE8F3","gridwidth":2,"linecolor":"#EBF0F8","showbackground":true,"ticks":"","zerolinecolor":"#EBF0F8"},"yaxis":{"backgroundcolor":"white","gridcolor":"#DFE8F3","gridwidth":2,"linecolor":"#EBF0F8","showbackground":true,"ticks":"","zerolinecolor":"#EBF0F8"},"zaxis":{"backgroundcolor":"white","gridcolor":"#DFE8F3","gridwidth":2,"linecolor":"#EBF0F8","showbackground":true,"ticks":"","zerolinecolor":"#EBF0F8"}},"shapedefaults":{"line":{"color":"#2a3f5f"}},"ternary":{"aaxis":{"gridcolor":"#DFE8F3","linecolor":"#A2B1C6","ticks":""},"baxis":{"gridcolor":"#DFE8F3","linecolor":"#A2B1C6","ticks":""},"bgcolor":"white","caxis":{"gridcolor":"#DFE8F3","linecolor":"#A2B1C6","ticks":""}},"title":{"x":0.05},"xaxis":{"automargin":true,"gridcolor":"#EBF0F8","linecolor":"#EBF0F8","ticks":"","title":{"standoff":15},"zerolinecolor":"#EBF0F8","zerolinewidth":2},"yaxis":{"automargin":true,"gridcolor":"#EBF0F8","linecolor":"#EBF0F8","ticks":"","title":{"standoff":15},"zerolinecolor":"#EBF0F8","zerolinewidth":2}}},"polar":{"domain":{"x":[0.0,1.0],"y":[0.0,1.0]},"angularaxis":{"direction":"clockwise","rotation":90}},"legend":{"title":{"text":"name"},"tracegroupgap":0,"x":0.7,"y":1.1},"margin":{"t":60},"width":800},                        {"responsive": true}                    ).then(function(){
@@ -4266,7 +4335,7 @@ if (outputEl) {{
 <div id="cell-24" class="cell" data-execution_count="34">
 <details class="code-fold">
 <summary>Code</summary>
-<div class="sourceCode cell-code" id="cb12" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb12-1">df <span class="op" style="color: #5E5E5E;
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb12" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb12-1">df <span class="op" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">=</span> training.query(<span class="st" style="color: #20794D;
 background-color: null;
@@ -4348,13 +4417,13 @@ background-color: null;
 font-style: inherit;">=</span> df.value <span class="op" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">/</span> df.denom</span>
-<span id="cb12-13">df.T</span></code></pre></div>
+<span id="cb12-13">df.T</span></code></pre></div></div>
 </details>
 <div class="cell-output cell-output-display" data-execution_count="34">
 <div>
 
 
-<table class="dataframe caption-top table table-sm table-striped small" data-quarto-postprocess="true" data-border="1">
+<table class="dataframe caption-top table table-sm table-striped small" data-border="1">
 <thead>
 <tr class="header">
 <th data-quarto-table-cell-role="th"></th>
@@ -4390,7 +4459,7 @@ font-style: inherit;">/</span> df.denom</span>
 </thead>
 <tbody>
 <tr class="odd">
-<td data-quarto-table-cell-role="th">kpi</td>
+<th data-quarto-table-cell-role="th">kpi</th>
 <td>Clearances</td>
 <td>Clearances</td>
 <td>Clearances</td>
@@ -4421,7 +4490,7 @@ font-style: inherit;">/</span> df.denom</span>
 <td>Assists</td>
 </tr>
 <tr class="even">
-<td data-quarto-table-cell-role="th">name</td>
+<th data-quarto-table-cell-role="th">name</th>
 <td>Héctor Bellerín</td>
 <td>Sead Kolasinac</td>
 <td>Shkodran Mustafi</td>
@@ -4452,7 +4521,7 @@ font-style: inherit;">/</span> df.denom</span>
 <td>Sokratis</td>
 </tr>
 <tr class="odd">
-<td data-quarto-table-cell-role="th">value</td>
+<th data-quarto-table-cell-role="th">value</th>
 <td>0.349637</td>
 <td>0.214844</td>
 <td>1.0</td>
@@ -4483,7 +4552,7 @@ font-style: inherit;">/</span> df.denom</span>
 <td>0.278854</td>
 </tr>
 <tr class="even">
-<td data-quarto-table-cell-role="th">denom</td>
+<th data-quarto-table-cell-role="th">denom</th>
 <td>0.061568</td>
 <td>0.061568</td>
 <td>0.061568</td>
@@ -4522,7 +4591,7 @@ font-style: inherit;">/</span> df.denom</span>
 <div id="cell-25" class="cell" data-execution_count="35">
 <details class="code-fold">
 <summary>Code</summary>
-<div class="sourceCode cell-code" id="cb13" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb13-1">fig <span class="op" style="color: #5E5E5E;
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb13" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb13-1">fig <span class="op" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">=</span> px.line_polar(df, r<span class="op" style="color: #5E5E5E;
 background-color: null;
@@ -4572,7 +4641,7 @@ background-color: null;
 font-style: inherit;">=</span><span class="fl" style="color: #AD0000;
 background-color: null;
 font-style: inherit;">1.1</span>))</span>
-<span id="cb13-5">fig.show()</span></code></pre></div>
+<span id="cb13-5">fig.show()</span></code></pre></div></div>
 </details>
 <div class="cell-output cell-output-display">
 <div>                            <div id="7fccb54c-8f73-42e3-99f9-3d6d1f8dd82e" class="plotly-graph-div" style="height:525px; width:100%;"></div>            <script type="text/javascript">                require(["plotly"], function(Plotly) {                    window.PLOTLYENV=window.PLOTLYENV || {};                                    if (document.getElementById("7fccb54c-8f73-42e3-99f9-3d6d1f8dd82e")) {                    Plotly.newPlot(                        "7fccb54c-8f73-42e3-99f9-3d6d1f8dd82e",                        [{"hovertemplate":"name=H\u00e9ctor Beller\u00edn<br>value=%{r}<br>kpi=%{theta}<extra></extra>","legendgroup":"H\u00e9ctor Beller\u00edn","line":{"color":"#636efa","dash":"solid","width":4},"marker":{"symbol":"circle"},"mode":"lines","name":"H\u00e9ctor Beller\u00edn","r":[0.3496371747031153,0.6202993600253874,0.35861056751467707,0.4126949056246449,0.7586727500189412,0.5862332695984703,1.0,0.3496371747031153],"showlegend":true,"subplot":"polar","theta":["Clearances","Fouls","Yellow Cards","Tackles","Passes","Minutes Played","Assists","Clearances"],"type":"scatterpolar"},{"hovertemplate":"name=Sead Kolasinac<br>value=%{r}<br>kpi=%{theta}<extra></extra>","legendgroup":"Sead Kolasinac","line":{"color":"#EF553B","dash":"dot","width":4},"marker":{"symbol":"circle"},"mode":"lines","name":"Sead Kolasinac","r":[0.21484439186302537,0.6603603603603604,0.48478835978835977,0.7587472264891619,0.7611748130161727,0.722753346080306,0.8111111111111111,0.21484439186302537],"showlegend":true,"subplot":"polar","theta":["Clearances","Fouls","Yellow Cards","Tackles","Passes","Minutes Played","Assists","Clearances"],"type":"scatterpolar"},{"hovertemplate":"name=Shkodran Mustafi<br>value=%{r}<br>kpi=%{theta}<extra></extra>","legendgroup":"Shkodran Mustafi","line":{"color":"#00cc96","dash":"dash","width":4},"marker":{"symbol":"circle"},"mode":"lines","name":"Shkodran Mustafi","r":[1.0,0.9545553201384941,0.6306883365200765,1.0,1.0,1.0,0.0,1.0],"showlegend":true,"subplot":"polar","theta":["Clearances","Fouls","Yellow Cards","Tackles","Passes","Minutes Played","Assists","Clearances"],"type":"scatterpolar"},{"hovertemplate":"name=Sokratis<br>value=%{r}<br>kpi=%{theta}<extra></extra>","legendgroup":"Sokratis","line":{"color":"#ab63fa","dash":"longdash","width":4},"marker":{"symbol":"circle"},"mode":"lines","name":"Sokratis","r":[0.797708727004652,1.0,1.0,0.8055714474321172,0.9344976534530891,0.8409177820267686,0.2788540245566167,0.797708727004652],"showlegend":true,"subplot":"polar","theta":["Clearances","Fouls","Yellow Cards","Tackles","Passes","Minutes Played","Assists","Clearances"],"type":"scatterpolar"}],                        {"template":{"data":{"barpolar":[{"marker":{"line":{"color":"white","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"barpolar"}],"bar":[{"error_x":{"color":"#2a3f5f"},"error_y":{"color":"#2a3f5f"},"marker":{"line":{"color":"white","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"bar"}],"carpet":[{"aaxis":{"endlinecolor":"#2a3f5f","gridcolor":"#C8D4E3","linecolor":"#C8D4E3","minorgridcolor":"#C8D4E3","startlinecolor":"#2a3f5f"},"baxis":{"endlinecolor":"#2a3f5f","gridcolor":"#C8D4E3","linecolor":"#C8D4E3","minorgridcolor":"#C8D4E3","startlinecolor":"#2a3f5f"},"type":"carpet"}],"choropleth":[{"colorbar":{"outlinewidth":0,"ticks":""},"type":"choropleth"}],"contourcarpet":[{"colorbar":{"outlinewidth":0,"ticks":""},"type":"contourcarpet"}],"contour":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"contour"}],"heatmapgl":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"heatmapgl"}],"heatmap":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"heatmap"}],"histogram2dcontour":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"histogram2dcontour"}],"histogram2d":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"histogram2d"}],"histogram":[{"marker":{"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"histogram"}],"mesh3d":[{"colorbar":{"outlinewidth":0,"ticks":""},"type":"mesh3d"}],"parcoords":[{"line":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"parcoords"}],"pie":[{"automargin":true,"type":"pie"}],"scatter3d":[{"line":{"colorbar":{"outlinewidth":0,"ticks":""}},"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scatter3d"}],"scattercarpet":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scattercarpet"}],"scattergeo":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scattergeo"}],"scattergl":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scattergl"}],"scattermapbox":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scattermapbox"}],"scatterpolargl":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scatterpolargl"}],"scatterpolar":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scatterpolar"}],"scatter":[{"fillpattern":{"fillmode":"overlay","size":10,"solidity":0.2},"type":"scatter"}],"scatterternary":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scatterternary"}],"surface":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"surface"}],"table":[{"cells":{"fill":{"color":"#EBF0F8"},"line":{"color":"white"}},"header":{"fill":{"color":"#C8D4E3"},"line":{"color":"white"}},"type":"table"}]},"layout":{"annotationdefaults":{"arrowcolor":"#2a3f5f","arrowhead":0,"arrowwidth":1},"autotypenumbers":"strict","coloraxis":{"colorbar":{"outlinewidth":0,"ticks":""}},"colorscale":{"diverging":[[0,"#8e0152"],[0.1,"#c51b7d"],[0.2,"#de77ae"],[0.3,"#f1b6da"],[0.4,"#fde0ef"],[0.5,"#f7f7f7"],[0.6,"#e6f5d0"],[0.7,"#b8e186"],[0.8,"#7fbc41"],[0.9,"#4d9221"],[1,"#276419"]],"sequential":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"sequentialminus":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]},"colorway":["#636efa","#EF553B","#00cc96","#ab63fa","#FFA15A","#19d3f3","#FF6692","#B6E880","#FF97FF","#FECB52"],"font":{"color":"#2a3f5f"},"geo":{"bgcolor":"white","lakecolor":"white","landcolor":"white","showlakes":true,"showland":true,"subunitcolor":"#C8D4E3"},"hoverlabel":{"align":"left"},"hovermode":"closest","mapbox":{"style":"light"},"paper_bgcolor":"white","plot_bgcolor":"white","polar":{"angularaxis":{"gridcolor":"#EBF0F8","linecolor":"#EBF0F8","ticks":""},"bgcolor":"white","radialaxis":{"gridcolor":"#EBF0F8","linecolor":"#EBF0F8","ticks":""}},"scene":{"xaxis":{"backgroundcolor":"white","gridcolor":"#DFE8F3","gridwidth":2,"linecolor":"#EBF0F8","showbackground":true,"ticks":"","zerolinecolor":"#EBF0F8"},"yaxis":{"backgroundcolor":"white","gridcolor":"#DFE8F3","gridwidth":2,"linecolor":"#EBF0F8","showbackground":true,"ticks":"","zerolinecolor":"#EBF0F8"},"zaxis":{"backgroundcolor":"white","gridcolor":"#DFE8F3","gridwidth":2,"linecolor":"#EBF0F8","showbackground":true,"ticks":"","zerolinecolor":"#EBF0F8"}},"shapedefaults":{"line":{"color":"#2a3f5f"}},"ternary":{"aaxis":{"gridcolor":"#DFE8F3","linecolor":"#A2B1C6","ticks":""},"baxis":{"gridcolor":"#DFE8F3","linecolor":"#A2B1C6","ticks":""},"bgcolor":"white","caxis":{"gridcolor":"#DFE8F3","linecolor":"#A2B1C6","ticks":""}},"title":{"x":0.05},"xaxis":{"automargin":true,"gridcolor":"#EBF0F8","linecolor":"#EBF0F8","ticks":"","title":{"standoff":15},"zerolinecolor":"#EBF0F8","zerolinewidth":2},"yaxis":{"automargin":true,"gridcolor":"#EBF0F8","linecolor":"#EBF0F8","ticks":"","title":{"standoff":15},"zerolinecolor":"#EBF0F8","zerolinewidth":2}}},"polar":{"domain":{"x":[0.0,1.0],"y":[0.0,1.0]},"angularaxis":{"direction":"clockwise","rotation":90}},"legend":{"title":{"text":"name"},"tracegroupgap":0,"x":0,"y":1.1},"margin":{"t":60}},                        {"responsive": true}                    ).then(function(){
@@ -4615,7 +4684,7 @@ if (outputEl) {{
 <div id="cell-28" class="cell" data-execution_count="36">
 <details class="code-fold">
 <summary>Code</summary>
-<div class="sourceCode cell-code" id="cb14" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb14-1">mf <span class="op" style="color: #5E5E5E;
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb14" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb14-1">mf <span class="op" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">=</span> training.query(<span class="st" style="color: #20794D;
 background-color: null;
@@ -4708,13 +4777,13 @@ background-color: null;
 font-style: inherit;">=</span> mf.value <span class="op" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">/</span> mf.denom</span>
-<span id="cb14-18">mf.T</span></code></pre></div>
+<span id="cb14-18">mf.T</span></code></pre></div></div>
 </details>
 <div class="cell-output cell-output-display" data-execution_count="36">
 <div>
 
 
-<table class="dataframe caption-top table table-sm table-striped small" data-quarto-postprocess="true" data-border="1">
+<table class="dataframe caption-top table table-sm table-striped small" data-border="1">
 <thead>
 <tr class="header">
 <th data-quarto-table-cell-role="th"></th>
@@ -4778,7 +4847,7 @@ font-style: inherit;">/</span> mf.denom</span>
 </thead>
 <tbody>
 <tr class="odd">
-<td data-quarto-table-cell-role="th">kpi</td>
+<th data-quarto-table-cell-role="th">kpi</th>
 <td>Assists</td>
 <td>Assists</td>
 <td>Assists</td>
@@ -4837,7 +4906,7 @@ font-style: inherit;">/</span> mf.denom</span>
 <td>Minutes Played</td>
 </tr>
 <tr class="even">
-<td data-quarto-table-cell-role="th">name</td>
+<th data-quarto-table-cell-role="th">name</th>
 <td>Aaron Ramsey</td>
 <td>Granit Xhaka</td>
 <td>Henrikh Mkhitaryan</td>
@@ -4896,7 +4965,7 @@ font-style: inherit;">/</span> mf.denom</span>
 <td>Nacho Monreal</td>
 </tr>
 <tr class="odd">
-<td data-quarto-table-cell-role="th">value</td>
+<th data-quarto-table-cell-role="th">value</th>
 <td>1.0</td>
 <td>0.176996</td>
 <td>0.538524</td>
@@ -4955,7 +5024,7 @@ font-style: inherit;">/</span> mf.denom</span>
 <td>0.744102</td>
 </tr>
 <tr class="even">
-<td data-quarto-table-cell-role="th">denom</td>
+<th data-quarto-table-cell-role="th">denom</th>
 <td>0.004518</td>
 <td>0.004518</td>
 <td>0.004518</td>
@@ -5022,7 +5091,7 @@ font-style: inherit;">/</span> mf.denom</span>
 <div id="cell-29" class="cell" data-execution_count="37">
 <details class="code-fold">
 <summary>Code</summary>
-<div class="sourceCode cell-code" id="cb15" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb15-1">fig <span class="op" style="color: #5E5E5E;
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb15" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb15-1">fig <span class="op" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">=</span> px.line_polar(mf, r<span class="op" style="color: #5E5E5E;
 background-color: null;
@@ -5080,7 +5149,7 @@ background-color: null;
 font-style: inherit;">=</span><span class="fl" style="color: #AD0000;
 background-color: null;
 font-style: inherit;">1.1</span>))</span>
-<span id="cb15-7">fig.show()</span></code></pre></div>
+<span id="cb15-7">fig.show()</span></code></pre></div></div>
 </details>
 <div class="cell-output cell-output-display">
 <div>                            <div id="14191a60-798a-46fd-9f07-aeb254b303ea" class="plotly-graph-div" style="height:525px; width:800px;"></div>            <script type="text/javascript">                require(["plotly"], function(Plotly) {                    window.PLOTLYENV=window.PLOTLYENV || {};                                    if (document.getElementById("14191a60-798a-46fd-9f07-aeb254b303ea")) {                    Plotly.newPlot(                        "14191a60-798a-46fd-9f07-aeb254b303ea",                        [{"hovertemplate":"name=Aaron Ramsey<br>value=%{r}<br>kpi=%{theta}<extra></extra>","legendgroup":"Aaron Ramsey","line":{"color":"#636efa","dash":"solid","width":5},"marker":{"symbol":"circle"},"mode":"lines","name":"Aaron Ramsey","r":[1.0,1.0,0.8253012048192772,0.6484533903990125,0.8337226456847799,0.9370481927710843,0.6960841750623181,0.5309876049580168,1.0],"showlegend":true,"subplot":"polar","theta":["Assists","Dispossessed","Goals","Passes","Shots","Tackles","Touches","Minutes Played","Assists"],"type":"scatterpolar"},{"hovertemplate":"name=Granit Xhaka<br>value=%{r}<br>kpi=%{theta}<extra></extra>","legendgroup":"Granit Xhaka","line":{"color":"#EF553B","dash":"dot","width":5},"marker":{"symbol":"circle"},"mode":"lines","name":"Granit Xhaka","r":[0.17699586831933894,0.33432552904764024,0.43822471011595365,1.0,0.3890362222457956,0.7609756097560976,1.0,1.0,0.17699586831933894],"showlegend":true,"subplot":"polar","theta":["Assists","Dispossessed","Goals","Passes","Shots","Tackles","Touches","Minutes Played","Assists"],"type":"scatterpolar"},{"hovertemplate":"name=Henrikh Mkhitaryan<br>value=%{r}<br>kpi=%{theta}<extra></extra>","legendgroup":"Henrikh Mkhitaryan","line":{"color":"#00cc96","dash":"dash","width":5},"marker":{"symbol":"circle"},"mode":"lines","name":"Henrikh Mkhitaryan","r":[0.5385239253852393,0.7479498963683879,1.0,0.53939709221357,1.0,0.6233576642335766,0.6540889283916436,0.6573370651739304,0.5385239253852393],"showlegend":true,"subplot":"polar","theta":["Assists","Dispossessed","Goals","Passes","Shots","Tackles","Touches","Minutes Played","Assists"],"type":"scatterpolar"},{"hovertemplate":"name=Lucas Torreira<br>value=%{r}<br>kpi=%{theta}<extra></extra>","legendgroup":"Lucas Torreira","line":{"color":"#ab63fa","dash":"longdash","width":5},"marker":{"symbol":"circle"},"mode":"lines","name":"Lucas Torreira","r":[0.18607257951520248,0.5788924696028521,0.23034888608659101,0.7445605619324995,0.3525748256427414,1.0,0.7763778367226642,0.9512195121951219,0.18607257951520248],"showlegend":true,"subplot":"polar","theta":["Assists","Dispossessed","Goals","Passes","Shots","Tackles","Touches","Minutes Played","Assists"],"type":"scatterpolar"},{"hovertemplate":"name=Matteo Guendouzi<br>value=%{r}<br>kpi=%{theta}<extra></extra>","legendgroup":"Matteo Guendouzi","line":{"color":"#FFA15A","dash":"dashdot","width":5},"marker":{"symbol":"circle"},"mode":"lines","name":"Matteo Guendouzi","r":[0.0,0.7118304111768164,0.0,0.8311026266482837,0.2506145315268965,0.7518207282913165,0.8241144877491225,0.8564574170331867,0.0],"showlegend":true,"subplot":"polar","theta":["Assists","Dispossessed","Goals","Passes","Shots","Tackles","Touches","Minutes Played","Assists"],"type":"scatterpolar"},{"hovertemplate":"name=Mesut \u00d6zil<br>value=%{r}<br>kpi=%{theta}<extra></extra>","legendgroup":"Mesut \u00d6zil","line":{"color":"#19d3f3","dash":"longdashdot","width":5},"marker":{"symbol":"circle"},"mode":"lines","name":"Mesut \u00d6zil","r":[0.25426000382921693,0.9605377922437084,0.7869040781160254,0.7153859044734038,0.21198232308431703,0.25226881102814475,0.714137402866631,0.6961215513794482,0.25426000382921693],"showlegend":true,"subplot":"polar","theta":["Assists","Dispossessed","Goals","Passes","Shots","Tackles","Touches","Minutes Played","Assists"],"type":"scatterpolar"},{"hovertemplate":"name=Nacho Monreal<br>value=%{r}<br>kpi=%{theta}<extra></extra>","legendgroup":"Nacho Monreal","line":{"color":"#FF6692","dash":"solid","width":5},"marker":{"symbol":"circle"},"mode":"lines","name":"Nacho Monreal","r":[0.3567974207415368,0.07928831572034152,0.14723267060720044,0.699187758575089,0.12619943194902894,0.6883396023643202,0.7627025082300333,0.7441023590563774,0.3567974207415368],"showlegend":true,"subplot":"polar","theta":["Assists","Dispossessed","Goals","Passes","Shots","Tackles","Touches","Minutes Played","Assists"],"type":"scatterpolar"}],                        {"template":{"data":{"barpolar":[{"marker":{"line":{"color":"white","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"barpolar"}],"bar":[{"error_x":{"color":"#2a3f5f"},"error_y":{"color":"#2a3f5f"},"marker":{"line":{"color":"white","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"bar"}],"carpet":[{"aaxis":{"endlinecolor":"#2a3f5f","gridcolor":"#C8D4E3","linecolor":"#C8D4E3","minorgridcolor":"#C8D4E3","startlinecolor":"#2a3f5f"},"baxis":{"endlinecolor":"#2a3f5f","gridcolor":"#C8D4E3","linecolor":"#C8D4E3","minorgridcolor":"#C8D4E3","startlinecolor":"#2a3f5f"},"type":"carpet"}],"choropleth":[{"colorbar":{"outlinewidth":0,"ticks":""},"type":"choropleth"}],"contourcarpet":[{"colorbar":{"outlinewidth":0,"ticks":""},"type":"contourcarpet"}],"contour":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"contour"}],"heatmapgl":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"heatmapgl"}],"heatmap":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"heatmap"}],"histogram2dcontour":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"histogram2dcontour"}],"histogram2d":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"histogram2d"}],"histogram":[{"marker":{"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"histogram"}],"mesh3d":[{"colorbar":{"outlinewidth":0,"ticks":""},"type":"mesh3d"}],"parcoords":[{"line":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"parcoords"}],"pie":[{"automargin":true,"type":"pie"}],"scatter3d":[{"line":{"colorbar":{"outlinewidth":0,"ticks":""}},"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scatter3d"}],"scattercarpet":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scattercarpet"}],"scattergeo":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scattergeo"}],"scattergl":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scattergl"}],"scattermapbox":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scattermapbox"}],"scatterpolargl":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scatterpolargl"}],"scatterpolar":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scatterpolar"}],"scatter":[{"fillpattern":{"fillmode":"overlay","size":10,"solidity":0.2},"type":"scatter"}],"scatterternary":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scatterternary"}],"surface":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"surface"}],"table":[{"cells":{"fill":{"color":"#EBF0F8"},"line":{"color":"white"}},"header":{"fill":{"color":"#C8D4E3"},"line":{"color":"white"}},"type":"table"}]},"layout":{"annotationdefaults":{"arrowcolor":"#2a3f5f","arrowhead":0,"arrowwidth":1},"autotypenumbers":"strict","coloraxis":{"colorbar":{"outlinewidth":0,"ticks":""}},"colorscale":{"diverging":[[0,"#8e0152"],[0.1,"#c51b7d"],[0.2,"#de77ae"],[0.3,"#f1b6da"],[0.4,"#fde0ef"],[0.5,"#f7f7f7"],[0.6,"#e6f5d0"],[0.7,"#b8e186"],[0.8,"#7fbc41"],[0.9,"#4d9221"],[1,"#276419"]],"sequential":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"sequentialminus":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]},"colorway":["#636efa","#EF553B","#00cc96","#ab63fa","#FFA15A","#19d3f3","#FF6692","#B6E880","#FF97FF","#FECB52"],"font":{"color":"#2a3f5f"},"geo":{"bgcolor":"white","lakecolor":"white","landcolor":"white","showlakes":true,"showland":true,"subunitcolor":"#C8D4E3"},"hoverlabel":{"align":"left"},"hovermode":"closest","mapbox":{"style":"light"},"paper_bgcolor":"white","plot_bgcolor":"white","polar":{"angularaxis":{"gridcolor":"#EBF0F8","linecolor":"#EBF0F8","ticks":""},"bgcolor":"white","radialaxis":{"gridcolor":"#EBF0F8","linecolor":"#EBF0F8","ticks":""}},"scene":{"xaxis":{"backgroundcolor":"white","gridcolor":"#DFE8F3","gridwidth":2,"linecolor":"#EBF0F8","showbackground":true,"ticks":"","zerolinecolor":"#EBF0F8"},"yaxis":{"backgroundcolor":"white","gridcolor":"#DFE8F3","gridwidth":2,"linecolor":"#EBF0F8","showbackground":true,"ticks":"","zerolinecolor":"#EBF0F8"},"zaxis":{"backgroundcolor":"white","gridcolor":"#DFE8F3","gridwidth":2,"linecolor":"#EBF0F8","showbackground":true,"ticks":"","zerolinecolor":"#EBF0F8"}},"shapedefaults":{"line":{"color":"#2a3f5f"}},"ternary":{"aaxis":{"gridcolor":"#DFE8F3","linecolor":"#A2B1C6","ticks":""},"baxis":{"gridcolor":"#DFE8F3","linecolor":"#A2B1C6","ticks":""},"bgcolor":"white","caxis":{"gridcolor":"#DFE8F3","linecolor":"#A2B1C6","ticks":""}},"title":{"x":0.05},"xaxis":{"automargin":true,"gridcolor":"#EBF0F8","linecolor":"#EBF0F8","ticks":"","title":{"standoff":15},"zerolinecolor":"#EBF0F8","zerolinewidth":2},"yaxis":{"automargin":true,"gridcolor":"#EBF0F8","linecolor":"#EBF0F8","ticks":"","title":{"standoff":15},"zerolinecolor":"#EBF0F8","zerolinewidth":2}}},"polar":{"domain":{"x":[0.0,1.0],"y":[0.0,1.0]},"angularaxis":{"direction":"clockwise","rotation":90}},"legend":{"title":{"text":"name"},"tracegroupgap":0,"x":1,"y":1.1},"margin":{"t":60},"width":800},                        {"responsive": true}                    ).then(function(){
@@ -5122,7 +5191,7 @@ if (outputEl) {{
 <div id="cell-32" class="cell" data-execution_count="38">
 <details class="code-fold">
 <summary>Code</summary>
-<div class="sourceCode cell-code" id="cb16" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb16-1">fw <span class="op" style="color: #5E5E5E;
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb16" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb16-1">fw <span class="op" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">=</span> training.query(<span class="st" style="color: #20794D;
 background-color: null;
@@ -5210,13 +5279,13 @@ background-color: null;
 font-style: inherit;">=</span> fw.value <span class="op" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">/</span> fw.denom</span>
-<span id="cb16-15">fw.T</span></code></pre></div>
+<span id="cb16-15">fw.T</span></code></pre></div></div>
 </details>
 <div class="cell-output cell-output-display" data-execution_count="38">
 <div>
 
 
-<table class="dataframe caption-top table table-sm table-striped small" data-quarto-postprocess="true" data-border="1">
+<table class="dataframe caption-top table table-sm table-striped small" data-border="1">
 <thead>
 <tr class="header">
 <th data-quarto-table-cell-role="th"></th>
@@ -5245,7 +5314,7 @@ font-style: inherit;">/</span> fw.denom</span>
 </thead>
 <tbody>
 <tr class="odd">
-<td data-quarto-table-cell-role="th">kpi</td>
+<th data-quarto-table-cell-role="th">kpi</th>
 <td>Assists</td>
 <td>Assists</td>
 <td>Assists</td>
@@ -5269,7 +5338,7 @@ font-style: inherit;">/</span> fw.denom</span>
 <td>Fouls</td>
 </tr>
 <tr class="even">
-<td data-quarto-table-cell-role="th">name</td>
+<th data-quarto-table-cell-role="th">name</th>
 <td>Alex Iwobi</td>
 <td>Alexandre Lacazette</td>
 <td>Pierre-Emerick Aubameyang</td>
@@ -5293,7 +5362,7 @@ font-style: inherit;">/</span> fw.denom</span>
 <td>Pierre-Emerick Aubameyang</td>
 </tr>
 <tr class="odd">
-<td data-quarto-table-cell-role="th">value</td>
+<th data-quarto-table-cell-role="th">value</th>
 <td>0.952713</td>
 <td>1.0</td>
 <td>0.573279</td>
@@ -5317,7 +5386,7 @@ font-style: inherit;">/</span> fw.denom</span>
 <td>0.233808</td>
 </tr>
 <tr class="even">
-<td data-quarto-table-cell-role="th">denom</td>
+<th data-quarto-table-cell-role="th">denom</th>
 <td>0.003194</td>
 <td>0.003194</td>
 <td>0.003194</td>
@@ -5349,7 +5418,7 @@ font-style: inherit;">/</span> fw.denom</span>
 <div id="cell-33" class="cell" data-execution_count="39">
 <details class="code-fold">
 <summary>Code</summary>
-<div class="sourceCode cell-code" id="cb17" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb17-1">fig <span class="op" style="color: #5E5E5E;
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb17" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb17-1">fig <span class="op" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">=</span> px.line_polar(fw, r<span class="op" style="color: #5E5E5E;
 background-color: null;
@@ -5408,7 +5477,7 @@ background-color: null;
 font-style: inherit;">=</span><span class="fl" style="color: #AD0000;
 background-color: null;
 font-style: inherit;">1.1</span>))</span>
-<span id="cb17-6">fig.show()</span></code></pre></div>
+<span id="cb17-6">fig.show()</span></code></pre></div></div>
 </details>
 <div class="cell-output cell-output-display">
 <div>                            <div id="bf868811-50b1-4b7d-b727-0be55cb01508" class="plotly-graph-div" style="height:525px; width:800px;"></div>            <script type="text/javascript">                require(["plotly"], function(Plotly) {                    window.PLOTLYENV=window.PLOTLYENV || {};                                    if (document.getElementById("bf868811-50b1-4b7d-b727-0be55cb01508")) {                    Plotly.newPlot(                        "bf868811-50b1-4b7d-b727-0be55cb01508",                        [{"hovertemplate":"name=Alex Iwobi<br>value=%{text}<br>kpi=%{theta}<extra></extra>","legendgroup":"Alex Iwobi","line":{"color":"#636efa","dash":"solid","width":5},"marker":{"symbol":"circle"},"mode":"lines","name":"Alex Iwobi","r":[0.952712981744422,0.18063762236528794,0.18884842338189195,0.10585699797160243,0.5156499503689957,1.0,0.1992602314759575,0.952712981744422],"showlegend":true,"subplot":"polar","text":[0.952712981744422,0.18063762236528794,0.18884842338189195,0.10585699797160243,0.5156499503689957,1.0,0.1992602314759575,0.952712981744422],"theta":["Assists","Missed Chances","Goals","Offsides","Shots","Dispossessed","Fouls","Assists"],"type":"scatterpolar"},{"hovertemplate":"name=Alexandre Lacazette<br>value=%{text}<br>kpi=%{theta}<extra></extra>","legendgroup":"Alexandre Lacazette","line":{"color":"#EF553B","dash":"dot","width":5},"marker":{"symbol":"circle"},"mode":"lines","name":"Alexandre Lacazette","r":[1.0,0.6162110561485724,0.6442206496098711,1.0,0.9394445152248695,0.8575135443398917,1.0,1.0],"showlegend":true,"subplot":"polar","text":[1.0,0.6162110561485724,0.6442206496098711,1.0,0.9394445152248695,0.8575135443398917,1.0,1.0],"theta":["Assists","Missed Chances","Goals","Offsides","Shots","Dispossessed","Fouls","Assists"],"type":"scatterpolar"},{"hovertemplate":"name=Pierre-Emerick Aubameyang<br>value=%{text}<br>kpi=%{theta}<extra></extra>","legendgroup":"Pierre-Emerick Aubameyang","line":{"color":"#00cc96","dash":"dash","width":5},"marker":{"symbol":"circle"},"mode":"lines","name":"Pierre-Emerick Aubameyang","r":[0.5732790186744783,1.0,1.0,0.8790278286341999,1.0,0.4255113249986923,0.23380791349861071,0.5732790186744783],"showlegend":true,"subplot":"polar","text":[0.5732790186744783,1.0,1.0,0.8790278286341999,1.0,0.4255113249986923,0.23380791349861071,0.5732790186744783],"theta":["Assists","Missed Chances","Goals","Offsides","Shots","Dispossessed","Fouls","Assists"],"type":"scatterpolar"}],                        {"template":{"data":{"barpolar":[{"marker":{"line":{"color":"white","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"barpolar"}],"bar":[{"error_x":{"color":"#2a3f5f"},"error_y":{"color":"#2a3f5f"},"marker":{"line":{"color":"white","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"bar"}],"carpet":[{"aaxis":{"endlinecolor":"#2a3f5f","gridcolor":"#C8D4E3","linecolor":"#C8D4E3","minorgridcolor":"#C8D4E3","startlinecolor":"#2a3f5f"},"baxis":{"endlinecolor":"#2a3f5f","gridcolor":"#C8D4E3","linecolor":"#C8D4E3","minorgridcolor":"#C8D4E3","startlinecolor":"#2a3f5f"},"type":"carpet"}],"choropleth":[{"colorbar":{"outlinewidth":0,"ticks":""},"type":"choropleth"}],"contourcarpet":[{"colorbar":{"outlinewidth":0,"ticks":""},"type":"contourcarpet"}],"contour":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"contour"}],"heatmapgl":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"heatmapgl"}],"heatmap":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"heatmap"}],"histogram2dcontour":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"histogram2dcontour"}],"histogram2d":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"histogram2d"}],"histogram":[{"marker":{"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"histogram"}],"mesh3d":[{"colorbar":{"outlinewidth":0,"ticks":""},"type":"mesh3d"}],"parcoords":[{"line":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"parcoords"}],"pie":[{"automargin":true,"type":"pie"}],"scatter3d":[{"line":{"colorbar":{"outlinewidth":0,"ticks":""}},"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scatter3d"}],"scattercarpet":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scattercarpet"}],"scattergeo":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scattergeo"}],"scattergl":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scattergl"}],"scattermapbox":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scattermapbox"}],"scatterpolargl":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scatterpolargl"}],"scatterpolar":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scatterpolar"}],"scatter":[{"fillpattern":{"fillmode":"overlay","size":10,"solidity":0.2},"type":"scatter"}],"scatterternary":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scatterternary"}],"surface":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"surface"}],"table":[{"cells":{"fill":{"color":"#EBF0F8"},"line":{"color":"white"}},"header":{"fill":{"color":"#C8D4E3"},"line":{"color":"white"}},"type":"table"}]},"layout":{"annotationdefaults":{"arrowcolor":"#2a3f5f","arrowhead":0,"arrowwidth":1},"autotypenumbers":"strict","coloraxis":{"colorbar":{"outlinewidth":0,"ticks":""}},"colorscale":{"diverging":[[0,"#8e0152"],[0.1,"#c51b7d"],[0.2,"#de77ae"],[0.3,"#f1b6da"],[0.4,"#fde0ef"],[0.5,"#f7f7f7"],[0.6,"#e6f5d0"],[0.7,"#b8e186"],[0.8,"#7fbc41"],[0.9,"#4d9221"],[1,"#276419"]],"sequential":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"sequentialminus":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]},"colorway":["#636efa","#EF553B","#00cc96","#ab63fa","#FFA15A","#19d3f3","#FF6692","#B6E880","#FF97FF","#FECB52"],"font":{"color":"#2a3f5f"},"geo":{"bgcolor":"white","lakecolor":"white","landcolor":"white","showlakes":true,"showland":true,"subunitcolor":"#C8D4E3"},"hoverlabel":{"align":"left"},"hovermode":"closest","mapbox":{"style":"light"},"paper_bgcolor":"white","plot_bgcolor":"white","polar":{"angularaxis":{"gridcolor":"#EBF0F8","linecolor":"#EBF0F8","ticks":""},"bgcolor":"white","radialaxis":{"gridcolor":"#EBF0F8","linecolor":"#EBF0F8","ticks":""}},"scene":{"xaxis":{"backgroundcolor":"white","gridcolor":"#DFE8F3","gridwidth":2,"linecolor":"#EBF0F8","showbackground":true,"ticks":"","zerolinecolor":"#EBF0F8"},"yaxis":{"backgroundcolor":"white","gridcolor":"#DFE8F3","gridwidth":2,"linecolor":"#EBF0F8","showbackground":true,"ticks":"","zerolinecolor":"#EBF0F8"},"zaxis":{"backgroundcolor":"white","gridcolor":"#DFE8F3","gridwidth":2,"linecolor":"#EBF0F8","showbackground":true,"ticks":"","zerolinecolor":"#EBF0F8"}},"shapedefaults":{"line":{"color":"#2a3f5f"}},"ternary":{"aaxis":{"gridcolor":"#DFE8F3","linecolor":"#A2B1C6","ticks":""},"baxis":{"gridcolor":"#DFE8F3","linecolor":"#A2B1C6","ticks":""},"bgcolor":"white","caxis":{"gridcolor":"#DFE8F3","linecolor":"#A2B1C6","ticks":""}},"title":{"x":0.05},"xaxis":{"automargin":true,"gridcolor":"#EBF0F8","linecolor":"#EBF0F8","ticks":"","title":{"standoff":15},"zerolinecolor":"#EBF0F8","zerolinewidth":2},"yaxis":{"automargin":true,"gridcolor":"#EBF0F8","linecolor":"#EBF0F8","ticks":"","title":{"standoff":15},"zerolinecolor":"#EBF0F8","zerolinewidth":2}}},"polar":{"domain":{"x":[0.0,1.0],"y":[0.0,1.0]},"angularaxis":{"direction":"clockwise","rotation":90}},"legend":{"title":{"text":"name"},"tracegroupgap":0,"x":0.8,"y":1.1},"margin":{"t":60},"width":800},                        {"responsive": true}                    ).then(function(){

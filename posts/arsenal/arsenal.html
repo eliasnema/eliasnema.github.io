@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.7.32">
+<meta name="generator" content="quarto-1.8.24">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -60,7 +60,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </style>
 
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script><script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js" integrity="sha384-ZvpUoO/+PpLXR1lu4jmpXWu80pZlYUAfxl5NsBMWOEPSjUn/6Z/hRTt8+pR6L4N2" crossorigin="anonymous"></script><script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
 <script src="../../site_libs/quarto-nav/headroom.min.js"></script>
 <script src="../../site_libs/clipboard/clipboard.min.js"></script>
 <script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
@@ -72,14 +72,15 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <link href="../../site_libs/cookie-consent/cookie-consent.css" rel="stylesheet">
 <script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="../../site_libs/quarto-html/popper.min.js"></script>
 <script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dc55a5b9e770e841cd82e46aadbfb9b0.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap-b9e9b2ad11166d5bb88698be1e683faf.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-b55f2405039954d6e76a2e3b986ec4b7.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -139,7 +140,7 @@ cookieconsent.run({
 });
 </script> 
   
-<script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.6/require.min.js" integrity="sha512-c3Nl8+7g4LMSTdrm621y7kf9v3SDPnhxLNhcjFJbKECVnmZHTdo+IRO05sNLTH/D3vA6u1X32ehoLC7WFVdheg==" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/requirejs@2.3.6/require.min.js" integrity="sha384-c9c+LnTbwQ3aujuU7ULEPVvgLs+Fn6fJUvIGTsuu1ZcCf11fiEubah0ttpca4ntM sha384-6V1/AdqZRWk1KAlWbKBlGhN7VG4iE/yAZcO6NZPMF8od0vukrvr0tg4qY6NSrItx" crossorigin="anonymous"></script>
 
 <script type="application/javascript">define('jquery', [],function() {return window.jQuery;})</script>
         <script type="text/javascript">
@@ -244,6 +245,8 @@ e.exports=function(t){return null!=t&&(n(t)||function(t){return"function"==typeo
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
+    <a href="../../index.html" class="navbar-brand navbar-brand-logo">
+    </a>
     <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">ELIAS NEMA</span>
     </a>
@@ -369,7 +372,7 @@ e.exports=function(t){return null!=t&&(n(t)||function(t){return"function"==typeo
 <div id="cell-2" class="cell" data-execution_count="24">
 <details class="code-fold">
 <summary>Code</summary>
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Imports</span></span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Imports</span></span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span>
 <span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> plotly.express <span class="im">as</span> px</span>
 <span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="op">%</span>matplotlib inline</span>
@@ -382,7 +385,7 @@ e.exports=function(t){return null!=t&&(n(t)||function(t){return"function"==typeo
 <span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a>pd.set_option(<span class="st">'display.max_columns'</span>, <span class="va">None</span>)</span>
 <span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a>df <span class="op">=</span> pd.read_excel(<span class="st">'Arsenal Player Stats 2018-19.xlsx'</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a>df <span class="op">=</span> pd.read_excel(<span class="st">'Arsenal Player Stats 2018-19.xlsx'</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </details>
 </div>
 </section>
@@ -391,7 +394,7 @@ e.exports=function(t){return null!=t&&(n(t)||function(t){return"function"==typeo
 <div id="cell-4" class="cell" data-execution_count="25">
 <details class="code-fold">
 <summary>Code</summary>
-<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f'columns: </span><span class="sc">{</span>df<span class="sc">.</span>columns<span class="sc">}</span><span class="ss">'</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb2"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f'columns: </span><span class="sc">{</span>df<span class="sc">.</span>columns<span class="sc">}</span><span class="ss">'</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </details>
 <div class="cell-output cell-output-stdout">
 <pre><code>columns: Index(['Rank', 'Player', 'Nationality', 'Metric', 'Stat'], dtype='object')</code></pre>
@@ -400,13 +403,13 @@ e.exports=function(t){return null!=t&&(n(t)||function(t){return"function"==typeo
 <div id="cell-5" class="cell" data-execution_count="26">
 <details class="code-fold">
 <summary>Code</summary>
-<div class="sourceCode cell-code" id="cb4"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a>df.head()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb4"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a>df.head()</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </details>
 <div class="cell-output cell-output-display" data-execution_count="26">
 <div>
 
 
-<table class="dataframe caption-top table table-sm table-striped small" data-quarto-postprocess="true" data-border="1">
+<table class="dataframe caption-top table table-sm table-striped small" data-border="1">
 <thead>
 <tr class="header">
 <th data-quarto-table-cell-role="th"></th>
@@ -419,7 +422,7 @@ e.exports=function(t){return null!=t&&(n(t)||function(t){return"function"==typeo
 </thead>
 <tbody>
 <tr class="odd">
-<td data-quarto-table-cell-role="th">0</td>
+<th data-quarto-table-cell-role="th">0</th>
 <td>1</td>
 <td>Pierre-Emerick Aubameyang</td>
 <td>Gabon</td>
@@ -427,7 +430,7 @@ e.exports=function(t){return null!=t&&(n(t)||function(t){return"function"==typeo
 <td>36</td>
 </tr>
 <tr class="even">
-<td data-quarto-table-cell-role="th">1</td>
+<th data-quarto-table-cell-role="th">1</th>
 <td>2</td>
 <td>Alex Iwobi</td>
 <td>Nigeria</td>
@@ -435,7 +438,7 @@ e.exports=function(t){return null!=t&&(n(t)||function(t){return"function"==typeo
 <td>35</td>
 </tr>
 <tr class="odd">
-<td data-quarto-table-cell-role="th">2</td>
+<th data-quarto-table-cell-role="th">2</th>
 <td>2</td>
 <td>Alexandre Lacazette</td>
 <td>France</td>
@@ -443,7 +446,7 @@ e.exports=function(t){return null!=t&&(n(t)||function(t){return"function"==typeo
 <td>35</td>
 </tr>
 <tr class="even">
-<td data-quarto-table-cell-role="th">3</td>
+<th data-quarto-table-cell-role="th">3</th>
 <td>4</td>
 <td>Lucas Torreira</td>
 <td>Uruguay</td>
@@ -451,7 +454,7 @@ e.exports=function(t){return null!=t&&(n(t)||function(t){return"function"==typeo
 <td>34</td>
 </tr>
 <tr class="odd">
-<td data-quarto-table-cell-role="th">4</td>
+<th data-quarto-table-cell-role="th">4</th>
 <td>5</td>
 <td>Matteo Guendouzi</td>
 <td>France</td>
@@ -468,14 +471,14 @@ e.exports=function(t){return null!=t&&(n(t)||function(t){return"function"==typeo
 <div id="cell-7" class="cell" data-execution_count="27">
 <details class="code-fold">
 <summary>Code</summary>
-<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a>training <span class="op">=</span> df.pivot(index<span class="op">=</span><span class="st">'Player'</span>, columns<span class="op">=</span><span class="st">'Metric'</span>, values<span class="op">=</span><span class="st">'Stat'</span>)</span>
-<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a>training.head()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb5"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a>training <span class="op">=</span> df.pivot(index<span class="op">=</span><span class="st">'Player'</span>, columns<span class="op">=</span><span class="st">'Metric'</span>, values<span class="op">=</span><span class="st">'Stat'</span>)</span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a>training.head()</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </details>
 <div class="cell-output cell-output-display" data-execution_count="27">
 <div>
 
 
-<table class="dataframe caption-top table table-sm table-striped small" data-quarto-postprocess="true" data-border="1">
+<table class="dataframe caption-top table table-sm table-striped small" data-border="1">
 <thead>
 <tr class="header">
 <th data-quarto-table-cell-role="th">Metric</th>
@@ -528,7 +531,7 @@ e.exports=function(t){return null!=t&&(n(t)||function(t){return"function"==typeo
 </thead>
 <tbody>
 <tr class="odd">
-<td data-quarto-table-cell-role="th">Aaron Ramsey</td>
+<th data-quarto-table-cell-role="th">Aaron Ramsey</th>
 <td>28</td>
 <td>6</td>
 <td>2</td>
@@ -552,7 +555,7 @@ e.exports=function(t){return null!=t&&(n(t)||function(t){return"function"==typeo
 <td>0</td>
 </tr>
 <tr class="even">
-<td data-quarto-table-cell-role="th">Ainsley Maitland-Niles</td>
+<th data-quarto-table-cell-role="th">Ainsley Maitland-Niles</th>
 <td>16</td>
 <td>1</td>
 <td>0</td>
@@ -576,7 +579,7 @@ e.exports=function(t){return null!=t&&(n(t)||function(t){return"function"==typeo
 <td>1</td>
 </tr>
 <tr class="odd">
-<td data-quarto-table-cell-role="th">Alex Iwobi</td>
+<th data-quarto-table-cell-role="th">Alex Iwobi</th>
 <td>35</td>
 <td>6</td>
 <td>3</td>
@@ -600,7 +603,7 @@ e.exports=function(t){return null!=t&&(n(t)||function(t){return"function"==typeo
 <td>0</td>
 </tr>
 <tr class="even">
-<td data-quarto-table-cell-role="th">Alexandre Lacazette</td>
+<th data-quarto-table-cell-role="th">Alexandre Lacazette</th>
 <td>35</td>
 <td>8</td>
 <td>13</td>
@@ -624,7 +627,7 @@ e.exports=function(t){return null!=t&&(n(t)||function(t){return"function"==typeo
 <td>2</td>
 </tr>
 <tr class="odd">
-<td data-quarto-table-cell-role="th">Bernd Leno</td>
+<th data-quarto-table-cell-role="th">Bernd Leno</th>
 <td>32</td>
 <td>0</td>
 <td>0</td>
@@ -662,7 +665,7 @@ e.exports=function(t){return null!=t&&(n(t)||function(t){return"function"==typeo
 <div id="cell-10" class="cell" data-execution_count="28">
 <details class="code-fold">
 <summary>Code</summary>
-<div class="sourceCode cell-code" id="cb6"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a>position_lookup <span class="op">=</span> {k:<span class="st">''</span> <span class="cf">for</span> k <span class="kw">in</span> training.index.tolist()}</span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb6"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a>position_lookup <span class="op">=</span> {k:<span class="st">''</span> <span class="cf">for</span> k <span class="kw">in</span> training.index.tolist()}</span>
 <span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> gk <span class="kw">in</span> [<span class="st">'Bernd Leno'</span>, <span class="st">'Petr Cech'</span>]:</span>
 <span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a>    position_lookup[gk] <span class="op">=</span> <span class="st">'GK'</span></span>
@@ -686,20 +689,20 @@ e.exports=function(t){return null!=t&&(n(t)||function(t){return"function"==typeo
 <span id="cb6-22"><a href="#cb6-22" aria-hidden="true" tabindex="-1"></a>]:</span>
 <span id="cb6-23"><a href="#cb6-23" aria-hidden="true" tabindex="-1"></a>    position_lookup[fw] <span class="op">=</span> <span class="st">'FW'</span></span>
 <span id="cb6-24"><a href="#cb6-24" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb6-25"><a href="#cb6-25" aria-hidden="true" tabindex="-1"></a>training[<span class="st">'position'</span>] <span class="op">=</span> training.index.<span class="bu">map</span>(position_lookup)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb6-25"><a href="#cb6-25" aria-hidden="true" tabindex="-1"></a>training[<span class="st">'position'</span>] <span class="op">=</span> training.index.<span class="bu">map</span>(position_lookup)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </details>
 </div>
 <div id="cell-11" class="cell" data-execution_count="29">
 <details class="code-fold">
 <summary>Code</summary>
-<div class="sourceCode cell-code" id="cb7"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a>data_per_position <span class="op">=</span> training.groupby(<span class="st">'position'</span>).<span class="bu">sum</span>()</span>
-<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a>data_per_position</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb7"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a>data_per_position <span class="op">=</span> training.groupby(<span class="st">'position'</span>).<span class="bu">sum</span>()</span>
+<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a>data_per_position</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </details>
 <div class="cell-output cell-output-display" data-execution_count="29">
 <div>
 
 
-<table class="dataframe caption-top table table-sm table-striped small" data-quarto-postprocess="true" data-border="1">
+<table class="dataframe caption-top table table-sm table-striped small" data-border="1">
 <thead>
 <tr class="header">
 <th data-quarto-table-cell-role="th">Metric</th>
@@ -752,7 +755,7 @@ e.exports=function(t){return null!=t&&(n(t)||function(t){return"function"==typeo
 </thead>
 <tbody>
 <tr class="odd">
-<td data-quarto-table-cell-role="th">DF</td>
+<th data-quarto-table-cell-role="th">DF</th>
 <td>143</td>
 <td>12</td>
 <td>2</td>
@@ -776,7 +779,7 @@ e.exports=function(t){return null!=t&&(n(t)||function(t){return"function"==typeo
 <td>34</td>
 </tr>
 <tr class="even">
-<td data-quarto-table-cell-role="th">FW</td>
+<th data-quarto-table-cell-role="th">FW</th>
 <td>120</td>
 <td>20</td>
 <td>39</td>
@@ -800,7 +803,7 @@ e.exports=function(t){return null!=t&&(n(t)||function(t){return"function"==typeo
 <td>2</td>
 </tr>
 <tr class="odd">
-<td data-quarto-table-cell-role="th">GK</td>
+<th data-quarto-table-cell-role="th">GK</th>
 <td>39</td>
 <td>0</td>
 <td>0</td>
@@ -824,7 +827,7 @@ e.exports=function(t){return null!=t&&(n(t)||function(t){return"function"==typeo
 <td>0</td>
 </tr>
 <tr class="even">
-<td data-quarto-table-cell-role="th">MF</td>
+<th data-quarto-table-cell-role="th">MF</th>
 <td>229</td>
 <td>20</td>
 <td>9</td>
@@ -856,7 +859,7 @@ e.exports=function(t){return null!=t&&(n(t)||function(t){return"function"==typeo
 <div id="cell-12" class="cell" data-execution_count="30">
 <details class="code-fold">
 <summary>Code</summary>
-<div class="sourceCode cell-code" id="cb8"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Common metrics</span></span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb8"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Common metrics</span></span>
 <span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb8-3"><a href="#cb8-3" aria-hidden="true" tabindex="-1"></a>training[<span class="st">'passes_per_min_played'</span>] <span class="op">=</span> training[<span class="st">'Passes'</span>] <span class="op">/</span> training[<span class="st">'Minutes Played'</span>]</span>
 <span id="cb8-4"><a href="#cb8-4" aria-hidden="true" tabindex="-1"></a>training[<span class="st">'passes_per_appearance'</span>] <span class="op">=</span> training[<span class="st">'Passes'</span>] <span class="op">/</span> training[<span class="st">'Appearances'</span>]</span>
@@ -928,13 +931,13 @@ e.exports=function(t){return null!=t&&(n(t)||function(t){return"function"==typeo
 <span id="cb8-70"><a href="#cb8-70" aria-hidden="true" tabindex="-1"></a>training[<span class="st">'missed_chances_per_appearance'</span>] <span class="op">=</span> training[<span class="st">'Big Chances Missed'</span>] <span class="op">/</span> training[<span class="st">'Appearances'</span>]</span>
 <span id="cb8-71"><a href="#cb8-71" aria-hidden="true" tabindex="-1"></a>training[<span class="st">'goals_per_appearance'</span>] <span class="op">=</span> training[<span class="st">'Goals'</span>] <span class="op">/</span> training[<span class="st">'Appearances'</span>]</span>
 <span id="cb8-72"><a href="#cb8-72" aria-hidden="true" tabindex="-1"></a>training[<span class="st">'offsides_per_appearance'</span>] <span class="op">=</span> training[<span class="st">'Offsides'</span>] <span class="op">/</span> training[<span class="st">'Appearances'</span>]</span>
-<span id="cb8-73"><a href="#cb8-73" aria-hidden="true" tabindex="-1"></a>training[<span class="st">'shots_per_appearance'</span>] <span class="op">=</span> training[<span class="st">'Shots'</span>]<span class="op">/</span> training[<span class="st">'Appearances'</span>]</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb8-73"><a href="#cb8-73" aria-hidden="true" tabindex="-1"></a>training[<span class="st">'shots_per_appearance'</span>] <span class="op">=</span> training[<span class="st">'Shots'</span>]<span class="op">/</span> training[<span class="st">'Appearances'</span>]</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </details>
 </div>
 <div id="cell-13" class="cell" data-scrolled="true" data-execution_count="31">
 <details class="code-fold">
 <summary>Code</summary>
-<div class="sourceCode cell-code" id="cb9"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a>ax <span class="op">=</span> scatter_matrix(</span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb9"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a>ax <span class="op">=</span> scatter_matrix(</span>
 <span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a>    training.query(<span class="st">"position == 'DF'"</span>)[</span>
 <span id="cb9-3"><a href="#cb9-3" aria-hidden="true" tabindex="-1"></a>        [</span>
 <span id="cb9-4"><a href="#cb9-4" aria-hidden="true" tabindex="-1"></a>            <span class="st">'Clearances'</span>,</span>
@@ -946,7 +949,7 @@ e.exports=function(t){return null!=t&&(n(t)||function(t){return"function"==typeo
 <span id="cb9-10"><a href="#cb9-10" aria-hidden="true" tabindex="-1"></a>            <span class="st">'Touches'</span>,</span>
 <span id="cb9-11"><a href="#cb9-11" aria-hidden="true" tabindex="-1"></a>            <span class="st">'Minutes Played'</span>]</span>
 <span id="cb9-12"><a href="#cb9-12" aria-hidden="true" tabindex="-1"></a>        ],</span>
-<span id="cb9-13"><a href="#cb9-13" aria-hidden="true" tabindex="-1"></a>        figsize<span class="op">=</span>(<span class="dv">20</span>,<span class="dv">12</span>))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb9-13"><a href="#cb9-13" aria-hidden="true" tabindex="-1"></a>        figsize<span class="op">=</span>(<span class="dv">20</span>,<span class="dv">12</span>))</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </details>
 <div class="cell-output cell-output-display">
 <div>
@@ -1028,7 +1031,7 @@ Figure&nbsp;1: Different attempts at a radar chart
 <div id="cell-20" class="cell" data-execution_count="32">
 <details class="code-fold">
 <summary>Code</summary>
-<div class="sourceCode cell-code" id="cb10"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a>gk <span class="op">=</span> training.query(<span class="st">"position == 'GK'"</span>)[</span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb10"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a>gk <span class="op">=</span> training.query(<span class="st">"position == 'GK'"</span>)[</span>
 <span id="cb10-2"><a href="#cb10-2" aria-hidden="true" tabindex="-1"></a>    [<span class="st">'high_claim_per_appearance'</span>, <span class="st">'punches_per_appearance'</span>, <span class="st">'saves_per_appearance'</span></span>
 <span id="cb10-3"><a href="#cb10-3" aria-hidden="true" tabindex="-1"></a>    ,<span class="st">'passes_per_appearance'</span>,<span class="st">'clearances_per_appearance'</span>, <span class="st">'Minutes Played'</span>]</span>
 <span id="cb10-4"><a href="#cb10-4" aria-hidden="true" tabindex="-1"></a>].rename(columns<span class="op">=</span>{<span class="st">'high_claim_per_appearance'</span>:<span class="st">'High Claims'</span>, <span class="st">'punches_per_appearance'</span>: <span class="st">'Punches'</span>, </span>
@@ -1040,13 +1043,13 @@ Figure&nbsp;1: Different attempts at a radar chart
 <span id="cb10-10"><a href="#cb10-10" aria-hidden="true" tabindex="-1"></a>gk.columns <span class="op">=</span> [<span class="st">'kpi'</span>, <span class="st">'name'</span>, <span class="st">'value'</span>]</span>
 <span id="cb10-11"><a href="#cb10-11" aria-hidden="true" tabindex="-1"></a>gk[<span class="st">'denom'</span>] <span class="op">=</span> gk.kpi.<span class="bu">map</span>(max_map)</span>
 <span id="cb10-12"><a href="#cb10-12" aria-hidden="true" tabindex="-1"></a>gk[<span class="st">'value'</span>] <span class="op">=</span> gk.value <span class="op">/</span> gk.denom</span>
-<span id="cb10-13"><a href="#cb10-13" aria-hidden="true" tabindex="-1"></a>gk.T</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb10-13"><a href="#cb10-13" aria-hidden="true" tabindex="-1"></a>gk.T</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </details>
 <div class="cell-output cell-output-display" data-execution_count="32">
 <div>
 
 
-<table class="dataframe caption-top table table-sm table-striped small" data-quarto-postprocess="true" data-border="1">
+<table class="dataframe caption-top table table-sm table-striped small" data-border="1">
 <thead>
 <tr class="header">
 <th data-quarto-table-cell-role="th"></th>
@@ -1066,7 +1069,7 @@ Figure&nbsp;1: Different attempts at a radar chart
 </thead>
 <tbody>
 <tr class="odd">
-<td data-quarto-table-cell-role="th">kpi</td>
+<th data-quarto-table-cell-role="th">kpi</th>
 <td>High Claims</td>
 <td>High Claims</td>
 <td>Punches</td>
@@ -1081,7 +1084,7 @@ Figure&nbsp;1: Different attempts at a radar chart
 <td>Minutes Played</td>
 </tr>
 <tr class="even">
-<td data-quarto-table-cell-role="th">name</td>
+<th data-quarto-table-cell-role="th">name</th>
 <td>Bernd Leno</td>
 <td>Petr Cech</td>
 <td>Bernd Leno</td>
@@ -1096,7 +1099,7 @@ Figure&nbsp;1: Different attempts at a radar chart
 <td>Petr Cech</td>
 </tr>
 <tr class="odd">
-<td data-quarto-table-cell-role="th">value</td>
+<th data-quarto-table-cell-role="th">value</th>
 <td>0.364583</td>
 <td>1.0</td>
 <td>1.0</td>
@@ -1111,7 +1114,7 @@ Figure&nbsp;1: Different attempts at a radar chart
 <td>0.206349</td>
 </tr>
 <tr class="even">
-<td data-quarto-table-cell-role="th">denom</td>
+<th data-quarto-table-cell-role="th">denom</th>
 <td>0.857143</td>
 <td>0.857143</td>
 <td>0.5</td>
@@ -1134,12 +1137,12 @@ Figure&nbsp;1: Different attempts at a radar chart
 <div id="cell-21" class="cell" data-execution_count="33">
 <details class="code-fold">
 <summary>Code</summary>
-<div class="sourceCode cell-code" id="cb11"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a>fig <span class="op">=</span> px.line_polar(gk, r<span class="op">=</span><span class="st">'value'</span>, theta<span class="op">=</span><span class="st">'kpi'</span>, line_dash<span class="op">=</span><span class="st">'name'</span>, color<span class="op">=</span><span class="st">'name'</span>, line_close<span class="op">=</span><span class="va">True</span></span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb11"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a>fig <span class="op">=</span> px.line_polar(gk, r<span class="op">=</span><span class="st">'value'</span>, theta<span class="op">=</span><span class="st">'kpi'</span>, line_dash<span class="op">=</span><span class="st">'name'</span>, color<span class="op">=</span><span class="st">'name'</span>, line_close<span class="op">=</span><span class="va">True</span></span>
 <span id="cb11-2"><a href="#cb11-2" aria-hidden="true" tabindex="-1"></a>                    , template<span class="op">=</span><span class="st">"plotly_white"</span>, width<span class="op">=</span><span class="dv">800</span>)</span>
 <span id="cb11-3"><a href="#cb11-3" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb11-4"><a href="#cb11-4" aria-hidden="true" tabindex="-1"></a>fig.update_traces(mode<span class="op">=</span><span class="st">'lines'</span>, line_width<span class="op">=</span><span class="dv">5</span>)</span>
 <span id="cb11-5"><a href="#cb11-5" aria-hidden="true" tabindex="-1"></a>fig.update_layout(legend<span class="op">=</span><span class="bu">dict</span>(x<span class="op">=</span><span class="fl">0.7</span>, y<span class="op">=</span><span class="fl">1.1</span>))</span>
-<span id="cb11-6"><a href="#cb11-6" aria-hidden="true" tabindex="-1"></a>fig.show()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb11-6"><a href="#cb11-6" aria-hidden="true" tabindex="-1"></a>fig.show()</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </details>
 <div class="cell-output cell-output-display">
 <div>                            <div id="a8ee28a8-fdbc-47ce-8426-efa791748b2e" class="plotly-graph-div" style="height:525px; width:800px;"></div>            <script type="text/javascript">                require(["plotly"], function(Plotly) {                    window.PLOTLYENV=window.PLOTLYENV || {};                                    if (document.getElementById("a8ee28a8-fdbc-47ce-8426-efa791748b2e")) {                    Plotly.newPlot(                        "a8ee28a8-fdbc-47ce-8426-efa791748b2e",                        [{"hovertemplate":"name=Bernd Leno<br>value=%{r}<br>kpi=%{theta}<extra></extra>","legendgroup":"Bernd Leno","line":{"color":"#636efa","dash":"solid","width":5},"marker":{"symbol":"circle"},"mode":"lines","name":"Bernd Leno","r":[0.36458333333333337,1.0,0.8203125,0.900390625,1.0,1.0,0.36458333333333337],"showlegend":true,"subplot":"polar","theta":["High Claims","Punches","Saves","Passes","Clearances","Minutes Played","High Claims"],"type":"scatterpolar"},{"hovertemplate":"name=Petr Cech<br>value=%{r}<br>kpi=%{theta}<extra></extra>","legendgroup":"Petr Cech","line":{"color":"#EF553B","dash":"dot","width":5},"marker":{"symbol":"circle"},"mode":"lines","name":"Petr Cech","r":[1.0,0.5714285714285714,1.0,1.0,1.0,0.20634920634920634,1.0],"showlegend":true,"subplot":"polar","theta":["High Claims","Punches","Saves","Passes","Clearances","Minutes Played","High Claims"],"type":"scatterpolar"}],                        {"template":{"data":{"barpolar":[{"marker":{"line":{"color":"white","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"barpolar"}],"bar":[{"error_x":{"color":"#2a3f5f"},"error_y":{"color":"#2a3f5f"},"marker":{"line":{"color":"white","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"bar"}],"carpet":[{"aaxis":{"endlinecolor":"#2a3f5f","gridcolor":"#C8D4E3","linecolor":"#C8D4E3","minorgridcolor":"#C8D4E3","startlinecolor":"#2a3f5f"},"baxis":{"endlinecolor":"#2a3f5f","gridcolor":"#C8D4E3","linecolor":"#C8D4E3","minorgridcolor":"#C8D4E3","startlinecolor":"#2a3f5f"},"type":"carpet"}],"choropleth":[{"colorbar":{"outlinewidth":0,"ticks":""},"type":"choropleth"}],"contourcarpet":[{"colorbar":{"outlinewidth":0,"ticks":""},"type":"contourcarpet"}],"contour":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"contour"}],"heatmapgl":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"heatmapgl"}],"heatmap":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"heatmap"}],"histogram2dcontour":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"histogram2dcontour"}],"histogram2d":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"histogram2d"}],"histogram":[{"marker":{"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"histogram"}],"mesh3d":[{"colorbar":{"outlinewidth":0,"ticks":""},"type":"mesh3d"}],"parcoords":[{"line":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"parcoords"}],"pie":[{"automargin":true,"type":"pie"}],"scatter3d":[{"line":{"colorbar":{"outlinewidth":0,"ticks":""}},"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scatter3d"}],"scattercarpet":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scattercarpet"}],"scattergeo":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scattergeo"}],"scattergl":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scattergl"}],"scattermapbox":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scattermapbox"}],"scatterpolargl":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scatterpolargl"}],"scatterpolar":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scatterpolar"}],"scatter":[{"fillpattern":{"fillmode":"overlay","size":10,"solidity":0.2},"type":"scatter"}],"scatterternary":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scatterternary"}],"surface":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"surface"}],"table":[{"cells":{"fill":{"color":"#EBF0F8"},"line":{"color":"white"}},"header":{"fill":{"color":"#C8D4E3"},"line":{"color":"white"}},"type":"table"}]},"layout":{"annotationdefaults":{"arrowcolor":"#2a3f5f","arrowhead":0,"arrowwidth":1},"autotypenumbers":"strict","coloraxis":{"colorbar":{"outlinewidth":0,"ticks":""}},"colorscale":{"diverging":[[0,"#8e0152"],[0.1,"#c51b7d"],[0.2,"#de77ae"],[0.3,"#f1b6da"],[0.4,"#fde0ef"],[0.5,"#f7f7f7"],[0.6,"#e6f5d0"],[0.7,"#b8e186"],[0.8,"#7fbc41"],[0.9,"#4d9221"],[1,"#276419"]],"sequential":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"sequentialminus":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]},"colorway":["#636efa","#EF553B","#00cc96","#ab63fa","#FFA15A","#19d3f3","#FF6692","#B6E880","#FF97FF","#FECB52"],"font":{"color":"#2a3f5f"},"geo":{"bgcolor":"white","lakecolor":"white","landcolor":"white","showlakes":true,"showland":true,"subunitcolor":"#C8D4E3"},"hoverlabel":{"align":"left"},"hovermode":"closest","mapbox":{"style":"light"},"paper_bgcolor":"white","plot_bgcolor":"white","polar":{"angularaxis":{"gridcolor":"#EBF0F8","linecolor":"#EBF0F8","ticks":""},"bgcolor":"white","radialaxis":{"gridcolor":"#EBF0F8","linecolor":"#EBF0F8","ticks":""}},"scene":{"xaxis":{"backgroundcolor":"white","gridcolor":"#DFE8F3","gridwidth":2,"linecolor":"#EBF0F8","showbackground":true,"ticks":"","zerolinecolor":"#EBF0F8"},"yaxis":{"backgroundcolor":"white","gridcolor":"#DFE8F3","gridwidth":2,"linecolor":"#EBF0F8","showbackground":true,"ticks":"","zerolinecolor":"#EBF0F8"},"zaxis":{"backgroundcolor":"white","gridcolor":"#DFE8F3","gridwidth":2,"linecolor":"#EBF0F8","showbackground":true,"ticks":"","zerolinecolor":"#EBF0F8"}},"shapedefaults":{"line":{"color":"#2a3f5f"}},"ternary":{"aaxis":{"gridcolor":"#DFE8F3","linecolor":"#A2B1C6","ticks":""},"baxis":{"gridcolor":"#DFE8F3","linecolor":"#A2B1C6","ticks":""},"bgcolor":"white","caxis":{"gridcolor":"#DFE8F3","linecolor":"#A2B1C6","ticks":""}},"title":{"x":0.05},"xaxis":{"automargin":true,"gridcolor":"#EBF0F8","linecolor":"#EBF0F8","ticks":"","title":{"standoff":15},"zerolinecolor":"#EBF0F8","zerolinewidth":2},"yaxis":{"automargin":true,"gridcolor":"#EBF0F8","linecolor":"#EBF0F8","ticks":"","title":{"standoff":15},"zerolinecolor":"#EBF0F8","zerolinewidth":2}}},"polar":{"domain":{"x":[0.0,1.0],"y":[0.0,1.0]},"angularaxis":{"direction":"clockwise","rotation":90}},"legend":{"title":{"text":"name"},"tracegroupgap":0,"x":0.7,"y":1.1},"margin":{"t":60},"width":800},                        {"responsive": true}                    ).then(function(){
@@ -1182,7 +1185,7 @@ if (outputEl) {{
 <div id="cell-24" class="cell" data-execution_count="34">
 <details class="code-fold">
 <summary>Code</summary>
-<div class="sourceCode cell-code" id="cb12"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a>df <span class="op">=</span> training.query(<span class="st">"position == 'DF' and Appearances &gt; 18"</span>)[</span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb12"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a>df <span class="op">=</span> training.query(<span class="st">"position == 'DF' and Appearances &gt; 18"</span>)[</span>
 <span id="cb12-2"><a href="#cb12-2" aria-hidden="true" tabindex="-1"></a>    [<span class="st">'clearances_per_min_played'</span>, <span class="st">'fouls_per_min_played'</span>, <span class="st">'yc_per_min_played'</span></span>
 <span id="cb12-3"><a href="#cb12-3" aria-hidden="true" tabindex="-1"></a>    ,<span class="st">'tackles_per_min_played'</span>,<span class="st">'passes_per_min_played'</span>, <span class="st">'Minutes Played'</span>, <span class="st">'assists_per_min_played'</span>]</span>
 <span id="cb12-4"><a href="#cb12-4" aria-hidden="true" tabindex="-1"></a>].rename(columns<span class="op">=</span>{<span class="st">'clearances_per_min_played'</span>: <span class="st">'Clearances'</span>, <span class="st">'fouls_per_min_played'</span>: <span class="st">'Fouls'</span></span>
@@ -1194,13 +1197,13 @@ if (outputEl) {{
 <span id="cb12-10"><a href="#cb12-10" aria-hidden="true" tabindex="-1"></a>df.columns <span class="op">=</span> [<span class="st">'kpi'</span>, <span class="st">'name'</span>, <span class="st">'value'</span>]</span>
 <span id="cb12-11"><a href="#cb12-11" aria-hidden="true" tabindex="-1"></a>df[<span class="st">'denom'</span>] <span class="op">=</span> df.kpi.<span class="bu">map</span>(max_map)</span>
 <span id="cb12-12"><a href="#cb12-12" aria-hidden="true" tabindex="-1"></a>df[<span class="st">'value'</span>] <span class="op">=</span> df.value <span class="op">/</span> df.denom</span>
-<span id="cb12-13"><a href="#cb12-13" aria-hidden="true" tabindex="-1"></a>df.T</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb12-13"><a href="#cb12-13" aria-hidden="true" tabindex="-1"></a>df.T</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </details>
 <div class="cell-output cell-output-display" data-execution_count="34">
 <div>
 
 
-<table class="dataframe caption-top table table-sm table-striped small" data-quarto-postprocess="true" data-border="1">
+<table class="dataframe caption-top table table-sm table-striped small" data-border="1">
 <thead>
 <tr class="header">
 <th data-quarto-table-cell-role="th"></th>
@@ -1236,7 +1239,7 @@ if (outputEl) {{
 </thead>
 <tbody>
 <tr class="odd">
-<td data-quarto-table-cell-role="th">kpi</td>
+<th data-quarto-table-cell-role="th">kpi</th>
 <td>Clearances</td>
 <td>Clearances</td>
 <td>Clearances</td>
@@ -1267,7 +1270,7 @@ if (outputEl) {{
 <td>Assists</td>
 </tr>
 <tr class="even">
-<td data-quarto-table-cell-role="th">name</td>
+<th data-quarto-table-cell-role="th">name</th>
 <td>Héctor Bellerín</td>
 <td>Sead Kolasinac</td>
 <td>Shkodran Mustafi</td>
@@ -1298,7 +1301,7 @@ if (outputEl) {{
 <td>Sokratis</td>
 </tr>
 <tr class="odd">
-<td data-quarto-table-cell-role="th">value</td>
+<th data-quarto-table-cell-role="th">value</th>
 <td>0.349637</td>
 <td>0.214844</td>
 <td>1.0</td>
@@ -1329,7 +1332,7 @@ if (outputEl) {{
 <td>0.278854</td>
 </tr>
 <tr class="even">
-<td data-quarto-table-cell-role="th">denom</td>
+<th data-quarto-table-cell-role="th">denom</th>
 <td>0.061568</td>
 <td>0.061568</td>
 <td>0.061568</td>
@@ -1368,11 +1371,11 @@ if (outputEl) {{
 <div id="cell-25" class="cell" data-execution_count="35">
 <details class="code-fold">
 <summary>Code</summary>
-<div class="sourceCode cell-code" id="cb13"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a>fig <span class="op">=</span> px.line_polar(df, r<span class="op">=</span><span class="st">'value'</span>, theta<span class="op">=</span><span class="st">'kpi'</span></span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb13"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a>fig <span class="op">=</span> px.line_polar(df, r<span class="op">=</span><span class="st">'value'</span>, theta<span class="op">=</span><span class="st">'kpi'</span></span>
 <span id="cb13-2"><a href="#cb13-2" aria-hidden="true" tabindex="-1"></a>                    ,color<span class="op">=</span><span class="st">'name'</span>, line_dash<span class="op">=</span><span class="st">'name'</span>, line_close<span class="op">=</span><span class="va">True</span>, template<span class="op">=</span><span class="st">"plotly_white"</span>)</span>
 <span id="cb13-3"><a href="#cb13-3" aria-hidden="true" tabindex="-1"></a>fig.update_traces(mode<span class="op">=</span><span class="st">'lines'</span>, line_width<span class="op">=</span><span class="dv">4</span>)</span>
 <span id="cb13-4"><a href="#cb13-4" aria-hidden="true" tabindex="-1"></a>fig.update_layout(legend<span class="op">=</span><span class="bu">dict</span>(x<span class="op">=</span><span class="dv">0</span>, y<span class="op">=</span><span class="fl">1.1</span>))</span>
-<span id="cb13-5"><a href="#cb13-5" aria-hidden="true" tabindex="-1"></a>fig.show()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb13-5"><a href="#cb13-5" aria-hidden="true" tabindex="-1"></a>fig.show()</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </details>
 <div class="cell-output cell-output-display">
 <div>                            <div id="7fccb54c-8f73-42e3-99f9-3d6d1f8dd82e" class="plotly-graph-div" style="height:525px; width:100%;"></div>            <script type="text/javascript">                require(["plotly"], function(Plotly) {                    window.PLOTLYENV=window.PLOTLYENV || {};                                    if (document.getElementById("7fccb54c-8f73-42e3-99f9-3d6d1f8dd82e")) {                    Plotly.newPlot(                        "7fccb54c-8f73-42e3-99f9-3d6d1f8dd82e",                        [{"hovertemplate":"name=H\u00e9ctor Beller\u00edn<br>value=%{r}<br>kpi=%{theta}<extra></extra>","legendgroup":"H\u00e9ctor Beller\u00edn","line":{"color":"#636efa","dash":"solid","width":4},"marker":{"symbol":"circle"},"mode":"lines","name":"H\u00e9ctor Beller\u00edn","r":[0.3496371747031153,0.6202993600253874,0.35861056751467707,0.4126949056246449,0.7586727500189412,0.5862332695984703,1.0,0.3496371747031153],"showlegend":true,"subplot":"polar","theta":["Clearances","Fouls","Yellow Cards","Tackles","Passes","Minutes Played","Assists","Clearances"],"type":"scatterpolar"},{"hovertemplate":"name=Sead Kolasinac<br>value=%{r}<br>kpi=%{theta}<extra></extra>","legendgroup":"Sead Kolasinac","line":{"color":"#EF553B","dash":"dot","width":4},"marker":{"symbol":"circle"},"mode":"lines","name":"Sead Kolasinac","r":[0.21484439186302537,0.6603603603603604,0.48478835978835977,0.7587472264891619,0.7611748130161727,0.722753346080306,0.8111111111111111,0.21484439186302537],"showlegend":true,"subplot":"polar","theta":["Clearances","Fouls","Yellow Cards","Tackles","Passes","Minutes Played","Assists","Clearances"],"type":"scatterpolar"},{"hovertemplate":"name=Shkodran Mustafi<br>value=%{r}<br>kpi=%{theta}<extra></extra>","legendgroup":"Shkodran Mustafi","line":{"color":"#00cc96","dash":"dash","width":4},"marker":{"symbol":"circle"},"mode":"lines","name":"Shkodran Mustafi","r":[1.0,0.9545553201384941,0.6306883365200765,1.0,1.0,1.0,0.0,1.0],"showlegend":true,"subplot":"polar","theta":["Clearances","Fouls","Yellow Cards","Tackles","Passes","Minutes Played","Assists","Clearances"],"type":"scatterpolar"},{"hovertemplate":"name=Sokratis<br>value=%{r}<br>kpi=%{theta}<extra></extra>","legendgroup":"Sokratis","line":{"color":"#ab63fa","dash":"longdash","width":4},"marker":{"symbol":"circle"},"mode":"lines","name":"Sokratis","r":[0.797708727004652,1.0,1.0,0.8055714474321172,0.9344976534530891,0.8409177820267686,0.2788540245566167,0.797708727004652],"showlegend":true,"subplot":"polar","theta":["Clearances","Fouls","Yellow Cards","Tackles","Passes","Minutes Played","Assists","Clearances"],"type":"scatterpolar"}],                        {"template":{"data":{"barpolar":[{"marker":{"line":{"color":"white","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"barpolar"}],"bar":[{"error_x":{"color":"#2a3f5f"},"error_y":{"color":"#2a3f5f"},"marker":{"line":{"color":"white","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"bar"}],"carpet":[{"aaxis":{"endlinecolor":"#2a3f5f","gridcolor":"#C8D4E3","linecolor":"#C8D4E3","minorgridcolor":"#C8D4E3","startlinecolor":"#2a3f5f"},"baxis":{"endlinecolor":"#2a3f5f","gridcolor":"#C8D4E3","linecolor":"#C8D4E3","minorgridcolor":"#C8D4E3","startlinecolor":"#2a3f5f"},"type":"carpet"}],"choropleth":[{"colorbar":{"outlinewidth":0,"ticks":""},"type":"choropleth"}],"contourcarpet":[{"colorbar":{"outlinewidth":0,"ticks":""},"type":"contourcarpet"}],"contour":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"contour"}],"heatmapgl":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"heatmapgl"}],"heatmap":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"heatmap"}],"histogram2dcontour":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"histogram2dcontour"}],"histogram2d":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"histogram2d"}],"histogram":[{"marker":{"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"histogram"}],"mesh3d":[{"colorbar":{"outlinewidth":0,"ticks":""},"type":"mesh3d"}],"parcoords":[{"line":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"parcoords"}],"pie":[{"automargin":true,"type":"pie"}],"scatter3d":[{"line":{"colorbar":{"outlinewidth":0,"ticks":""}},"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scatter3d"}],"scattercarpet":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scattercarpet"}],"scattergeo":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scattergeo"}],"scattergl":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scattergl"}],"scattermapbox":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scattermapbox"}],"scatterpolargl":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scatterpolargl"}],"scatterpolar":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scatterpolar"}],"scatter":[{"fillpattern":{"fillmode":"overlay","size":10,"solidity":0.2},"type":"scatter"}],"scatterternary":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scatterternary"}],"surface":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"surface"}],"table":[{"cells":{"fill":{"color":"#EBF0F8"},"line":{"color":"white"}},"header":{"fill":{"color":"#C8D4E3"},"line":{"color":"white"}},"type":"table"}]},"layout":{"annotationdefaults":{"arrowcolor":"#2a3f5f","arrowhead":0,"arrowwidth":1},"autotypenumbers":"strict","coloraxis":{"colorbar":{"outlinewidth":0,"ticks":""}},"colorscale":{"diverging":[[0,"#8e0152"],[0.1,"#c51b7d"],[0.2,"#de77ae"],[0.3,"#f1b6da"],[0.4,"#fde0ef"],[0.5,"#f7f7f7"],[0.6,"#e6f5d0"],[0.7,"#b8e186"],[0.8,"#7fbc41"],[0.9,"#4d9221"],[1,"#276419"]],"sequential":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"sequentialminus":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]},"colorway":["#636efa","#EF553B","#00cc96","#ab63fa","#FFA15A","#19d3f3","#FF6692","#B6E880","#FF97FF","#FECB52"],"font":{"color":"#2a3f5f"},"geo":{"bgcolor":"white","lakecolor":"white","landcolor":"white","showlakes":true,"showland":true,"subunitcolor":"#C8D4E3"},"hoverlabel":{"align":"left"},"hovermode":"closest","mapbox":{"style":"light"},"paper_bgcolor":"white","plot_bgcolor":"white","polar":{"angularaxis":{"gridcolor":"#EBF0F8","linecolor":"#EBF0F8","ticks":""},"bgcolor":"white","radialaxis":{"gridcolor":"#EBF0F8","linecolor":"#EBF0F8","ticks":""}},"scene":{"xaxis":{"backgroundcolor":"white","gridcolor":"#DFE8F3","gridwidth":2,"linecolor":"#EBF0F8","showbackground":true,"ticks":"","zerolinecolor":"#EBF0F8"},"yaxis":{"backgroundcolor":"white","gridcolor":"#DFE8F3","gridwidth":2,"linecolor":"#EBF0F8","showbackground":true,"ticks":"","zerolinecolor":"#EBF0F8"},"zaxis":{"backgroundcolor":"white","gridcolor":"#DFE8F3","gridwidth":2,"linecolor":"#EBF0F8","showbackground":true,"ticks":"","zerolinecolor":"#EBF0F8"}},"shapedefaults":{"line":{"color":"#2a3f5f"}},"ternary":{"aaxis":{"gridcolor":"#DFE8F3","linecolor":"#A2B1C6","ticks":""},"baxis":{"gridcolor":"#DFE8F3","linecolor":"#A2B1C6","ticks":""},"bgcolor":"white","caxis":{"gridcolor":"#DFE8F3","linecolor":"#A2B1C6","ticks":""}},"title":{"x":0.05},"xaxis":{"automargin":true,"gridcolor":"#EBF0F8","linecolor":"#EBF0F8","ticks":"","title":{"standoff":15},"zerolinecolor":"#EBF0F8","zerolinewidth":2},"yaxis":{"automargin":true,"gridcolor":"#EBF0F8","linecolor":"#EBF0F8","ticks":"","title":{"standoff":15},"zerolinecolor":"#EBF0F8","zerolinewidth":2}}},"polar":{"domain":{"x":[0.0,1.0],"y":[0.0,1.0]},"angularaxis":{"direction":"clockwise","rotation":90}},"legend":{"title":{"text":"name"},"tracegroupgap":0,"x":0,"y":1.1},"margin":{"t":60}},                        {"responsive": true}                    ).then(function(){
@@ -1415,7 +1418,7 @@ if (outputEl) {{
 <div id="cell-28" class="cell" data-execution_count="36">
 <details class="code-fold">
 <summary>Code</summary>
-<div class="sourceCode cell-code" id="cb14"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a>mf <span class="op">=</span> training.query(<span class="st">"position == 'MF' and Appearances &gt; 20"</span>)[</span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb14"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a>mf <span class="op">=</span> training.query(<span class="st">"position == 'MF' and Appearances &gt; 20"</span>)[</span>
 <span id="cb14-2"><a href="#cb14-2" aria-hidden="true" tabindex="-1"></a>    [<span class="st">'assists_per_min_played'</span>, <span class="st">'dispossessed_per_min_played'</span></span>
 <span id="cb14-3"><a href="#cb14-3" aria-hidden="true" tabindex="-1"></a>    ,<span class="st">'goals_per_min_played'</span>,<span class="st">'passes_per_min_played'</span>,<span class="st">'shots_per_min_played'</span>, <span class="st">'tackles_per_min_played'</span></span>
 <span id="cb14-4"><a href="#cb14-4" aria-hidden="true" tabindex="-1"></a>    ,<span class="st">'touches_per_min_played'</span>, <span class="st">'Minutes Played'</span>]</span>
@@ -1432,13 +1435,13 @@ if (outputEl) {{
 <span id="cb14-15"><a href="#cb14-15" aria-hidden="true" tabindex="-1"></a>mf[<span class="st">'denom'</span>] <span class="op">=</span> mf.kpi.<span class="bu">map</span>(max_map)</span>
 <span id="cb14-16"><a href="#cb14-16" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb14-17"><a href="#cb14-17" aria-hidden="true" tabindex="-1"></a>mf[<span class="st">'value'</span>] <span class="op">=</span> mf.value <span class="op">/</span> mf.denom</span>
-<span id="cb14-18"><a href="#cb14-18" aria-hidden="true" tabindex="-1"></a>mf.T</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb14-18"><a href="#cb14-18" aria-hidden="true" tabindex="-1"></a>mf.T</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </details>
 <div class="cell-output cell-output-display" data-execution_count="36">
 <div>
 
 
-<table class="dataframe caption-top table table-sm table-striped small" data-quarto-postprocess="true" data-border="1">
+<table class="dataframe caption-top table table-sm table-striped small" data-border="1">
 <thead>
 <tr class="header">
 <th data-quarto-table-cell-role="th"></th>
@@ -1502,7 +1505,7 @@ if (outputEl) {{
 </thead>
 <tbody>
 <tr class="odd">
-<td data-quarto-table-cell-role="th">kpi</td>
+<th data-quarto-table-cell-role="th">kpi</th>
 <td>Assists</td>
 <td>Assists</td>
 <td>Assists</td>
@@ -1561,7 +1564,7 @@ if (outputEl) {{
 <td>Minutes Played</td>
 </tr>
 <tr class="even">
-<td data-quarto-table-cell-role="th">name</td>
+<th data-quarto-table-cell-role="th">name</th>
 <td>Aaron Ramsey</td>
 <td>Granit Xhaka</td>
 <td>Henrikh Mkhitaryan</td>
@@ -1620,7 +1623,7 @@ if (outputEl) {{
 <td>Nacho Monreal</td>
 </tr>
 <tr class="odd">
-<td data-quarto-table-cell-role="th">value</td>
+<th data-quarto-table-cell-role="th">value</th>
 <td>1.0</td>
 <td>0.176996</td>
 <td>0.538524</td>
@@ -1679,7 +1682,7 @@ if (outputEl) {{
 <td>0.744102</td>
 </tr>
 <tr class="even">
-<td data-quarto-table-cell-role="th">denom</td>
+<th data-quarto-table-cell-role="th">denom</th>
 <td>0.004518</td>
 <td>0.004518</td>
 <td>0.004518</td>
@@ -1746,13 +1749,13 @@ if (outputEl) {{
 <div id="cell-29" class="cell" data-execution_count="37">
 <details class="code-fold">
 <summary>Code</summary>
-<div class="sourceCode cell-code" id="cb15"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a>fig <span class="op">=</span> px.line_polar(mf, r<span class="op">=</span><span class="st">'value'</span>, theta<span class="op">=</span><span class="st">'kpi'</span>, color<span class="op">=</span><span class="st">'name'</span>, line_dash<span class="op">=</span><span class="st">'name'</span>,</span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb15"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a>fig <span class="op">=</span> px.line_polar(mf, r<span class="op">=</span><span class="st">'value'</span>, theta<span class="op">=</span><span class="st">'kpi'</span>, color<span class="op">=</span><span class="st">'name'</span>, line_dash<span class="op">=</span><span class="st">'name'</span>,</span>
 <span id="cb15-2"><a href="#cb15-2" aria-hidden="true" tabindex="-1"></a>                    line_close<span class="op">=</span><span class="va">True</span>, template<span class="op">=</span><span class="st">"plotly_white"</span>,</span>
 <span id="cb15-3"><a href="#cb15-3" aria-hidden="true" tabindex="-1"></a>                    width<span class="op">=</span><span class="dv">800</span>) <span class="co"># , color_discrete_sequence= px.colors.sequential.Plasma[-3::-1])</span></span>
 <span id="cb15-4"><a href="#cb15-4" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb15-5"><a href="#cb15-5" aria-hidden="true" tabindex="-1"></a>fig.update_traces(mode<span class="op">=</span><span class="st">'lines'</span>, line_width<span class="op">=</span><span class="dv">5</span>)</span>
 <span id="cb15-6"><a href="#cb15-6" aria-hidden="true" tabindex="-1"></a>fig.update_layout(legend<span class="op">=</span><span class="bu">dict</span>(x<span class="op">=</span><span class="dv">1</span>, y<span class="op">=</span><span class="fl">1.1</span>))</span>
-<span id="cb15-7"><a href="#cb15-7" aria-hidden="true" tabindex="-1"></a>fig.show()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb15-7"><a href="#cb15-7" aria-hidden="true" tabindex="-1"></a>fig.show()</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </details>
 <div class="cell-output cell-output-display">
 <div>                            <div id="14191a60-798a-46fd-9f07-aeb254b303ea" class="plotly-graph-div" style="height:525px; width:800px;"></div>            <script type="text/javascript">                require(["plotly"], function(Plotly) {                    window.PLOTLYENV=window.PLOTLYENV || {};                                    if (document.getElementById("14191a60-798a-46fd-9f07-aeb254b303ea")) {                    Plotly.newPlot(                        "14191a60-798a-46fd-9f07-aeb254b303ea",                        [{"hovertemplate":"name=Aaron Ramsey<br>value=%{r}<br>kpi=%{theta}<extra></extra>","legendgroup":"Aaron Ramsey","line":{"color":"#636efa","dash":"solid","width":5},"marker":{"symbol":"circle"},"mode":"lines","name":"Aaron Ramsey","r":[1.0,1.0,0.8253012048192772,0.6484533903990125,0.8337226456847799,0.9370481927710843,0.6960841750623181,0.5309876049580168,1.0],"showlegend":true,"subplot":"polar","theta":["Assists","Dispossessed","Goals","Passes","Shots","Tackles","Touches","Minutes Played","Assists"],"type":"scatterpolar"},{"hovertemplate":"name=Granit Xhaka<br>value=%{r}<br>kpi=%{theta}<extra></extra>","legendgroup":"Granit Xhaka","line":{"color":"#EF553B","dash":"dot","width":5},"marker":{"symbol":"circle"},"mode":"lines","name":"Granit Xhaka","r":[0.17699586831933894,0.33432552904764024,0.43822471011595365,1.0,0.3890362222457956,0.7609756097560976,1.0,1.0,0.17699586831933894],"showlegend":true,"subplot":"polar","theta":["Assists","Dispossessed","Goals","Passes","Shots","Tackles","Touches","Minutes Played","Assists"],"type":"scatterpolar"},{"hovertemplate":"name=Henrikh Mkhitaryan<br>value=%{r}<br>kpi=%{theta}<extra></extra>","legendgroup":"Henrikh Mkhitaryan","line":{"color":"#00cc96","dash":"dash","width":5},"marker":{"symbol":"circle"},"mode":"lines","name":"Henrikh Mkhitaryan","r":[0.5385239253852393,0.7479498963683879,1.0,0.53939709221357,1.0,0.6233576642335766,0.6540889283916436,0.6573370651739304,0.5385239253852393],"showlegend":true,"subplot":"polar","theta":["Assists","Dispossessed","Goals","Passes","Shots","Tackles","Touches","Minutes Played","Assists"],"type":"scatterpolar"},{"hovertemplate":"name=Lucas Torreira<br>value=%{r}<br>kpi=%{theta}<extra></extra>","legendgroup":"Lucas Torreira","line":{"color":"#ab63fa","dash":"longdash","width":5},"marker":{"symbol":"circle"},"mode":"lines","name":"Lucas Torreira","r":[0.18607257951520248,0.5788924696028521,0.23034888608659101,0.7445605619324995,0.3525748256427414,1.0,0.7763778367226642,0.9512195121951219,0.18607257951520248],"showlegend":true,"subplot":"polar","theta":["Assists","Dispossessed","Goals","Passes","Shots","Tackles","Touches","Minutes Played","Assists"],"type":"scatterpolar"},{"hovertemplate":"name=Matteo Guendouzi<br>value=%{r}<br>kpi=%{theta}<extra></extra>","legendgroup":"Matteo Guendouzi","line":{"color":"#FFA15A","dash":"dashdot","width":5},"marker":{"symbol":"circle"},"mode":"lines","name":"Matteo Guendouzi","r":[0.0,0.7118304111768164,0.0,0.8311026266482837,0.2506145315268965,0.7518207282913165,0.8241144877491225,0.8564574170331867,0.0],"showlegend":true,"subplot":"polar","theta":["Assists","Dispossessed","Goals","Passes","Shots","Tackles","Touches","Minutes Played","Assists"],"type":"scatterpolar"},{"hovertemplate":"name=Mesut \u00d6zil<br>value=%{r}<br>kpi=%{theta}<extra></extra>","legendgroup":"Mesut \u00d6zil","line":{"color":"#19d3f3","dash":"longdashdot","width":5},"marker":{"symbol":"circle"},"mode":"lines","name":"Mesut \u00d6zil","r":[0.25426000382921693,0.9605377922437084,0.7869040781160254,0.7153859044734038,0.21198232308431703,0.25226881102814475,0.714137402866631,0.6961215513794482,0.25426000382921693],"showlegend":true,"subplot":"polar","theta":["Assists","Dispossessed","Goals","Passes","Shots","Tackles","Touches","Minutes Played","Assists"],"type":"scatterpolar"},{"hovertemplate":"name=Nacho Monreal<br>value=%{r}<br>kpi=%{theta}<extra></extra>","legendgroup":"Nacho Monreal","line":{"color":"#FF6692","dash":"solid","width":5},"marker":{"symbol":"circle"},"mode":"lines","name":"Nacho Monreal","r":[0.3567974207415368,0.07928831572034152,0.14723267060720044,0.699187758575089,0.12619943194902894,0.6883396023643202,0.7627025082300333,0.7441023590563774,0.3567974207415368],"showlegend":true,"subplot":"polar","theta":["Assists","Dispossessed","Goals","Passes","Shots","Tackles","Touches","Minutes Played","Assists"],"type":"scatterpolar"}],                        {"template":{"data":{"barpolar":[{"marker":{"line":{"color":"white","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"barpolar"}],"bar":[{"error_x":{"color":"#2a3f5f"},"error_y":{"color":"#2a3f5f"},"marker":{"line":{"color":"white","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"bar"}],"carpet":[{"aaxis":{"endlinecolor":"#2a3f5f","gridcolor":"#C8D4E3","linecolor":"#C8D4E3","minorgridcolor":"#C8D4E3","startlinecolor":"#2a3f5f"},"baxis":{"endlinecolor":"#2a3f5f","gridcolor":"#C8D4E3","linecolor":"#C8D4E3","minorgridcolor":"#C8D4E3","startlinecolor":"#2a3f5f"},"type":"carpet"}],"choropleth":[{"colorbar":{"outlinewidth":0,"ticks":""},"type":"choropleth"}],"contourcarpet":[{"colorbar":{"outlinewidth":0,"ticks":""},"type":"contourcarpet"}],"contour":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"contour"}],"heatmapgl":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"heatmapgl"}],"heatmap":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"heatmap"}],"histogram2dcontour":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"histogram2dcontour"}],"histogram2d":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"histogram2d"}],"histogram":[{"marker":{"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"histogram"}],"mesh3d":[{"colorbar":{"outlinewidth":0,"ticks":""},"type":"mesh3d"}],"parcoords":[{"line":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"parcoords"}],"pie":[{"automargin":true,"type":"pie"}],"scatter3d":[{"line":{"colorbar":{"outlinewidth":0,"ticks":""}},"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scatter3d"}],"scattercarpet":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scattercarpet"}],"scattergeo":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scattergeo"}],"scattergl":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scattergl"}],"scattermapbox":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scattermapbox"}],"scatterpolargl":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scatterpolargl"}],"scatterpolar":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scatterpolar"}],"scatter":[{"fillpattern":{"fillmode":"overlay","size":10,"solidity":0.2},"type":"scatter"}],"scatterternary":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scatterternary"}],"surface":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"surface"}],"table":[{"cells":{"fill":{"color":"#EBF0F8"},"line":{"color":"white"}},"header":{"fill":{"color":"#C8D4E3"},"line":{"color":"white"}},"type":"table"}]},"layout":{"annotationdefaults":{"arrowcolor":"#2a3f5f","arrowhead":0,"arrowwidth":1},"autotypenumbers":"strict","coloraxis":{"colorbar":{"outlinewidth":0,"ticks":""}},"colorscale":{"diverging":[[0,"#8e0152"],[0.1,"#c51b7d"],[0.2,"#de77ae"],[0.3,"#f1b6da"],[0.4,"#fde0ef"],[0.5,"#f7f7f7"],[0.6,"#e6f5d0"],[0.7,"#b8e186"],[0.8,"#7fbc41"],[0.9,"#4d9221"],[1,"#276419"]],"sequential":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"sequentialminus":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]},"colorway":["#636efa","#EF553B","#00cc96","#ab63fa","#FFA15A","#19d3f3","#FF6692","#B6E880","#FF97FF","#FECB52"],"font":{"color":"#2a3f5f"},"geo":{"bgcolor":"white","lakecolor":"white","landcolor":"white","showlakes":true,"showland":true,"subunitcolor":"#C8D4E3"},"hoverlabel":{"align":"left"},"hovermode":"closest","mapbox":{"style":"light"},"paper_bgcolor":"white","plot_bgcolor":"white","polar":{"angularaxis":{"gridcolor":"#EBF0F8","linecolor":"#EBF0F8","ticks":""},"bgcolor":"white","radialaxis":{"gridcolor":"#EBF0F8","linecolor":"#EBF0F8","ticks":""}},"scene":{"xaxis":{"backgroundcolor":"white","gridcolor":"#DFE8F3","gridwidth":2,"linecolor":"#EBF0F8","showbackground":true,"ticks":"","zerolinecolor":"#EBF0F8"},"yaxis":{"backgroundcolor":"white","gridcolor":"#DFE8F3","gridwidth":2,"linecolor":"#EBF0F8","showbackground":true,"ticks":"","zerolinecolor":"#EBF0F8"},"zaxis":{"backgroundcolor":"white","gridcolor":"#DFE8F3","gridwidth":2,"linecolor":"#EBF0F8","showbackground":true,"ticks":"","zerolinecolor":"#EBF0F8"}},"shapedefaults":{"line":{"color":"#2a3f5f"}},"ternary":{"aaxis":{"gridcolor":"#DFE8F3","linecolor":"#A2B1C6","ticks":""},"baxis":{"gridcolor":"#DFE8F3","linecolor":"#A2B1C6","ticks":""},"bgcolor":"white","caxis":{"gridcolor":"#DFE8F3","linecolor":"#A2B1C6","ticks":""}},"title":{"x":0.05},"xaxis":{"automargin":true,"gridcolor":"#EBF0F8","linecolor":"#EBF0F8","ticks":"","title":{"standoff":15},"zerolinecolor":"#EBF0F8","zerolinewidth":2},"yaxis":{"automargin":true,"gridcolor":"#EBF0F8","linecolor":"#EBF0F8","ticks":"","title":{"standoff":15},"zerolinecolor":"#EBF0F8","zerolinewidth":2}}},"polar":{"domain":{"x":[0.0,1.0],"y":[0.0,1.0]},"angularaxis":{"direction":"clockwise","rotation":90}},"legend":{"title":{"text":"name"},"tracegroupgap":0,"x":1,"y":1.1},"margin":{"t":60},"width":800},                        {"responsive": true}                    ).then(function(){
@@ -1794,7 +1797,7 @@ if (outputEl) {{
 <div id="cell-32" class="cell" data-execution_count="38">
 <details class="code-fold">
 <summary>Code</summary>
-<div class="sourceCode cell-code" id="cb16"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a>fw <span class="op">=</span> training.query(<span class="st">"position == 'FW' and Appearances &gt; 10"</span>)[</span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb16"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a>fw <span class="op">=</span> training.query(<span class="st">"position == 'FW' and Appearances &gt; 10"</span>)[</span>
 <span id="cb16-2"><a href="#cb16-2" aria-hidden="true" tabindex="-1"></a>    [<span class="st">'assists_per_min_played'</span>, <span class="st">'missed_chances_per_min_played'</span>, <span class="st">'goals_per_min_played'</span></span>
 <span id="cb16-3"><a href="#cb16-3" aria-hidden="true" tabindex="-1"></a>    ,<span class="st">'offsides_per_min_played'</span>, <span class="st">'shots_per_min_played'</span>, <span class="st">'dispossessed_per_min_played'</span></span>
 <span id="cb16-4"><a href="#cb16-4" aria-hidden="true" tabindex="-1"></a>     ,<span class="st">'fouls_per_min_played'</span>]</span>
@@ -1808,13 +1811,13 @@ if (outputEl) {{
 <span id="cb16-12"><a href="#cb16-12" aria-hidden="true" tabindex="-1"></a>fw.columns <span class="op">=</span> [<span class="st">'kpi'</span>, <span class="st">'name'</span>, <span class="st">'value'</span>]</span>
 <span id="cb16-13"><a href="#cb16-13" aria-hidden="true" tabindex="-1"></a>fw[<span class="st">'denom'</span>] <span class="op">=</span> fw.kpi.<span class="bu">map</span>(max_map)</span>
 <span id="cb16-14"><a href="#cb16-14" aria-hidden="true" tabindex="-1"></a>fw[<span class="st">'value'</span>] <span class="op">=</span> fw.value <span class="op">/</span> fw.denom</span>
-<span id="cb16-15"><a href="#cb16-15" aria-hidden="true" tabindex="-1"></a>fw.T</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb16-15"><a href="#cb16-15" aria-hidden="true" tabindex="-1"></a>fw.T</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </details>
 <div class="cell-output cell-output-display" data-execution_count="38">
 <div>
 
 
-<table class="dataframe caption-top table table-sm table-striped small" data-quarto-postprocess="true" data-border="1">
+<table class="dataframe caption-top table table-sm table-striped small" data-border="1">
 <thead>
 <tr class="header">
 <th data-quarto-table-cell-role="th"></th>
@@ -1843,7 +1846,7 @@ if (outputEl) {{
 </thead>
 <tbody>
 <tr class="odd">
-<td data-quarto-table-cell-role="th">kpi</td>
+<th data-quarto-table-cell-role="th">kpi</th>
 <td>Assists</td>
 <td>Assists</td>
 <td>Assists</td>
@@ -1867,7 +1870,7 @@ if (outputEl) {{
 <td>Fouls</td>
 </tr>
 <tr class="even">
-<td data-quarto-table-cell-role="th">name</td>
+<th data-quarto-table-cell-role="th">name</th>
 <td>Alex Iwobi</td>
 <td>Alexandre Lacazette</td>
 <td>Pierre-Emerick Aubameyang</td>
@@ -1891,7 +1894,7 @@ if (outputEl) {{
 <td>Pierre-Emerick Aubameyang</td>
 </tr>
 <tr class="odd">
-<td data-quarto-table-cell-role="th">value</td>
+<th data-quarto-table-cell-role="th">value</th>
 <td>0.952713</td>
 <td>1.0</td>
 <td>0.573279</td>
@@ -1915,7 +1918,7 @@ if (outputEl) {{
 <td>0.233808</td>
 </tr>
 <tr class="even">
-<td data-quarto-table-cell-role="th">denom</td>
+<th data-quarto-table-cell-role="th">denom</th>
 <td>0.003194</td>
 <td>0.003194</td>
 <td>0.003194</td>
@@ -1947,12 +1950,12 @@ if (outputEl) {{
 <div id="cell-33" class="cell" data-execution_count="39">
 <details class="code-fold">
 <summary>Code</summary>
-<div class="sourceCode cell-code" id="cb17"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb17-1"><a href="#cb17-1" aria-hidden="true" tabindex="-1"></a>fig <span class="op">=</span> px.line_polar(fw, r<span class="op">=</span><span class="st">'value'</span>, theta<span class="op">=</span><span class="st">'kpi'</span>, color<span class="op">=</span><span class="st">'name'</span>, line_dash<span class="op">=</span><span class="st">'name'</span>,</span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb17"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb17-1"><a href="#cb17-1" aria-hidden="true" tabindex="-1"></a>fig <span class="op">=</span> px.line_polar(fw, r<span class="op">=</span><span class="st">'value'</span>, theta<span class="op">=</span><span class="st">'kpi'</span>, color<span class="op">=</span><span class="st">'name'</span>, line_dash<span class="op">=</span><span class="st">'name'</span>,</span>
 <span id="cb17-2"><a href="#cb17-2" aria-hidden="true" tabindex="-1"></a>                    line_close<span class="op">=</span><span class="va">True</span>, template<span class="op">=</span><span class="st">"plotly_white"</span>,</span>
 <span id="cb17-3"><a href="#cb17-3" aria-hidden="true" tabindex="-1"></a>                    width<span class="op">=</span><span class="dv">800</span>, text<span class="op">=</span><span class="st">'value'</span>)</span>
 <span id="cb17-4"><a href="#cb17-4" aria-hidden="true" tabindex="-1"></a>fig.update_traces(mode<span class="op">=</span><span class="st">'lines'</span>, line_width<span class="op">=</span><span class="dv">5</span>)</span>
 <span id="cb17-5"><a href="#cb17-5" aria-hidden="true" tabindex="-1"></a>fig.update_layout(legend<span class="op">=</span><span class="bu">dict</span>(x<span class="op">=</span><span class="fl">.8</span>, y<span class="op">=</span><span class="fl">1.1</span>))</span>
-<span id="cb17-6"><a href="#cb17-6" aria-hidden="true" tabindex="-1"></a>fig.show()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb17-6"><a href="#cb17-6" aria-hidden="true" tabindex="-1"></a>fig.show()</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </details>
 <div class="cell-output cell-output-display">
 <div>                            <div id="bf868811-50b1-4b7d-b727-0be55cb01508" class="plotly-graph-div" style="height:525px; width:800px;"></div>            <script type="text/javascript">                require(["plotly"], function(Plotly) {                    window.PLOTLYENV=window.PLOTLYENV || {};                                    if (document.getElementById("bf868811-50b1-4b7d-b727-0be55cb01508")) {                    Plotly.newPlot(                        "bf868811-50b1-4b7d-b727-0be55cb01508",                        [{"hovertemplate":"name=Alex Iwobi<br>value=%{text}<br>kpi=%{theta}<extra></extra>","legendgroup":"Alex Iwobi","line":{"color":"#636efa","dash":"solid","width":5},"marker":{"symbol":"circle"},"mode":"lines","name":"Alex Iwobi","r":[0.952712981744422,0.18063762236528794,0.18884842338189195,0.10585699797160243,0.5156499503689957,1.0,0.1992602314759575,0.952712981744422],"showlegend":true,"subplot":"polar","text":[0.952712981744422,0.18063762236528794,0.18884842338189195,0.10585699797160243,0.5156499503689957,1.0,0.1992602314759575,0.952712981744422],"theta":["Assists","Missed Chances","Goals","Offsides","Shots","Dispossessed","Fouls","Assists"],"type":"scatterpolar"},{"hovertemplate":"name=Alexandre Lacazette<br>value=%{text}<br>kpi=%{theta}<extra></extra>","legendgroup":"Alexandre Lacazette","line":{"color":"#EF553B","dash":"dot","width":5},"marker":{"symbol":"circle"},"mode":"lines","name":"Alexandre Lacazette","r":[1.0,0.6162110561485724,0.6442206496098711,1.0,0.9394445152248695,0.8575135443398917,1.0,1.0],"showlegend":true,"subplot":"polar","text":[1.0,0.6162110561485724,0.6442206496098711,1.0,0.9394445152248695,0.8575135443398917,1.0,1.0],"theta":["Assists","Missed Chances","Goals","Offsides","Shots","Dispossessed","Fouls","Assists"],"type":"scatterpolar"},{"hovertemplate":"name=Pierre-Emerick Aubameyang<br>value=%{text}<br>kpi=%{theta}<extra></extra>","legendgroup":"Pierre-Emerick Aubameyang","line":{"color":"#00cc96","dash":"dash","width":5},"marker":{"symbol":"circle"},"mode":"lines","name":"Pierre-Emerick Aubameyang","r":[0.5732790186744783,1.0,1.0,0.8790278286341999,1.0,0.4255113249986923,0.23380791349861071,0.5732790186744783],"showlegend":true,"subplot":"polar","text":[0.5732790186744783,1.0,1.0,0.8790278286341999,1.0,0.4255113249986923,0.23380791349861071,0.5732790186744783],"theta":["Assists","Missed Chances","Goals","Offsides","Shots","Dispossessed","Fouls","Assists"],"type":"scatterpolar"}],                        {"template":{"data":{"barpolar":[{"marker":{"line":{"color":"white","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"barpolar"}],"bar":[{"error_x":{"color":"#2a3f5f"},"error_y":{"color":"#2a3f5f"},"marker":{"line":{"color":"white","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"bar"}],"carpet":[{"aaxis":{"endlinecolor":"#2a3f5f","gridcolor":"#C8D4E3","linecolor":"#C8D4E3","minorgridcolor":"#C8D4E3","startlinecolor":"#2a3f5f"},"baxis":{"endlinecolor":"#2a3f5f","gridcolor":"#C8D4E3","linecolor":"#C8D4E3","minorgridcolor":"#C8D4E3","startlinecolor":"#2a3f5f"},"type":"carpet"}],"choropleth":[{"colorbar":{"outlinewidth":0,"ticks":""},"type":"choropleth"}],"contourcarpet":[{"colorbar":{"outlinewidth":0,"ticks":""},"type":"contourcarpet"}],"contour":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"contour"}],"heatmapgl":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"heatmapgl"}],"heatmap":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"heatmap"}],"histogram2dcontour":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"histogram2dcontour"}],"histogram2d":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"histogram2d"}],"histogram":[{"marker":{"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"histogram"}],"mesh3d":[{"colorbar":{"outlinewidth":0,"ticks":""},"type":"mesh3d"}],"parcoords":[{"line":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"parcoords"}],"pie":[{"automargin":true,"type":"pie"}],"scatter3d":[{"line":{"colorbar":{"outlinewidth":0,"ticks":""}},"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scatter3d"}],"scattercarpet":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scattercarpet"}],"scattergeo":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scattergeo"}],"scattergl":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scattergl"}],"scattermapbox":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scattermapbox"}],"scatterpolargl":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scatterpolargl"}],"scatterpolar":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scatterpolar"}],"scatter":[{"fillpattern":{"fillmode":"overlay","size":10,"solidity":0.2},"type":"scatter"}],"scatterternary":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scatterternary"}],"surface":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"surface"}],"table":[{"cells":{"fill":{"color":"#EBF0F8"},"line":{"color":"white"}},"header":{"fill":{"color":"#C8D4E3"},"line":{"color":"white"}},"type":"table"}]},"layout":{"annotationdefaults":{"arrowcolor":"#2a3f5f","arrowhead":0,"arrowwidth":1},"autotypenumbers":"strict","coloraxis":{"colorbar":{"outlinewidth":0,"ticks":""}},"colorscale":{"diverging":[[0,"#8e0152"],[0.1,"#c51b7d"],[0.2,"#de77ae"],[0.3,"#f1b6da"],[0.4,"#fde0ef"],[0.5,"#f7f7f7"],[0.6,"#e6f5d0"],[0.7,"#b8e186"],[0.8,"#7fbc41"],[0.9,"#4d9221"],[1,"#276419"]],"sequential":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"sequentialminus":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]},"colorway":["#636efa","#EF553B","#00cc96","#ab63fa","#FFA15A","#19d3f3","#FF6692","#B6E880","#FF97FF","#FECB52"],"font":{"color":"#2a3f5f"},"geo":{"bgcolor":"white","lakecolor":"white","landcolor":"white","showlakes":true,"showland":true,"subunitcolor":"#C8D4E3"},"hoverlabel":{"align":"left"},"hovermode":"closest","mapbox":{"style":"light"},"paper_bgcolor":"white","plot_bgcolor":"white","polar":{"angularaxis":{"gridcolor":"#EBF0F8","linecolor":"#EBF0F8","ticks":""},"bgcolor":"white","radialaxis":{"gridcolor":"#EBF0F8","linecolor":"#EBF0F8","ticks":""}},"scene":{"xaxis":{"backgroundcolor":"white","gridcolor":"#DFE8F3","gridwidth":2,"linecolor":"#EBF0F8","showbackground":true,"ticks":"","zerolinecolor":"#EBF0F8"},"yaxis":{"backgroundcolor":"white","gridcolor":"#DFE8F3","gridwidth":2,"linecolor":"#EBF0F8","showbackground":true,"ticks":"","zerolinecolor":"#EBF0F8"},"zaxis":{"backgroundcolor":"white","gridcolor":"#DFE8F3","gridwidth":2,"linecolor":"#EBF0F8","showbackground":true,"ticks":"","zerolinecolor":"#EBF0F8"}},"shapedefaults":{"line":{"color":"#2a3f5f"}},"ternary":{"aaxis":{"gridcolor":"#DFE8F3","linecolor":"#A2B1C6","ticks":""},"baxis":{"gridcolor":"#DFE8F3","linecolor":"#A2B1C6","ticks":""},"bgcolor":"white","caxis":{"gridcolor":"#DFE8F3","linecolor":"#A2B1C6","ticks":""}},"title":{"x":0.05},"xaxis":{"automargin":true,"gridcolor":"#EBF0F8","linecolor":"#EBF0F8","ticks":"","title":{"standoff":15},"zerolinecolor":"#EBF0F8","zerolinewidth":2},"yaxis":{"automargin":true,"gridcolor":"#EBF0F8","linecolor":"#EBF0F8","ticks":"","title":{"standoff":15},"zerolinecolor":"#EBF0F8","zerolinewidth":2}}},"polar":{"domain":{"x":[0.0,1.0],"y":[0.0,1.0]},"angularaxis":{"direction":"clockwise","rotation":90}},"legend":{"title":{"text":"name"},"tracegroupgap":0,"x":0.8,"y":1.1},"margin":{"t":60},"width":800},                        {"responsive": true}                    ).then(function(){
@@ -2003,7 +2006,7 @@ if (outputEl) {{
 <!-- Begin Mailchimp Signup Form -->
   <div id="mc_embed_signup" style="padding-bottom: 1em; max-width: 400px;" class="ms-auto me-auto">
     <!-- <p style="font-weight: 600; margin-bottom: 0;">Subscribe</p> -->
-    <span style="font-size: 0.9em;">Subscribe to get Data Feed posts by email:</span>
+    <span style="font-size: 0.9em;">Subscribe to get occasional posts by email:</span>
 
     <form action="https://eliasnema.us17.list-manage.com/subscribe/post?u=968d81ab7c900cd9b4bbe76c6&amp;id=f416e619fd&amp;f_id=003f45e0f0" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_self">
         <div id="mc_embed_signup_scroll">
@@ -2077,13 +2080,14 @@ if (outputEl) {{
       e.clearSelection();
     }
     const getTextToCopy = function(trigger) {
-        const codeEl = trigger.previousElementSibling.cloneNode(true);
-        for (const childEl of codeEl.children) {
-          if (isCodeAnnotation(childEl)) {
-            childEl.remove();
-          }
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
         }
-        return codeEl.innerText;
+      }
+      return codeEl.innerText;
     }
     const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
       text: getTextToCopy
