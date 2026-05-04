@@ -9,8 +9,79 @@
 <link>https://www.eliasnema.com/log.html</link>
 <atom:link href="https://www.eliasnema.com/log.xml" rel="self" type="application/rss+xml"/>
 <description>Making data work: analytics, personalisation, relevance and recommender systems - whatever is takes.</description>
-<generator>quarto-1.8.24</generator>
-<lastBuildDate>Sat, 27 Sep 2025 23:00:00 GMT</lastBuildDate>
+<generator>quarto-1.9.37</generator>
+<lastBuildDate>Sun, 03 May 2026 23:00:00 GMT</lastBuildDate>
+<item>
+  <title>Building Small Things</title>
+  <dc:creator>Elias Nema</dc:creator>
+  <link>https://www.eliasnema.com/posts/iterations/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<section id="iterating" class="level2">
+<h2 class="anchored" data-anchor-id="iterating">Iterating</h2>
+<p><strong>building small things - proving myself wrong cheaply and quickly - building competence and maintenance</strong></p>
+<hr>
+</section>
+<section id="setup" class="level2 page-columns page-full">
+<h2 class="anchored" data-anchor-id="setup">Setup</h2>
+<p>We’ve just moved and a broadband socket is in a very interesting place in the corridor. Should I move it or can I come up with something? Here is a quick story of me tinkering my way into a 3d-printed stand for a WiFi router.</p>
+<div class="quarto-figure quarto-figure-center page-columns page-full">
+<figure class="figure page-columns page-full">
+<p><img src="https://www.eliasnema.com/posts/iterations/spotify-dev-fr.png" class="figure-img" width="350"></p>
+<figcaption class="margin-caption">Sportify’s product <a href="https://blog.crisp.se/2016/01/25/henrikkniberg/making-sense-of-mvp">development thinking</a></figcaption>
+</figure>
+</div>
+<p>There is a framework made famous by the Spotify folks about keeping users happy while iterating on a product and not overthinking it. I love this approach. But it starts with a skateboard. And how do you get to a skateboard? We often fall into thinking about some objects like they were always there while there is a great interesting invention story behind almost everything, especially skateboards.</p>
+<p>Here is how I expanded the framework to the left:</p>
+<div class="quarto-figure quarto-figure-center page-columns page-full">
+<figure class="figure page-columns page-full">
+<p><img src="https://www.eliasnema.com/posts/iterations/router.png" class="img-fluid figure-img"></p>
+<figcaption class="margin-caption">Iterations: 1-sketch; 2-minimal failable product; 3-now it worked at this stage; 4-skateboard; 5-iterating…</figcaption>
+</figure>
+</div>
+<section id="thinking-on-paper" class="level3">
+<h3 class="anchored" data-anchor-id="thinking-on-paper">1: Thinking on paper</h3>
+<p>There are some good models on Printables/Makerworld but not for my specific router. The few others I found online wouldn’t work too due to my socket layout. <em>A perfect opporutnity to tinker.</em></p>
+<p>My initial thinking is to make something simple to avoid any additional connections. Ideally it just uses socket parts to hold its weight. The simpler the design, the fewer things to worry about later (e.g.&nbsp;no need to patch any holes in the wall in case I decide to move or change it later).</p>
+</section>
+<section id="two-minimum-failable-attempts" class="level3">
+<h3 class="anchored" data-anchor-id="two-minimum-failable-attempts">2&amp;3: Two minimum failable attempts</h3>
+<p><em>How can I prove myself wrong quickly/cheaply?</em> How can I test that it will fail while using the least material? I’m trying and testing the first connection failure point before going further. It’s not a skateboard at all. But I learned a few weak spots already and saved time and material. Failure here would be to spend 3x filament without nailing the fundamentals.</p>
+</section>
+<section id="skateboard" class="level3">
+<h3 class="anchored" data-anchor-id="skateboard">4: Skateboard</h3>
+<p>Finally, I’m in skateboard territory. Something is useful for intended purpose. It’s not perfect. Wires are all over the place. But the problem is solved at least for my robovac who can now safely do his job.</p>
+<p>Next I added a compartment to hide wires and a few niceties - a cable groove, a rounder shape, and a slightly reduced footprint. That’s a good skateboard and maybe even a scooter now.</p>
+</section>
+</section>
+<section id="build-vs-buy" class="level2 page-columns page-full">
+<h2 class="anchored" data-anchor-id="build-vs-buy">Build vs Buy</h2>
+<p>Watching an amazing video from <a href="https://www.youtube.com/watch?v=W9K-JoGDvxo">Scott Yu-Jan</a> I was surprised that he mentioned people were challenging on why not to buy something already made?</p>
+<p>Optimizing everything, outsourcing what’s not core - these habits are engrained too deeply at this point. While great for efficiency it removes the element of discovery and a personal competence growth opportunity.</p>
+<p>Building and fixing small things is what connects us to the real world. There are also positive inner-self effects - confidence that comes from being able to do or fix something. I’m reading <a href="https://press.stripe.com/maintenance-part-one">Maintenance: Of Everything</a> now, and here is what the only person to finish the first solo round-the-world yacht race after pumping out three tonnes of water and spending three hours daily on just repairing his sails:</p>
+<blockquote class="blockquote">
+<p>I realized I was thoroughly enjoying myself. The only way to overcome my present feeling of depression is to fully occupy myself… Doing maintenance cures depression.</p>
+</blockquote>
+<p>Maybe we all need just a tiny bit of illogical and unoptimized activities in our lives?</p>
+<div class="quarto-figure quarto-figure-center page-columns page-full">
+<figure class="figure page-columns page-full">
+<p><img src="https://www.eliasnema.com/posts/iterations/router-final.png" class="figure-img" width="350"></p>
+<figcaption class="margin-caption">Here is the latest iteration of the stand - works great for my setup</figcaption>
+</figure>
+</div>
+
+
+</section>
+
+ ]]></description>
+  <category>life</category>
+  <guid>https://www.eliasnema.com/posts/iterations/</guid>
+  <pubDate>Sun, 03 May 2026 23:00:00 GMT</pubDate>
+</item>
 <item>
   <title>Slop: Algo? AI?</title>
   <dc:creator>Elias Nema</dc:creator>
