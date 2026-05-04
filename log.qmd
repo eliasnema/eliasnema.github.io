@@ -10,6 +10,5 @@ listing:
   filter-ui: false
   feed: true
 page-layout: article
-margin-header: subscribe.html
 ---
 

@@ -24,7 +24,6 @@ about:
     - icon: github
       text: Github
       href: https://github.com/eliasnema
-margin-header: state/subscribe.html
 ---
 
 Hi, I’m Elias. By day I’m working at Meta. Before that, I was scaling up local payment methods at Stripe, led search and recommendations at OLX, optimized performance for large databases at EPAM, and built “real-world” things in a few mechanical eng startups.
