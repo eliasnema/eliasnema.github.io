@@ -7,3 +7,6 @@
 .tweet-cache/
 
 **/*.quarto_ipynb
+
+# Generated from the canonical private research notebook during an opted-in render.
+/posts/router-blind-spot/

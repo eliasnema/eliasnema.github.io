@@ -1,5 +1,7 @@
 project:
   type: website
+  pre-render:
+    - python3 scripts/stage-private-articles.py
 
 website:
   title: "ELIAS NEMA"
@@ -41,4 +43,3 @@ format:
     link-external-newwindow: true
     code-fold: true
     linkcolor: black
-    include-in-header: <script type="text/javascript" src="node_modules/***/**.js"></script>
