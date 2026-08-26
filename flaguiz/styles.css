@@ -297,8 +297,10 @@ h2[tabindex="-1"]:focus {
 
 .map-marker {
   position: absolute;
-  display: inline-flex;
-  align-items: center;
+  display: grid;
+  place-items: center;
+  width: 51px;
+  height: 51px;
   padding: 0;
   border: 0;
   background: transparent;
@@ -351,9 +353,12 @@ button.map-marker {
 }
 
 .map-marker__label {
-  margin-left: 8px;
+  position: absolute;
+  top: 50%;
+  left: calc(100% + 8px);
   padding: 4px 7px;
   border-radius: 7px;
+  transform: translateY(-50%);
   background: rgba(0, 0, 0, 0.62);
   box-shadow: 0 3px 12px rgba(0, 0, 0, 0.3);
   font-size: 0.76rem;
