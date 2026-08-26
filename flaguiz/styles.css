@@ -296,7 +296,7 @@ h2[tabindex="-1"]:focus {
 }
 
 .map-marker {
-  position: relative;
+  position: absolute;
   display: inline-flex;
   align-items: center;
   padding: 0;
