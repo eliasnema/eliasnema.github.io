@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="color-scheme" content="light dark">
+  <meta name="theme-color" content="#061b2d">
+  <meta name="description" content="Learn countries, flags, and capital cities through an interactive world map game.">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob:; connect-src 'self'; worker-src 'self' blob:; child-src blob:; font-src 'self' data:; object-src 'none'; base-uri 'self'; frame-ancestors 'none'">
+  <meta property="og:title" content="Flaguiz — Learn countries and their flags">
+  <meta property="og:description" content="Three map-based flag and capital challenges, a 254-territory explorer, and private on-device progress.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://www.eliasnema.com/flaguiz/assets/app-icon.png">
+  <meta name="twitter:card" content="summary">
+  <base href="/flaguiz/">
+  <link rel="canonical" href="https://www.eliasnema.com/flaguiz/">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png">
+  <link rel="stylesheet" href="vendor/maplibre-gl.css?v=5.24.0">
+  <link rel="stylesheet" href="styles.css?v=1">
+  <title>Flaguiz — Learn countries and their flags</title>
+</head>
+<body>
+  <div id="app">
+    <main id="boot-status" class="simple-page" aria-busy="true">
+      <section class="simple-card">
+        <h1>Flaguiz</h1>
+        <p>Preparing the verified flag catalogue…</p>
+      </section>
+    </main>
+  </div>
+  <noscript>
+    <p>Flaguiz needs JavaScript to run the local game engine and interactive map.</p>
+  </noscript>
+  <script defer src="vendor/maplibre-gl.js?v=5.24.0"></script>
+  <script type="module" src="js/app.js?v=1"></script>
+</body>
+</html>

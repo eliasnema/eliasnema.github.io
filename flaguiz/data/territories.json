@@ -1,0 +1,3794 @@
+[
+  {
+    "id": "ascension-island",
+    "symbol": "🇦🇨",
+    "name": "Ascension Island",
+    "centerLatitude": -7.94224793216408,
+    "centerLongitude": -14.3614721491025,
+    "continent": "africa",
+    "rank": 187,
+    "capitalCities": [
+      "Georgetown"
+    ]
+  },
+  {
+    "id": "andorra",
+    "symbol": "🇦🇩",
+    "name": "Andorra",
+    "centerLatitude": 42.546245,
+    "centerLongitude": 1.601554,
+    "continent": "europe",
+    "rank": 161,
+    "flagFacts": [
+      "It combines elements from neighboring countries, using the blue and red of France alongside the red and yellow of Spain.",
+      "The central coat of arms features the historical mitre and crozier of the Bishop of Urgell, reflecting the country's unique co-principality status."
+    ],
+    "capitalCities": [
+      "Andorra la Vella"
+    ]
+  },
+  {
+    "id": "united-arab-emirates",
+    "symbol": "🇦🇪",
+    "name": "United Arab Emirates",
+    "centerLatitude": 23.424076,
+    "centerLongitude": 53.847818,
+    "continent": "asia",
+    "rank": 47,
+    "flagFacts": [
+      "The flag features the Pan-Arab colors of red, green, white, and black to symbolize regional unity.",
+      "The green vertical block represents prosperity, white represents peace, and black represents historical strength."
+    ],
+    "capitalCities": [
+      "Abu Dhabi"
+    ]
+  },
+  {
+    "id": "afghanistan",
+    "symbol": "🇦🇫",
+    "name": "Afghanistan",
+    "centerLatitude": 33.93911,
+    "centerLongitude": 67.709953,
+    "continent": "asia",
+    "rank": 66,
+    "flagFacts": [
+      "The flag features the Shahada (Islamic declaration of faith) written in white text across the center.",
+      "The design historically changes frequently, making it one of the most altered national flags in modern history."
+    ],
+    "capitalCities": [
+      "Kabul"
+    ]
+  },
+  {
+    "id": "antigua-and-barbuda",
+    "symbol": "🇦🇬",
+    "name": "Antigua and Barbuda",
+    "centerLatitude": 17.3272082750036,
+    "centerLongitude": -61.7877269157463,
+    "continent": "northAmerica",
+    "rank": 167,
+    "flagFacts": [
+      "The central rising sun symbolizes the dawn of a completely new era for the independent nation.",
+      "The distinct V-shape created by the red side panels stands for 'Victory' over colonial rule."
+    ],
+    "capitalCities": [
+      "Saint John's"
+    ]
+  },
+  {
+    "id": "anguilla",
+    "symbol": "🇦🇮",
+    "name": "Anguilla",
+    "centerLatitude": 18.220554,
+    "centerLongitude": -63.068615,
+    "continent": "northAmerica",
+    "rank": 187,
+    "capitalCities": [
+      "The Valley"
+    ]
+  },
+  {
+    "id": "albania",
+    "symbol": "🇦🇱",
+    "name": "Albania",
+    "centerLatitude": 41.153332,
+    "centerLongitude": 20.168331,
+    "continent": "europe",
+    "rank": 125,
+    "flagFacts": [
+      "The double-headed black eagle traces its origins back to the medieval hero Skanderbeg, who used it as a seal in the 15th century.",
+      "The red field represents the bravery and blood spilled by the nation's soldiers throughout history."
+    ],
+    "capitalCities": [
+      "Tirana"
+    ]
+  },
+  {
+    "id": "armenia",
+    "symbol": "🇦🇲",
+    "name": "Armenia",
+    "centerLatitude": 40.069099,
+    "centerLongitude": 45.038189,
+    "continent": "asia",
+    "rank": 129,
+    "flagFacts": [
+      "The bottom orange stripe is officially defined as symbolizing the talent, hard work, and resilience of the Armenian people.",
+      "The top red stripe represents the Armenian Highlands, the continuous struggle for survival, and the Christian faith."
+    ],
+    "capitalCities": [
+      "Yerevan"
+    ]
+  },
+  {
+    "id": "angola",
+    "symbol": "🇦🇴",
+    "name": "Angola",
+    "centerLatitude": -11.202692,
+    "centerLongitude": 17.873887,
+    "continent": "africa",
+    "rank": 36,
+    "flagFacts": [
+      "The split red and black field represents the blood spilled during the anti-colonial struggle and the entire African continent.",
+      "The central emblem features a half-gear and a machete, intentionally mirroring the classic hammer and sickle to symbolize industry and agriculture."
+    ],
+    "capitalCities": [
+      "Luanda"
+    ]
+  },
+  {
+    "id": "antarctica",
+    "symbol": "🇦🇶",
+    "name": "Antarctica",
+    "centerLatitude": -75.250973,
+    "centerLongitude": -0.071389,
+    "continent": "antarctica",
+    "rank": 187
+  },
+  {
+    "id": "argentina",
+    "symbol": "🇦🇷",
+    "name": "Argentina",
+    "centerLatitude": -38.416097,
+    "centerLongitude": -63.616672,
+    "continent": "southAmerica",
+    "rank": 20,
+    "flagFacts": [
+      "The light blue and white stripes were chosen by military leader Manuel Belgrano to match the colors of the Argentine revolution's cockades.",
+      "The central 'Sun of May' features alternating straight and wavy rays, modeled directly after an indigenous Incan representation of the sun god Inti."
+    ],
+    "capitalCities": [
+      "Buenos Aires"
+    ]
+  },
+  {
+    "id": "american-samoa",
+    "symbol": "🇦🇸",
+    "name": "American Samoa",
+    "centerLatitude": -14.270972,
+    "centerLongitude": -170.132217,
+    "continent": "oceania",
+    "rank": 187,
+    "capitalCities": [
+      "Pago Pago"
+    ]
+  },
+  {
+    "id": "austria",
+    "symbol": "🇦🇹",
+    "name": "Austria",
+    "centerLatitude": 47.516231,
+    "centerLongitude": 14.550072,
+    "continent": "europe",
+    "rank": 50,
+    "flagFacts": [
+      "Legend says the red and white pattern originated when Duke Leopold V's white tunic was entirely soaked in blood during a battle, except for the white strip under his belt.",
+      "It is officially recognized as one of the oldest continuously used national flag designs in the entire world."
+    ],
+    "capitalCities": [
+      "Vienna"
+    ]
+  },
+  {
+    "id": "australia",
+    "symbol": "🇦🇺",
+    "name": "Australia",
+    "centerLatitude": -25.274398,
+    "centerLongitude": 133.775136,
+    "continent": "oceania",
+    "rank": 24,
+    "flagFacts": [
+      "The prominent Union Jack reflects the nation's historical constitutional links to the British monarchy.",
+      "The large seven-pointed Commonwealth Star has six points representing the original states, and a seventh point representing all internal and external territories."
+    ],
+    "capitalCities": [
+      "Canberra"
+    ]
+  },
+  {
+    "id": "aruba",
+    "symbol": "🇦🇼",
+    "name": "Aruba",
+    "centerLatitude": 12.52111,
+    "centerLongitude": -69.968338,
+    "continent": "northAmerica",
+    "rank": 177,
+    "flagFacts": [
+      "The four-pointed red star acts as a visual compass, representing the four major directions from which people migrated to populate the island.",
+      "The light blue field symbolizes the Caribbean Sea, bordered below by two yellow stripes that celebrate the historic gold rush and native flora colors."
+    ],
+    "capitalCities": [
+      "Oranjestad"
+    ]
+  },
+  {
+    "id": "land-islands",
+    "symbol": "🇦🇽",
+    "name": "Åland Islands",
+    "centerLatitude": 60.2179771495195,
+    "centerLongitude": 20.3699223103652,
+    "continent": "europe",
+    "rank": 187,
+    "capitalCities": [
+      "Mariehamn"
+    ]
+  },
+  {
+    "id": "azerbaijan",
+    "symbol": "🇦🇿",
+    "name": "Azerbaijan",
+    "centerLatitude": 40.143105,
+    "centerLongitude": 47.576927,
+    "continent": "asia",
+    "rank": 67,
+    "flagFacts": [
+      "The blue stripe represents the country's Turkic heritage, green represents Islam, and red symbolizes cultural modernization.",
+      "The central eight-pointed star stands for the eight historical branches of the Turkic peoples."
+    ],
+    "capitalCities": [
+      "Baku"
+    ]
+  },
+  {
+    "id": "bosnia-and-herzegovina",
+    "symbol": "🇧🇦",
+    "name": "Bosnia and Herzegovina",
+    "centerLatitude": 43.915886,
+    "centerLongitude": 17.679076,
+    "continent": "europe",
+    "rank": 118,
+    "flagFacts": [
+      "The stars are intentionally cut off at the top and bottom edges to imply an infinite continuation of the pattern.",
+      "The distinct yellow triangle represents both the approximate geographic shape of the country and the three main ethnic groups."
+    ],
+    "capitalCities": [
+      "Sarajevo"
+    ]
+  },
+  {
+    "id": "barbados",
+    "symbol": "🇧🇧",
+    "name": "Barbados",
+    "centerLatitude": 13.193887,
+    "centerLongitude": -59.543198,
+    "continent": "northAmerica",
+    "rank": 156,
+    "flagFacts": [
+      "The black trident head represents the mythical sea god Neptune and the nation's deep, historical connection to the ocean.",
+      "The trident's broken shaft symbolizes a permanent break from the country's past colonial ties with Great Britain."
+    ],
+    "capitalCities": [
+      "Bridgetown"
+    ]
+  },
+  {
+    "id": "bangladesh",
+    "symbol": "🇧🇩",
+    "name": "Bangladesh",
+    "centerLatitude": 23.684994,
+    "centerLongitude": 90.356331,
+    "continent": "asia",
+    "rank": 17,
+    "flagFacts": [
+      "The red circle is offset slightly toward the hoist so that it appears perfectly centered when the flag is flying in the wind.",
+      "The green background represents the lush, vibrant landscape of the country, rather than standard Islamic symbolism."
+    ],
+    "capitalCities": [
+      "Dhaka"
+    ]
+  },
+  {
+    "id": "belgium",
+    "symbol": "🇧🇪",
+    "name": "Belgium",
+    "centerLatitude": 50.503887,
+    "centerLongitude": 4.469936,
+    "continent": "europe",
+    "rank": 38,
+    "flagFacts": [
+      "The unusual 13:15 ratio makes the flag appear almost square when flown at its official dimensions.",
+      "The black, yellow, and red colors were taken directly from the coat of arms of the historical Duchy of Brabant."
+    ],
+    "capitalCities": [
+      "Brussels"
+    ]
+  },
+  {
+    "id": "burkina-faso",
+    "symbol": "🇧🇫",
+    "name": "Burkina Faso",
+    "centerLatitude": 12.238333,
+    "centerLongitude": -1.561593,
+    "continent": "africa",
+    "rank": 76,
+    "flagFacts": [
+      "The red half symbolizes the socialist revolution, while the green half represents the nation's agricultural riches.",
+      "The central yellow star acts as a guiding light for the principles of the revolution."
+    ],
+    "capitalCities": [
+      "Ouagadougou"
+    ]
+  },
+  {
+    "id": "bulgaria",
+    "symbol": "🇧🇬",
+    "name": "Bulgaria",
+    "centerLatitude": 42.733883,
+    "centerLongitude": 25.48583,
+    "continent": "europe",
+    "rank": 78,
+    "flagFacts": [
+      "The white stripe symbolizes peace and freedom, green represents agricultural abundance, and red represents the blood shed for independence.",
+      "The flag previously featured a complex state emblem in the upper hoist corner during the communist era, which was completely removed in 1990."
+    ],
+    "capitalCities": [
+      "Sofia"
+    ]
+  },
+  {
+    "id": "bahrain",
+    "symbol": "🇧🇭",
+    "name": "Bahrain",
+    "centerLatitude": 25.930414,
+    "centerLongitude": 50.637772,
+    "continent": "asia",
+    "rank": 116,
+    "flagFacts": [
+      "The flag's five white serrated triangles form a zigzag edge that represents the Five Pillars of Islam.",
+      "Until 2002, the flag officially had eight points before being reduced to five to match the religious pillars."
+    ],
+    "capitalCities": [
+      "Manama"
+    ]
+  },
+  {
+    "id": "burundi",
+    "symbol": "🇧🇮",
+    "name": "Burundi",
+    "centerLatitude": -3.373056,
+    "centerLongitude": 29.918886,
+    "continent": "africa",
+    "rank": 111,
+    "flagFacts": [
+      "The three central stars represent the national motto: 'Unité, Travail, Progrès' (Unity, Work, Progress).",
+      "The stars also historically symbolize the three main ethnic groups living within the country: the Hutu, Tutsi, and Twa."
+    ],
+    "capitalCities": [
+      "Gitega"
+    ]
+  },
+  {
+    "id": "benin",
+    "symbol": "🇧🇯",
+    "name": "Benin",
+    "centerLatitude": 9.30769,
+    "centerLongitude": 2.315834,
+    "continent": "africa",
+    "rank": 96,
+    "flagFacts": [
+      "The green stripe represents hope and the lush southern forests, yellow represents the northern savannas, and red represents the blood of ancestors.",
+      "The layout was entirely abandoned during the communist era from 1975 to 1990 before being fully restored to symbolize democratic transition."
+    ],
+    "capitalCities": [
+      "Porto-Novo"
+    ]
+  },
+  {
+    "id": "saint-barth-lemy",
+    "symbol": "🇧🇱",
+    "name": "Saint Barthélemy",
+    "centerLatitude": 17.8979627396513,
+    "centerLongitude": -62.8309399981045,
+    "continent": "northAmerica",
+    "rank": 187,
+    "capitalCities": [
+      "Gustavia"
+    ]
+  },
+  {
+    "id": "bermuda",
+    "symbol": "🇧🇲",
+    "name": "Bermuda",
+    "centerLatitude": 32.321384,
+    "centerLongitude": -64.75737,
+    "continent": "northAmerica",
+    "rank": 187,
+    "flagFacts": [
+      "Unlike most British Overseas Territories that use a blue ensign, Bermuda uniquely uses a red ensign as the base field for its national flag.",
+      "The detailed coat of arms depicts a wrecked ship, the Sea Venture, which deliberately commemorates the historical 1609 crash that led to the island's human settlement."
+    ],
+    "capitalCities": [
+      "Hamilton"
+    ]
+  },
+  {
+    "id": "brunei-darussalam",
+    "symbol": "🇧🇳",
+    "name": "Brunei Darussalam ",
+    "centerLatitude": 4.535277,
+    "centerLongitude": 114.727669,
+    "continent": "asia",
+    "rank": 187,
+    "capitalCities": [
+      "Bandar Seri Begawan"
+    ]
+  },
+  {
+    "id": "bolivia",
+    "symbol": "🇧🇴",
+    "name": "Bolivia",
+    "centerLatitude": -16.290154,
+    "centerLongitude": -63.588653,
+    "continent": "southAmerica",
+    "rank": 74,
+    "flagFacts": [
+      "The central coat of arms includes an Andean condor, an alpaca, a breadfruit tree, and a sheaf of wheat to showcase national wealth.",
+      "The military, state, and naval flags include the central emblem, but the standard civil flag used by citizens is a simple tricolor."
+    ],
+    "capitalCities": [
+      "Sucre"
+    ]
+  },
+  {
+    "id": "bonaire-caribbean-netherlands",
+    "symbol": "🇧🇶",
+    "name": "Bonaire, Caribbean Netherlands",
+    "centerLatitude": 12.1974870554346,
+    "centerLongitude": -68.2123092405081,
+    "continent": "southAmerica",
+    "rank": 187,
+    "capitalCities": [
+      "Kralendijk"
+    ]
+  },
+  {
+    "id": "brazil",
+    "symbol": "🇧🇷",
+    "name": "Brazil",
+    "centerLatitude": -14.235004,
+    "centerLongitude": -51.92528,
+    "continent": "southAmerica",
+    "rank": 4,
+    "flagFacts": [
+      "The night sky inside the blue globe accurately depicts the stellar constellation over Rio de Janeiro on November 15, 1889, the day the republic was declared.",
+      "The national motto 'Ordem e Progresso' (Order and Progress) was directly inspired by French philosopher Auguste Comte's positivist maxim."
+    ],
+    "capitalCities": [
+      "Brasília"
+    ]
+  },
+  {
+    "id": "bahamas",
+    "symbol": "🇧🇸",
+    "name": "Bahamas",
+    "centerLatitude": 25.03428,
+    "centerLongitude": -77.39628,
+    "continent": "northAmerica",
+    "rank": 147,
+    "flagFacts": [
+      "The black equilateral triangle on the hoist represents the unity, determination, and strength of the Bahamian population.",
+      "The aquamarine stripes symbolize the clear, surrounding waters of the Atlantic Ocean, while the gold stripe represents the sun-drenched sands."
+    ],
+    "capitalCities": [
+      "Nassau"
+    ]
+  },
+  {
+    "id": "bhutan",
+    "symbol": "🇧🇹",
+    "name": "Bhutan",
+    "centerLatitude": 27.514162,
+    "centerLongitude": 90.433601,
+    "continent": "asia",
+    "rank": 153,
+    "flagFacts": [
+      "The snarling white dragon is Druk, the Thunder Dragon, holding jewels in its claws to represent national wealth and security.",
+      "The yellow half represents civic tradition and imperial authority, while the orange half signifies the spiritual power of Drukpa Buddhism."
+    ],
+    "capitalCities": [
+      "Thimphu"
+    ]
+  },
+  {
+    "id": "botswana",
+    "symbol": "🇧🇼",
+    "name": "Botswana",
+    "centerLatitude": -22.328474,
+    "centerLongitude": 24.684866,
+    "continent": "africa",
+    "rank": 126,
+    "flagFacts": [
+      "The striking light blue field symbolizes life-giving rain, water, and the national motto 'Pula' (Let there be rain).",
+      "The black and white stripes represent racial harmony and unity, while mirroring the coat of arms of the native zebra."
+    ],
+    "capitalCities": [
+      "Gaborone"
+    ]
+  },
+  {
+    "id": "belarus",
+    "symbol": "🇧🇾",
+    "name": "Belarus",
+    "centerLatitude": 53.709807,
+    "centerLongitude": 27.953389,
+    "continent": "europe",
+    "rank": 80,
+    "flagFacts": [
+      "The unique vertical red-and-white pattern on the hoist is a traditional folk embroidery design woven from local flax.",
+      "The current flag is a direct modification of the Soviet-era design, simply removing the communist hammer, sickle, and star."
+    ],
+    "capitalCities": [
+      "Minsk"
+    ]
+  },
+  {
+    "id": "belize",
+    "symbol": "🇧🇿",
+    "name": "Belize",
+    "centerLatitude": 17.189877,
+    "centerLongitude": -88.49765,
+    "continent": "northAmerica",
+    "rank": 160,
+    "flagFacts": [
+      "It is the only national flag in the world to prominently feature human beings as a core part of its central design.",
+      "The design depicts a mestizo and an Afro-Belizean man holding logging tools, referencing the nation's historical mahogany industry."
+    ],
+    "capitalCities": [
+      "Belmopan"
+    ]
+  },
+  {
+    "id": "canada",
+    "symbol": "🇨🇦",
+    "name": "Canada",
+    "centerLatitude": 56.130366,
+    "centerLongitude": -106.346771,
+    "continent": "northAmerica",
+    "rank": 14,
+    "flagFacts": [
+      "The stylized eleven-pointed maple leaf was specifically chosen because it does not correspond to any specific species of maple tree.",
+      "The red-white-red layout is based directly on the historical flag of the Royal Military College of Canada."
+    ],
+    "capitalCities": [
+      "Ottawa"
+    ]
+  },
+  {
+    "id": "cocos-keeling-islands",
+    "symbol": "🇨🇨",
+    "name": "Cocos (Keeling) Islands",
+    "centerLatitude": -12.1527056825952,
+    "centerLongitude": 96.8705457966659,
+    "continent": "oceania",
+    "rank": 187,
+    "capitalCities": [
+      "West Island"
+    ]
+  },
+  {
+    "id": "democratic-republic-of-the-congo",
+    "symbol": "🇨🇩",
+    "name": "Democratic Republic of the Congo",
+    "centerLatitude": -4.038333,
+    "centerLongitude": 21.758664,
+    "continent": "africa",
+    "rank": 187,
+    "flagFacts": [
+      "The sky-blue field symbolizes peace, while the red diagonal stripe represents the blood shed by the country's martyrs.",
+      "The yellow star in the top left corner represents the bright future and potential of the nation."
+    ],
+    "capitalCities": [
+      "Kinshasa"
+    ]
+  },
+  {
+    "id": "central-african-republic",
+    "symbol": "🇨🇫",
+    "name": "Central African Republic",
+    "centerLatitude": 6.611111,
+    "centerLongitude": 20.939444,
+    "continent": "africa",
+    "rank": 133,
+    "flagFacts": [
+      "The design combines the blue, white, and red of France with the green, yellow, and red of the pan-African movement.",
+      "The single yellow star in the upper left corner guides the nation toward unity and freedom."
+    ],
+    "capitalCities": [
+      "Bangui"
+    ]
+  },
+  {
+    "id": "republic-of-the-congo",
+    "symbol": "🇨🇬",
+    "name": "Republic of the Congo",
+    "centerLatitude": -0.228021,
+    "centerLongitude": 15.827659,
+    "continent": "africa",
+    "rank": 187,
+    "capitalCities": [
+      "Brazzaville"
+    ]
+  },
+  {
+    "id": "switzerland",
+    "symbol": "🇨🇭",
+    "name": "Switzerland",
+    "centerLatitude": 46.818188,
+    "centerLongitude": 8.227512,
+    "continent": "europe",
+    "rank": 43,
+    "flagFacts": [
+      "It is one of only two square national flags in the world, using an exact 1:1 aspect ratio.",
+      "The white cross on a red field originated as a military ensign used by the Old Swiss Confederacy in the 14th century."
+    ],
+    "capitalCities": [
+      "Bern"
+    ]
+  },
+  {
+    "id": "c-te-d-ivoire",
+    "symbol": "🇨🇮",
+    "name": "Côte d’Ivoire",
+    "centerLatitude": 7.61805577744621,
+    "centerLongitude": -5.71481244087205,
+    "continent": "africa",
+    "rank": 187,
+    "capitalCities": [
+      "Yamoussoukro"
+    ]
+  },
+  {
+    "id": "cook-islands",
+    "symbol": "🇨🇰",
+    "name": "Cook Islands",
+    "centerLatitude": -21.236736,
+    "centerLongitude": -159.777671,
+    "continent": "oceania",
+    "rank": 184,
+    "capitalCities": [
+      "Avarua"
+    ]
+  },
+  {
+    "id": "chile",
+    "symbol": "🇨🇱",
+    "name": "Chile",
+    "centerLatitude": -35.675147,
+    "centerLongitude": -71.542969,
+    "continent": "southAmerica",
+    "rank": 37,
+    "flagFacts": [
+      "The lone star acts as a guide to progress and honor, earning the flag its popular local nickname, 'La Estrella Solitaria.'",
+      "The white section represents the snow of the Andes mountains, while the blue represents the clear sky."
+    ],
+    "capitalCities": [
+      "Santiago"
+    ]
+  },
+  {
+    "id": "cameroon",
+    "symbol": "🇨🇲",
+    "name": "Cameroon",
+    "centerLatitude": 7.369722,
+    "centerLongitude": 12.354722,
+    "continent": "africa",
+    "rank": 57,
+    "flagFacts": [
+      "It was the second modern African nation to officially adopt the pan-African colors of green, red, and yellow.",
+      "The single yellow star in the middle is known as the 'Star of Unity' and symbolizes the unification of the country."
+    ],
+    "capitalCities": [
+      "Yaoundé"
+    ]
+  },
+  {
+    "id": "china",
+    "symbol": "🇨🇳",
+    "name": "China",
+    "centerLatitude": 35.86166,
+    "centerLongitude": 104.195397,
+    "continent": "asia",
+    "rank": 1,
+    "flagFacts": [
+      "The largest gold star represents the ruling Communist Party of China.",
+      "The four smaller stars represent the four traditional social classes of the Chinese people, aligned to face the larger star in absolute unity."
+    ],
+    "capitalCities": [
+      "Beijing"
+    ]
+  },
+  {
+    "id": "colombia",
+    "symbol": "🇨🇴",
+    "name": "Colombia",
+    "centerLatitude": 4.570868,
+    "centerLongitude": -74.297333,
+    "continent": "southAmerica",
+    "rank": 25,
+    "flagFacts": [
+      "The top yellow stripe is double the width of the blue and red stripes combined, creating an asymmetrical layout.",
+      "The yellow represents the country's golden wealth, blue represents the two oceans it touches, and red represents the blood of independence heroes."
+    ],
+    "capitalCities": [
+      "Bogotá"
+    ]
+  },
+  {
+    "id": "costa-rica",
+    "symbol": "🇨🇷",
+    "name": "Costa Rica",
+    "centerLatitude": 9.748917,
+    "centerLongitude": -83.753428,
+    "continent": "northAmerica",
+    "rank": 94,
+    "flagFacts": [
+      "The blue, white, and red horizontal stripes were explicitly inspired by the ideals of the French Revolution.",
+      "The version used for official state duties features a detailed coat of arms showing three active smoking volcanoes."
+    ],
+    "capitalCities": [
+      "San José"
+    ]
+  },
+  {
+    "id": "cuba",
+    "symbol": "🇨🇺",
+    "name": "Cuba",
+    "centerLatitude": 21.521757,
+    "centerLongitude": -77.781167,
+    "continent": "northAmerica",
+    "rank": 144,
+    "flagFacts": [
+      "The three blue stripes represent the three historical military departments into which Spanish colonial rule divided the island.",
+      "The white star inside the red triangle represents absolute independence and freedom from foreign rule."
+    ],
+    "capitalCities": [
+      "Havana"
+    ]
+  },
+  {
+    "id": "cabo-verde",
+    "symbol": "🇨🇻",
+    "name": "Cabo Verde",
+    "centerLatitude": 16.002082,
+    "centerLongitude": -24.013197,
+    "continent": "africa",
+    "rank": 187,
+    "capitalCities": [
+      "Praia"
+    ]
+  },
+  {
+    "id": "cura-ao",
+    "symbol": "🇨🇼",
+    "name": "Curaçao",
+    "centerLatitude": 12.1647783456767,
+    "centerLongitude": -68.9661059379147,
+    "continent": "northAmerica",
+    "rank": 187,
+    "capitalCities": [
+      "Willemstad"
+    ]
+  },
+  {
+    "id": "christmas-island",
+    "symbol": "🇨🇽",
+    "name": "Christmas Island",
+    "centerLatitude": -10.447525,
+    "centerLongitude": 105.690449,
+    "continent": "oceania",
+    "rank": 187,
+    "capitalCities": [
+      "Flying Fish Cove"
+    ]
+  },
+  {
+    "id": "cyprus",
+    "symbol": "🇨🇾",
+    "name": "Cyprus",
+    "centerLatitude": 35.126413,
+    "centerLongitude": 33.429859,
+    "continent": "asia",
+    "rank": 128,
+    "flagFacts": [
+      "The flag features a map of the island colored in copper, referencing the country's ancient copper mining history.",
+      "The design explicitly avoids using blue or red to remain completely neutral between Greek and Turkish communities."
+    ],
+    "capitalCities": [
+      "Nicosia"
+    ]
+  },
+  {
+    "id": "czechia",
+    "symbol": "🇨🇿",
+    "name": "Czechia",
+    "centerLatitude": 49.7881005186529,
+    "centerLongitude": 15.3625873848977,
+    "continent": "europe",
+    "rank": 187,
+    "flagFacts": [
+      "The blue wedge on the hoist was added to the original red and white stripes to represent the region of Moravia.",
+      "The flag is identical to the former flag of Czechoslovakia, which the country retained after the peaceful dissolution of the union."
+    ],
+    "capitalCities": [
+      "Prague"
+    ]
+  },
+  {
+    "id": "germany",
+    "symbol": "🇩🇪",
+    "name": "Germany",
+    "centerLatitude": 51.165691,
+    "centerLongitude": 10.451526,
+    "continent": "europe",
+    "rank": 7,
+    "flagFacts": [
+      "The black, red, and gold colors originated from the uniforms of the Lützow Free Corps during the Napoleonic Wars.",
+      "The gold color is officially defined as 'gold' rather than yellow, a distinction protected by German constitutional tradition."
+    ],
+    "capitalCities": [
+      "Berlin"
+    ]
+  },
+  {
+    "id": "diego-garcia",
+    "symbol": "🇩🇬",
+    "name": "Diego Garcia",
+    "centerLatitude": -7.31666234121669,
+    "centerLongitude": 72.4227383657629,
+    "continent": "asia",
+    "rank": 187,
+    "capitalCities": [
+      "Diego Garcia"
+    ]
+  },
+  {
+    "id": "djibouti",
+    "symbol": "🇩🇯",
+    "name": "Djibouti",
+    "centerLatitude": 11.825138,
+    "centerLongitude": 42.590275,
+    "continent": "africa",
+    "rank": 151,
+    "flagFacts": [
+      "The light blue stripe represents the sea and the sky, while the green stripe represents the earth and the land.",
+      "The red star inside the white triangle symbolizes unity and the blood of the struggle for independence."
+    ],
+    "capitalCities": [
+      "Djibouti"
+    ]
+  },
+  {
+    "id": "denmark",
+    "symbol": "🇩🇰",
+    "name": "Denmark",
+    "centerLatitude": 56.26392,
+    "centerLongitude": 9.501785,
+    "continent": "europe",
+    "rank": 60,
+    "flagFacts": [
+      "According to national legend, the flag fell directly from heaven during the Battle of Lyndanisse in the year 1219.",
+      "It holds the official Guinness World Record for the oldest continuously used national flag design."
+    ],
+    "capitalCities": [
+      "Copenhagen"
+    ]
+  },
+  {
+    "id": "dominica",
+    "symbol": "🇩🇲",
+    "name": "Dominica",
+    "centerLatitude": 15.414999,
+    "centerLongitude": -61.370976,
+    "continent": "northAmerica",
+    "rank": 175,
+    "flagFacts": [
+      "It is one of only two national flags in the world to feature the color purple, found on the feathers of the sisserou parrot.",
+      "The ten green stars surrounding the parrot represent the ten parishes of the island."
+    ],
+    "capitalCities": [
+      "Roseau"
+    ]
+  },
+  {
+    "id": "dominican-republic",
+    "symbol": "🇩🇴",
+    "name": "Dominican Republic",
+    "centerLatitude": 18.735693,
+    "centerLongitude": -70.162651,
+    "continent": "northAmerica",
+    "rank": 62,
+    "flagFacts": [
+      "It is the only national flag in the world that features a depiction of the Holy Bible within its central coat of arms.",
+      "The blue and red rectangles are arranged in an alternating checkerboard pattern divided by a prominent white cross."
+    ],
+    "capitalCities": [
+      "Santo Domingo"
+    ]
+  },
+  {
+    "id": "algeria",
+    "symbol": "🇩🇿",
+    "name": "Algeria",
+    "centerLatitude": 28.033886,
+    "centerLongitude": 1.659626,
+    "continent": "africa",
+    "rank": 30,
+    "flagFacts": [
+      "The white section signifies absolute peace, while the green half represents Islam and the beauty of nature.",
+      "The crescent and star are iconic Islamic symbols, with the deep red color explicitly honoring those who fell during the war of independence."
+    ],
+    "capitalCities": [
+      "Algiers"
+    ]
+  },
+  {
+    "id": "ecuador",
+    "symbol": "🇪🇨",
+    "name": "Ecuador",
+    "centerLatitude": -1.831239,
+    "centerLongitude": -78.183406,
+    "continent": "southAmerica",
+    "rank": 47,
+    "flagFacts": [
+      "The central coat of arms depicts Mount Chimborazo, the highest mountain in the country, alongside the Guayas River.",
+      "The flag shares its yellow, blue, and red tricolor design with Colombia and Venezuela due to their shared history in Gran Colombia."
+    ],
+    "capitalCities": [
+      "Quito"
+    ]
+  },
+  {
+    "id": "estonia",
+    "symbol": "🇪🇪",
+    "name": "Estonia",
+    "centerLatitude": 58.595272,
+    "centerLongitude": 25.013607,
+    "continent": "europe",
+    "rank": 120,
+    "flagFacts": [
+      "The unique blue, black, and white color combination represents the sky, the dark soil, and the bright winter snow.",
+      "The flag's colors are deeply rooted in the landscape, reflecting the natural colors of the Estonian forests during winter."
+    ],
+    "capitalCities": [
+      "Tallinn"
+    ]
+  },
+  {
+    "id": "egypt",
+    "symbol": "🇪🇬",
+    "name": "Egypt",
+    "centerLatitude": 26.820553,
+    "centerLongitude": 30.802498,
+    "continent": "africa",
+    "rank": 18,
+    "flagFacts": [
+      "The central emblem is the Eagle of Saladin, a historical symbol of Arab unity and strength.",
+      "The white stripe represents the peaceful nature of the 1952 revolution, while the black stripe represents the dark period of colonial oppression."
+    ],
+    "capitalCities": [
+      "Cairo"
+    ]
+  },
+  {
+    "id": "western-sahara",
+    "symbol": "🇪🇭",
+    "name": "Western Sahara",
+    "centerLatitude": 24.215527,
+    "centerLongitude": -12.885834,
+    "continent": "africa",
+    "rank": 178,
+    "capitalCities": [
+      "El Aaiún"
+    ]
+  },
+  {
+    "id": "eritrea",
+    "symbol": "🇪🇷",
+    "name": "Eritrea",
+    "centerLatitude": 15.179384,
+    "centerLongitude": 39.782334,
+    "continent": "africa",
+    "rank": 141,
+    "flagFacts": [
+      "The prominent red triangle represents the blood shed during the thirty-year war for independence.",
+      "The yellow olive wreath and branch design was inspired by the country's historical United Nations flag from 1952."
+    ],
+    "capitalCities": [
+      "Asmara"
+    ]
+  },
+  {
+    "id": "spain",
+    "symbol": "🇪🇸",
+    "name": "Spain",
+    "centerLatitude": 40.463667,
+    "centerLongitude": -3.74922,
+    "continent": "europe",
+    "rank": 13,
+    "flagFacts": [
+      "The yellow stripe is double the width of the two red stripes combined, a layout known as the Spanish fess.",
+      "The coat of arms features the Pillars of Hercules with the historical motto 'Plus Ultra' (Further Beyond)."
+    ],
+    "capitalCities": [
+      "Madrid"
+    ]
+  },
+  {
+    "id": "ethiopia",
+    "symbol": "🇪🇹",
+    "name": "Ethiopia",
+    "centerLatitude": 9.145,
+    "centerLongitude": 40.489673,
+    "continent": "africa",
+    "rank": 28,
+    "flagFacts": [
+      "The green, yellow, and red color scheme became the original inspiration for the Pan-African flag colors across the continent.",
+      "The central blue disc features a yellow pentagram with radiating lines that represent unity, peace, and prosperity."
+    ],
+    "capitalCities": [
+      "Addis Ababa"
+    ]
+  },
+  {
+    "id": "european-union",
+    "symbol": "🇪🇺",
+    "name": "European Union",
+    "centerLatitude": 50.87757159895,
+    "centerLongitude": 4.36018022433004,
+    "continent": "europe",
+    "rank": 187
+  },
+  {
+    "id": "finland",
+    "symbol": "🇫🇮",
+    "name": "Finland",
+    "centerLatitude": 61.92411,
+    "centerLongitude": 25.748151,
+    "continent": "europe",
+    "rank": 65,
+    "flagFacts": [
+      "The blue Nordic cross represents the thousands of lakes dotting the country, while the white background represents winter snow.",
+      "The design is based on the Nordic cross pattern, showing the country's cultural alignment with Sweden and Denmark."
+    ],
+    "capitalCities": [
+      "Helsinki"
+    ]
+  },
+  {
+    "id": "fiji",
+    "symbol": "🇫🇯",
+    "name": "Fiji",
+    "centerLatitude": -16.578193,
+    "centerLongitude": 179.414413,
+    "continent": "oceania",
+    "rank": 150,
+    "flagFacts": [
+      "The flag retains the British Union Jack in the upper left corner despite becoming a fully independent republic in 1970.",
+      "The light blue field symbolizes the vast Pacific Ocean, breaking away from standard British dark blue ensigns."
+    ],
+    "capitalCities": [
+      "Suva"
+    ]
+  },
+  {
+    "id": "falkland-islands",
+    "symbol": "🇫🇰",
+    "name": "Falkland Islands",
+    "centerLatitude": -51.7947426501397,
+    "centerLongitude": -59.2762865217413,
+    "continent": "southAmerica",
+    "rank": 187,
+    "capitalCities": [
+      "Stanley"
+    ]
+  },
+  {
+    "id": "micronesia",
+    "symbol": "🇫🇲",
+    "name": "Micronesia",
+    "centerLatitude": 7.425554,
+    "centerLongitude": 150.550812,
+    "continent": "oceania",
+    "rank": 172,
+    "flagFacts": [
+      "The blue field represents the Pacific Ocean, while the four white stars are arranged to mirror the geographic layout of the island states.",
+      "The four stars represent the constituent states of Chuuk, Pohnpei, Kosrae, and Yap."
+    ],
+    "capitalCities": [
+      "Palikir"
+    ]
+  },
+  {
+    "id": "faroe-islands",
+    "symbol": "🇫🇴",
+    "name": "Faroe Islands",
+    "centerLatitude": 61.892635,
+    "centerLongitude": -6.911806,
+    "continent": "europe",
+    "rank": 187,
+    "flagFacts": [
+      "Known locally as 'Merkið' (The Banner), the flag's design was originally hand-drawn by Faroese university students studying over in Copenhagen during 1919.",
+      "The dominant white field represents the intense sea foam crests, while the thin blue and red lines mirror the traditional native clothing styles."
+    ],
+    "capitalCities": [
+      "Tórshavn"
+    ]
+  },
+  {
+    "id": "france",
+    "symbol": "🇫🇷",
+    "name": "France",
+    "centerLatitude": 46.227638,
+    "centerLongitude": 2.213749,
+    "continent": "europe",
+    "rank": 9,
+    "flagFacts": [
+      "The white stripe represents the historical monarchy, while the blue and red stripes represent the city colors of Paris.",
+      "The navy blue stripe was briefly lightened to match Europe's flag colors before being changed back to dark navy in 2020."
+    ],
+    "capitalCities": [
+      "Paris"
+    ]
+  },
+  {
+    "id": "gabon",
+    "symbol": "🇬🇦",
+    "name": "Gabon",
+    "centerLatitude": -0.803689,
+    "centerLongitude": 11.609444,
+    "continent": "africa",
+    "rank": 123,
+    "flagFacts": [
+      "The yellow stripe represents the equator, which passes directly through the territory of the nation.",
+      "The green stripe symbolizes the country's extensive forest cover, while the blue stripe represents the Atlantic Ocean."
+    ],
+    "capitalCities": [
+      "Libreville"
+    ]
+  },
+  {
+    "id": "united-kingdom-of-great-britain-and-northern-ireland",
+    "symbol": "🇬🇧",
+    "name": "United Kingdom of Great Britain and Northern Ireland",
+    "centerLatitude": 55.378051,
+    "centerLongitude": -3.435973,
+    "continent": "europe",
+    "rank": 187,
+    "capitalCities": [
+      "London"
+    ]
+  },
+  {
+    "id": "grenada",
+    "symbol": "🇬🇩",
+    "name": "Grenada",
+    "centerLatitude": 12.262776,
+    "centerLongitude": -61.604171,
+    "continent": "northAmerica",
+    "rank": 165,
+    "flagFacts": [
+      "The small symbol on the left hoist represents a clove of nutmeg, which is one of the island's most famous agricultural exports.",
+      "The seven stars on the red border represent the seven parishes of the island nation."
+    ],
+    "capitalCities": [
+      "St. George's"
+    ]
+  },
+  {
+    "id": "georgia",
+    "symbol": "🇬🇪",
+    "name": "Georgia",
+    "centerLatitude": 42.315407,
+    "centerLongitude": 43.356892,
+    "continent": "asia",
+    "rank": 116,
+    "flagFacts": [
+      "The design features the central St. George's Cross alongside four smaller Bolnisi crosses in each quadrant.",
+      "The current design was used by the medieval Kingdom of Georgia before being revived as the official flag in 2004."
+    ],
+    "capitalCities": [
+      "Tbilisi"
+    ]
+  },
+  {
+    "id": "french-guiana",
+    "symbol": "🇬🇫",
+    "name": "French Guiana",
+    "centerLatitude": 3.933889,
+    "centerLongitude": -53.125782,
+    "continent": "southAmerica",
+    "rank": 187,
+    "capitalCities": [
+      "Cayenne"
+    ]
+  },
+  {
+    "id": "guernsey",
+    "symbol": "🇬🇬",
+    "name": "Guernsey",
+    "centerLatitude": 49.465691,
+    "centerLongitude": -2.585278,
+    "continent": "europe",
+    "rank": 187,
+    "flagFacts": [
+      "The flag features a distinct gold cross placed directly inside a larger red St. George's Cross, symbolizing Duke William of Normandy's historic banner at the Battle of Hastings.",
+      "Adopted in 1985, this layered layout was specifically designed to stop international observers from confusing Guernsey vessels with English ones at sea."
+    ],
+    "capitalCities": [
+      "St. Peter Port"
+    ]
+  },
+  {
+    "id": "ghana",
+    "symbol": "🇬🇭",
+    "name": "Ghana",
+    "centerLatitude": 7.946527,
+    "centerLongitude": -1.023194,
+    "continent": "africa",
+    "rank": 45,
+    "flagFacts": [
+      "The central black star was adopted from the shipping line of Marcus Garvey, symbolizing African freedom and independence.",
+      "It was the very first sub-Saharan African nation to adopt the red, gold, and green pan-African color palette."
+    ],
+    "capitalCities": [
+      "Accra"
+    ]
+  },
+  {
+    "id": "gibraltar",
+    "symbol": "🇬🇮",
+    "name": "Gibraltar",
+    "centerLatitude": 36.137741,
+    "centerLongitude": -5.345374,
+    "continent": "europe",
+    "rank": 187,
+    "flagFacts": [
+      "It is an elongated banner of arms based entirely on a royal warrant issued by Queen Isabella I of Castile way back in 1502.",
+      "The three-towered red castle and golden key represent Gibraltar's historic geopolitical role as the literal key to locking or unlocking the Mediterranean Sea."
+    ],
+    "capitalCities": [
+      "Gibraltar"
+    ]
+  },
+  {
+    "id": "greenland",
+    "symbol": "🇬🇱",
+    "name": "Greenland",
+    "centerLatitude": 71.706936,
+    "centerLongitude": -42.604303,
+    "continent": "northAmerica",
+    "rank": 187,
+    "flagFacts": [
+      "It is the only Nordic territory flag that completely rejects the traditional cross layout, opting instead for a striking split-disc design.",
+      "The large white and red semi-circles represent the massive polar ice caps and the sun setting over the surrounding Arctic ocean."
+    ],
+    "capitalCities": [
+      "Nuuk"
+    ]
+  },
+  {
+    "id": "gambia",
+    "symbol": "🇬🇲",
+    "name": "Gambia",
+    "centerLatitude": 13.443182,
+    "centerLongitude": -15.310139,
+    "continent": "africa",
+    "rank": 146,
+    "flagFacts": [
+      "The blue horizontal stripe represents the Gambia River, which flows directly through the center of the nation.",
+      "The thin white stripes bordering the blue line represent peace, purity, and national unity."
+    ],
+    "capitalCities": [
+      "Banjul"
+    ]
+  },
+  {
+    "id": "guinea",
+    "symbol": "🇬🇳",
+    "name": "Guinea",
+    "centerLatitude": 9.945587,
+    "centerLongitude": -9.696645,
+    "continent": "africa",
+    "rank": 89,
+    "flagFacts": [
+      "The vertical tricolor design was explicitly modeled after the French flag, replacing the colors with African tones.",
+      "The red stripe represents the blood shed for freedom, yellow represents the sun and gold, and green represents the forests."
+    ],
+    "capitalCities": [
+      "Conakry"
+    ]
+  },
+  {
+    "id": "guadeloupe",
+    "symbol": "🇬🇵",
+    "name": "Guadeloupe",
+    "centerLatitude": 16.995971,
+    "centerLongitude": -62.067641,
+    "continent": "northAmerica",
+    "rank": 187,
+    "capitalCities": [
+      "Basse-Terre"
+    ]
+  },
+  {
+    "id": "equatorial-guinea",
+    "symbol": "🇬🇶",
+    "name": "Equatorial Guinea",
+    "centerLatitude": 1.650801,
+    "centerLongitude": 10.267895,
+    "continent": "africa",
+    "rank": 136,
+    "flagFacts": [
+      "The central silk-cotton tree on the shield represents the historical spot where the first treaty was signed with Spain.",
+      "The blue triangle at the hoist symbolizes the sea that connects the mainland to the country's island territories."
+    ],
+    "capitalCities": [
+      "Ciudad de la Paz"
+    ]
+  },
+  {
+    "id": "greece",
+    "symbol": "🇬🇷",
+    "name": "Greece",
+    "centerLatitude": 39.074208,
+    "centerLongitude": 21.824312,
+    "continent": "europe",
+    "rank": 53,
+    "flagFacts": [
+      "The nine horizontal stripes represent the nine syllables of the traditional revolutionary motto, 'Eleutheria i Thanatos' (Freedom or Death).",
+      "The blue and white cross in the upper left corner symbolizes the nation's traditional Eastern Orthodox Christian faith."
+    ],
+    "capitalCities": [
+      "Athens"
+    ]
+  },
+  {
+    "id": "south-georgia-and-south-sandwich-islands",
+    "symbol": "🇬🇸",
+    "name": "South Georgia and South Sandwich Islands",
+    "centerLatitude": -54.2916010395338,
+    "centerLongitude": -36.586254018955,
+    "continent": "southAmerica",
+    "rank": 187,
+    "capitalCities": [
+      "King Edward Point"
+    ]
+  },
+  {
+    "id": "guatemala",
+    "symbol": "🇬🇹",
+    "name": "Guatemala",
+    "centerLatitude": 15.783471,
+    "centerLongitude": -90.230759,
+    "continent": "northAmerica",
+    "rank": 52,
+    "flagFacts": [
+      "The flag features the Resplendent Quetzal, the national bird that symbolizes liberty and independence.",
+      "The two vertical blue stripes represent the Pacific Ocean and the Caribbean Sea that flank the country."
+    ],
+    "capitalCities": [
+      "Guatemala City"
+    ]
+  },
+  {
+    "id": "guam",
+    "symbol": "🇬🇺",
+    "name": "Guam",
+    "centerLatitude": 13.444304,
+    "centerLongitude": 144.793731,
+    "continent": "oceania",
+    "rank": 187,
+    "flagFacts": [
+      "The unique almond-shaped emblem in the center represents the shape of a traditional Chamorro hunting slingstone.",
+      "The interior scene depicts an unyielding lone coconut palm tree surviving a massive storm, symbolizing the ultimate resilience of the indigenous population."
+    ],
+    "capitalCities": [
+      "Hagåtña"
+    ]
+  },
+  {
+    "id": "guinea-bissau",
+    "symbol": "🇬🇼",
+    "name": "Guinea-Bissau",
+    "centerLatitude": 11.803749,
+    "centerLongitude": -15.180413,
+    "continent": "africa",
+    "rank": 153,
+    "flagFacts": [
+      "The design incorporates the black star of Africa on a vertical red stripe, honoring the anti-colonial struggle.",
+      "The flag's layout and colors are based directly on the historical political party flag of the PAIGC."
+    ],
+    "capitalCities": [
+      "Bissau"
+    ]
+  },
+  {
+    "id": "guyana",
+    "symbol": "🇬🇾",
+    "name": "Guyana",
+    "centerLatitude": 4.860416,
+    "centerLongitude": -58.93018,
+    "continent": "southAmerica",
+    "rank": 144,
+    "flagFacts": [
+      "Known popularly as 'The Golden Arrowhead,' the design features a distinct golden triangle pointing toward the fly.",
+      "The green field represents the dense forests that cover roughly 80% of the country's territory."
+    ],
+    "capitalCities": [
+      "Georgetown"
+    ]
+  },
+  {
+    "id": "hong-kong-sar-china",
+    "symbol": "🇭🇰",
+    "name": "Hong Kong SAR China",
+    "centerLatitude": 22.3943896237884,
+    "centerLongitude": 114.163372013034,
+    "continent": "asia",
+    "rank": 187,
+    "capitalCities": [
+      "City of Victoria"
+    ]
+  },
+  {
+    "id": "honduras",
+    "symbol": "🇭🇳",
+    "name": "Honduras",
+    "centerLatitude": 15.199999,
+    "centerLongitude": -86.241905,
+    "continent": "northAmerica",
+    "rank": 91,
+    "flagFacts": [
+      "The five blue stars represent the five original member nations of the former Federal Republic of Central America.",
+      "In 2022, the government officially changed the shade of the blue stripes from dark navy to a historical turquoise."
+    ],
+    "capitalCities": [
+      "Tegucigalpa"
+    ]
+  },
+  {
+    "id": "croatia",
+    "symbol": "🇭🇷",
+    "name": "Croatia",
+    "centerLatitude": 45.1,
+    "centerLongitude": 15.2,
+    "continent": "europe",
+    "rank": 100,
+    "flagFacts": [
+      "The central shield features a red and white checkerboard pattern known as the 'sahovnica,' which dates back to medieval times.",
+      "The crown above the shield holds five historical regional coats of arms representing Croatia, Dubrovnik, Dalmatia, Istria, and Slavonia."
+    ],
+    "capitalCities": [
+      "Zagreb"
+    ]
+  },
+  {
+    "id": "haiti",
+    "symbol": "🇭🇹",
+    "name": "Haiti",
+    "centerLatitude": 18.971187,
+    "centerLongitude": -72.285215,
+    "continent": "northAmerica",
+    "rank": 93,
+    "flagFacts": [
+      "The central coat of arms features a palm tree topped by a liberty cap, surrounded by hidden military trophies.",
+      "Legend says the flag was created by ripping the white center out of the French tricolor during the anti-colonial revolution."
+    ],
+    "capitalCities": [
+      "Port-au-Prince"
+    ]
+  },
+  {
+    "id": "hungary",
+    "symbol": "🇭🇺",
+    "name": "Hungary",
+    "centerLatitude": 47.162494,
+    "centerLongitude": 19.503304,
+    "continent": "europe",
+    "rank": 57,
+    "flagFacts": [
+      "The horizontal red, white, and green stripes were officially adopted during the revolutions of 1848 to represent national freedom.",
+      "The red symbolizes strength, white symbolizes fidelity, and green symbolizes hope for the nation's future."
+    ],
+    "capitalCities": [
+      "Budapest"
+    ]
+  },
+  {
+    "id": "canary-islands",
+    "symbol": "🇮🇨",
+    "name": "Canary Islands",
+    "centerLatitude": 28.05828858439,
+    "centerLongitude": -15.4269939932421,
+    "continent": "africa",
+    "rank": 187,
+    "capitalCities": [
+      "Las Palmas de Gran Canaria",
+      "Santa Cruz de Tenerife"
+    ]
+  },
+  {
+    "id": "indonesia",
+    "symbol": "🇮🇩",
+    "name": "Indonesia",
+    "centerLatitude": -0.789275,
+    "centerLongitude": 113.921327,
+    "continent": "asia",
+    "rank": 5,
+    "flagFacts": [
+      "The flag is visually identical to the flag of Monaco, leading to a long-standing historical dispute between the two nations.",
+      "The red and white colors trace back to the banner of the medieval Majapahit Empire in the 13th century."
+    ],
+    "capitalCities": [
+      "Jakarta"
+    ]
+  },
+  {
+    "id": "ireland",
+    "symbol": "🇮🇪",
+    "name": "Ireland",
+    "centerLatitude": 53.41291,
+    "centerLongitude": -8.24389,
+    "continent": "europe",
+    "rank": 60,
+    "flagFacts": [
+      "The green stripe represents the Catholic population, orange represents the Protestant population, and white symbolizes permanent peace between them.",
+      "The flag was originally presented as a gift to Thomas Francis Meagher in 1848 by a group of sympathetic French women."
+    ],
+    "capitalCities": [
+      "Dublin"
+    ]
+  },
+  {
+    "id": "israel",
+    "symbol": "🇮🇱",
+    "name": "Israel",
+    "centerLatitude": 31.046051,
+    "centerLongitude": 34.851612,
+    "continent": "asia",
+    "rank": 44,
+    "flagFacts": [
+      "The blue stripes are designed to mirror the traditional Jewish prayer shawl known as the tallit.",
+      "The central blue hexagram is the Star of David, a universally recognized symbol of Jewish identity and culture."
+    ],
+    "capitalCities": [
+      "Jerusalem"
+    ]
+  },
+  {
+    "id": "isle-of-man",
+    "symbol": "🇮🇲",
+    "name": "Isle of Man",
+    "centerLatitude": 54.236107,
+    "centerLongitude": -4.548056,
+    "continent": "europe",
+    "rank": 187,
+    "capitalCities": [
+      "Douglas"
+    ]
+  },
+  {
+    "id": "india",
+    "symbol": "🇮🇳",
+    "name": "India",
+    "centerLatitude": 20.593684,
+    "centerLongitude": 78.96288,
+    "continent": "asia",
+    "rank": 2,
+    "flagFacts": [
+      "The central wheel is the Ashoka Chakra, a 24-spoke wheel representing the eternal law of righteousness and duty.",
+      "The flag must legally be made from 'khadi,' a specific type of hand-spun cloth popularized by Mahatma Gandhi."
+    ],
+    "capitalCities": [
+      "New Delhi"
+    ]
+  },
+  {
+    "id": "british-indian-ocean-territory",
+    "symbol": "🇮🇴",
+    "name": "British Indian Ocean Territory",
+    "centerLatitude": -6.343194,
+    "centerLongitude": 71.876519,
+    "continent": "africa",
+    "rank": 187,
+    "capitalCities": [
+      "Diego Garcia"
+    ]
+  },
+  {
+    "id": "iraq",
+    "symbol": "🇮🇶",
+    "name": "Iraq",
+    "centerLatitude": 33.223191,
+    "centerLongitude": 43.679291,
+    "continent": "asia",
+    "rank": 27,
+    "flagFacts": [
+      "The central green Arabic script reads 'Allahu Akbar' (God is Great) and was added during the Gulf War period.",
+      "The font style of the script was changed from Saddam Hussein's personal handwriting to a traditional Kufic script in 2008."
+    ],
+    "capitalCities": [
+      "Baghdad"
+    ]
+  },
+  {
+    "id": "iran",
+    "symbol": "🇮🇷",
+    "name": "Iran",
+    "centerLatitude": 32.427908,
+    "centerLongitude": 53.688046,
+    "continent": "asia",
+    "rank": 109,
+    "flagFacts": [
+      "The words 'Allahu Akbar' (God is Great) are written 22 times in Kufic script along the edges of the green and red stripes.",
+      "The central emblem is a highly stylized composite symbol that spells out the word 'Allah' in the shape of a tulip."
+    ],
+    "capitalCities": [
+      "Tehran"
+    ]
+  },
+  {
+    "id": "iceland",
+    "symbol": "🇮🇸",
+    "name": "Iceland",
+    "centerLatitude": 64.963051,
+    "centerLongitude": -19.020835,
+    "continent": "europe",
+    "rank": 137,
+    "flagFacts": [
+      "The red cross inside the white cross symbolizes the active volcanic fires of the island cutting through the winter ice.",
+      "The flag uses the classic Nordic cross layout to reflect its deep cultural and historical ties to Scandinavia."
+    ],
+    "capitalCities": [
+      "Reykjavik"
+    ]
+  },
+  {
+    "id": "italy",
+    "symbol": "🇮🇹",
+    "name": "Italy",
+    "centerLatitude": 41.87194,
+    "centerLongitude": 12.56738,
+    "continent": "europe",
+    "rank": 10,
+    "flagFacts": [
+      "The tricolor design was heavily inspired by the French flag following Napoleon's military campaigns across the peninsula.",
+      "The green stripe represents the country's plains and hills, white represents the snow of the Alps, and red represents the blood of wars."
+    ],
+    "capitalCities": [
+      "Rome"
+    ]
+  },
+  {
+    "id": "jersey",
+    "symbol": "🇯🇪",
+    "name": "Jersey",
+    "centerLatitude": 49.214439,
+    "centerLongitude": -2.13125,
+    "continent": "europe",
+    "rank": 187,
+    "flagFacts": [
+      "The red diagonal cross (saltire) was officially paired with the golden crest of three leopards in 1981 to clearly distinguish Jersey's flag from international maritime signal flags.",
+      "The golden Plantagenet crown atop the central shield was personally approved by Queen Elizabeth II to honor the island's historical loyalty to the English monarchy."
+    ],
+    "capitalCities": [
+      "Saint Helier"
+    ]
+  },
+  {
+    "id": "jamaica",
+    "symbol": "🇯🇲",
+    "name": "Jamaica",
+    "centerLatitude": 18.109581,
+    "centerLongitude": -77.297508,
+    "continent": "northAmerica",
+    "rank": 129,
+    "flagFacts": [
+      "It is currently the only national flag in the world that does not contain any of the colors red, white, or blue.",
+      "The gold diagonal cross, or saltire, divides the flag into four distinct triangles of green and black."
+    ],
+    "capitalCities": [
+      "Kingston"
+    ]
+  },
+  {
+    "id": "jordan",
+    "symbol": "🇯🇴",
+    "name": "Jordan",
+    "centerLatitude": 30.585164,
+    "centerLongitude": 36.238414,
+    "continent": "asia",
+    "rank": 70,
+    "flagFacts": [
+      "The white seven-pointed star represents the seven verses of the Al-Fatiha, the opening chapter of the Holy Quran.",
+      "The black, white, and green stripes represent the historical Abbasid, Umayyad, and Fatimid Islamic caliphates."
+    ],
+    "capitalCities": [
+      "Amman"
+    ]
+  },
+  {
+    "id": "japan",
+    "symbol": "🇯🇵",
+    "name": "Japan",
+    "centerLatitude": 36.204824,
+    "centerLongitude": 138.252924,
+    "continent": "asia",
+    "rank": 3,
+    "capitalCities": [
+      "Tokyo"
+    ]
+  },
+  {
+    "id": "kenya",
+    "symbol": "🇰🇪",
+    "name": "Kenya",
+    "centerLatitude": -0.023559,
+    "centerLongitude": 37.906193,
+    "continent": "africa",
+    "rank": 32,
+    "flagFacts": [
+      "The central Maasai shield and two crossed spears symbolize the defense of national freedom and sovereignty.",
+      "The thin white stripes were added to the original political party flag to symbolize peace and unity among ethnic groups."
+    ],
+    "capitalCities": [
+      "Nairobi"
+    ]
+  },
+  {
+    "id": "kyrgyzstan",
+    "symbol": "🇰🇬",
+    "name": "Kyrgyzstan",
+    "centerLatitude": 41.20438,
+    "centerLongitude": 74.766098,
+    "continent": "asia",
+    "rank": 121,
+    "flagFacts": [
+      "The central red circle features a stylized depiction of a 'tunduk,' the traditional crown of a Kyrgyz yurt tent.",
+      "The sun has exactly forty rays, representing the forty historical tribes united by the legendary national hero Manas."
+    ],
+    "capitalCities": [
+      "Bishkek"
+    ]
+  },
+  {
+    "id": "cambodia",
+    "symbol": "🇰🇭",
+    "name": "Cambodia",
+    "centerLatitude": 12.565679,
+    "centerLongitude": 104.990963,
+    "continent": "asia",
+    "rank": 78,
+    "flagFacts": [
+      "It is currently the only national flag in the world to feature a realistic depiction of an actual building: Angkor Wat.",
+      "The blue stripes represent royalty, while the red field represents the common people and national bravery."
+    ],
+    "capitalCities": [
+      "Phnom Penh"
+    ]
+  },
+  {
+    "id": "kiribati",
+    "symbol": "🇰🇮",
+    "name": "Kiribati",
+    "centerLatitude": -3.370417,
+    "centerLongitude": -168.734039,
+    "continent": "oceania",
+    "rank": 172,
+    "flagFacts": [
+      "The flag features a frigatebird flying over a rising sun and seventeen rhythmic, undulating blue and white ocean waves.",
+      "The seventeen waves represent the sixteen Gilbert Islands plus the single isolated island of Banaba."
+    ],
+    "capitalCities": [
+      "South Tarawa"
+    ]
+  },
+  {
+    "id": "comoros",
+    "symbol": "🇰🇲",
+    "name": "Comoros",
+    "centerLatitude": -11.875001,
+    "centerLongitude": 43.872219,
+    "continent": "africa",
+    "rank": 159,
+    "flagFacts": [
+      "The four horizontal colored stripes represent the four main islands of the archipelago: Grande Comore, Mohéli, Anjouan, and Mayotte.",
+      "The four stars inside the green triangle also match the islands, even though Mayotte remains under French administration."
+    ],
+    "capitalCities": [
+      "Moroni"
+    ]
+  },
+  {
+    "id": "saint-kitts-and-nevis",
+    "symbol": "🇰🇳",
+    "name": "Saint Kitts and Nevis",
+    "centerLatitude": 17.3110368831266,
+    "centerLongitude": -62.7186074203545,
+    "continent": "southAmerica",
+    "rank": 172,
+    "flagFacts": [
+      "The two green triangles represent the fertile land, while the black diagonal stripe represents the African heritage of the people.",
+      "The two white stars symbolize liberty and hope, while representing the two main islands that form the federation."
+    ],
+    "capitalCities": [
+      "Basseterre"
+    ]
+  },
+  {
+    "id": "the-democratic-people-s-republic-of-korea",
+    "symbol": "🇰🇵",
+    "name": "The Democratic People's Republic of Korea",
+    "centerLatitude": 40.339852,
+    "centerLongitude": 127.510093,
+    "continent": "asia",
+    "rank": 187,
+    "capitalCities": [
+      "Pyongyang"
+    ]
+  },
+  {
+    "id": "the-republic-of-korea",
+    "symbol": "🇰🇷",
+    "name": "The Republic of Korea",
+    "centerLatitude": 35.907757,
+    "centerLongitude": 127.766922,
+    "continent": "asia",
+    "rank": 187,
+    "capitalCities": [
+      "Seoul"
+    ]
+  },
+  {
+    "id": "kuwait",
+    "symbol": "🇰🇼",
+    "name": "Kuwait",
+    "centerLatitude": 29.31166,
+    "centerLongitude": 47.481766,
+    "continent": "asia",
+    "rank": 80,
+    "flagFacts": [
+      "The trapezoid shape on the hoist is black, representing the battlefields, while the green stripe represents the fertile lands.",
+      "The colors are derived from a historical poem by Safie Al-Deen Al-Hali describing Arab actions and history."
+    ],
+    "capitalCities": [
+      "Kuwait City"
+    ]
+  },
+  {
+    "id": "cayman-islands",
+    "symbol": "🇰🇾",
+    "name": "Cayman Islands",
+    "centerLatitude": 19.513469,
+    "centerLongitude": -80.566956,
+    "continent": "northAmerica",
+    "rank": 187,
+    "capitalCities": [
+      "George Town"
+    ]
+  },
+  {
+    "id": "kazakhstan",
+    "symbol": "🇰🇿",
+    "name": "Kazakhstan",
+    "centerLatitude": 48.019573,
+    "centerLongitude": 66.923684,
+    "continent": "asia",
+    "rank": 41,
+    "flagFacts": [
+      "The ornamental pattern along the hoist is a traditional Kazakh design representing the culture and art of the steppe.",
+      "The golden sun features 32 rays shaped like grain to symbolize abundance, with a soaring steppe eagle beneath it."
+    ],
+    "capitalCities": [
+      "Astana"
+    ]
+  },
+  {
+    "id": "lao-people-s-democratic-republic",
+    "symbol": "🇱🇦",
+    "name": "Lao People's Democratic Republic",
+    "centerLatitude": 19.85627,
+    "centerLongitude": 102.495496,
+    "continent": "asia",
+    "rank": 187,
+    "capitalCities": [
+      "Vientiane"
+    ]
+  },
+  {
+    "id": "lebanon",
+    "symbol": "🇱🇧",
+    "name": "Lebanon",
+    "centerLatitude": 33.854721,
+    "centerLongitude": 35.862285,
+    "continent": "asia",
+    "rank": 103,
+    "flagFacts": [
+      "The central green Cedar of Lebanon is a biblical symbol representing holiness, eternity, and national peace.",
+      "The top and bottom red stripes symbolize the blood shed to protect the country from successive foreign invaders."
+    ],
+    "capitalCities": [
+      "Beirut"
+    ]
+  },
+  {
+    "id": "saint-lucia",
+    "symbol": "🇱🇨",
+    "name": "Saint Lucia",
+    "centerLatitude": 13.8908172473491,
+    "centerLongitude": -60.9691516639473,
+    "continent": "southAmerica",
+    "rank": 161,
+    "flagFacts": [
+      "The central triangles represent the Twin Pitons, two dramatic volcanic spires that rise directly out of the ocean.",
+      "The bright yellow triangle symbolizes the tropical sunshine and the island's thriving tourism industry."
+    ],
+    "capitalCities": [
+      "Castries"
+    ]
+  },
+  {
+    "id": "liechtenstein",
+    "symbol": "🇱🇮",
+    "name": "Liechtenstein",
+    "centerLatitude": 47.166,
+    "centerLongitude": 9.555373,
+    "continent": "europe",
+    "rank": 182,
+    "flagFacts": [
+      "The gold crown was added in 1937 after the country realized its flag was identical to Haiti's flag at the 1936 Olympics.",
+      "The blue field represents the sky, while the red field represents the glowing embers of evening fires."
+    ],
+    "capitalCities": [
+      "Vaduz"
+    ]
+  },
+  {
+    "id": "sri-lanka",
+    "symbol": "🇱🇰",
+    "name": "Sri Lanka",
+    "centerLatitude": 7.873054,
+    "centerLongitude": 80.771797,
+    "continent": "asia",
+    "rank": 47,
+    "flagFacts": [
+      "The prominent golden lion holding a sword represents the Sinhalese ethnicity and the bravery of the nation.",
+      "The four bo leaves in the corners represent the four Buddhist virtues of kindness, compassion, joy, and equanimity."
+    ],
+    "capitalCities": [
+      "Sri Jayawardenepura Kotte"
+    ]
+  },
+  {
+    "id": "liberia",
+    "symbol": "🇱🇷",
+    "name": "Liberia",
+    "centerLatitude": 6.428055,
+    "centerLongitude": -9.429499,
+    "continent": "africa",
+    "rank": 139,
+    "flagFacts": [
+      "The flag is closely modeled after the flag of the United States, reflecting the country's founding by freed American slaves.",
+      "The eleven stripes represent the eleven signatories of the Liberian Declaration of Independence in 1847."
+    ],
+    "capitalCities": [
+      "Monrovia"
+    ]
+  },
+  {
+    "id": "lesotho",
+    "symbol": "🇱🇸",
+    "name": "Lesotho",
+    "centerLatitude": -29.609988,
+    "centerLongitude": 28.233608,
+    "continent": "africa",
+    "rank": 148,
+    "flagFacts": [
+      "The central design features a traditional 'mokorotlo,' a conical straw hat that serves as an iconic symbol of Basotho culture.",
+      "The blue stripe represents rain, white represents peace, and green represents the agricultural prosperity of the nation."
+    ],
+    "capitalCities": [
+      "Maseru"
+    ]
+  },
+  {
+    "id": "lithuania",
+    "symbol": "🇱🇹",
+    "name": "Lithuania",
+    "centerLatitude": 55.169438,
+    "centerLongitude": 23.881275,
+    "continent": "europe",
+    "rank": 103,
+    "flagFacts": [
+      "The yellow stripe represents the golden sun and agricultural fields, green represents the forests, and red represents the blood of patriots.",
+      "The flag's colors were chosen by a special committee in 1918 to incorporate traditional Lithuanian folk weaving tones."
+    ],
+    "capitalCities": [
+      "Vilnius"
+    ]
+  },
+  {
+    "id": "luxembourg",
+    "symbol": "🇱🇺",
+    "name": "Luxembourg",
+    "centerLatitude": 49.815273,
+    "centerLongitude": 6.129583,
+    "continent": "europe",
+    "rank": 109,
+    "flagFacts": [
+      "The flag is almost identical to the flag of the Netherlands, but uses a longer aspect ratio and a lighter shade of sky blue.",
+      "The colors are derived from the 13th-century coat of arms of the Grand Duke, which featured a red lion on blue and white stripes."
+    ],
+    "capitalCities": [
+      "Luxembourg"
+    ]
+  },
+  {
+    "id": "latvia",
+    "symbol": "🇱🇻",
+    "name": "Latvia",
+    "centerLatitude": 56.879635,
+    "centerLongitude": 24.603189,
+    "continent": "europe",
+    "rank": 114,
+    "flagFacts": [
+      "Legend states the flag originated from a white sheet used to carry a wounded warrior, where his blood stained the outer edges red.",
+      "The unique shade of deep red is internationally recognized and specifically designated as 'Latvian red.'"
+    ],
+    "capitalCities": [
+      "Riga"
+    ]
+  },
+  {
+    "id": "libya",
+    "symbol": "🇱🇾",
+    "name": "Libya",
+    "centerLatitude": 26.3351,
+    "centerLongitude": 17.228331,
+    "continent": "africa",
+    "rank": 89,
+    "flagFacts": [
+      "Between 1977 and 2011, Libya used a completely plain, solid green flag, making it the world's only monochrome national flag at the time.",
+      "The current design restores the historical 1951 independence flag, featuring the white crescent and star of Cyrenaica."
+    ],
+    "capitalCities": [
+      "Tripoli"
+    ]
+  },
+  {
+    "id": "morocco",
+    "symbol": "🇲🇦",
+    "name": "Morocco",
+    "centerLatitude": 31.791702,
+    "centerLongitude": -7.09262,
+    "continent": "africa",
+    "rank": 34,
+    "flagFacts": [
+      "The central green pentagram is the Seal of Solomon, representing the connection between God and the nation.",
+      "The solid red field has been used by the ruling Alaouite dynasty as a historical symbol since the 17th century."
+    ],
+    "capitalCities": [
+      "Rabat"
+    ]
+  },
+  {
+    "id": "monaco",
+    "symbol": "🇲🇨",
+    "name": "Monaco",
+    "centerLatitude": 43.750298,
+    "centerLongitude": 7.412841,
+    "continent": "europe",
+    "rank": 183,
+    "flagFacts": [
+      "The red and white colors are the heraldic colors of the House of Grimaldi, which has ruled the principality since the 13th century.",
+      "The flag shares its exact color layout with the flag of Indonesia, differing only in its technical aspect ratio."
+    ],
+    "capitalCities": [
+      "Monaco"
+    ]
+  },
+  {
+    "id": "moldova",
+    "symbol": "🇲🇩",
+    "name": "Moldova",
+    "centerLatitude": 47.411631,
+    "centerLongitude": 28.369885,
+    "continent": "europe",
+    "rank": 132,
+    "flagFacts": [
+      "The central emblem features a traditional auerox (wild bull) head holding a crescent, a star, and a flower between its horns.",
+      "The blue, yellow, and red vertical tricolor is shared with Romania, reflecting the deep cultural and historical ties between the nations."
+    ],
+    "capitalCities": [
+      "Chișinău"
+    ]
+  },
+  {
+    "id": "montenegro",
+    "symbol": "🇲🇪",
+    "name": "Montenegro",
+    "centerLatitude": 42.708678,
+    "centerLongitude": 19.37439,
+    "continent": "europe",
+    "rank": 152,
+    "flagFacts": [
+      "The flag features a double-headed golden eagle holding a scepter and an orb, representing the historical unity of church and state.",
+      "The design is bordered entirely by a golden frame, setting it apart from most standard European tricolors."
+    ],
+    "capitalCities": [
+      "Podgorica"
+    ]
+  },
+  {
+    "id": "madagascar",
+    "symbol": "🇲🇬",
+    "name": "Madagascar",
+    "centerLatitude": -18.766947,
+    "centerLongitude": 46.869107,
+    "continent": "africa",
+    "rank": 84,
+    "flagFacts": [
+      "The vertical white stripe represents purity and integrity, while the red and green stripes represent independence and hope.",
+      "The red and white colors were taken from the historical banners of the Merina Kingdom that ruled the island before colonization."
+    ],
+    "capitalCities": [
+      "Antananarivo"
+    ]
+  },
+  {
+    "id": "marshall-islands",
+    "symbol": "🇲🇭",
+    "name": "Marshall Islands",
+    "centerLatitude": 7.131474,
+    "centerLongitude": 171.184478,
+    "continent": "oceania",
+    "rank": 176,
+    "flagFacts": [
+      "The diagonal orange and white bands represent the two major island chains within the nation: Ratak (sunrise) and Ralik (sunset).",
+      "The large star features 24 points representing the electoral districts, with four longer points pointing to the principal sub-centers."
+    ],
+    "capitalCities": [
+      "Majuro"
+    ]
+  },
+  {
+    "id": "north-macedonia",
+    "symbol": "🇲🇰",
+    "name": "North Macedonia",
+    "centerLatitude": 41.6341853604018,
+    "centerLongitude": 21.6961220256541,
+    "continent": "europe",
+    "rank": 138,
+    "flagFacts": [
+      "The flag features a golden sun with eight widening rays extending to the edges, known as the 'Sun of Liberty.'",
+      "The design was adopted in 1995 to resolve an intense diplomatic dispute with Greece over the historical Vergina Sun symbol."
+    ],
+    "capitalCities": [
+      "Skopje"
+    ]
+  },
+  {
+    "id": "mali",
+    "symbol": "🇲🇱",
+    "name": "Mali",
+    "centerLatitude": 17.570692,
+    "centerLongitude": -3.996166,
+    "continent": "africa",
+    "rank": 82,
+    "flagFacts": [
+      "The vertical tricolor uses the classic pan-African colors of green, yellow, and red to signify solidarity with the continent.",
+      "The flag previously featured a black human stick figure called a kanaga in the center, which was removed in 1961 due to religious objections."
+    ],
+    "capitalCities": [
+      "Bamako"
+    ]
+  },
+  {
+    "id": "myanmar-burma",
+    "symbol": "🇲🇲",
+    "name": "Myanmar (Burma)",
+    "centerLatitude": 21.9634393443456,
+    "centerLongitude": 96.0997506646758,
+    "continent": "asia",
+    "rank": 187,
+    "capitalCities": [
+      "Naypyidaw"
+    ]
+  },
+  {
+    "id": "mongolia",
+    "symbol": "🇲🇳",
+    "name": "Mongolia",
+    "centerLatitude": 46.862496,
+    "centerLongitude": 103.846656,
+    "continent": "asia",
+    "rank": 122,
+    "flagFacts": [
+      "The left stripe features the 'Soyombo' symbol, a complex geometric column representing fire, sun, moon, earth, and water.",
+      "The blue central stripe represents the eternal blue sky, which is a core concept in traditional Mongolian spiritual culture."
+    ],
+    "capitalCities": [
+      "Ulan Bator"
+    ]
+  },
+  {
+    "id": "macao-sar-china",
+    "symbol": "🇲🇴",
+    "name": "Macao SAR China",
+    "centerLatitude": 22.1736145460342,
+    "centerLongitude": 113.549508371945,
+    "continent": "asia",
+    "rank": 187
+  },
+  {
+    "id": "northern-mariana-islands",
+    "symbol": "🇲🇵",
+    "name": "Northern Mariana Islands",
+    "centerLatitude": 17.33083,
+    "centerLongitude": 145.38469,
+    "continent": "oceania",
+    "rank": 187,
+    "capitalCities": [
+      "Saipan"
+    ]
+  },
+  {
+    "id": "martinique",
+    "symbol": "🇲🇶",
+    "name": "Martinique",
+    "centerLatitude": 14.641528,
+    "centerLongitude": -61.024174,
+    "continent": "northAmerica",
+    "rank": 187,
+    "capitalCities": [
+      "Fort-de-France"
+    ]
+  },
+  {
+    "id": "mauritania",
+    "symbol": "🇲🇷",
+    "name": "Mauritania",
+    "centerLatitude": 21.00789,
+    "centerLongitude": -10.940835,
+    "continent": "africa",
+    "rank": 131,
+    "flagFacts": [
+      "The two red stripes at the top and bottom were added to the historical green flag in 2017 to honor independence sacrifices.",
+      "The emerald green field and gold crescent moon are traditional symbols representing the country's deep Islamic heritage."
+    ],
+    "capitalCities": [
+      "Nouakchott"
+    ]
+  },
+  {
+    "id": "montserrat",
+    "symbol": "🇲🇸",
+    "name": "Montserrat",
+    "centerLatitude": 16.742498,
+    "centerLongitude": -62.187366,
+    "continent": "northAmerica",
+    "rank": 187,
+    "capitalCities": [
+      "Plymouth"
+    ]
+  },
+  {
+    "id": "malta",
+    "symbol": "🇲🇹",
+    "name": "Malta",
+    "centerLatitude": 35.937496,
+    "centerLongitude": 14.375416,
+    "continent": "europe",
+    "rank": 141,
+    "flagFacts": [
+      "The George Cross medal in the upper hoist was awarded to the entire population by King George VI for bravery during World War II.",
+      "The red and white colors date back to the historic standard of Count Roger I of Sicily in the 11th century."
+    ],
+    "capitalCities": [
+      "Valletta"
+    ]
+  },
+  {
+    "id": "mauritius",
+    "symbol": "🇲🇺",
+    "name": "Mauritius",
+    "centerLatitude": -20.348404,
+    "centerLongitude": 57.552152,
+    "continent": "africa",
+    "rank": 143,
+    "flagFacts": [
+      "Known as the 'Four Bands,' the flag features red, blue, yellow, and green horizontal stripes.",
+      "The blue stripe represents the Indian Ocean, while the yellow stripe represents the bright light of independence."
+    ],
+    "capitalCities": [
+      "Port Louis"
+    ]
+  },
+  {
+    "id": "maldives",
+    "symbol": "🇲🇻",
+    "name": "Maldives",
+    "centerLatitude": 3.202778,
+    "centerLongitude": 73.22068,
+    "continent": "asia",
+    "rank": 155,
+    "flagFacts": [
+      "The large green rectangle represents peace, prosperity, and the countless coconut palms that grow on the islands.",
+      "The red border serves as a stark reminder of the blood spilled by national heroes defending sovereignty."
+    ],
+    "capitalCities": [
+      "Malé"
+    ]
+  },
+  {
+    "id": "malawi",
+    "symbol": "🇲🇼",
+    "name": "Malawi",
+    "centerLatitude": -13.254308,
+    "centerLongitude": 34.301525,
+    "continent": "africa",
+    "rank": 96,
+    "flagFacts": [
+      "The red rising sun symbolizes the dawn of freedom and hope for the continent of Africa after colonial rule.",
+      "The black stripe represents the African people, red represents the blood of martyrs, and green represents nature."
+    ],
+    "capitalCities": [
+      "Lilongwe"
+    ]
+  },
+  {
+    "id": "mexico",
+    "symbol": "🇲🇽",
+    "name": "Mexico",
+    "centerLatitude": 23.634501,
+    "centerLongitude": -102.552784,
+    "continent": "northAmerica",
+    "rank": 8,
+    "flagFacts": [
+      "The central emblem depicts an Aztec legend where an eagle perched on a cactus devours a snake, marking where to build Tenochtitlan.",
+      "The green stripe represents hope, white represents unity, and red represents the blood of national heroes."
+    ],
+    "capitalCities": [
+      "Mexico City"
+    ]
+  },
+  {
+    "id": "malaysia",
+    "symbol": "🇲🇾",
+    "name": "Malaysia",
+    "centerLatitude": 4.210484,
+    "centerLongitude": 101.975766,
+    "continent": "asia",
+    "rank": 26,
+    "flagFacts": [
+      "Known as the 'Jalur Gemilang' (Stripes of Glory), the flag features fourteen stripes representing the member states and federal territories.",
+      "The fourteen points on the star match the stripes, symbolizing the unified government of the Malaysian federation."
+    ],
+    "capitalCities": [
+      "Kuala Lumpur"
+    ]
+  },
+  {
+    "id": "mozambique",
+    "symbol": "🇲🇿",
+    "name": "Mozambique",
+    "centerLatitude": -18.665695,
+    "centerLongitude": 35.529562,
+    "continent": "africa",
+    "rank": 73,
+    "flagFacts": [
+      "It is one of the few national flags in the world to feature a modern assault rifle (an AK-47) in its emblem.",
+      "The open book behind the rifle represents education, while the hoe represents the nation's agricultural workers."
+    ],
+    "capitalCities": [
+      "Maputo"
+    ]
+  },
+  {
+    "id": "namibia",
+    "symbol": "🇳🇦",
+    "name": "Namibia",
+    "centerLatitude": -22.95764,
+    "centerLongitude": 18.49041,
+    "continent": "africa",
+    "rank": 133,
+    "flagFacts": [
+      "The golden sun features twelve individual rays representing the diverse ethnic groups and communities living in the nation.",
+      "The blue triangle represents the sky and the Atlantic Ocean, while the green triangle represents agricultural wealth."
+    ],
+    "capitalCities": [
+      "Windhoek"
+    ]
+  },
+  {
+    "id": "new-caledonia",
+    "symbol": "🇳🇨",
+    "name": "New Caledonia",
+    "centerLatitude": -20.904305,
+    "centerLongitude": 165.618042,
+    "continent": "oceania",
+    "rank": 187,
+    "capitalCities": [
+      "Nouméa"
+    ]
+  },
+  {
+    "id": "niger",
+    "symbol": "🇳🇪",
+    "name": "Niger",
+    "centerLatitude": 17.607789,
+    "centerLongitude": 8.081666,
+    "continent": "africa",
+    "rank": 85,
+    "flagFacts": [
+      "The central orange disc represents the sun and the sacrifices made by the people during the struggle for independence.",
+      "The top orange stripe represents the Sahara Desert, while the bottom green stripe represents the fertile southern lands."
+    ],
+    "capitalCities": [
+      "Niamey"
+    ]
+  },
+  {
+    "id": "norfolk-island",
+    "symbol": "🇳🇫",
+    "name": "Norfolk Island",
+    "centerLatitude": -29.040835,
+    "centerLongitude": 167.954712,
+    "continent": "oceania",
+    "rank": 187,
+    "capitalCities": [
+      "Kingston"
+    ]
+  },
+  {
+    "id": "nigeria",
+    "symbol": "🇳🇬",
+    "name": "Nigeria",
+    "centerLatitude": 9.081999,
+    "centerLongitude": 8.675277,
+    "continent": "africa",
+    "rank": 11,
+    "flagFacts": [
+      "The design was created by an engineering student named Michael Akinkunmi, who won a nationwide competition in 1959.",
+      "The two green vertical bands represent agriculture, while the white band represents permanent peace."
+    ],
+    "capitalCities": [
+      "Abuja"
+    ]
+  },
+  {
+    "id": "nicaragua",
+    "symbol": "🇳🇮",
+    "name": "Nicaragua",
+    "centerLatitude": 12.865416,
+    "centerLongitude": -85.207229,
+    "continent": "northAmerica",
+    "rank": 113,
+    "flagFacts": [
+      "The central coat of arms features a rainbow that symbolizes peace and a liberty cap that signifies freedom.",
+      "The two blue stripes represent the Pacific Ocean and the Caribbean Sea, which frame the central landmass."
+    ],
+    "capitalCities": [
+      "Managua"
+    ]
+  },
+  {
+    "id": "netherlands",
+    "symbol": "🇳🇱",
+    "name": "Netherlands",
+    "centerLatitude": 52.132633,
+    "centerLongitude": 5.291266,
+    "continent": "europe",
+    "rank": 29,
+    "flagFacts": [
+      "It is recognized as the oldest horizontal tricolor flag in continuous use, originating during the 16th-century revolt against Spain.",
+      "The top stripe was originally orange (the Prince's Flag) before being permanently changed to red due to the instability of orange dye."
+    ],
+    "capitalCities": [
+      "Amsterdam"
+    ]
+  },
+  {
+    "id": "norway",
+    "symbol": "🇳🇴",
+    "name": "Norway",
+    "centerLatitude": 60.472024,
+    "centerLongitude": 8.468946,
+    "continent": "europe",
+    "rank": 56,
+    "flagFacts": [
+      "Designed in 1821, it was the very first Nordic cross flag to introduce a distinct third color (blue) into the traditional cross layout.",
+      "The red, white, and blue colors were deliberately chosen to mirror the democratic colors of France and the United States."
+    ],
+    "capitalCities": [
+      "Oslo"
+    ]
+  },
+  {
+    "id": "nepal",
+    "symbol": "🇳🇵",
+    "name": "Nepal",
+    "centerLatitude": 28.394857,
+    "centerLongitude": 84.124008,
+    "continent": "asia",
+    "rank": 59,
+    "capitalCities": [
+      "Kathmandu"
+    ]
+  },
+  {
+    "id": "nauru",
+    "symbol": "🇳🇷",
+    "name": "Nauru",
+    "centerLatitude": -0.522778,
+    "centerLongitude": 166.931503,
+    "continent": "oceania",
+    "rank": 180,
+    "flagFacts": [
+      "The horizontal yellow line represents the equator, which sits exactly one degree north of the island's actual geographic position.",
+      "The 12-pointed star represents the twelve original indigenous tribes that inhabited the island."
+    ],
+    "capitalCities": [
+      "Yaren"
+    ]
+  },
+  {
+    "id": "niue",
+    "symbol": "🇳🇺",
+    "name": "Niue",
+    "centerLatitude": -19.054445,
+    "centerLongitude": -169.867233,
+    "continent": "oceania",
+    "rank": 185,
+    "capitalCities": [
+      "Alofi"
+    ]
+  },
+  {
+    "id": "new-zealand",
+    "symbol": "🇳🇿",
+    "name": "New Zealand",
+    "centerLatitude": -40.900557,
+    "centerLongitude": 174.885971,
+    "continent": "oceania",
+    "rank": 68,
+    "flagFacts": [
+      "The flag features the Southern Cross constellation, using four red stars outlined in white to indicate its location in the South Pacific.",
+      "The country held a nationwide multi-stage referendum in 2015-2016 to change the flag design, but citizens voted to retain the original."
+    ],
+    "capitalCities": [
+      "Wellington"
+    ]
+  },
+  {
+    "id": "oman",
+    "symbol": "🇴🇲",
+    "name": "Oman",
+    "centerLatitude": 21.512583,
+    "centerLongitude": 55.923255,
+    "continent": "asia",
+    "rank": 88,
+    "flagFacts": [
+      "The emblem in the upper hoist shows a traditional 'khanjar' dagger sheathed over two crossed swords.",
+      "The white stripe represents peace, green represents the Green Mountains, and red represents battles against foreign invaders."
+    ],
+    "capitalCities": [
+      "Muscat"
+    ]
+  },
+  {
+    "id": "panama",
+    "symbol": "🇵🇦",
+    "name": "Panama",
+    "centerLatitude": 8.537981,
+    "centerLongitude": -80.782127,
+    "continent": "northAmerica",
+    "rank": 98,
+    "flagFacts": [
+      "The flag is divided into four distinct quadrants of blue, white, and red to represent the political parties at the time of independence.",
+      "The blue star represents civic purity and honesty, while the red star represents authority and law."
+    ],
+    "capitalCities": [
+      "Panama City"
+    ]
+  },
+  {
+    "id": "peru",
+    "symbol": "🇵🇪",
+    "name": "Peru",
+    "centerLatitude": -9.189967,
+    "centerLongitude": -75.015152,
+    "continent": "southAmerica",
+    "rank": 32,
+    "flagFacts": [
+      "Legend says the red and white colors were inspired by a flock of flamingos taking flight when General San Martín arrived.",
+      "The state version includes a coat of arms featuring a vicuña, a cinchona tree, and a cornucopia spilling gold coins."
+    ],
+    "capitalCities": [
+      "Lima"
+    ]
+  },
+  {
+    "id": "french-polynesia",
+    "symbol": "🇵🇫",
+    "name": "French Polynesia",
+    "centerLatitude": -17.679742,
+    "centerLongitude": -149.406843,
+    "continent": "oceania",
+    "rank": 187,
+    "flagFacts": [
+      "The central emblem features a traditional double-hulled outrigger sailing canoe, representing a sacred ancestral connection to epic ocean navigation.",
+      "The five distinct human figures riding inside the canoe emblem represent the five major island groups that form the archipelago territory."
+    ],
+    "capitalCities": [
+      "Papeetē"
+    ]
+  },
+  {
+    "id": "papua-new-guinea",
+    "symbol": "🇵🇬",
+    "name": "Papua New Guinea",
+    "centerLatitude": -6.314993,
+    "centerLongitude": 143.95555,
+    "continent": "oceania",
+    "rank": 94,
+    "flagFacts": [
+      "The flag design was created by a 15-year-old schoolgirl named Susan Karike in a nationwide art competition in 1971.",
+      "The upper half features a stylized Raggiana bird-of-paradise soaring across a dramatic black and red background."
+    ],
+    "capitalCities": [
+      "Port Moresby"
+    ]
+  },
+  {
+    "id": "philippines",
+    "symbol": "🇵🇭",
+    "name": "Philippines",
+    "centerLatitude": 12.879721,
+    "centerLongitude": 121.774017,
+    "continent": "asia",
+    "rank": 19,
+    "flagFacts": [
+      "The flag is flown with the red stripe on top during times of war and the blue stripe on top during times of peace.",
+      "The eight rays of the central golden sun represent the first eight provinces that revolted against Spanish colonial rule."
+    ],
+    "capitalCities": [
+      "Manila"
+    ]
+  },
+  {
+    "id": "pakistan",
+    "symbol": "🇵🇰",
+    "name": "Pakistan",
+    "centerLatitude": 30.375321,
+    "centerLongitude": 69.345116,
+    "continent": "asia",
+    "rank": 15,
+    "flagFacts": [
+      "The large white vertical stripe on the hoist represents the religious minorities living peacefully within the nation.",
+      "The green field and white crescent moon are classic Islamic symbols representing progress, light, and guidance."
+    ],
+    "capitalCities": [
+      "Islamabad"
+    ]
+  },
+  {
+    "id": "poland",
+    "symbol": "🇵🇱",
+    "name": "Poland",
+    "centerLatitude": 51.919438,
+    "centerLongitude": 19.145136,
+    "continent": "europe",
+    "rank": 21,
+    "flagFacts": [
+      "The white and red horizontal stripes are derived from the historical coat of arms featuring a white eagle on a red shield.",
+      "The colors are legally protected and have specific mathematical coordinates defined in the Polish constitution."
+    ],
+    "capitalCities": [
+      "Warsaw"
+    ]
+  },
+  {
+    "id": "saint-pierre-and-miquelon",
+    "symbol": "🇵🇲",
+    "name": "Saint Pierre and Miquelon",
+    "centerLatitude": 46.9560016835858,
+    "centerLongitude": -56.3223229919241,
+    "continent": "northAmerica",
+    "rank": 187,
+    "capitalCities": [
+      "Saint-Pierre"
+    ]
+  },
+  {
+    "id": "pitcairn-islands",
+    "symbol": "🇵🇳",
+    "name": "Pitcairn Islands",
+    "centerLatitude": -24.703615,
+    "centerLongitude": -127.439308,
+    "continent": "oceania",
+    "rank": 187,
+    "capitalCities": [
+      "Adamstown"
+    ]
+  },
+  {
+    "id": "puerto-rico",
+    "symbol": "🇵🇷",
+    "name": "Puerto Rico",
+    "centerLatitude": 18.220833,
+    "centerLongitude": -66.590149,
+    "continent": "northAmerica",
+    "rank": 133,
+    "flagFacts": [
+      "The design shares an identical layout with the Cuban flag, but completely reverses the red and blue colors to show revolutionary solidarity between the islands.",
+      "For over four decades in the 20th century, displaying or owning this specific flag was classified as an illegal felony under local anti-sedition laws."
+    ],
+    "capitalCities": [
+      "San Juan"
+    ]
+  },
+  {
+    "id": "palestine",
+    "symbol": "🇵🇸",
+    "name": "Palestine",
+    "centerLatitude": 31.952162,
+    "centerLongitude": 35.233154,
+    "continent": "asia",
+    "rank": 111,
+    "capitalCities": [
+      "Ramallah",
+      "Jerusalem"
+    ]
+  },
+  {
+    "id": "portugal",
+    "symbol": "🇵🇹",
+    "name": "Portugal",
+    "centerLatitude": 39.399872,
+    "centerLongitude": -8.224454,
+    "continent": "europe",
+    "rank": 53,
+    "flagFacts": [
+      "The green section represents hope for the future, while the red section represents the blood spilled during the 1910 revolution.",
+      "The central design features an armillary sphere, an old navigational instrument honoring the golden age of Portuguese maritime exploration."
+    ],
+    "capitalCities": [
+      "Lisbon"
+    ]
+  },
+  {
+    "id": "palau",
+    "symbol": "🇵🇼",
+    "name": "Palau",
+    "centerLatitude": 7.51498,
+    "centerLongitude": 134.58252,
+    "continent": "oceania",
+    "rank": 179,
+    "flagFacts": [
+      "The golden disc represents the full moon, which is culturally seen as a symbol of peace, fertility, and celebration.",
+      "The moon is offset slightly toward the hoist so that it appears perfectly centered when the flag is flying in the wind."
+    ],
+    "capitalCities": [
+      "Ngerulmud"
+    ]
+  },
+  {
+    "id": "paraguay",
+    "symbol": "🇵🇾",
+    "name": "Paraguay",
+    "centerLatitude": -23.442503,
+    "centerLongitude": -58.443832,
+    "continent": "southAmerica",
+    "rank": 92,
+    "flagFacts": [
+      "It is unique among national flags because the front side (obverse) and back side (reverse) feature completely different emblems.",
+      "The front side displays the national coat of arms, while the reverse side displays the Treasury Seal with a lion guarding a liberty cap."
+    ],
+    "capitalCities": [
+      "Asunción"
+    ]
+  },
+  {
+    "id": "qatar",
+    "symbol": "🇶🇦",
+    "name": "Qatar",
+    "centerLatitude": 25.354826,
+    "centerLongitude": 51.183884,
+    "continent": "asia",
+    "rank": 85,
+    "flagFacts": [
+      "It is the only national flag in the world that is more than twice as wide as it is high, using a unique 11:28 ratio.",
+      "The nine white points of the serrated edge mark Qatar as the ninth member of the 'reconciled Emirates' following a 1916 treaty."
+    ],
+    "capitalCities": [
+      "Doha"
+    ]
+  },
+  {
+    "id": "r-union",
+    "symbol": "🇷🇪",
+    "name": "Réunion",
+    "centerLatitude": -21.115141,
+    "centerLongitude": 55.536384,
+    "continent": "africa",
+    "rank": 187,
+    "capitalCities": [
+      "Saint-Denis"
+    ]
+  },
+  {
+    "id": "romania",
+    "symbol": "🇷🇴",
+    "name": "Romania",
+    "centerLatitude": 45.943161,
+    "centerLongitude": 24.96676,
+    "continent": "europe",
+    "rank": 39,
+    "flagFacts": [
+      "The vertical blue, yellow, and red tricolor was inspired by the banners used during the Wallachian uprising of 1821.",
+      "The flag is visually identical to the flag of Chad, a situation that has led to official discussions at the United Nations."
+    ],
+    "capitalCities": [
+      "Bucharest"
+    ]
+  },
+  {
+    "id": "serbia",
+    "symbol": "🇷🇸",
+    "name": "Serbia",
+    "centerLatitude": 44.016521,
+    "centerLongitude": 21.005859,
+    "continent": "europe",
+    "rank": 85,
+    "flagFacts": [
+      "The coat of arms features a double-headed white eagle holding a shield with the Serbian cross and four Cyrillic firesteels.",
+      "The flag uses a reverse order of the Russian tricolor, placing red at the top, blue in the middle, and white at the bottom."
+    ],
+    "capitalCities": [
+      "Belgrade"
+    ]
+  },
+  {
+    "id": "russia",
+    "symbol": "🇷🇺",
+    "name": "Russia",
+    "centerLatitude": 61.52401,
+    "centerLongitude": 105.318756,
+    "continent": "asia",
+    "rank": 6,
+    "flagFacts": [
+      "The white, blue, and red horizontal tricolor was originally introduced by Peter the Great as a merchant shipping ensign.",
+      "The color layout became the historical foundation for the Pan-Slavic colors adopted by many Eastern European nations."
+    ],
+    "capitalCities": [
+      "Moscow"
+    ]
+  },
+  {
+    "id": "rwanda",
+    "symbol": "🇷🇼",
+    "name": "Rwanda",
+    "centerLatitude": -1.940278,
+    "centerLongitude": 29.873888,
+    "continent": "africa",
+    "rank": 103,
+    "flagFacts": [
+      "The flag was completely redesigned in 2001 to promote national unity and move away from symbols associated with the 1994 genocide.",
+      "The bright yellow sun in the upper right corner features twenty-four rays that symbolize enlightenment and transparency."
+    ],
+    "capitalCities": [
+      "Kigali"
+    ]
+  },
+  {
+    "id": "saudi-arabia",
+    "symbol": "🇸🇦",
+    "name": "Saudi Arabia",
+    "centerLatitude": 23.885942,
+    "centerLongitude": 45.079162,
+    "continent": "asia",
+    "rank": 21,
+    "flagFacts": [
+      "The flag features the Shahada (Islamic creed) written in Thuluth script above a horizontal unsheathed sword.",
+      "Because the sacred text is written on both sides, the flag is manufactured by sewing two separate pieces of cloth together."
+    ],
+    "capitalCities": [
+      "Riyadh"
+    ]
+  },
+  {
+    "id": "solomon-islands",
+    "symbol": "🇸🇧",
+    "name": "Solomon Islands",
+    "centerLatitude": -9.64571,
+    "centerLongitude": 160.156194,
+    "continent": "oceania",
+    "rank": 158,
+    "flagFacts": [
+      "The five white stars represent the five original island districts that formed the nation at independence.",
+      "The thin yellow diagonal stripe represents the tropical sunshine, separating the blue ocean from the green land."
+    ],
+    "capitalCities": [
+      "Honiara"
+    ]
+  },
+  {
+    "id": "seychelles",
+    "symbol": "🇸🇨",
+    "name": "Seychelles",
+    "centerLatitude": -4.679574,
+    "centerLongitude": 55.491977,
+    "continent": "africa",
+    "rank": 164,
+    "flagFacts": [
+      "The flag features five oblique colored bands radiating from the bottom corner to symbolize a dynamic nation moving into the future.",
+      "The yellow band represents the sun, red represents the people, white represents justice, and green represents the land."
+    ],
+    "capitalCities": [
+      "Victoria"
+    ]
+  },
+  {
+    "id": "sudan",
+    "symbol": "🇸🇩",
+    "name": "Sudan",
+    "centerLatitude": 12.862807,
+    "centerLongitude": 30.217636,
+    "continent": "africa",
+    "rank": 51,
+    "flagFacts": [
+      "The green triangle at the hoist represents Islam, agricultural wealth, and the historical prosperity of the land.",
+      "The white stripe symbolizes peace and light, while the black stripe represents the name of the country itself."
+    ],
+    "capitalCities": [
+      "Khartoum"
+    ]
+  },
+  {
+    "id": "sweden",
+    "symbol": "🇸🇪",
+    "name": "Sweden",
+    "centerLatitude": 60.128161,
+    "centerLongitude": 18.643501,
+    "continent": "europe",
+    "rank": 40,
+    "flagFacts": [
+      "The yellow Nordic cross layout was directly inspired by the design of the Danish flag.",
+      "The blue and gold colors trace their origins back to King Magnus Ladulås's royal coat of arms in 1275."
+    ],
+    "capitalCities": [
+      "Stockholm"
+    ]
+  },
+  {
+    "id": "singapore",
+    "symbol": "🇸🇬",
+    "name": "Singapore",
+    "centerLatitude": 1.352083,
+    "centerLongitude": 103.819836,
+    "continent": "asia",
+    "rank": 62,
+    "flagFacts": [
+      "The crescent moon represents a young, rising nation, while the five stars represent the ideals of democracy, peace, progress, justice, and equality.",
+      "Red symbolizes universal brotherhood and equality, while white signifies everlasting purity and virtue."
+    ],
+    "capitalCities": [
+      "Singapore"
+    ]
+  },
+  {
+    "id": "st-helena",
+    "symbol": "🇸🇭",
+    "name": "St. Helena",
+    "centerLatitude": -15.9623721021956,
+    "centerLongitude": -5.70922484510883,
+    "continent": "africa",
+    "rank": 187,
+    "capitalCities": [
+      "Jamestown"
+    ]
+  },
+  {
+    "id": "slovenia",
+    "symbol": "🇸🇮",
+    "name": "Slovenia",
+    "centerLatitude": 46.151241,
+    "centerLongitude": 14.995463,
+    "continent": "europe",
+    "rank": 108,
+    "flagFacts": [
+      "The coat of arms depicts Mount Triglav, the highest peak in the country, beneath three golden six-pointed stars.",
+      "The wavy blue lines at the bottom of the shield represent the country's local rivers and the Adriatic Sea."
+    ],
+    "capitalCities": [
+      "Ljubljana"
+    ]
+  },
+  {
+    "id": "slovakia",
+    "symbol": "🇸🇰",
+    "name": "Slovakia",
+    "centerLatitude": 48.669026,
+    "centerLongitude": 19.699024,
+    "continent": "europe",
+    "rank": 76,
+    "flagFacts": [
+      "The central shield features a double white cross standing on the highest of three blue volcanic mountain peaks.",
+      "The coat of arms was added to the standard Slavic tricolor in 1992 to prevent confusion with the flag of Russia."
+    ],
+    "capitalCities": [
+      "Bratislava"
+    ]
+  },
+  {
+    "id": "sierra-leone",
+    "symbol": "🇸🇱",
+    "name": "Sierra Leone",
+    "centerLatitude": 8.460555,
+    "centerLongitude": -11.779889,
+    "continent": "africa",
+    "rank": 123,
+    "flagFacts": [
+      "The horizontal green stripe represents agriculture, white represents unity, and blue represents the natural harbor of Freetown.",
+      "The simple tricolor layout was officially adopted upon gaining independence from Great Britain in 1961."
+    ],
+    "capitalCities": [
+      "Freetown"
+    ]
+  },
+  {
+    "id": "san-marino",
+    "symbol": "🇸🇲",
+    "name": "San Marino",
+    "centerLatitude": 43.94236,
+    "centerLongitude": 12.457777,
+    "continent": "europe",
+    "rank": 170,
+    "flagFacts": [
+      "The central coat of arms features three towers topped with feathers, representing the historical citadels built on Mount Titano.",
+      "The white stripe represents peace, while the light blue stripe represents the liberty of the ancient republic."
+    ],
+    "capitalCities": [
+      "City of San Marino"
+    ]
+  },
+  {
+    "id": "senegal",
+    "symbol": "🇸🇳",
+    "name": "Senegal",
+    "centerLatitude": 14.497401,
+    "centerLongitude": -14.452362,
+    "continent": "africa",
+    "rank": 70,
+    "flagFacts": [
+      "The green, yellow, and red vertical bands feature the traditional pan-African colors to show regional solidarity.",
+      "The central five-pointed green star represents human spiritual openness and the five continents of the world."
+    ],
+    "capitalCities": [
+      "Dakar"
+    ]
+  },
+  {
+    "id": "somalia",
+    "symbol": "🇸🇴",
+    "name": "Somalia",
+    "centerLatitude": 5.152149,
+    "centerLongitude": 46.199616,
+    "continent": "africa",
+    "rank": 106,
+    "flagFacts": [
+      "The light blue color was chosen as a direct tribute to the United Nations for assisting the country's transition to independence.",
+      "The single white star in the center is the Star of Unity, representing the historical regions inhabited by the Somali people."
+    ],
+    "capitalCities": [
+      "Mogadishu"
+    ]
+  },
+  {
+    "id": "suriname",
+    "symbol": "🇸🇷",
+    "name": "Suriname",
+    "centerLatitude": 3.919305,
+    "centerLongitude": -56.027783,
+    "continent": "southAmerica",
+    "rank": 157,
+    "flagFacts": [
+      "The central golden five-pointed star represents the unity of all ethnic groups that make up the population.",
+      "The red stripe symbolizes progress and love, while the green stripes represent agricultural abundance."
+    ],
+    "capitalCities": [
+      "Paramaribo"
+    ]
+  },
+  {
+    "id": "south-sudan",
+    "symbol": "🇸🇸",
+    "name": "South Sudan",
+    "centerLatitude": 7.50214895714054,
+    "centerLongitude": 30.1031113840163,
+    "continent": "africa",
+    "rank": 107,
+    "flagFacts": [
+      "The black stripe represents the people, red represents the blood shed for freedom, and green represents the agricultural land.",
+      "The gold star inside the blue triangle represents the guiding light of Bethlehem and the unity of the states."
+    ],
+    "capitalCities": [
+      "Juba"
+    ]
+  },
+  {
+    "id": "s-o-tom-and-pr-ncipe",
+    "symbol": "🇸🇹",
+    "name": "São Tomé and Príncipe",
+    "centerLatitude": 0.231219707809833,
+    "centerLongitude": 6.60057194359377,
+    "continent": "africa",
+    "rank": 168,
+    "capitalCities": [
+      "São Tomé"
+    ]
+  },
+  {
+    "id": "el-salvador",
+    "symbol": "🇸🇻",
+    "name": "El Salvador",
+    "centerLatitude": 13.794185,
+    "centerLongitude": -88.89653,
+    "continent": "northAmerica",
+    "rank": 99,
+    "flagFacts": [
+      "The central coat of arms contains five volcanoes rising from the sea, representing the five original states of the Central American provinces.",
+      "The words 'República de El Salvador en la América Central' are written in a circular pattern around the emblem."
+    ],
+    "capitalCities": [
+      "San Salvador"
+    ]
+  },
+  {
+    "id": "sint-maarten",
+    "symbol": "🇸🇽",
+    "name": "Sint Maarten",
+    "centerLatitude": 18.0413525482135,
+    "centerLongitude": -63.0564150356253,
+    "continent": "northAmerica",
+    "rank": 187,
+    "capitalCities": [
+      "Philipsburg"
+    ]
+  },
+  {
+    "id": "syrian-arab-republic",
+    "symbol": "🇸🇾",
+    "name": "Syrian Arab Republic",
+    "centerLatitude": 34.802075,
+    "centerLongitude": 38.996815,
+    "continent": "asia",
+    "rank": 187,
+    "capitalCities": [
+      "Damascus"
+    ]
+  },
+  {
+    "id": "eswatini",
+    "symbol": "🇸🇿",
+    "name": "Eswatini",
+    "centerLatitude": -26.5336447197334,
+    "centerLongitude": 31.4296887089817,
+    "continent": "africa",
+    "rank": 148,
+    "flagFacts": [
+      "The flag prominently displays a traditional Nguni shield, two spears, and a staff decorated with bird feathers.",
+      "The black and white coloring of the shield represents racial harmony and peaceful coexistence."
+    ],
+    "capitalCities": [
+      "Mbabane"
+    ]
+  },
+  {
+    "id": "tristan-da-cunha",
+    "symbol": "🇹🇦",
+    "name": "Tristan Da Cunha",
+    "centerLatitude": -37.1029214344476,
+    "centerLongitude": -12.278311817698,
+    "continent": "africa",
+    "rank": 187,
+    "capitalCities": [
+      "Edinburgh of the Seven Seas"
+    ]
+  },
+  {
+    "id": "turks-and-caicos-islands",
+    "symbol": "🇹🇨",
+    "name": "Turks and Caicos Islands",
+    "centerLatitude": 21.789494,
+    "centerLongitude": -71.76677,
+    "continent": "northAmerica",
+    "rank": 187,
+    "capitalCities": [
+      "Cockburn Town"
+    ]
+  },
+  {
+    "id": "chad",
+    "symbol": "🇹🇩",
+    "name": "Chad",
+    "centerLatitude": 15.454166,
+    "centerLongitude": 18.732207,
+    "continent": "africa",
+    "rank": 101,
+    "flagFacts": [
+      "Its blue, yellow, and red tricolor is identical to the flag of Romania, causing occasional international vexillological disputes.",
+      "The blue stripe was originally intended to be green, but was changed to avoid confusion with neighboring African nations."
+    ],
+    "capitalCities": [
+      "N'Djamena"
+    ]
+  },
+  {
+    "id": "french-southern-territories",
+    "symbol": "🇹🇫",
+    "name": "French Southern Territories",
+    "centerLatitude": -49.280366,
+    "centerLongitude": 69.348557,
+    "continent": "africa",
+    "rank": 187,
+    "capitalCities": [
+      "Port-aux-Français"
+    ]
+  },
+  {
+    "id": "togo",
+    "symbol": "🇹🇬",
+    "name": "Togo",
+    "centerLatitude": 8.619543,
+    "centerLongitude": 0.824782,
+    "continent": "africa",
+    "rank": 119,
+    "flagFacts": [
+      "The five horizontal stripes represent the five distinct administrative regions of the country.",
+      "The single white star inside the red canton symbolizes life, liberty, and the independence of the nation."
+    ],
+    "capitalCities": [
+      "Lomé"
+    ]
+  },
+  {
+    "id": "thailand",
+    "symbol": "🇹🇭",
+    "name": "Thailand",
+    "centerLatitude": 15.870032,
+    "centerLongitude": 100.992541,
+    "continent": "asia",
+    "rank": 15,
+    "flagFacts": [
+      "Known as the 'Trairanga' (Tricolor), the flag features five horizontal stripes of red, white, and blue.",
+      "The central blue stripe represents the monarchy, framed by white for religion and red for the nation's people."
+    ],
+    "capitalCities": [
+      "Bangkok"
+    ]
+  },
+  {
+    "id": "tajikistan",
+    "symbol": "🇹🇯",
+    "name": "Tajikistan",
+    "centerLatitude": 38.861034,
+    "centerLongitude": 71.276093,
+    "continent": "asia",
+    "rank": 115,
+    "flagFacts": [
+      "The central gold crown features an arc of seven stars, representing the seven historical cultural regions of the nation.",
+      "The red stripe represents the working class, white represents cotton production, and green represents agricultural land."
+    ],
+    "capitalCities": [
+      "Dushanbe"
+    ]
+  },
+  {
+    "id": "tokelau",
+    "symbol": "🇹🇰",
+    "name": "Tokelau",
+    "centerLatitude": -8.967363,
+    "centerLongitude": -171.855881,
+    "continent": "oceania",
+    "rank": 187,
+    "capitalCities": [
+      "Fakaofo"
+    ]
+  },
+  {
+    "id": "timor-leste",
+    "symbol": "🇹🇱",
+    "name": "Timor-Leste",
+    "centerLatitude": -8.874217,
+    "centerLongitude": 125.727539,
+    "continent": "asia",
+    "rank": 187,
+    "capitalCities": [
+      "Dili"
+    ]
+  },
+  {
+    "id": "turkmenistan",
+    "symbol": "🇹🇲",
+    "name": "Turkmenistan",
+    "centerLatitude": 38.969719,
+    "centerLongitude": 59.556278,
+    "continent": "asia",
+    "rank": 83,
+    "flagFacts": [
+      "The vertical stripe features five intricate carpet designs, making it the most detailed national flag pattern in the world.",
+      "The two olive branches at the bottom of the stripe symbolize the country's officially recognized status of permanent neutrality."
+    ],
+    "capitalCities": [
+      "Ashgabat"
+    ]
+  },
+  {
+    "id": "tunisia",
+    "symbol": "🇹🇳",
+    "name": "Tunisia",
+    "centerLatitude": 33.886917,
+    "centerLongitude": 9.537499,
+    "continent": "africa",
+    "rank": 70,
+    "flagFacts": [
+      "The red crescent moon and star are historical symbols reflecting the nation's past ties to the Ottoman Empire.",
+      "The flag's layout has remained virtually unchanged since it was first designed by Ahmad I ibn Mustafa in 1831."
+    ],
+    "capitalCities": [
+      "Tunis"
+    ]
+  },
+  {
+    "id": "tonga",
+    "symbol": "🇹🇴",
+    "name": "Tonga",
+    "centerLatitude": -21.178986,
+    "centerLongitude": -175.198242,
+    "continent": "oceania",
+    "rank": 171,
+    "flagFacts": [
+      "The red cross in the white canton represents the nation's deep historical connection to Christianity.",
+      "The constitution explicitly states that the national flag can never be altered or changed under any circumstances."
+    ],
+    "capitalCities": [
+      "Nuku'alofa"
+    ]
+  },
+  {
+    "id": "turkey",
+    "symbol": "🇹🇷",
+    "name": "Turkey",
+    "centerLatitude": 38.963745,
+    "centerLongitude": 35.243322,
+    "continent": "asia",
+    "rank": 12,
+    "flagFacts": [
+      "According to national legend, the design reflects the reflection of the crescent moon and a star in a pool of soldiers' blood.",
+      "The exact geometric proportions of the crescent and star are strictly protected by a dedicated national law."
+    ],
+    "capitalCities": [
+      "Ankara"
+    ]
+  },
+  {
+    "id": "trinidad-and-tobago",
+    "symbol": "🇹🇹",
+    "name": "Trinidad and Tobago",
+    "centerLatitude": 10.461309,
+    "centerLongitude": -61.217341,
+    "continent": "southAmerica",
+    "rank": 126,
+    "flagFacts": [
+      "The black diagonal stripe represents the dedication of the people linked together by the ultimate bond of hard work.",
+      "The white borders symbolize the sea that surrounds the two main islands forming the nation."
+    ],
+    "capitalCities": [
+      "Port of Spain"
+    ]
+  },
+  {
+    "id": "tuvalu",
+    "symbol": "🇹🇻",
+    "name": "Tuvalu",
+    "centerLatitude": -7.109535,
+    "centerLongitude": 177.64933,
+    "continent": "oceania",
+    "rank": 181,
+    "flagFacts": [
+      "The light blue field features nine yellow stars that accurately mirror the geographical positions of the nation's nine islands.",
+      "The flag retains the British Union Jack in the upper left corner to acknowledge its ties to the Commonwealth."
+    ],
+    "capitalCities": [
+      "Funafuti"
+    ]
+  },
+  {
+    "id": "taiwan-province-of-china",
+    "symbol": "🇹🇼",
+    "name": "Taiwan (Province of China) ",
+    "centerLatitude": 23.69781,
+    "centerLongitude": 120.960515,
+    "continent": "asia",
+    "rank": 187,
+    "capitalCities": [
+      "Taipei"
+    ]
+  },
+  {
+    "id": "tanzania",
+    "symbol": "🇹🇿",
+    "name": "Tanzania",
+    "centerLatitude": -6.369028,
+    "centerLongitude": 34.888822,
+    "continent": "africa",
+    "rank": 34,
+    "flagFacts": [
+      "The diagonal green stripe represents the land's vegetation, while the blue stripe represents the Indian Ocean.",
+      "The flag was created by merging the separate design elements of Tanganyika and Zanzibar following their union."
+    ],
+    "capitalCities": [
+      "Dodoma"
+    ]
+  },
+  {
+    "id": "ukraine",
+    "symbol": "🇺🇦",
+    "name": "Ukraine",
+    "centerLatitude": 48.379433,
+    "centerLongitude": 31.16558,
+    "continent": "europe",
+    "rank": 31,
+    "flagFacts": [
+      "The blue stripe represents the clear sky, while the yellow stripe represents the vast golden wheat fields beneath it.",
+      "The simple horizontal layout became a powerful symbol of national sovereignty during the independence movement."
+    ],
+    "capitalCities": [
+      "Kyiv"
+    ]
+  },
+  {
+    "id": "uganda",
+    "symbol": "🇺🇬",
+    "name": "Uganda",
+    "centerLatitude": 1.373333,
+    "centerLongitude": 32.290275,
+    "continent": "africa",
+    "rank": 46,
+    "flagFacts": [
+      "The central grey crowned crane is a neutral symbol chosen because it was not used by any historical local kingdoms.",
+      "The black stripes represent the African people, yellow represents sunshine, and red represents brotherhood."
+    ],
+    "capitalCities": [
+      "Kampala"
+    ]
+  },
+  {
+    "id": "united-nations",
+    "symbol": "🇺🇳",
+    "name": "United Nations",
+    "centerLatitude": 40.749607,
+    "centerLongitude": -73.967456,
+    "continent": null,
+    "rank": 187
+  },
+  {
+    "id": "united-states-of-america",
+    "symbol": "🇺🇸",
+    "name": "United States of America",
+    "centerLatitude": 37.09024,
+    "centerLongitude": -95.712891,
+    "continent": "northAmerica",
+    "rank": 187,
+    "capitalCities": [
+      "Washington, D.C."
+    ]
+  },
+  {
+    "id": "uruguay",
+    "symbol": "🇺🇾",
+    "name": "Uruguay",
+    "centerLatitude": -32.522779,
+    "centerLongitude": -55.765835,
+    "continent": "southAmerica",
+    "rank": 102,
+    "flagFacts": [
+      "The flag features nine horizontal stripes representing the nine original departments created within the country.",
+      "The upper left corner features the Sun of May, a symbol of freedom celebrating the independence revolution."
+    ],
+    "capitalCities": [
+      "Montevideo"
+    ]
+  },
+  {
+    "id": "uzbekistan",
+    "symbol": "🇺🇿",
+    "name": "Uzbekistan",
+    "centerLatitude": 41.377491,
+    "centerLongitude": 64.585262,
+    "continent": "asia",
+    "rank": 41,
+    "flagFacts": [
+      "The twelve stars represent the twelve constellations of the zodiac and the historical months of the traditional calendar.",
+      "The thin red stripes represent the vital forces of life flowing through the territory of the nation."
+    ],
+    "capitalCities": [
+      "Tashkent"
+    ]
+  },
+  {
+    "id": "vatican-city",
+    "symbol": "🇻🇦",
+    "name": "Vatican City",
+    "centerLatitude": 41.902916,
+    "centerLongitude": 12.453389,
+    "continent": "europe",
+    "rank": 186,
+    "flagFacts": [
+      "It is one of only two square national flags in the world, designed with a strict 1:1 aspect ratio.",
+      "The yellow half features the crossed keys of Saint Peter topped by the papal tiara, representing spiritual authority."
+    ],
+    "capitalCities": [
+      "Vatican City"
+    ]
+  },
+  {
+    "id": "saint-vincent-and-the-grenadines",
+    "symbol": "🇻🇨",
+    "name": "Saint Vincent and the Grenadines",
+    "centerLatitude": 13.228243,
+    "centerLongitude": -61.165333,
+    "continent": "northAmerica",
+    "rank": 169,
+    "flagFacts": [
+      "The three green diamonds are arranged in the shape of the letter 'V' to stand for the first letter of the nation's name.",
+      "The blue stripe represents the sky, gold represents the sand, and green represents the lush tropical vegetation."
+    ],
+    "capitalCities": [
+      "Kingstown"
+    ]
+  },
+  {
+    "id": "venezuela",
+    "symbol": "🇻🇪",
+    "name": "Venezuela",
+    "centerLatitude": 6.42375,
+    "centerLongitude": -66.58973,
+    "continent": "southAmerica",
+    "rank": 53,
+    "flagFacts": [
+      "The arc of eight gold stars represents the eight historical provinces that signed the act of independence.",
+      "The eighth star was officially added to the design in 2006 to fulfill a historical decree by Simón Bolívar."
+    ],
+    "capitalCities": [
+      "Caracas"
+    ]
+  },
+  {
+    "id": "british-virgin-islands",
+    "symbol": "🇻🇬",
+    "name": "British Virgin Islands",
+    "centerLatitude": 18.420695,
+    "centerLongitude": -64.639968,
+    "continent": "northAmerica",
+    "rank": 187,
+    "capitalCities": [
+      "Road Town"
+    ]
+  },
+  {
+    "id": "u-s-virgin-islands",
+    "symbol": "🇻🇮",
+    "name": "U.S. Virgin Islands",
+    "centerLatitude": 18.335765,
+    "centerLongitude": -64.896335,
+    "continent": "northAmerica",
+    "rank": 187,
+    "capitalCities": [
+      "Charlotte Amalie"
+    ]
+  },
+  {
+    "id": "viet-nam",
+    "symbol": "🇻🇳",
+    "name": "Viet Nam",
+    "centerLatitude": 14.058324,
+    "centerLongitude": 108.277199,
+    "continent": "asia",
+    "rank": 187,
+    "capitalCities": [
+      "Hanoi"
+    ]
+  },
+  {
+    "id": "vanuatu",
+    "symbol": "🇻🇺",
+    "name": "Vanuatu",
+    "centerLatitude": -15.376706,
+    "centerLongitude": 166.959158,
+    "continent": "oceania",
+    "rank": 163,
+    "flagFacts": [
+      "The golden emblem features a curved boar's tusk, a traditional symbol of prosperity and wealth on the islands.",
+      "Two crossed namele fern leaves inside the tusk represent peace and compliance with traditional local laws."
+    ],
+    "capitalCities": [
+      "Port Vila"
+    ]
+  },
+  {
+    "id": "wallis-and-futuna",
+    "symbol": "🇼🇫",
+    "name": "Wallis and Futuna",
+    "centerLatitude": -14.298798,
+    "centerLongitude": -178.126977,
+    "continent": "oceania",
+    "rank": 187,
+    "capitalCities": [
+      "Mata-Utu"
+    ]
+  },
+  {
+    "id": "samoa",
+    "symbol": "🇼🇸",
+    "name": "Samoa",
+    "centerLatitude": -13.759029,
+    "centerLongitude": -172.104629,
+    "continent": "oceania",
+    "rank": 166,
+    "flagFacts": [
+      "The upper left canton features five white stars representing the Southern Cross constellation, highlighting its Southern Hemisphere location.",
+      "The red field symbolizes courage, while the blue rectangle represents freedom and the surrounding ocean."
+    ],
+    "capitalCities": [
+      "Apia"
+    ]
+  },
+  {
+    "id": "kosovo",
+    "symbol": "🇽🇰",
+    "name": "Kosovo",
+    "centerLatitude": 42.602636,
+    "centerLongitude": 20.902977,
+    "continent": "europe",
+    "rank": 140,
+    "capitalCities": [
+      "Pristina"
+    ]
+  },
+  {
+    "id": "yemen",
+    "symbol": "🇾🇪",
+    "name": "Yemen",
+    "centerLatitude": 15.552727,
+    "centerLongitude": 48.516388,
+    "continent": "asia",
+    "rank": 64,
+    "flagFacts": [
+      "The simple red, white, and black tricolor layout is based directly on the historical Arab Liberation Flag.",
+      "The flag was officially adopted in 1990 when North Yemen and South Yemen unified into a single state."
+    ],
+    "capitalCities": [
+      "Sana'a"
+    ]
+  },
+  {
+    "id": "mayotte",
+    "symbol": "🇾🇹",
+    "name": "Mayotte",
+    "centerLatitude": -12.8275,
+    "centerLongitude": 45.166244,
+    "continent": "africa",
+    "rank": 187,
+    "capitalCities": [
+      "Mamoudzou"
+    ]
+  },
+  {
+    "id": "south-africa",
+    "symbol": "🇿🇦",
+    "name": "South Africa",
+    "centerLatitude": -30.559482,
+    "centerLongitude": 22.937506,
+    "continent": "africa",
+    "rank": 23,
+    "flagFacts": [
+      "Designed in 1994, it was intentionally created to have no official symbolic meaning for individual colors, allowing people to find personal meaning.",
+      "The distinct Y-shape converging into a single horizontal band symbolizes the convergence of diverse groups into a unified nation."
+    ],
+    "capitalCities": [
+      "Pretoria",
+      "Bloemfontein",
+      "Cape Town"
+    ]
+  },
+  {
+    "id": "zambia",
+    "symbol": "🇿🇲",
+    "name": "Zambia",
+    "centerLatitude": -13.133897,
+    "centerLongitude": 27.849332,
+    "continent": "africa",
+    "rank": 75,
+    "flagFacts": [
+      "The orange eagle soaring in the upper right corner represents the people's ability to rise above national problems.",
+      "The vertical blocks of green, red, black, and orange are uniquely placed on the fly side instead of the hoist."
+    ],
+    "capitalCities": [
+      "Lusaka"
+    ]
+  },
+  {
+    "id": "zimbabwe",
+    "symbol": "🇿🇼",
+    "name": "Zimbabwe",
+    "centerLatitude": -19.015438,
+    "centerLongitude": 29.154857,
+    "continent": "africa",
+    "rank": 69,
+    "flagFacts": [
+      "The white triangle features the iconic Zimbabwe Bird emblem, modeled after soapstone carvings found at the ancient ruins of Great Zimbabwe.",
+      "The red star behind the bird symbol represents the revolutionary struggle and the path to peace."
+    ],
+    "capitalCities": [
+      "Harare"
+    ]
+  },
+  {
+    "id": "england",
+    "symbol": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+    "name": "England",
+    "centerLatitude": 52.932247,
+    "centerLongitude": 0.924236,
+    "continent": "europe",
+    "rank": 187,
+    "capitalCities": [
+      "London"
+    ]
+  },
+  {
+    "id": "scotland",
+    "symbol": "🏴󠁧󠁢󠁳󠁣󠁴󠁿",
+    "name": "Scotland",
+    "centerLatitude": 56.655026,
+    "centerLongitude": -3.830039,
+    "continent": "europe",
+    "rank": 187,
+    "capitalCities": [
+      "Edinburgh"
+    ]
+  },
+  {
+    "id": "wales",
+    "symbol": "🏴󠁧󠁢󠁷󠁬󠁳󠁿",
+    "name": "Wales",
+    "centerLatitude": 52.314224,
+    "centerLongitude": -3.596489,
+    "continent": "europe",
+    "rank": 187,
+    "capitalCities": [
+      "Cardiff"
+    ]
+  }
+]

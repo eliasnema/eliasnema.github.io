@@ -1,5 +1,7 @@
 project:
   type: website
+  resources:
+    - flaguiz/**
   pre-render:
     - python3 scripts/stage-private-articles.py
 
@@ -19,6 +21,8 @@ website:
       - text: "State"
         file: state.qmd
       - log.qmd
+      - text: "Flaguiz"
+        href: flaguiz/
     right:
       - talks.qmd
       - icon: github
